@@ -32,11 +32,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Experience is universal and necessary, while the a priori is sensory",
-      "B": "Experience comes from the senses, while the a priori is independent of experience and carries universality and necessity",
-      "C": "Experience concerns noumena, while the a priori concerns only language",
+      "B": "Experience concerns noumena, while the a priori concerns only language",
+      "C": "Experience comes from the senses, while the a priori is independent of experience and carries universality and necessity",
       "D": "Experience is analytic, while the a priori is always empirical"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture defines experience as empirical knowledge and the a priori as what is independent of experience and universally necessary.",
     "explanation_key_points": [
@@ -58,12 +58,12 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "Knowledge arises from the cooperation of sensibility and understanding",
-      "B": "Knowledge is supplied entirely by pure reason",
-      "C": "Knowledge is only a flow of impressions with no form",
-      "D": "Knowledge comes from comparing noumena directly"
+      "A": "Knowledge is supplied entirely by pure reason",
+      "B": "Knowledge is only a flow of impressions with no form",
+      "C": "Knowledge comes from comparing noumena directly",
+      "D": "Knowledge arises from the cooperation of sensibility and understanding"
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The slides say Kant rejects pure rationalism by requiring sensory content and rejects pure empiricism by requiring a priori form.",
     "explanation_key_points": [
@@ -104,12 +104,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Because beyond experience we can obtain even stronger empirical evidence",
-      "B": "Because cognition is limited to the conditions under which appearances become knowable",
+      "A": "Because cognition is limited to the conditions under which appearances become knowable",
+      "B": "Because beyond experience we can obtain even stronger empirical evidence",
       "C": "Because phenomena are unreal",
       "D": "Because logic forbids all thinking about limits"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Kantian metaphysics is about how experience is possible, not about direct cognition of what lies beyond every condition of experience.",
     "explanation_key_points": [
@@ -132,11 +132,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Appearance is what sensibility gives us",
-      "B": "Things-in-themselves may exist without being known as such",
-      "C": "Metaphysics can simply skip the question of experience's conditions",
+      "B": "Metaphysics can simply skip the question of experience's conditions",
+      "C": "Things-in-themselves may exist without being known as such",
       "D": "Our knowledge is confined to phenomena"
     },
-    "correct_option": "C",
+    "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture makes the conditions of possible experience the central issue, so skipping them would miss the point of metaphysics entirely.",
     "explanation_key_points": [
@@ -178,11 +178,11 @@
     "question_type": "mcq",
     "options": {
       "A": "sensibility, because appearances can be false",
-      "B": "understanding, because judgment belongs to it",
-      "C": "space, because it limits intuition",
+      "B": "space, because it limits intuition",
+      "C": "understanding, because judgment belongs to it",
       "D": "noumena, because they hide themselves"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture says sensibility as mere appearance is not yet true or false; error arises when understanding judges appearances incorrectly.",
     "explanation_key_points": [
@@ -204,12 +204,12 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "Because sensibility only presents the appearance; the mistaken objectivity belongs to understanding's judgment",
-      "B": "Because planets never appear to move backward",
-      "C": "Because reason corrects the senses directly",
-      "D": "Because noumena are visible in astronomy"
+      "A": "Because planets never appear to move backward",
+      "B": "Because reason corrects the senses directly",
+      "C": "Because noumena are visible in astronomy",
+      "D": "Because sensibility only presents the appearance; the mistaken objectivity belongs to understanding's judgment"
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The appearance is simply given. The error comes when understanding mistakes that appearance for the objective state of the object.",
     "explanation_key_points": [
@@ -250,12 +250,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Because it creates noumena directly",
-      "B": "Because it precedes and helps make phenomena knowable",
+      "A": "Because it precedes and helps make phenomena knowable",
+      "B": "Because it creates noumena directly",
       "C": "Because it is identical with empirical memory",
       "D": "Because it belongs to excluded middle"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "A transcendental condition is one that must already be in place for experience to become objective at all.",
     "explanation_key_points": [
@@ -278,11 +278,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Understanding is one of the a priori conditions of objective cognition",
-      "B": "Understanding belongs to the side of cognition that precedes appearances",
-      "C": "Understanding is just another object given in space and time like a chair",
+      "B": "Understanding is just another object given in space and time like a chair",
+      "C": "Understanding belongs to the side of cognition that precedes appearances",
       "D": "Understanding makes judgment possible"
     },
-    "correct_option": "C",
+    "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture explicitly denies that understanding as faculty is just one more empirical thing in the phenomenal world.",
     "explanation_key_points": [
@@ -324,11 +324,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Because only technical skill can judge phenomena",
-      "B": "Because human cognition also relates to the metaphysical dimension beyond replaceable technical functions",
-      "C": "Because technical skill already knows noumena directly",
+      "B": "Because technical skill already knows noumena directly",
+      "C": "Because human cognition also relates to the metaphysical dimension beyond replaceable technical functions",
       "D": "Because intelligence is identical with sensation"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture contrasts replaceable technical intelligence with a deeper human capacity tied to both phenomenal and metaphysical dimensions.",
     "explanation_key_points": [
@@ -351,11 +351,11 @@
     "question_type": "mcq",
     "options": {
       "A": "To reduce all cognition to sense data alone",
-      "B": "To examine the mind's capacity to relate to what exceeds immediate empirical givenness",
-      "C": "To deny all objective knowledge",
-      "D": "To replace judgment with imagination"
+      "B": "To deny all objective knowledge",
+      "C": "To replace judgment with imagination",
+      "D": "To examine the mind's capacity to relate to what exceeds immediate empirical givenness"
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Since humans relate to more than what is immediately given, metaphysics must investigate the conditions and reach of that relation.",
     "explanation_key_points": [

@@ -31,12 +31,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "It proves that all knowledge comes straight from pain",
-      "B": "It shows that experience without categories does not yet become objective knowledge",
+      "A": "It shows that experience without categories does not yet become objective knowledge",
+      "B": "It proves that all knowledge comes straight from pain",
       "C": "It demonstrates that noumena are observable",
       "D": "It turns synthetic judgment into analytic judgment"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The child can undergo sensation, but the causal concept that organizes the event belongs to understanding rather than to sensation alone.",
     "explanation_key_points": [
@@ -105,11 +105,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Because categories are already sensory images",
-      "B": "Because abstract categories such as causality need temporal concretion to apply to actual experience",
-      "C": "Because reason cannot think without contradiction",
+      "B": "Because reason cannot think without contradiction",
+      "C": "Because abstract categories such as causality need temporal concretion to apply to actual experience",
       "D": "Because empirical objects are identical with noumena"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "A category is too abstract on its own, so schema supplies the temporal rule that makes application to intuition possible.",
     "explanation_key_points": [
@@ -132,11 +132,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Both discard categories altogether",
-      "B": "Both involve mediation through categories to connect different levels of cognition",
-      "C": "Both are purely empirical habits",
-      "D": "Both are direct perceptions of absence"
+      "B": "Both are purely empirical habits",
+      "C": "Both are direct perceptions of absence",
+      "D": "Both involve mediation through categories to connect different levels of cognition"
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture says both stages involve mediation: first categories unify manifolds, then categorical experience is extended toward systematic unity.",
     "explanation_key_points": [
@@ -250,12 +250,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Transcendental concerns conditions of possible experience, while transcendent is the improper extension beyond experience",
-      "B": "Transcendental means beyond all cognition, while transcendent means lawful categories",
-      "C": "Transcendental is empirical, while transcendent is analytic",
+      "A": "Transcendental means beyond all cognition, while transcendent means lawful categories",
+      "B": "Transcendental is empirical, while transcendent is analytic",
+      "C": "Transcendental concerns conditions of possible experience, while transcendent is the improper extension beyond experience",
       "D": "They are two names for the same process"
     },
-    "correct_option": "A",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture draws this distinction explicitly so students can separate legitimate critique of cognition from illegitimate overreach.",
     "explanation_key_points": [
@@ -278,11 +278,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Leaving categories within the empirical domain",
-      "B": "Extending categories beyond possible experience under reason's transcendent command",
-      "C": "Using sensibility to receive appearances",
-      "D": "Applying identity in analytic judgments"
+      "B": "Using sensibility to receive appearances",
+      "C": "Applying identity in analytic judgments",
+      "D": "Extending categories beyond possible experience under reason's transcendent command"
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Illusion arises when concepts that are valid for phenomena are made to function beyond that domain as if they could yield knowledge there too.",
     "explanation_key_points": [
@@ -351,11 +351,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Transcendental critique studies the conditions of possible experience",
-      "B": "Reason can tempt us to misuse categories beyond phenomena",
-      "C": "The transition from understanding to reason creates new empirical knowledge by fresh synthesis",
+      "B": "The transition from understanding to reason creates new empirical knowledge by fresh synthesis",
+      "C": "Reason can tempt us to misuse categories beyond phenomena",
       "D": "Schematization mediates between categories and intuition"
     },
-    "correct_option": "C",
+    "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture insists that reason's move is analytic and systematic, not a new synthesis of empirical content.",
     "explanation_key_points": [

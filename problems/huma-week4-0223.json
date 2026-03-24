@@ -31,12 +31,12 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "Because clocks create the form of inner sense",
-      "B": "Because events can be arranged 'in time' only if the pure form is already available",
+      "A": "Because events can be arranged 'in time' only if the pure form is already available",
+      "B": "Because clocks create the form of inner sense",
       "C": "Because noumena are temporal before phenomena",
       "D": "Because reason supplies sensation directly"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The empty timeline of pure intuition is the prior condition that makes any ordered sequence of events possible.",
     "explanation_key_points": [
@@ -105,11 +105,11 @@
     "question_type": "mcq",
     "options": {
       "A": "It names an empirical object that can be sensed directly",
-      "B": "It unifies representations under one consciousness",
-      "C": "It replaces all intuition with reason",
+      "B": "It replaces all intuition with reason",
+      "C": "It unifies representations under one consciousness",
       "D": "It proves the Cogito without residue"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The \"I think\" is presented as the formal unity that can accompany representations and hold them together as mine.",
     "explanation_key_points": [
@@ -132,11 +132,11 @@
     "question_type": "mcq",
     "options": {
       "A": "all sensations whatsoever",
-      "B": "coherent objective experience under one consciousness",
-      "C": "the law of identity",
-      "D": "the possibility of geometry alone"
+      "B": "the law of identity",
+      "C": "the possibility of geometry alone",
+      "D": "coherent objective experience under one consciousness"
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture treats unity of apperception as the condition that lets representations belong together within one experience.",
     "explanation_key_points": [
@@ -177,12 +177,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Empirical summaries drawn from repeated observations",
-      "B": "Pure concepts of the understanding that structure experience",
+      "A": "Pure concepts of the understanding that structure experience",
+      "B": "Empirical summaries drawn from repeated observations",
       "C": "Images produced by sensation alone",
       "D": "Synonyms for things-in-themselves"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The slides call categories pure concepts of understanding and list them as conditions for objective judgment.",
     "explanation_key_points": [
@@ -204,12 +204,12 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "They are transcendental conditions for objective judgments",
-      "B": "They are private feelings that guide aesthetics only",
+      "A": "They are private feelings that guide aesthetics only",
+      "B": "They are transcendental conditions for objective judgments",
       "C": "They directly reveal noumena",
       "D": "They eliminate the need for intuition"
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Categories are not optional labels; they are conditions that make objective judgment possible at all.",
     "explanation_key_points": [
@@ -251,11 +251,11 @@
     "question_type": "mcq",
     "options": {
       "A": "the phenomenal self as one more event in time",
-      "B": "the transcendental self or \"I think\" that unifies temporal experiences",
-      "C": "space as outer intuition",
+      "B": "space as outer intuition",
+      "C": "the transcendental self or \"I think\" that unifies temporal experiences",
       "D": "the category of plurality alone"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The rememberer cannot be just one remembered event among others; it is the timeless subject that binds them together as mine.",
     "explanation_key_points": [
@@ -278,11 +278,11 @@
     "question_type": "mcq",
     "options": {
       "A": "It is an empirical object directly sensed in inner time",
-      "B": "It is a formal and timeless condition of self-consciousness",
-      "C": "It is identical with the phenomenal body",
-      "D": "It is a synthetic judgment discovered by experiment"
+      "B": "It is identical with the phenomenal body",
+      "C": "It is a synthetic judgment discovered by experiment",
+      "D": "It is a formal and timeless condition of self-consciousness"
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture says the transcendental self precedes experience and therefore is not itself one more object inside time.",
     "explanation_key_points": [
@@ -351,11 +351,11 @@
     "question_type": "mcq",
     "options": {
       "A": "The phenomenal self appears in time",
-      "B": "The transcendental self is outside time as a condition of experience",
-      "C": "Time applies to the transcendental self in exactly the same way it applies to the phenomenal self",
+      "B": "Time applies to the transcendental self in exactly the same way it applies to the phenomenal self",
+      "C": "The transcendental self is outside time as a condition of experience",
       "D": "Categories require intuition for determinate meaning"
     },
-    "correct_option": "C",
+    "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture repeatedly insists that time belongs to the phenomenal self as inner sense, not to the transcendental subject as such.",
     "explanation_key_points": [

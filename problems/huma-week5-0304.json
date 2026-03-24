@@ -32,11 +32,11 @@
     "question_type": "mcq",
     "options": {
       "A": "A and not-A can both be true together",
-      "B": "Between a proposition and its negation there is no third middle option",
-      "C": "Every concept contains its predicate",
+      "B": "Every concept contains its predicate",
+      "C": "Between a proposition and its negation there is no third middle option",
       "D": "All judgments are empirical"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Excluded middle forces a binary opposition between a proposition and its negation rather than allowing an ambiguous third state.",
     "explanation_key_points": [
@@ -59,11 +59,11 @@
     "question_type": "mcq",
     "options": {
       "A": "It maintains sameness as A = A",
-      "B": "It forbids affirming and denying the same proposition at once in the same respect",
-      "C": "It proves all synthetic judgments",
-      "D": "It generates sensory content"
+      "B": "It proves all synthetic judgments",
+      "C": "It generates sensory content",
+      "D": "It forbids affirming and denying the same proposition at once in the same respect"
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Non-contradiction bans self-conflict in thought; it says a proposition and its negation cannot both be true at the same time and in the same respect.",
     "explanation_key_points": [
@@ -104,12 +104,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Identity is derived from excluded middle alone",
-      "B": "Denying an analytic predicate creates contradiction because the identical concept would oppose itself",
+      "A": "Denying an analytic predicate creates contradiction because the identical concept would oppose itself",
+      "B": "Identity is derived from excluded middle alone",
       "C": "Synthetic judgment grounds identity by habit",
       "D": "There is no connection between them"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The slides say non-contradiction is grounded in identity because contradiction emerges when what is identical with the concept is denied of it.",
     "explanation_key_points": [
@@ -178,11 +178,11 @@
     "question_type": "mcq",
     "options": {
       "A": "It merely unpacks what is already there",
-      "B": "It amplifies knowledge by connecting the subject to an external predicate",
-      "C": "It avoids all negativity and distinction",
+      "B": "It avoids all negativity and distinction",
+      "C": "It amplifies knowledge by connecting the subject to an external predicate",
       "D": "It functions only as a regulative idea"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Synthetic judgment expands cognition by attaching genuinely new content to the subject rather than merely clarifying a concept.",
     "explanation_key_points": [
@@ -205,11 +205,11 @@
     "question_type": "mcq",
     "options": {
       "A": "A is A all the way through",
-      "B": "First distinction or exclusion, then connection and expansion",
-      "C": "First empirical sensation, then analytic identity",
-      "D": "First noumenal cognition, then phenomenal comparison"
+      "B": "First empirical sensation, then analytic identity",
+      "C": "First noumenal cognition, then phenomenal comparison",
+      "D": "First distinction or exclusion, then connection and expansion"
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The slide says synthetic judgment first excludes the predicate from the subject concept and then links it, which is why distinction matters.",
     "explanation_key_points": [
@@ -250,12 +250,12 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "Yes, because they add predicates from experience",
-      "B": "No, because they only unpack what is already contained in the concept",
+      "A": "No, because they only unpack what is already contained in the concept",
+      "B": "Yes, because they add predicates from experience",
       "C": "Yes, because they move from conditioned to unconditioned",
       "D": "No, because they are always false"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture answers this directly: analytic judgments clarify but do not amplify cognition.",
     "explanation_key_points": [
@@ -277,12 +277,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Through the same principle of identity that structures analytic judgment",
-      "B": "Through raw sensory input alone",
+      "A": "Through raw sensory input alone",
+      "B": "Through the same principle of identity that structures analytic judgment",
       "C": "Through empirical induction without categories",
       "D": "Through direct intuition of noumena"
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture says Ideas such as the world's perfect unity follow an analytic-like structure grounded in identity rather than new empirical synthesis.",
     "explanation_key_points": [
@@ -324,11 +324,11 @@
     "question_type": "mcq",
     "options": {
       "A": "They add new empirical matter through synthesis",
-      "B": "They operate through identity, add no new empirical content, and guide thought without constituting appearances",
-      "C": "They sense absence directly",
+      "B": "They sense absence directly",
+      "C": "They operate through identity, add no new empirical content, and guide thought without constituting appearances",
       "D": "They are all forms of pure intuition"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture's summary slide explicitly groups them around identity, non-contradictory unity, and a regulative rather than constitutive role.",
     "explanation_key_points": [
@@ -352,10 +352,10 @@
     "options": {
       "A": "They guide thought toward unity",
       "B": "They regulate inquiry without yielding constitutive empirical reality",
-      "C": "They actually describe an object we encounter as such in appearances",
-      "D": "They follow an identity-like structure"
+      "C": "They follow an identity-like structure",
+      "D": "They actually describe an object we encounter as such in appearances"
     },
-    "correct_option": "C",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture stresses that Ideas regulate thought; when they are taken as constitutive realities in appearances, illusion begins.",
     "explanation_key_points": [

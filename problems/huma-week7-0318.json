@@ -32,11 +32,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Fresh synthetic knowledge of noumena",
-      "B": "Only further analytic identity-style statements",
-      "C": "Direct sensory evidence of totality",
+      "B": "Direct sensory evidence of totality",
+      "C": "Only further analytic identity-style statements",
       "D": "A new form of intuition"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture says that when comparison is attempted at the level of Ideas, it collapses into analytic identity statements rather than meaningful synthetic comparison.",
     "explanation_key_points": [
@@ -58,12 +58,12 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "They provide the foundation and direction for the comparisons we actually make",
-      "B": "They replace all phenomenal comparison",
-      "C": "They are themselves measurable appearances",
-      "D": "They destroy the need for categories"
+      "A": "They replace all phenomenal comparison",
+      "B": "They are themselves measurable appearances",
+      "C": "They destroy the need for categories",
+      "D": "They provide the foundation and direction for the comparisons we actually make"
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The slides assign Ideas a regulative role: they orient and guide comparison without themselves becoming directly comparable appearances.",
     "explanation_key_points": [
@@ -104,12 +104,12 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "As a mere comparison of two empirical objects",
-      "B": "As an analytic confirmation of A through an intrinsic negated predicate",
+      "A": "As an analytic confirmation of A through an intrinsic negated predicate",
+      "B": "As a mere comparison of two empirical objects",
       "C": "As a direct intuition of absence",
       "D": "As a synthetic empirical judgment"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The slide says \"non-\" presents the negation as an intrinsic property of A, making the judgment a definitional confirmation rather than a comparison.",
     "explanation_key_points": [
@@ -178,11 +178,11 @@
     "question_type": "mcq",
     "options": {
       "A": "It is given directly without any contribution from our faculties",
-      "B": "It is synthesized by our cognitive capacities",
-      "C": "It is identical with knowledge of things-in-themselves",
+      "B": "It is identical with knowledge of things-in-themselves",
+      "C": "It is synthesized by our cognitive capacities",
       "D": "It has no relation to categories"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The slide says our knowledge of phenomena is synthesized by our capacities rather than passively copied from reality-in-itself.",
     "explanation_key_points": [
@@ -204,12 +204,12 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "The capacity to limit the phenomenal",
-      "B": "The capacity to sense noumena directly",
-      "C": "The capacity to eliminate all comparison",
-      "D": "The capacity to replace reason with sensation"
+      "A": "The capacity to sense noumena directly",
+      "B": "The capacity to eliminate all comparison",
+      "C": "The capacity to replace reason with sensation",
+      "D": "The capacity to limit the phenomenal"
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture says we possess a transcendental capacity to limit the phenomenal, which is part of why critique matters.",
     "explanation_key_points": [
@@ -324,11 +324,11 @@
     "question_type": "mcq",
     "options": {
       "A": "They are sufficient to define happiness completely",
-      "B": "They may be relevant conditions, but they do not capture the absolute standard of happiness itself",
-      "C": "They are pure categories of understanding",
+      "B": "They are pure categories of understanding",
+      "C": "They may be relevant conditions, but they do not capture the absolute standard of happiness itself",
       "D": "They prove happiness is directly measurable"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The slide says such factors may be necessary in some way, but they are not sufficient to capture happiness as an absolute notion.",
     "explanation_key_points": [
@@ -350,12 +350,12 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "The totality or absolute unity toward which reason aims",
-      "B": "Any empirical difference at all",
-      "C": "The distinction between A and not-A",
-      "D": "The use of categories in phenomena"
+      "A": "Any empirical difference at all",
+      "B": "The distinction between A and not-A",
+      "C": "The use of categories in phenomena",
+      "D": "The totality or absolute unity toward which reason aims"
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture says comparison operates within appearances and therefore cannot, by itself, deliver the totality that reason seeks.",
     "explanation_key_points": [

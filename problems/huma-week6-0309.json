@@ -104,12 +104,12 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "Because it remains tied to possible experience and lawful category application",
-      "B": "Because it directly cognizes the unconditioned",
-      "C": "Because it is merely a feeling of necessity",
+      "A": "Because it directly cognizes the unconditioned",
+      "B": "Because it is merely a feeling of necessity",
+      "C": "Because it remains tied to possible experience and lawful category application",
       "D": "Because it compares noumena with phenomena"
     },
-    "correct_option": "A",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The gravity example stays grounded in empirical cases that are unified into a law within the phenomenal realm.",
     "explanation_key_points": [
@@ -132,11 +132,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Because death is analytically contained in every concept",
-      "B": "Because my own death lacks empirical content that categories could cognize as an experienced object",
-      "C": "Because understanding can never think negation",
-      "D": "Because time applies only to noumena"
+      "B": "Because understanding can never think negation",
+      "C": "Because time applies only to noumena",
+      "D": "Because my own death lacks empirical content that categories could cognize as an experienced object"
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture says the representation of my death lacks matter that could be secured in experience, so it remains an empty thought.",
     "explanation_key_points": [
@@ -177,12 +177,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "a new sensory synthesis of empirical content",
-      "B": "an analytic movement that systematizes what understanding has already constituted",
+      "A": "an analytic movement that systematizes what understanding has already constituted",
+      "B": "a new sensory synthesis of empirical content",
       "C": "a direct intuition of things-in-themselves",
       "D": "a purely emotional association"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Reason does not newly constitute empirical objects; it analyzes and extends understanding's products toward systematic unity.",
     "explanation_key_points": [
@@ -251,11 +251,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Negation is sensed before any positive content",
-      "B": "Negation depends on a prior positive concept and does not originate cognition by itself",
-      "C": "Negative concepts are more real than positive ones",
+      "B": "Negative concepts are more real than positive ones",
+      "C": "Negation depends on a prior positive concept and does not originate cognition by itself",
       "D": "Only empirical concepts can be negative"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "A lack or negation can be thought only against the background of some prior positive determination.",
     "explanation_key_points": [
@@ -278,11 +278,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Because reason never uses negation",
-      "B": "Because negation is derivative and presupposes the prior positive whole it negates",
-      "C": "Because sensibility alone determines completeness",
-      "D": "Because excluded middle forbids negative judgments"
+      "B": "Because sensibility alone determines completeness",
+      "C": "Because excluded middle forbids negative judgments",
+      "D": "Because negation is derivative and presupposes the prior positive whole it negates"
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The chipped-bowl discussion says negation points back to a whole already anticipated; it does not generate completeness on its own.",
     "explanation_key_points": [
@@ -323,12 +323,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Because AI cannot process symbols at all",
-      "B": "Because AI does not constitute the fundamental synthetic a priori conditions of experience",
+      "A": "Because AI does not constitute the fundamental synthetic a priori conditions of experience",
+      "B": "Because AI cannot process symbols at all",
       "C": "Because AI is already noumenal",
       "D": "Because AI senses absence too directly"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture's point is that AI may manipulate data, but it does not ground experience through the same a priori faculty structure attributed to human cognition.",
     "explanation_key_points": [

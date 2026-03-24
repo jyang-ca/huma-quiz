@@ -105,11 +105,11 @@
     "question_type": "mcq",
     "options": {
       "A": "the principle of sufficient reason",
-      "B": "the principle of non-contradiction",
-      "C": "the principle of induction",
+      "B": "the principle of induction",
+      "C": "the principle of non-contradiction",
       "D": "the principle of empirical verification"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Analytic judgments unfold what is already contained in the concept, so denying them produces contradiction rather than new knowledge.",
     "explanation_key_points": [
@@ -132,11 +132,11 @@
     "question_type": "mcq",
     "options": {
       "A": "A new synthetic judgment has been formed",
-      "B": "The same concept has contradicted itself",
-      "C": "A merely empirical error has occurred",
-      "D": "Reason has successfully gone beyond phenomena"
+      "B": "A merely empirical error has occurred",
+      "C": "Reason has successfully gone beyond phenomena",
+      "D": "The same concept has contradicted itself"
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Because the predicate belongs to the triangle concept itself, denying it makes the identical concept conflict with itself.",
     "explanation_key_points": [
@@ -177,12 +177,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "They merely repeat what is already implied in the subject",
-      "B": "They add a predicate not already contained in the subject concept",
+      "A": "They add a predicate not already contained in the subject concept",
+      "B": "They merely repeat what is already implied in the subject",
       "C": "They avoid all use of intuition",
       "D": "They cancel the need for distinction"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "A synthetic judgment expands cognition because it connects the subject with genuinely new content rather than unpacking an existing concept.",
     "explanation_key_points": [
@@ -250,12 +250,12 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "Synthetic expansion begins with distinction",
-      "B": "Analytic judgment depends on excluded middle",
-      "C": "Sensibility creates noumena",
+      "A": "Analytic judgment depends on excluded middle",
+      "B": "Sensibility creates noumena",
+      "C": "Synthetic expansion begins with distinction",
       "D": "Mathematics is purely empirical"
     },
-    "correct_option": "A",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture explicitly connects the 'No first' pattern with negative judgment as the formal beginning of synthetic expansion.",
     "explanation_key_points": [
@@ -279,10 +279,10 @@
     "options": {
       "A": "It shows that distinction can be a precondition of cognitive growth",
       "B": "It suggests strong intellectual desire can drive strict judgment habits",
-      "C": "It proves that naysayers are simply bad people with no cognitive role",
-      "D": "It connects negation to the structure of synthetic judgment"
+      "C": "It connects negation to the structure of synthetic judgment",
+      "D": "It proves that naysayers are simply bad people with no cognitive role"
     },
-    "correct_option": "C",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture explicitly says naysayers are not simply bad people; they exemplify a certain way cognitive expansion can begin.",
     "explanation_key_points": [
@@ -323,12 +323,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Because the concept \"12\" is already hidden inside \"7 + 5\"",
-      "B": "Because arithmetic results must be constructed rather than found by mere concept analysis",
+      "A": "Because arithmetic results must be constructed rather than found by mere concept analysis",
+      "B": "Because the concept \"12\" is already hidden inside \"7 + 5\"",
       "C": "Because arithmetic is always based on repeated experience",
       "D": "Because contradiction alone produces the sum"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The slides say closer inspection never finds \"12\" already contained in \"7 + 5\"; the result must be constructed, which makes arithmetic synthetic.",
     "explanation_key_points": [
@@ -350,12 +350,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Mathematics uses intuition within phenomena, while metaphysics investigates the conditions of cognition through pure concepts",
-      "B": "Mathematics is analytic, while metaphysics alone is synthetic",
+      "A": "Mathematics is analytic, while metaphysics alone is synthetic",
+      "B": "Mathematics uses intuition within phenomena, while metaphysics investigates the conditions of cognition through pure concepts",
       "C": "Mathematics concerns noumena, while metaphysics concerns appearances",
       "D": "Mathematics depends on experience, while metaphysics rejects all thought"
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Both are synthetic a priori, but mathematics gains certainty through intuition in the phenomenal world, whereas metaphysics goes after cognition's own conditions.",
     "explanation_key_points": [

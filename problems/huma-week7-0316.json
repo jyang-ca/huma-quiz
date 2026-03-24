@@ -105,11 +105,11 @@
     "question_type": "mcq",
     "options": {
       "A": "By receiving stronger and stronger sensations of emptiness",
-      "B": "By extending logical form beyond temporal-change experience",
-      "C": "By abandoning all concepts",
+      "B": "By abandoning all concepts",
+      "C": "By extending logical form beyond temporal-change experience",
       "D": "By perceiving noumena directly"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture asks exactly this question and answers that reason derives such notions through form rather than through sensible content.",
     "explanation_key_points": [
@@ -131,12 +131,12 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "From categories' positive extreme comes the highest being, and from their negative extreme comes absolute nothingness",
-      "B": "From sensation comes God, and from intuition comes nonbeing",
-      "C": "From excluded middle comes noumena, and from contradiction comes phenomena",
-      "D": "From empirical absence comes synthetic a priori knowledge"
+      "A": "From sensation comes God, and from intuition comes nonbeing",
+      "B": "From excluded middle comes noumena, and from contradiction comes phenomena",
+      "C": "From empirical absence comes synthetic a priori knowledge",
+      "D": "From categories' positive extreme comes the highest being, and from their negative extreme comes absolute nothingness"
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The slide explicitly presents positive and negative extremes of category-extension as yielding God and absolute nothingness respectively.",
     "explanation_key_points": [
@@ -204,12 +204,12 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "Through analytic judgments rather than through new synthetic experience",
-      "B": "By sensing noumena directly",
+      "A": "By sensing noumena directly",
+      "B": "Through analytic judgments rather than through new synthetic experience",
       "C": "By removing all concepts from thought",
       "D": "By relying only on empirical comparison"
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture says reason pushes analytically toward the unconditioned; it does not synthesize new experiential content there.",
     "explanation_key_points": [
@@ -231,12 +231,12 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "All understanding is ultimately synthetic",
-      "B": "All understanding is purely analytic",
-      "C": "Understanding knows noumena directly",
+      "A": "All understanding is purely analytic",
+      "B": "Understanding knows noumena directly",
+      "C": "All understanding is ultimately synthetic",
       "D": "Understanding is identical with sensibility"
     },
-    "correct_option": "A",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture says our entire understanding of the world requires combination and constitution, which is why it is synthetic.",
     "explanation_key_points": [
@@ -278,11 +278,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Because understanding directly intuits things-in-themselves",
-      "B": "Because its possibility generates ideas that point beyond finite appearances, even though these do not become empirical objects",
-      "C": "Because there are no limits on sensibility",
-      "D": "Because comparison is meaningless"
+      "B": "Because there are no limits on sensibility",
+      "C": "Because comparison is meaningless",
+      "D": "Because its possibility generates ideas that point beyond finite appearances, even though these do not become empirical objects"
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture says ideas arise from understanding's own possibility, even though they should not be mistaken for constitutive knowledge of objects beyond experience.",
     "explanation_key_points": [
@@ -304,12 +304,12 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "Direct empirical truth as appearances",
-      "B": "A priori validity as generated from the ground of understanding, not as sensed objects",
+      "A": "A priori validity as generated from the ground of understanding, not as sensed objects",
+      "B": "Direct empirical truth as appearances",
       "C": "No validity at all",
       "D": "Purely accidental truth from habit"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The slides say the ideas are grounded in the possibility of understanding, which gives them a kind of a priori validity without making them empirical objects.",
     "explanation_key_points": [
@@ -351,11 +351,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Reason begins from concepts rather than raw sensory data",
-      "B": "Empirical absence presupposes a prior concept",
-      "C": "Reason starts from sensory data and only later forms concepts",
+      "B": "Reason starts from sensory data and only later forms concepts",
+      "C": "Empirical absence presupposes a prior concept",
       "D": "Understanding is synthetic while reason moves analytically"
     },
-    "correct_option": "C",
+    "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture repeatedly emphasizes that reason starts from concepts and extends them, rather than beginning from sensation.",
     "explanation_key_points": [

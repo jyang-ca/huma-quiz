@@ -32,11 +32,11 @@
     "question_type": "mcq",
     "options": {
       "A": "final systematic unity",
-      "B": "immediate singular intuitions given through space and time",
-      "C": "pure ideas of totality",
+      "B": "pure ideas of totality",
+      "C": "immediate singular intuitions given through space and time",
       "D": "analytic unpacking of concepts"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Sensibility receives stimuli and gives intuitions, but those intuitions still require further synthesis to become knowledge.",
     "explanation_key_points": [
@@ -59,11 +59,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Reason repeats sensations without changing them",
-      "B": "Reason develops from understanding and systematizes its judgments toward totality",
-      "C": "Reason belongs entirely to sensibility",
-      "D": "Reason is just another name for categories"
+      "B": "Reason belongs entirely to sensibility",
+      "C": "Reason is just another name for categories",
+      "D": "Reason develops from understanding and systematizes its judgments toward totality"
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture describes understanding and reason as a continuum in which reason pushes understanding's products toward systematic unity.",
     "explanation_key_points": [
@@ -104,12 +104,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Because categories are sensory by themselves",
-      "B": "Because abstract categories must be given temporal form to apply to experience",
+      "A": "Because abstract categories must be given temporal form to apply to experience",
+      "B": "Because categories are sensory by themselves",
       "C": "Because noumena need to be visualized",
       "D": "Because identity can never govern thought"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Schema gives categories a way to meet sensible intuition by translating them into a temporal rule or image.",
     "explanation_key_points": [
@@ -178,11 +178,11 @@
     "question_type": "mcq",
     "options": {
       "A": "They are abstracted from experience after many repetitions",
-      "B": "They precede experience as logical functions and require sensory content for meaning",
-      "C": "They are merely emotional habits",
+      "B": "They are merely emotional habits",
+      "C": "They precede experience as logical functions and require sensory content for meaning",
       "D": "They are identical with reason's Ideas of totality"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The slides emphasize both sides: categories precede experience, yet without sensible content they remain empty.",
     "explanation_key_points": [
@@ -205,11 +205,11 @@
     "question_type": "mcq",
     "options": {
       "A": "They extend sensibility into noumena",
-      "B": "They limit sensibility to the phenomenal realm by structuring experience objectively",
-      "C": "They remove all need for intuition",
-      "D": "They convert every judgment into an analytic one"
+      "B": "They remove all need for intuition",
+      "C": "They convert every judgment into an analytic one",
+      "D": "They limit sensibility to the phenomenal realm by structuring experience objectively"
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Categories are not a path out of phenomena; they are part of the framework that makes phenomena possible and sets their bounds.",
     "explanation_key_points": [
@@ -324,11 +324,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Categories seek totality; reason conditions phenomena",
-      "B": "Categories condition phenomena; reason seeks the unconditioned totality of the conditioned realm",
-      "C": "Sensibility creates categories; reason supplies sensation",
+      "B": "Sensibility creates categories; reason supplies sensation",
+      "C": "Categories condition phenomena; reason seeks the unconditioned totality of the conditioned realm",
       "D": "Noumena are conditioned; phenomena are unconditioned"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture gives these four 'must note' points to distinguish understanding's lawful conditioning of experience from reason's drive toward totality.",
     "explanation_key_points": [
@@ -351,11 +351,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Keeping inference tied to possible experience",
-      "B": "Treating reason's drive to totality as if it could constitute an actual object beyond experience",
-      "C": "Applying categories to intuitions",
-      "D": "Using imagination to schematize time"
+      "B": "Applying categories to intuitions",
+      "C": "Using imagination to schematize time",
+      "D": "Treating reason's drive to totality as if it could constitute an actual object beyond experience"
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The problem starts when the unconditioned is treated as if it were a constitutive object rather than a higher-order demand of reason.",
     "explanation_key_points": [

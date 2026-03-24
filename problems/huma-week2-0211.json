@@ -31,12 +31,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Bodies are imaginary fictions with no external ground",
-      "B": "What we know are appearances shaped by sensibility, not things-in-themselves",
+      "A": "What we know are appearances shaped by sensibility, not things-in-themselves",
+      "B": "Bodies are imaginary fictions with no external ground",
       "C": "Reason directly intuits material substance",
       "D": "Empirical science is impossible"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The claim concerns the mode of cognition: bodies and space are known as representations given through sensibility, not as things-in-themselves.",
     "explanation_key_points": [
@@ -58,12 +58,12 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "Phenomena are the appearances given to us through sensibility",
-      "B": "Reason becomes identical with sensation",
+      "A": "Reason becomes identical with sensation",
+      "B": "Phenomena are the appearances given to us through sensibility",
       "C": "Space and time disappear from experience",
       "D": "Analytic judgments become impossible"
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "If sensation does not deliver things-in-themselves, then what it does deliver are appearances or phenomena.",
     "explanation_key_points": [
@@ -104,12 +104,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "It proves too little because it omits all sensation but still sneaks in an enduring \"I\"",
-      "B": "It depends on excluded middle rather than identity",
-      "C": "It denies that thought occurs",
+      "A": "It depends on excluded middle rather than identity",
+      "B": "It denies that thought occurs",
+      "C": "It proves too little because it omits all sensation but still sneaks in an enduring \"I\"",
       "D": "It is based on too much empirical evidence"
     },
-    "correct_option": "A",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture argues that the subject \"I\" is already presupposed in \"I think\" or \"I doubt,\" so the conclusion is circular rather than purely secured.",
     "explanation_key_points": [
@@ -132,11 +132,11 @@
     "question_type": "mcq",
     "options": {
       "A": "No empirical content can ever be repeated",
-      "B": "We observe only a bundle of perceptions, not an enduring thinking substance",
-      "C": "Space is a form of intuition",
-      "D": "Mathematics is synthetic a priori"
+      "B": "Space is a form of intuition",
+      "C": "Mathematics is synthetic a priori",
+      "D": "We observe only a bundle of perceptions, not an enduring thinking substance"
     },
-    "correct_option": "B",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Hume's challenge is that there is no impression of a substantial ego behind fleeting mental events.",
     "explanation_key_points": [
@@ -177,12 +177,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Causality is an innate idea guaranteed by reason",
-      "B": "Causality is constant conjunction or habit, not observed necessity",
+      "A": "Causality is constant conjunction or habit, not observed necessity",
+      "B": "Causality is an innate idea guaranteed by reason",
       "C": "Causality belongs only to noumena",
       "D": "Causality is a direct sensation"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "For Hume, repeated sequence produces expectation, but necessity itself is not given in impression.",
     "explanation_key_points": [
@@ -251,11 +251,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Experience provides both form and content by itself",
-      "B": "Experience provides content, while the mind supplies form such as space, time, and categories",
-      "C": "Reason creates objects without any experience",
+      "B": "Reason creates objects without any experience",
+      "C": "Experience provides content, while the mind supplies form such as space, time, and categories",
       "D": "Only analytic judgment yields knowledge"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The slides present Kant as combining Hume's insistence on sensory content with a priori structures supplied by mind.",
     "explanation_key_points": [
@@ -277,12 +277,12 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "Empiricism cannot explain universal and necessary knowledge such as mathematics and science",
-      "B": "Empiricism gives too much certainty to innate ideas",
-      "C": "Empiricism proves things-in-themselves directly",
-      "D": "Empiricism has too many categories"
+      "A": "Empiricism gives too much certainty to innate ideas",
+      "B": "Empiricism proves things-in-themselves directly",
+      "C": "Empiricism has too many categories",
+      "D": "Empiricism cannot explain universal and necessary knowledge such as mathematics and science"
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The slides say empiricism can explain experiential content but not the universal necessity found in mathematics and science.",
     "explanation_key_points": [
@@ -323,12 +323,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Because metaphysics can then photograph noumena directly",
-      "B": "Because that very limit pushes us to ask about the conditions under which appearances become knowable",
+      "A": "Because that very limit pushes us to ask about the conditions under which appearances become knowable",
+      "B": "Because metaphysics can then photograph noumena directly",
       "C": "Because empirical science stops functioning",
       "D": "Because logic becomes meaningless"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture says precisely this limit gives metaphysics its necessity: we must ask about the conditions of possible knowledge instead.",
     "explanation_key_points": [

@@ -32,11 +32,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Because we directly sense absolute perfection everywhere",
-      "B": "Because the empirical world offers no perfect model from which the concept could be copied",
-      "C": "Because experience is always analytic",
+      "B": "Because experience is always analytic",
+      "C": "Because the empirical world offers no perfect model from which the concept could be copied",
       "D": "Because categories do not apply to judgment"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture stresses that we never encounter true perfection directly in appearance, so experience cannot be its source.",
     "explanation_key_points": [
@@ -58,12 +58,12 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "It is a standard that guides judgments of better and worse",
-      "B": "It is an object we can fully encounter in appearances",
-      "C": "It is a direct category of sensibility",
-      "D": "It eliminates all need for comparison"
+      "A": "It is an object we can fully encounter in appearances",
+      "B": "It is a direct category of sensibility",
+      "C": "It eliminates all need for comparison",
+      "D": "It is a standard that guides judgments of better and worse"
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "Perfection functions as a standard for judging good and bad, even though it is not itself given as a direct empirical object.",
     "explanation_key_points": [
@@ -104,12 +104,12 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "Using perfection to guide judgment",
-      "B": "Treating the Idea as if a perfect being or object existed somewhere as an appearance",
+      "A": "Treating the Idea as if a perfect being or object existed somewhere as an appearance",
+      "B": "Using perfection to guide judgment",
       "C": "Comparing better and worse cases in experience",
       "D": "Denying that categories are finite"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The problem begins when an Idea that should guide inquiry is instead taken as a constitutive object of experience.",
     "explanation_key_points": [
@@ -131,12 +131,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Perfection helps guide our judgments of good and bad without being an empirical object",
-      "B": "Perfection exists as a fully knowable object somewhere in appearances",
+      "A": "Perfection exists as a fully knowable object somewhere in appearances",
+      "B": "Perfection helps guide our judgments of good and bad without being an empirical object",
       "C": "Perfection is a sensation inside every judgment",
       "D": "Perfection abolishes categories"
     },
-    "correct_option": "A",
+    "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "A regulative use guides comparison and inquiry, whereas a constitutive use illegitimately objectifies the Idea.",
     "explanation_key_points": [
@@ -178,11 +178,11 @@
     "question_type": "mcq",
     "options": {
       "A": "That sensibility directly senses absence itself",
-      "B": "That what is sensed is present empty space, while the sense of absence depends on a prior expectation",
-      "C": "That categories are unnecessary for experience",
+      "B": "That categories are unnecessary for experience",
+      "C": "That what is sensed is present empty space, while the sense of absence depends on a prior expectation",
       "D": "That reason begins with pure nothingness"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture says sensibility gives the currently present wallet and empty space; the absence of money depends on a prior horizon of expectation.",
     "explanation_key_points": [
@@ -204,12 +204,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "what was never there at all as a sensory datum",
-      "B": "present empty space",
-      "C": "the continuity of change in time",
-      "D": "a wallet as a phenomenal object"
+      "A": "present empty space",
+      "B": "the continuity of change in time",
+      "C": "a wallet as a phenomenal object",
+      "D": "what was never there at all as a sensory datum"
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture says sensibility can receive what is presently there, but not a pure absence that never had any phenomenal givenness.",
     "explanation_key_points": [
@@ -250,12 +250,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "A sensory report about a missing object in a room",
-      "B": "An absolute negation that has moved away from empirical absence toward thought beyond experience",
+      "A": "An absolute negation that has moved away from empirical absence toward thought beyond experience",
+      "B": "A sensory report about a missing object in a room",
       "C": "A statement about present empty space only",
       "D": "A geometric truth"
     },
-    "correct_option": "B",
+    "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The lecture treats this as reason's move away from empirical absence toward absolute nothingness, beyond possible sensory givenness.",
     "explanation_key_points": [
@@ -324,11 +324,11 @@
     "question_type": "mcq",
     "options": {
       "A": "Perfection guides our judgments",
-      "B": "Absolute nothingness actually exists as an object",
-      "C": "Categories structure appearances",
+      "B": "Categories structure appearances",
+      "C": "Absolute nothingness actually exists as an object",
       "D": "Empirical absence depends on a prior concept"
     },
-    "correct_option": "B",
+    "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "The slides treat the claim that absolute nothingness exists as an object as a dialectical error, because it illegitimately objectifies reason's extension.",
     "explanation_key_points": [
@@ -350,12 +350,12 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "The Idea of perfection should guide inquiry rather than be objectified as an appearance",
-      "B": "Absolute nothingness is an observable object in the world",
-      "C": "Sensibility senses absence directly as absence",
-      "D": "Perfection is copied from perfect cases in experience"
+      "A": "Absolute nothingness is an observable object in the world",
+      "B": "Sensibility senses absence directly as absence",
+      "C": "Perfection is copied from perfect cases in experience",
+      "D": "The Idea of perfection should guide inquiry rather than be objectified as an appearance"
     },
-    "correct_option": "A",
+    "correct_option": "D",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
     "model_explanation": "This answer keeps the Idea in a regulative role rather than turning it into a constitutive object of experience.",
     "explanation_key_points": [
