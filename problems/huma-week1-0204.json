@@ -18,42 +18,6 @@
     "item_form": "comparison"
   },
   {
-    "question": "A student can repeat that the mirror image is not the real self but cannot explain why appearances can mislead us. In the lecture's terms, this student mainly has ______. Answer in 1-3 sentences.",
-    "model_answer": "simply knowing without understanding. The lecture says merely repeating a claim stays at the surface; understanding requires seeing the underlying principle behind appearances.",
-    "key_points": [
-      "simply knowing without understanding",
-      "The lecture says merely repeating a claim stays at the surface; understanding requires seeing the underlying principle behind appearances",
-      "exam questions often shift from an example to the deeper distinction it is supposed to reveal"
-    ],
-    "chapter": "Week 1 - Feb 4",
-    "related_info": "The lecture says merely repeating a claim stays at the surface; understanding requires seeing the underlying principle behind appearances.",
-    "why_high_yield": "High yield because exam questions often shift from an example to the deeper distinction it is supposed to reveal.",
-    "source_refs": [
-      "HUMA2831_Week1_02042026_Slides.pdf - slides 3-5 on surface knowing versus principle-based understanding"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w1-knowing-understanding",
-    "item_form": "scenario"
-  },
-  {
-    "question": "In Week 1, metaphysical insight begins when we move from ______ to ______. Answer in 1-3 sentences.",
-    "model_answer": "mere measurable appearances; the principles that make them intelligible. The lecture frames metaphysical insight as a movement from what is observed outwardly to the principle grasped inwardly through thought.",
-    "key_points": [
-      "mere measurable appearances; the principles that make them intelligible",
-      "The lecture frames metaphysical insight as a movement from what is observed outwardly to the principle grasped inwardly through thought",
-      "it captures the basic direction of the whole course: from phenomena toward their conditions"
-    ],
-    "chapter": "Week 1 - Feb 4",
-    "related_info": "The lecture frames metaphysical insight as a movement from what is observed outwardly to the principle grasped inwardly through thought.",
-    "why_high_yield": "High yield because it captures the basic direction of the whole course: from phenomena toward their conditions.",
-    "source_refs": [
-      "HUMA2831_Week1_02042026_Slides.pdf - slides 3-5 on moving from measurable phenomena to underlying principles"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w1-knowing-understanding",
-    "item_form": "definition"
-  },
-  {
     "question": "Why is \"All triangles have three sides\" an analytic judgment in Week 1? Answer in 1-3 sentences.",
     "model_answer": "Because \"three-sided\" is already contained in the concept of triangle. The predicate is already contained in the subject concept, so the judgment only explicates what was already thought in \"triangle.\"",
     "key_points": [
@@ -70,42 +34,6 @@
     "incorrect_count": 0,
     "concept_id": "w1-analytic-judgment",
     "item_form": "definition"
-  },
-  {
-    "question": "Which logical principle does the lecture say analytic judgments depend on entirely? Answer in 1-3 sentences.",
-    "model_answer": "the principle of non-contradiction. Analytic judgments unfold what is already contained in the concept, so denying them produces contradiction rather than new knowledge.",
-    "key_points": [
-      "the principle of non-contradiction",
-      "Analytic judgments unfold what is already contained in the concept, so denying them produces contradiction rather than new knowledge",
-      "the exam is likely to connect analytic judgment to its logical law"
-    ],
-    "chapter": "Week 1 - Feb 4",
-    "related_info": "Analytic judgments unfold what is already contained in the concept, so denying them produces contradiction rather than new knowledge.",
-    "why_high_yield": "High yield because the exam is likely to connect analytic judgment to its logical law.",
-    "source_refs": [
-      "HUMA2831_Week1_02042026_Slides.pdf - slide 9 on analytic judgment and non-contradiction"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w1-analytic-judgment",
-    "item_form": "comparison"
-  },
-  {
-    "question": "If someone insists that \"a triangle is not three-sided,\" what has happened according to the lecture? Answer in 1-3 sentences.",
-    "model_answer": "The same concept has contradicted itself. Because the predicate belongs to the triangle concept itself, denying it makes the identical concept conflict with itself.",
-    "key_points": [
-      "The same concept has contradicted itself",
-      "Because the predicate belongs to the triangle concept itself, denying it makes the identical concept conflict with itself",
-      "it ties triangle, identity, and non-contradiction together in one exam-ready pattern"
-    ],
-    "chapter": "Week 1 - Feb 4",
-    "related_info": "Because the predicate belongs to the triangle concept itself, denying it makes the identical concept conflict with itself.",
-    "why_high_yield": "High yield because it ties triangle, identity, and non-contradiction together in one exam-ready pattern.",
-    "source_refs": [
-      "HUMA2831_Week1_02042026_Slides.pdf - slide 9 on contradiction arising when the analytic predicate is denied"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w1-analytic-judgment",
-    "item_form": "counterexample"
   },
   {
     "question": "Why is \"The sun rises in the east\" synthetic rather than analytic? Answer in 1-3 sentences.",
@@ -126,42 +54,6 @@
     "item_form": "definition"
   },
   {
-    "question": "What is the lecture's basic explanation of why synthetic judgments expand knowledge? Answer in 1-3 sentences.",
-    "model_answer": "They add a predicate not already contained in the subject concept. A synthetic judgment expands cognition because it connects the subject with genuinely new content rather than unpacking an existing concept.",
-    "key_points": [
-      "They add a predicate not already contained in the subject concept",
-      "A synthetic judgment expands cognition because it connects the subject with genuinely new content rather than unpacking an existing concept",
-      "the exam can restate synthetic judgment in many phrasings while testing the same structure"
-    ],
-    "chapter": "Week 1 - Feb 4",
-    "related_info": "A synthetic judgment expands cognition because it connects the subject with genuinely new content rather than unpacking an existing concept.",
-    "why_high_yield": "High yield because the exam can restate synthetic judgment in many phrasings while testing the same structure.",
-    "source_refs": [
-      "HUMA2831_Week1_02042026_Slides.pdf - slides 10-11 on ampliative judgment"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w1-synthetic-judgment",
-    "item_form": "comparison"
-  },
-  {
-    "question": "According to Week 1, which pattern best describes the formal structure of synthetic judgment? Answer in 1-3 sentences.",
-    "model_answer": "First exclude the predicate from the subject concept, then connect it. The slides describe synthetic judgment as beginning with distinction or negative judgment and then adding the new predicate.",
-    "key_points": [
-      "First exclude the predicate from the subject concept, then connect it",
-      "The slides describe synthetic judgment as beginning with distinction or negative judgment and then adding the new predicate",
-      "it tests the course's recurring claim that cognitive expansion begins with distinction"
-    ],
-    "chapter": "Week 1 - Feb 4",
-    "related_info": "The slides describe synthetic judgment as beginning with distinction or negative judgment and then adding the new predicate.",
-    "why_high_yield": "High yield because it tests the course's recurring claim that cognitive expansion begins with distinction.",
-    "source_refs": [
-      "HUMA2831_Week1_02042026_Slides.pdf - slide 11 on distinction and negative judgment as the basis of synthesis"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w1-synthetic-judgment",
-    "item_form": "scenario"
-  },
-  {
     "question": "Why does the lecture spend time talking about 'naysayers'? Answer in 1-3 sentences.",
     "model_answer": "To illustrate that negative judgment often comes first in cognitive expansion. The point is not moral praise or blame. The naysayer image illustrates the formal role of negation and distinction in expanding cognition.",
     "key_points": [
@@ -180,42 +72,6 @@
     "item_form": "definition"
   },
   {
-    "question": "A classmate always says 'No' first because she is trying to separate one concept from another before accepting anything new. Which Week 1 point does this illustrate? Answer in 1-3 sentences.",
-    "model_answer": "Synthetic expansion begins with distinction. The lecture explicitly connects the 'No first' pattern with negative judgment as the formal beginning of synthetic expansion.",
-    "key_points": [
-      "Synthetic expansion begins with distinction",
-      "The lecture explicitly connects the 'No first' pattern with negative judgment as the formal beginning of synthetic expansion",
-      "the exam can wrap judgment theory inside a small scenario instead of asking for a definition directly"
-    ],
-    "chapter": "Week 1 - Feb 4",
-    "related_info": "The lecture explicitly connects the 'No first' pattern with negative judgment as the formal beginning of synthetic expansion.",
-    "why_high_yield": "High yield because the exam can wrap judgment theory inside a small scenario instead of asking for a definition directly.",
-    "source_refs": [
-      "HUMA2831_Week1_02042026_Slides.pdf - slides 12-13 on why negative judgment comes first"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w1-negative-judgment",
-    "item_form": "scenario"
-  },
-  {
-    "question": "What statement would the lecture reject about the Week 1 'naysayer' example? Answer in 1-3 sentences.",
-    "model_answer": "It proves that naysayers are simply bad people with no cognitive role. The lecture explicitly says naysayers are not simply bad people; they exemplify a certain way cognitive expansion can begin.",
-    "key_points": [
-      "It proves that naysayers are simply bad people with no cognitive role",
-      "The lecture explicitly says naysayers are not simply bad people; they exemplify a certain way cognitive expansion can begin",
-      "it checks whether you remember the underlying logic rather than the emotional tone of the example"
-    ],
-    "chapter": "Week 1 - Feb 4",
-    "related_info": "The lecture explicitly says naysayers are not simply bad people; they exemplify a certain way cognitive expansion can begin.",
-    "why_high_yield": "High yield because it checks whether you remember the underlying logic rather than the emotional tone of the example.",
-    "source_refs": [
-      "HUMA2831_Week1_02042026_Slides.pdf - slide 12 on the root cause of naysaying"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w1-negative-judgment",
-    "item_form": "counterexample"
-  },
-  {
     "question": "What kind of judgment does Week 1 say metaphysics deals with exclusively? Answer in 1-3 sentences.",
     "model_answer": "pure synthetic a priori judgments. The lecture says metaphysics excludes synthetic judgments containing experience and focuses on pure synthetic a priori principles of cognition.",
     "key_points": [
@@ -232,41 +88,5 @@
     "incorrect_count": 0,
     "concept_id": "w1-metaphysics-synthetic-apriori",
     "item_form": "definition"
-  },
-  {
-    "question": "Why is \"7 + 5 = 12\" not analytic according to Week 1? Answer in 1-3 sentences.",
-    "model_answer": "Because arithmetic results must be constructed rather than found by mere concept analysis. The slides say closer inspection never finds \"12\" already contained in \"7 + 5\"; the result must be constructed, which makes arithmetic synthetic.",
-    "key_points": [
-      "Because arithmetic results must be constructed rather than found by mere concept analysis",
-      "The slides say closer inspection never finds \"12\" already contained in \"7 + 5\"; the result must be constructed, which makes arithmetic synthetic",
-      "arithmetic is a classic trap for confusing what feels obvious with what is actually analytic"
-    ],
-    "chapter": "Week 1 - Feb 4",
-    "related_info": "The slides say closer inspection never finds \"12\" already contained in \"7 + 5\"; the result must be constructed, which makes arithmetic synthetic.",
-    "why_high_yield": "High yield because arithmetic is a classic trap for confusing what feels obvious with what is actually analytic.",
-    "source_refs": [
-      "HUMA2831_Week1_02042026_Slides.pdf - slides 15-16 on mathematical synthetic a priori judgment"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w1-metaphysics-synthetic-apriori",
-    "item_form": "comparison"
-  },
-  {
-    "question": "How does Week 1 distinguish mathematics from metaphysics if both are synthetic a priori? Answer in 1-3 sentences.",
-    "model_answer": "Mathematics uses intuition within phenomena, while metaphysics investigates the conditions of cognition through pure concepts. Both are synthetic a priori, but mathematics gains certainty through intuition in the phenomenal world, whereas metaphysics goes after cognition's own conditions.",
-    "key_points": [
-      "Mathematics uses intuition within phenomena, while metaphysics investigates the conditions of cognition through pure concepts",
-      "Both are synthetic a priori, but mathematics gains certainty through intuition in the phenomenal world, whereas metaphysics goes after cognition's own conditions",
-      "the exam can ask not only what synthetic a priori is, but how different kinds of it are separated"
-    ],
-    "chapter": "Week 1 - Feb 4",
-    "related_info": "Both are synthetic a priori, but mathematics gains certainty through intuition in the phenomenal world, whereas metaphysics goes after cognition's own conditions.",
-    "why_high_yield": "High yield because the exam can ask not only what synthetic a priori is, but how different kinds of it are separated.",
-    "source_refs": [
-      "HUMA2831_Week1_02042026_Slides.pdf - slides 15-16 on mathematics versus metaphysics"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w1-metaphysics-synthetic-apriori",
-    "item_form": "comparison"
   }
 ]

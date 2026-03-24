@@ -18,42 +18,6 @@
     "item_form": "definition"
   },
   {
-    "question": "What does the law of excluded middle say in Week 5B? Answer in 1-3 sentences.",
-    "model_answer": "Between a proposition and its negation there is no third middle option. Excluded middle forces a binary opposition between a proposition and its negation rather than allowing an ambiguous third state.",
-    "key_points": [
-      "Between a proposition and its negation there is no third middle option",
-      "Excluded middle forces a binary opposition between a proposition and its negation rather than allowing an ambiguous third state",
-      "excluded middle is easy to blur with non-contradiction under exam pressure"
-    ],
-    "chapter": "Week 5B - Mar 4",
-    "related_info": "Excluded middle forces a binary opposition between a proposition and its negation rather than allowing an ambiguous third state.",
-    "why_high_yield": "High yield because excluded middle is easy to blur with non-contradiction under exam pressure.",
-    "source_refs": [
-      "HUMA2831_Week5_03042026_Slides.pdf - slide 4 on excluded middle"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5b-logic-laws",
-    "item_form": "comparison"
-  },
-  {
-    "question": "What is the core role of the law of non-contradiction in Week 5B? Answer in 1-3 sentences.",
-    "model_answer": "It forbids affirming and denying the same proposition at once in the same respect. Non-contradiction bans self-conflict in thought; it says a proposition and its negation cannot both be true at the same time and in the same respect.",
-    "key_points": [
-      "It forbids affirming and denying the same proposition at once in the same respect",
-      "Non-contradiction bans self-conflict in thought; it says a proposition and its negation cannot both be true at the same time and in the same respect",
-      "the exam may ask for the distinctive function of each logical law"
-    ],
-    "chapter": "Week 5B - Mar 4",
-    "related_info": "Non-contradiction bans self-conflict in thought; it says a proposition and its negation cannot both be true at the same time and in the same respect.",
-    "why_high_yield": "High yield because the exam may ask for the distinctive function of each logical law.",
-    "source_refs": [
-      "HUMA2831_Week5_03042026_Slides.pdf - slides 2-4 on non-contradiction"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5b-logic-laws",
-    "item_form": "definition"
-  },
-  {
     "question": "Why is \"All triangles have three sides\" analytic in Week 5B? Answer in 1-3 sentences.",
     "model_answer": "Because the predicate is already contained in the concept of triangle. The judgment merely explicates what is already thought in the concept, so it does not expand knowledge.",
     "key_points": [
@@ -72,42 +36,6 @@
     "item_form": "definition"
   },
   {
-    "question": "How does Week 5B connect non-contradiction to identity in analytic judgment? Answer in 1-3 sentences.",
-    "model_answer": "Denying an analytic predicate creates contradiction because the identical concept would oppose itself. The slides say non-contradiction is grounded in identity because contradiction emerges when what is identical with the concept is denied of it.",
-    "key_points": [
-      "Denying an analytic predicate creates contradiction because the identical concept would oppose itself",
-      "The slides say non-contradiction is grounded in identity because contradiction emerges when what is identical with the concept is denied of it",
-      "this is exactly the kind of law-to-judgment linkage the user flagged as likely exam material"
-    ],
-    "chapter": "Week 5B - Mar 4",
-    "related_info": "The slides say non-contradiction is grounded in identity because contradiction emerges when what is identical with the concept is denied of it.",
-    "why_high_yield": "High yield because this is exactly the kind of law-to-judgment linkage the user flagged as likely exam material.",
-    "source_refs": [
-      "HUMA2831_Week5_03042026_Slides.pdf - slides 7-9 on identity and non-contradiction"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5b-analytic",
-    "item_form": "comparison"
-  },
-  {
-    "question": "Why does Week 5B say identity is the logical rule for analytic judgments? Answer in 1-3 sentences.",
-    "model_answer": "Because analytic judgments reaffirm what is already selfsame within the subject concept. Analytic judgments do not add new content; they reaffirm what already belongs to the concept, which is why identity is basic for them.",
-    "key_points": [
-      "Because analytic judgments reaffirm what is already selfsame within the subject concept",
-      "Analytic judgments do not add new content; they reaffirm what already belongs to the concept, which is why identity is basic for them",
-      "the exam may ask not just which law applies, but why that law is the most appropriate one"
-    ],
-    "chapter": "Week 5B - Mar 4",
-    "related_info": "Analytic judgments do not add new content; they reaffirm what already belongs to the concept, which is why identity is basic for them.",
-    "why_high_yield": "High yield because the exam may ask not just which law applies, but why that law is the most appropriate one.",
-    "source_refs": [
-      "HUMA2831_Week5_03042026_Slides.pdf - slide 9 on why identity governs analytic judgment"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5b-analytic",
-    "item_form": "comparison"
-  },
-  {
     "question": "Why is \"The sun rises in the east\" synthetic in Week 5B? Answer in 1-3 sentences.",
     "model_answer": "Because the predicate contributes new information not contained in the subject concept. The directional predicate adds something not already thought in the subject concept and therefore expands cognition.",
     "key_points": [
@@ -120,42 +48,6 @@
     "why_high_yield": "High yield because the sun example is the lecture's canonical counterpart to the triangle example.",
     "source_refs": [
       "HUMA2831_Week5_03042026_Slides.pdf - slides 7-8 on synthetic judgment and sunrise"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5b-synthetic",
-    "item_form": "definition"
-  },
-  {
-    "question": "What does synthetic judgment do according to Week 5B? Answer in 1-3 sentences.",
-    "model_answer": "It amplifies knowledge by connecting the subject to an external predicate. Synthetic judgment expands cognition by attaching genuinely new content to the subject rather than merely clarifying a concept.",
-    "key_points": [
-      "It amplifies knowledge by connecting the subject to an external predicate",
-      "Synthetic judgment expands cognition by attaching genuinely new content to the subject rather than merely clarifying a concept",
-      "'explication versus amplification' is a repeated exam distinction"
-    ],
-    "chapter": "Week 5B - Mar 4",
-    "related_info": "Synthetic judgment expands cognition by attaching genuinely new content to the subject rather than merely clarifying a concept.",
-    "why_high_yield": "High yield because 'explication versus amplification' is a repeated exam distinction.",
-    "source_refs": [
-      "HUMA2831_Week5_03042026_Slides.pdf - slides 7-8 on ampliative judgment"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5b-synthetic",
-    "item_form": "comparison"
-  },
-  {
-    "question": "How does Week 5B describe the formal structure of synthetic expansion? Answer in 1-3 sentences.",
-    "model_answer": "First distinction or exclusion, then connection and expansion. The slide says synthetic judgment first excludes the predicate from the subject concept and then links it, which is why distinction matters.",
-    "key_points": [
-      "First distinction or exclusion, then connection and expansion",
-      "The slide says synthetic judgment first excludes the predicate from the subject concept and then links it, which is why distinction matters",
-      "it joins the topic of judgment with the course's broader emphasis on distinction-making"
-    ],
-    "chapter": "Week 5B - Mar 4",
-    "related_info": "The slide says synthetic judgment first excludes the predicate from the subject concept and then links it, which is why distinction matters.",
-    "why_high_yield": "High yield because it joins the topic of judgment with the course's broader emphasis on distinction-making.",
-    "source_refs": [
-      "HUMA2831_Week5_03042026_Slides.pdf - slide 8 on differentiation and expansion"
     ],
     "incorrect_count": 0,
     "concept_id": "w5b-synthetic",
@@ -180,42 +72,6 @@
     "item_form": "comparison"
   },
   {
-    "question": "Do analytic judgments expand knowledge according to Week 5B? Answer in 1-3 sentences.",
-    "model_answer": "No, because they only unpack what is already contained in the concept. The lecture answers this directly: analytic judgments clarify but do not amplify cognition.",
-    "key_points": [
-      "No, because they only unpack what is already contained in the concept",
-      "The lecture answers this directly: analytic judgments clarify but do not amplify cognition",
-      "this is one of the simplest but most exam-likely checks in the topic"
-    ],
-    "chapter": "Week 5B - Mar 4",
-    "related_info": "The lecture answers this directly: analytic judgments clarify but do not amplify cognition.",
-    "why_high_yield": "High yield because this is one of the simplest but most exam-likely checks in the topic.",
-    "source_refs": [
-      "HUMA2831_Week5_03042026_Slides.pdf - slide 12 on whether analytic judgment expands knowledge"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5b-understanding-reason",
-    "item_form": "definition"
-  },
-  {
-    "question": "How are reason's ideas said to be thought in Week 5B? Answer in 1-3 sentences.",
-    "model_answer": "Through the same principle of identity that structures analytic judgment. The lecture says Ideas such as the world's perfect unity follow an analytic-like structure grounded in identity rather than new empirical synthesis.",
-    "key_points": [
-      "Through the same principle of identity that structures analytic judgment",
-      "The lecture says Ideas such as the world's perfect unity follow an analytic-like structure grounded in identity rather than new empirical synthesis",
-      "it links logic directly to reason's higher-order activity"
-    ],
-    "chapter": "Week 5B - Mar 4",
-    "related_info": "The lecture says Ideas such as the world's perfect unity follow an analytic-like structure grounded in identity rather than new empirical synthesis.",
-    "why_high_yield": "High yield because it links logic directly to reason's higher-order activity.",
-    "source_refs": [
-      "HUMA2831_Week5_03042026_Slides.pdf - slides 13-15 on Ideas and the principle of identity"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5b-reason-ideas",
-    "item_form": "comparison"
-  },
-  {
     "question": "What is the role of a statement like \"The whole world is a perfect unity\" in Week 5B? Answer in 1-3 sentences.",
     "model_answer": "It functions as an Idea of reason thought through identity rather than as a new empirical synthesis. Such statements express reason's demand for unity. They are not constitutive descriptions of an encountered object in experience.",
     "key_points": [
@@ -232,41 +88,5 @@
     "incorrect_count": 0,
     "concept_id": "w5b-reason-ideas",
     "item_form": "definition"
-  },
-  {
-    "question": "What do analytic judgments and reason's ideas share in Week 5B? Answer in 1-3 sentences.",
-    "model_answer": "They operate through identity, add no new empirical content, and guide thought without constituting appearances. The lecture's summary slide explicitly groups them around identity, non-contradictory unity, and a regulative rather than constitutive role.",
-    "key_points": [
-      "They operate through identity, add no new empirical content, and guide thought without constituting appearances",
-      "The lecture's summary slide explicitly groups them around identity, non-contradictory unity, and a regulative rather than constitutive role",
-      "it compresses several of the course's recurring pairings into one answer"
-    ],
-    "chapter": "Week 5B - Mar 4",
-    "related_info": "The lecture's summary slide explicitly groups them around identity, non-contradictory unity, and a regulative rather than constitutive role.",
-    "why_high_yield": "High yield because it compresses several of the course's recurring pairings into one answer.",
-    "source_refs": [
-      "HUMA2831_Week5_03042026_Slides.pdf - slide 15 on common points of analytic judgment and Ideas"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5b-reason-ideas",
-    "item_form": "comparison"
-  },
-  {
-    "question": "Which statement misuses reason's ideas according to Week 5B? Answer in 1-3 sentences.",
-    "model_answer": "They actually describe an object we encounter as such in appearances. The lecture stresses that Ideas regulate thought; when they are taken as constitutive realities in appearances, illusion begins.",
-    "key_points": [
-      "They actually describe an object we encounter as such in appearances",
-      "The lecture stresses that Ideas regulate thought; when they are taken as constitutive realities in appearances, illusion begins",
-      "it anticipates the regulative-versus-constitutive distinction that becomes explicit in later weeks"
-    ],
-    "chapter": "Week 5B - Mar 4",
-    "related_info": "The lecture stresses that Ideas regulate thought; when they are taken as constitutive realities in appearances, illusion begins.",
-    "why_high_yield": "High yield because it anticipates the regulative-versus-constitutive distinction that becomes explicit in later weeks.",
-    "source_refs": [
-      "HUMA2831_Week5_03042026_Slides.pdf - slides 15-16 on regulative function and illusion"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5b-reason-ideas",
-    "item_form": "counterexample"
   }
 ]

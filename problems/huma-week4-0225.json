@@ -18,42 +18,6 @@
     "item_form": "definition"
   },
   {
-    "question": "What does sensibility contribute in the Week 4B diagram? Answer in 1-3 sentences.",
-    "model_answer": "immediate singular intuitions given through space and time. Sensibility receives stimuli and gives intuitions, but those intuitions still require further synthesis to become knowledge.",
-    "key_points": [
-      "immediate singular intuitions given through space and time",
-      "Sensibility receives stimuli and gives intuitions, but those intuitions still require further synthesis to become knowledge",
-      "it checks the starting point of the faculty sequence"
-    ],
-    "chapter": "Week 4B - Feb 25",
-    "related_info": "Sensibility receives stimuli and gives intuitions, but those intuitions still require further synthesis to become knowledge.",
-    "why_high_yield": "High yield because it checks the starting point of the faculty sequence.",
-    "source_refs": [
-      "HUMA2831_Week4_02252026_Slides.pdf - slides 3-4 on sensibility and intuitions"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w4b-cognitive-flow",
-    "item_form": "comparison"
-  },
-  {
-    "question": "How is reason positioned relative to understanding in Week 4B? Answer in 1-3 sentences.",
-    "model_answer": "Reason develops from understanding and systematizes its judgments toward totality. The lecture describes understanding and reason as a continuum in which reason pushes understanding's products toward systematic unity.",
-    "key_points": [
-      "Reason develops from understanding and systematizes its judgments toward totality",
-      "The lecture describes understanding and reason as a continuum in which reason pushes understanding's products toward systematic unity",
-      "the exam keeps asking what changes at the understanding-to-reason transition"
-    ],
-    "chapter": "Week 4B - Feb 25",
-    "related_info": "The lecture describes understanding and reason as a continuum in which reason pushes understanding's products toward systematic unity.",
-    "why_high_yield": "High yield because the exam keeps asking what changes at the understanding-to-reason transition.",
-    "source_refs": [
-      "HUMA2831_Week4_02252026_Slides.pdf - slides 6-9 on understanding and reason"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w4b-cognitive-flow",
-    "item_form": "scenario"
-  },
-  {
     "question": "What are imagination's two main jobs in Week 4B? Answer in 1-3 sentences.",
     "model_answer": "reproductive synthesis and schematization. The slides say imagination reproduces intuitions and schematizes them so categories can be applied.",
     "key_points": [
@@ -72,42 +36,6 @@
     "item_form": "definition"
   },
   {
-    "question": "Why is schematization necessary in Week 4B? Answer in 1-3 sentences.",
-    "model_answer": "Because abstract categories must be given temporal form to apply to experience. Schema gives categories a way to meet sensible intuition by translating them into a temporal rule or image.",
-    "key_points": [
-      "Because abstract categories must be given temporal form to apply to experience",
-      "Schema gives categories a way to meet sensible intuition by translating them into a temporal rule or image",
-      "it directly tests the mediating role between sensibility and understanding"
-    ],
-    "chapter": "Week 4B - Feb 25",
-    "related_info": "Schema gives categories a way to meet sensible intuition by translating them into a temporal rule or image.",
-    "why_high_yield": "High yield because it directly tests the mediating role between sensibility and understanding.",
-    "source_refs": [
-      "HUMA2831_Week4_02252026_Slides.pdf - slide 4 on schema as temporal mediation"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w4b-imagination",
-    "item_form": "comparison"
-  },
-  {
-    "question": "Why does Week 4B call imagination a bridge? Answer in 1-3 sentences.",
-    "model_answer": "Because it makes concepts applicable to intuitions through mediation. Without imagination's mediating work, concepts would stay too abstract and intuitions too blind to become objective knowledge together.",
-    "key_points": [
-      "Because it makes concepts applicable to intuitions through mediation",
-      "Without imagination's mediating work, concepts would stay too abstract and intuitions too blind to become objective knowledge together",
-      "it links the slogan about empty thoughts and blind intuitions to a concrete faculty"
-    ],
-    "chapter": "Week 4B - Feb 25",
-    "related_info": "Without imagination's mediating work, concepts would stay too abstract and intuitions too blind to become objective knowledge together.",
-    "why_high_yield": "High yield because it links the slogan about empty thoughts and blind intuitions to a concrete faculty.",
-    "source_refs": [
-      "HUMA2831_Week4_02252026_Slides.pdf - slides 3-4 on imagination as mediation"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w4b-imagination",
-    "item_form": "scenario"
-  },
-  {
     "question": "What does understanding do in Week 4B? Answer in 1-3 sentences.",
     "model_answer": "It applies categories to unify intuitions into objective judgments. Understanding is the active judgment stage that transforms sensible content into objectively cognizable objects.",
     "key_points": [
@@ -120,42 +48,6 @@
     "why_high_yield": "High yield because understanding's task is one of the exam's most stable targets.",
     "source_refs": [
       "HUMA2831_Week4_02252026_Slides.pdf - slide 5 on understanding as active judgment"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w4b-understanding",
-    "item_form": "definition"
-  },
-  {
-    "question": "Which statement about pure concepts of understanding matches Week 4B? Answer in 1-3 sentences.",
-    "model_answer": "They precede experience as logical functions and require sensory content for meaning. The slides emphasize both sides: categories precede experience, yet without sensible content they remain empty.",
-    "key_points": [
-      "They precede experience as logical functions and require sensory content for meaning",
-      "The slides emphasize both sides: categories precede experience, yet without sensible content they remain empty",
-      "it bundles the a priori status of categories with their dependence on intuition for meaning"
-    ],
-    "chapter": "Week 4B - Feb 25",
-    "related_info": "The slides emphasize both sides: categories precede experience, yet without sensible content they remain empty.",
-    "why_high_yield": "High yield because it bundles the a priori status of categories with their dependence on intuition for meaning.",
-    "source_refs": [
-      "HUMA2831_Week4_02252026_Slides.pdf - slide 5 on pure concepts and sensory content"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w4b-understanding",
-    "item_form": "comparison"
-  },
-  {
-    "question": "What do categories do to sensibility in Week 4B? Answer in 1-3 sentences.",
-    "model_answer": "They limit sensibility to the phenomenal realm by structuring experience objectively. Categories are not a path out of phenomena; they are part of the framework that makes phenomena possible and sets their bounds.",
-    "key_points": [
-      "They limit sensibility to the phenomenal realm by structuring experience objectively",
-      "Categories are not a path out of phenomena; they are part of the framework that makes phenomena possible and sets their bounds",
-      "the exam can ask whether categories open a path to noumena or instead structure appearances only"
-    ],
-    "chapter": "Week 4B - Feb 25",
-    "related_info": "Categories are not a path out of phenomena; they are part of the framework that makes phenomena possible and sets their bounds.",
-    "why_high_yield": "High yield because the exam can ask whether categories open a path to noumena or instead structure appearances only.",
-    "source_refs": [
-      "HUMA2831_Week4_02252026_Slides.pdf - slide 5 on categories and the phenomenal realm"
     ],
     "incorrect_count": 0,
     "concept_id": "w4b-understanding",
@@ -180,42 +72,6 @@
     "item_form": "definition"
   },
   {
-    "question": "Why does the gravity example count as a legitimate inference in Week 4B? Answer in 1-3 sentences.",
-    "model_answer": "Because it stays within possible experience and universalizes empirical cases through category application. The gravity case remains tied to empirical falling objects and lawful synthesis within phenomena rather than moving to an unconditioned beyond experience.",
-    "key_points": [
-      "Because it stays within possible experience and universalizes empirical cases through category application",
-      "The gravity case remains tied to empirical falling objects and lawful synthesis within phenomena rather than moving to an unconditioned beyond experience",
-      "it contrasts lawful understanding with illegitimate rational extension"
-    ],
-    "chapter": "Week 4B - Feb 25",
-    "related_info": "The gravity case remains tied to empirical falling objects and lawful synthesis within phenomena rather than moving to an unconditioned beyond experience.",
-    "why_high_yield": "High yield because it contrasts lawful understanding with illegitimate rational extension.",
-    "source_refs": [
-      "HUMA2831_Week4_02252026_Slides.pdf - slides 10-11 on the gravity inference"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w4b-reason-transition",
-    "item_form": "scenario"
-  },
-  {
-    "question": "Why is the concept of \"my death\" problematic in Week 4B? Answer in 1-3 sentences.",
-    "model_answer": "Because categories cannot supply empirical content for my own death as an experienced object. The slides use \"my death\" to show how reason pushes beyond what categories can actually cognize within experience.",
-    "key_points": [
-      "Because categories cannot supply empirical content for my own death as an experienced object",
-      "The slides use \"my death\" to show how reason pushes beyond what categories can actually cognize within experience",
-      "this example reappears later and is a strong signal of the boundary between lawful cognition and empty thought"
-    ],
-    "chapter": "Week 4B - Feb 25",
-    "related_info": "The slides use \"my death\" to show how reason pushes beyond what categories can actually cognize within experience.",
-    "why_high_yield": "High yield because this example reappears later and is a strong signal of the boundary between lawful cognition and empty thought.",
-    "source_refs": [
-      "HUMA2831_Week4_02252026_Slides.pdf - slides 11-13 on my death and the limits of categories"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w4b-reason-transition",
-    "item_form": "comparison"
-  },
-  {
     "question": "What does the line \"Thoughts without content are empty, intuitions without concepts are blind\" mean in Week 4B? Answer in 1-3 sentences.",
     "model_answer": "Thought alone and intuition alone each fail unless they cooperate. The slogan sums up Kant's requirement that content and form, intuition and concept, must work together for cognition.",
     "key_points": [
@@ -232,41 +88,5 @@
     "incorrect_count": 0,
     "concept_id": "w4b-slogan",
     "item_form": "definition"
-  },
-  {
-    "question": "Which pair best matches Week 4B's structural contrast? Answer in 1-3 sentences.",
-    "model_answer": "Categories condition phenomena; reason seeks the unconditioned totality of the conditioned realm. The lecture gives these four 'must note' points to distinguish understanding's lawful conditioning of experience from reason's drive toward totality.",
-    "key_points": [
-      "Categories condition phenomena; reason seeks the unconditioned totality of the conditioned realm",
-      "The lecture gives these four 'must note' points to distinguish understanding's lawful conditioning of experience from reason's drive toward totality",
-      "the exam can ask for this exact architecture in several paraphrases"
-    ],
-    "chapter": "Week 4B - Feb 25",
-    "related_info": "The lecture gives these four 'must note' points to distinguish understanding's lawful conditioning of experience from reason's drive toward totality.",
-    "why_high_yield": "High yield because the exam can ask for this exact architecture in several paraphrases.",
-    "source_refs": [
-      "HUMA2831_Week4_02252026_Slides.pdf - slides 12-15 on categories, reason, and the unconditioned"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w4b-slogan",
-    "item_form": "comparison"
-  },
-  {
-    "question": "Which move begins the danger of transcendental dialectic in Week 4B? Answer in 1-3 sentences.",
-    "model_answer": "Treating reason's drive to totality as if it could constitute an actual object beyond experience. The problem starts when the unconditioned is treated as if it were a constitutive object rather than a higher-order demand of reason.",
-    "key_points": [
-      "Treating reason's drive to totality as if it could constitute an actual object beyond experience",
-      "The problem starts when the unconditioned is treated as if it were a constitutive object rather than a higher-order demand of reason",
-      "it previews the regulative-versus-constitutive distinction that becomes central later"
-    ],
-    "chapter": "Week 4B - Feb 25",
-    "related_info": "The problem starts when the unconditioned is treated as if it were a constitutive object rather than a higher-order demand of reason.",
-    "why_high_yield": "High yield because it previews the regulative-versus-constitutive distinction that becomes central later.",
-    "source_refs": [
-      "HUMA2831_Week4_02252026_Slides.pdf - slides 11-15 on reason's extension and dialectic"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w4b-slogan",
-    "item_form": "counterexample"
   }
 ]

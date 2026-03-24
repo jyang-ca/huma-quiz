@@ -18,42 +18,6 @@
     "item_form": "scenario"
   },
   {
-    "question": "Why does the fire-and-infant example matter philosophically in Week 5A? Answer in 1-3 sentences.",
-    "model_answer": "It shows that experience without categories does not yet become objective knowledge. The child can undergo sensation, but the causal concept that organizes the event belongs to understanding rather than to sensation alone.",
-    "key_points": [
-      "It shows that experience without categories does not yet become objective knowledge",
-      "The child can undergo sensation, but the causal concept that organizes the event belongs to understanding rather than to sensation alone",
-      "the exam may use this example to test the slogan about content and concepts indirectly"
-    ],
-    "chapter": "Week 5A - Mar 2",
-    "related_info": "The child can undergo sensation, but the causal concept that organizes the event belongs to understanding rather than to sensation alone.",
-    "why_high_yield": "High yield because the exam may use this example to test the slogan about content and concepts indirectly.",
-    "source_refs": [
-      "HUMA2831_Week5_03022026_Slides.pdf - slides 2-4 on sensation and the need for understanding"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5a-fire-infant",
-    "item_form": "comparison"
-  },
-  {
-    "question": "Which half of the slogan \"Thoughts without content are empty, intuitions without concepts are blind\" is illustrated most directly by the infant-fire case? Answer in 1-3 sentences.",
-    "model_answer": "Intuitions without concepts are blind. The infant has sensible intuition and pain, but not yet the conceptual grasp that would make the experience objectively meaningful.",
-    "key_points": [
-      "Intuitions without concepts are blind",
-      "The infant has sensible intuition and pain, but not yet the conceptual grasp that would make the experience objectively meaningful",
-      "it turns the famous slogan into a concrete example rather than a memorized quote"
-    ],
-    "chapter": "Week 5A - Mar 2",
-    "related_info": "The infant has sensible intuition and pain, but not yet the conceptual grasp that would make the experience objectively meaningful.",
-    "why_high_yield": "High yield because it turns the famous slogan into a concrete example rather than a memorized quote.",
-    "source_refs": [
-      "HUMA2831_Week5_03022026_Slides.pdf - slides 2-4 on the fire example and blind intuition"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5a-fire-infant",
-    "item_form": "definition"
-  },
-  {
     "question": "What is schematization in Week 5A? Answer in 1-3 sentences.",
     "model_answer": "The mediating process that connects categories with sensory intuition in temporal form. The slides define schematization as the mediation that lets abstract categories become applicable to sensible experience through time.",
     "key_points": [
@@ -70,42 +34,6 @@
     "incorrect_count": 0,
     "concept_id": "w5a-schematization",
     "item_form": "definition"
-  },
-  {
-    "question": "Why must categories be schematized according to Week 5A? Answer in 1-3 sentences.",
-    "model_answer": "Because abstract categories such as causality need temporal concretion to apply to actual experience. A category is too abstract on its own, so schema supplies the temporal rule that makes application to intuition possible.",
-    "key_points": [
-      "Because abstract categories such as causality need temporal concretion to apply to actual experience",
-      "A category is too abstract on its own, so schema supplies the temporal rule that makes application to intuition possible",
-      "it links categories, time, and actual experience in one question"
-    ],
-    "chapter": "Week 5A - Mar 2",
-    "related_info": "A category is too abstract on its own, so schema supplies the temporal rule that makes application to intuition possible.",
-    "why_high_yield": "High yield because it links categories, time, and actual experience in one question.",
-    "source_refs": [
-      "HUMA2831_Week5_03022026_Slides.pdf - slide 5 on categories and temporal form"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5a-schematization",
-    "item_form": "comparison"
-  },
-  {
-    "question": "What common feature links schematization and the later movement from understanding to reason in Week 5A? Answer in 1-3 sentences.",
-    "model_answer": "Both involve mediation through categories to connect different levels of cognition. The lecture says both stages involve mediation: first categories unify manifolds, then categorical experience is extended toward systematic unity.",
-    "key_points": [
-      "Both involve mediation through categories to connect different levels of cognition",
-      "The lecture says both stages involve mediation: first categories unify manifolds, then categorical experience is extended toward systematic unity",
-      "it asks you to compare two stages of the course's main cognitive diagram"
-    ],
-    "chapter": "Week 5A - Mar 2",
-    "related_info": "The lecture says both stages involve mediation: first categories unify manifolds, then categorical experience is extended toward systematic unity.",
-    "why_high_yield": "High yield because it asks you to compare two stages of the course's main cognitive diagram.",
-    "source_refs": [
-      "HUMA2831_Week5_03022026_Slides.pdf - slides 7-8 on the shared mediating role across stages"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5a-schematization",
-    "item_form": "comparison"
   },
   {
     "question": "Which operation dominates the sensibility-to-understanding stage in Week 5A? Answer in 1-3 sentences.",
@@ -126,42 +54,6 @@
     "item_form": "definition"
   },
   {
-    "question": "Which operation dominates the understanding-to-reason stage in Week 5A? Answer in 1-3 sentences.",
-    "model_answer": "analysis or systematization of what is already constituted. The lecture contrasts reason with understanding by saying reason does not synthesize fresh sensory matter but analytically systematizes what understanding has already produced.",
-    "key_points": [
-      "analysis or systematization of what is already constituted",
-      "The lecture contrasts reason with understanding by saying reason does not synthesize fresh sensory matter but analytically systematizes what understanding has already produced",
-      "the exam may ask for the mode of judgment at the transition to reason"
-    ],
-    "chapter": "Week 5A - Mar 2",
-    "related_info": "The lecture contrasts reason with understanding by saying reason does not synthesize fresh sensory matter but analytically systematizes what understanding has already produced.",
-    "why_high_yield": "High yield because the exam may ask for the mode of judgment at the transition to reason.",
-    "source_refs": [
-      "HUMA2831_Week5_03022026_Slides.pdf - slides 8-10 on analysis at the understanding-reason stage"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5a-synthesis-analysis",
-    "item_form": "comparison"
-  },
-  {
-    "question": "State the correct pairing for Week 5A. Answer in 1-3 sentences.",
-    "model_answer": "Sensibility -> Understanding: synthetic; Understanding -> Reason: analytic. The first transition builds cognition by synthesis, while the later transition orders and extends it analytically.",
-    "key_points": [
-      "Sensibility -> Understanding: synthetic; Understanding -> Reason: analytic",
-      "The first transition builds cognition by synthesis, while the later transition orders and extends it analytically",
-      "it is a compact way of testing the course's full cognitive flow"
-    ],
-    "chapter": "Week 5A - Mar 2",
-    "related_info": "The first transition builds cognition by synthesis, while the later transition orders and extends it analytically.",
-    "why_high_yield": "High yield because it is a compact way of testing the course's full cognitive flow.",
-    "source_refs": [
-      "HUMA2831_Week5_03022026_Slides.pdf - slides 8-10 on the two judgment modes"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5a-synthesis-analysis",
-    "item_form": "comparison"
-  },
-  {
     "question": "What is transcendental dialectic in Week 5A? Answer in 1-3 sentences.",
     "model_answer": "Reason's philosophical illusion when it goes too far beyond possible experience. The slides define dialectic as the illusion generated when reason overextends beyond the bounds proper to understanding and experience.",
     "key_points": [
@@ -180,42 +72,6 @@
     "item_form": "definition"
   },
   {
-    "question": "Explain the contrast between transcendental and transcendent matches Week 5A. Answer in 1-3 sentences.",
-    "model_answer": "Transcendental concerns conditions of possible experience, while transcendent is the improper extension beyond experience. The lecture draws this distinction explicitly so students can separate legitimate critique of cognition from illegitimate overreach.",
-    "key_points": [
-      "Transcendental concerns conditions of possible experience, while transcendent is the improper extension beyond experience",
-      "The lecture draws this distinction explicitly so students can separate legitimate critique of cognition from illegitimate overreach",
-      "the wording is very close and easy to confuse under time pressure"
-    ],
-    "chapter": "Week 5A - Mar 2",
-    "related_info": "The lecture draws this distinction explicitly so students can separate legitimate critique of cognition from illegitimate overreach.",
-    "why_high_yield": "High yield because the wording is very close and easy to confuse under time pressure.",
-    "source_refs": [
-      "HUMA2831_Week5_03022026_Slides.pdf - slides 11-12 on transcendental versus transcendent"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5a-dialectic",
-    "item_form": "comparison"
-  },
-  {
-    "question": "What produces transcendental illusion in Week 5A? Answer in 1-3 sentences.",
-    "model_answer": "Extending categories beyond possible experience under reason's transcendent command. Illusion arises when concepts that are valid for phenomena are made to function beyond that domain as if they could yield knowledge there too.",
-    "key_points": [
-      "Extending categories beyond possible experience under reason's transcendent command",
-      "Illusion arises when concepts that are valid for phenomena are made to function beyond that domain as if they could yield knowledge there too",
-      "it tests the precise misuse rather than just the term 'illusion.'"
-    ],
-    "chapter": "Week 5A - Mar 2",
-    "related_info": "Illusion arises when concepts that are valid for phenomena are made to function beyond that domain as if they could yield knowledge there too.",
-    "why_high_yield": "High yield because it tests the precise misuse rather than just the term 'illusion.'",
-    "source_refs": [
-      "HUMA2831_Week5_03022026_Slides.pdf - slide 12 on transcendental illusion"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5a-dialectic",
-    "item_form": "scenario"
-  },
-  {
     "question": "Which structural pair does Week 5A tell students to remember? Answer in 1-3 sentences.",
     "model_answer": "Categories condition phenomena; reason seeks the unconditioned totality of the conditioned realm. The lecture's four-point summary is designed exactly to clarify the relation between lawful cognition and reason's drive beyond it.",
     "key_points": [
@@ -232,41 +88,5 @@
     "incorrect_count": 0,
     "concept_id": "w5a-conditioned-unconditioned",
     "item_form": "definition"
-  },
-  {
-    "question": "Why does Week 5A say understanding primarily uses synthetic judgments while reason moves analytically? Answer in 1-3 sentences.",
-    "model_answer": "Because understanding must constitute experience, whereas reason systematizes what has already been constituted. Understanding builds objective knowledge from intuition, but reason organizes and extends that completed material toward systematic unity.",
-    "key_points": [
-      "Because understanding must constitute experience, whereas reason systematizes what has already been constituted",
-      "Understanding builds objective knowledge from intuition, but reason organizes and extends that completed material toward systematic unity",
-      "it ties judgment type directly to faculty role"
-    ],
-    "chapter": "Week 5A - Mar 2",
-    "related_info": "Understanding builds objective knowledge from intuition, but reason organizes and extends that completed material toward systematic unity.",
-    "why_high_yield": "High yield because it ties judgment type directly to faculty role.",
-    "source_refs": [
-      "HUMA2831_Week5_03022026_Slides.pdf - slides 9-14 on understanding, reason, and judgment mode"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5a-conditioned-unconditioned",
-    "item_form": "comparison"
-  },
-  {
-    "question": "What statement would Week 5A reject? Answer in 1-3 sentences.",
-    "model_answer": "The transition from understanding to reason creates new empirical knowledge by fresh synthesis. The lecture insists that reason's move is analytic and systematic, not a new synthesis of empirical content.",
-    "key_points": [
-      "The transition from understanding to reason creates new empirical knowledge by fresh synthesis",
-      "The lecture insists that reason's move is analytic and systematic, not a new synthesis of empirical content",
-      "it catches a very common confusion between understanding's productivity and reason's extension"
-    ],
-    "chapter": "Week 5A - Mar 2",
-    "related_info": "The lecture insists that reason's move is analytic and systematic, not a new synthesis of empirical content.",
-    "why_high_yield": "High yield because it catches a very common confusion between understanding's productivity and reason's extension.",
-    "source_refs": [
-      "HUMA2831_Week5_03022026_Slides.pdf - slides 8-14 on synthesis, analysis, and dialectic"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w5a-conditioned-unconditioned",
-    "item_form": "counterexample"
   }
 ]

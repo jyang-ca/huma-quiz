@@ -18,42 +18,6 @@
     "item_form": "definition"
   },
   {
-    "question": "When Week 2B says \"all bodies and space exist only in our mind as representations,\" what is the intended point? Answer in 1-3 sentences.",
-    "model_answer": "What we know are appearances shaped by sensibility, not things-in-themselves. The claim concerns the mode of cognition: bodies and space are known as representations given through sensibility, not as things-in-themselves.",
-    "key_points": [
-      "What we know are appearances shaped by sensibility, not things-in-themselves",
-      "The claim concerns the mode of cognition: bodies and space are known as representations given through sensibility, not as things-in-themselves",
-      "it tests whether you can hear a strong idealist-sounding sentence in a specifically Kantian way"
-    ],
-    "chapter": "Week 2B - Feb 11",
-    "related_info": "The claim concerns the mode of cognition: bodies and space are known as representations given through sensibility, not as things-in-themselves.",
-    "why_high_yield": "High yield because it tests whether you can hear a strong idealist-sounding sentence in a specifically Kantian way.",
-    "source_refs": [
-      "HUMA2831_Week2_02112026_Slides.pdf - slides 4 and 7 on representations and appearances"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w2b-intuition-sensation",
-    "item_form": "comparison"
-  },
-  {
-    "question": "What is the immediate result of saying sensation never gives things-in-themselves? Answer in 1-3 sentences.",
-    "model_answer": "Phenomena are the appearances given to us through sensibility. If sensation does not deliver things-in-themselves, then what it does deliver are appearances or phenomena.",
-    "key_points": [
-      "Phenomena are the appearances given to us through sensibility",
-      "If sensation does not deliver things-in-themselves, then what it does deliver are appearances or phenomena",
-      "it checks whether you can move from the negative claim to the positive Kantian consequence"
-    ],
-    "chapter": "Week 2B - Feb 11",
-    "related_info": "If sensation does not deliver things-in-themselves, then what it does deliver are appearances or phenomena.",
-    "why_high_yield": "High yield because it checks whether you can move from the negative claim to the positive Kantian consequence.",
-    "source_refs": [
-      "HUMA2831_Week2_02112026_Slides.pdf - slide 4 on phenomena as appearances"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w2b-intuition-sensation",
-    "item_form": "scenario"
-  },
-  {
     "question": "What is Descartes' starting move in the Week 2B presentation of rationalism? Answer in 1-3 sentences.",
     "model_answer": "He suspends belief in everything doubtful to reach an indubitable foundation. Descartes is presented as using radical doubt to strip away uncertainty until only the thinking self seems indubitable.",
     "key_points": [
@@ -72,42 +36,6 @@
     "item_form": "definition"
   },
   {
-    "question": "What is the central flaw in the Cogito as presented in Week 2B? Answer in 1-3 sentences.",
-    "model_answer": "It proves too little because it omits all sensation but still sneaks in an enduring \"I\". The lecture argues that the subject \"I\" is already presupposed in \"I think\" or \"I doubt,\" so the conclusion is circular rather than purely secured.",
-    "key_points": [
-      "It proves too little because it omits all sensation but still sneaks in an enduring \"I\"",
-      "The lecture argues that the subject \"I\" is already presupposed in \"I think\" or \"I doubt,\" so the conclusion is circular rather than purely secured",
-      "the exam can reframe this as the 'smuggled subject' problem"
-    ],
-    "chapter": "Week 2B - Feb 11",
-    "related_info": "The lecture argues that the subject \"I\" is already presupposed in \"I think\" or \"I doubt,\" so the conclusion is circular rather than purely secured.",
-    "why_high_yield": "High yield because the exam can reframe this as the 'smuggled subject' problem.",
-    "source_refs": [
-      "HUMA2831_Week2_02112026_Slides.pdf - slides 7-8 on the circularity of the Cogito"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w2b-descartes",
-    "item_form": "comparison"
-  },
-  {
-    "question": "Which Humean criticism most directly targets Descartes' claim to a substantial self? Answer in 1-3 sentences.",
-    "model_answer": "We observe only a bundle of perceptions, not an enduring thinking substance. Hume's challenge is that there is no impression of a substantial ego behind fleeting mental events.",
-    "key_points": [
-      "We observe only a bundle of perceptions, not an enduring thinking substance",
-      "Hume's challenge is that there is no impression of a substantial ego behind fleeting mental events",
-      "it connects Hume's bundle theory to the weakness in Descartes' self-certainty"
-    ],
-    "chapter": "Week 2B - Feb 11",
-    "related_info": "Hume's challenge is that there is no impression of a substantial ego behind fleeting mental events.",
-    "why_high_yield": "High yield because it connects Hume's bundle theory to the weakness in Descartes' self-certainty.",
-    "source_refs": [
-      "HUMA2831_Week2_02112026_Slides.pdf - slides 6-8 on Hume's critique of the Cogito"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w2b-descartes",
-    "item_form": "counterexample"
-  },
-  {
     "question": "How does Week 2B summarize Hume's basic empiricist model? Answer in 1-3 sentences.",
     "model_answer": "Ideas are faint copies of impressions and contain no innate content. The lecture summarizes Hume as moving from vivid impressions to weaker ideas while rejecting innate content.",
     "key_points": [
@@ -120,42 +48,6 @@
     "why_high_yield": "High yield because impression/idea language is foundational to the rationalism-versus-empiricism contrast.",
     "source_refs": [
       "HUMA2831_Week2_02112026_Slides.pdf - slide 6 on impressions and ideas"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w2b-hume",
-    "item_form": "definition"
-  },
-  {
-    "question": "What does Hume say about causality in the Week 2B slides? Answer in 1-3 sentences.",
-    "model_answer": "Causality is constant conjunction or habit, not observed necessity. For Hume, repeated sequence produces expectation, but necessity itself is not given in impression.",
-    "key_points": [
-      "Causality is constant conjunction or habit, not observed necessity",
-      "For Hume, repeated sequence produces expectation, but necessity itself is not given in impression",
-      "Kant's own project is framed as a response to this problem"
-    ],
-    "chapter": "Week 2B - Feb 11",
-    "related_info": "For Hume, repeated sequence produces expectation, but necessity itself is not given in impression.",
-    "why_high_yield": "High yield because Kant's own project is framed as a response to this problem.",
-    "source_refs": [
-      "HUMA2831_Week2_02112026_Slides.pdf - slide 6 on causality as habit"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w2b-hume",
-    "item_form": "comparison"
-  },
-  {
-    "question": "What does Hume's 'bundle of perceptions' view deny? Answer in 1-3 sentences.",
-    "model_answer": "that there is an underlying substantial self directly known in experience. The bundle theory denies that experience reveals a single substantial ego beneath passing perceptions.",
-    "key_points": [
-      "that there is an underlying substantial self directly known in experience",
-      "The bundle theory denies that experience reveals a single substantial ego beneath passing perceptions",
-      "it is a frequent point of contrast with Descartes and later with Kant's transcendental subject"
-    ],
-    "chapter": "Week 2B - Feb 11",
-    "related_info": "The bundle theory denies that experience reveals a single substantial ego beneath passing perceptions.",
-    "why_high_yield": "High yield because it is a frequent point of contrast with Descartes and later with Kant's transcendental subject.",
-    "source_refs": [
-      "HUMA2831_Week2_02112026_Slides.pdf - slide 6 on the self as a bundle of perceptions"
     ],
     "incorrect_count": 0,
     "concept_id": "w2b-hume",
@@ -180,42 +72,6 @@
     "item_form": "comparison"
   },
   {
-    "question": "Which formula best summarizes Kant's synthesis in Week 2B? Answer in 1-3 sentences.",
-    "model_answer": "Experience provides content, while the mind supplies form such as space, time, and categories. The slides present Kant as combining Hume's insistence on sensory content with a priori structures supplied by mind.",
-    "key_points": [
-      "Experience provides content, while the mind supplies form such as space, time, and categories",
-      "The slides present Kant as combining Hume's insistence on sensory content with a priori structures supplied by mind",
-      "this formula reappears throughout the rest of the course"
-    ],
-    "chapter": "Week 2B - Feb 11",
-    "related_info": "The slides present Kant as combining Hume's insistence on sensory content with a priori structures supplied by mind.",
-    "why_high_yield": "High yield because this formula reappears throughout the rest of the course.",
-    "source_refs": [
-      "HUMA2831_Week2_02112026_Slides.pdf - slides 9-10 on Kant's synthesis of empiricism and rationalism"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w2b-kant-synthesis",
-    "item_form": "definition"
-  },
-  {
-    "question": "What limitation of empiricism does Week 2B say Kant is trying to overcome? Answer in 1-3 sentences.",
-    "model_answer": "Empiricism cannot explain universal and necessary knowledge such as mathematics and science. The slides say empiricism can explain experiential content but not the universal necessity found in mathematics and science.",
-    "key_points": [
-      "Empiricism cannot explain universal and necessary knowledge such as mathematics and science",
-      "The slides say empiricism can explain experiential content but not the universal necessity found in mathematics and science",
-      "it explains why Kant needs a priori form without returning to na\u00efve rationalism"
-    ],
-    "chapter": "Week 2B - Feb 11",
-    "related_info": "The slides say empiricism can explain experiential content but not the universal necessity found in mathematics and science.",
-    "why_high_yield": "High yield because it explains why Kant needs a priori form without returning to na\u00efve rationalism.",
-    "source_refs": [
-      "HUMA2831_Week2_02112026_Slides.pdf - slide 9 on empiricism's limits"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w2b-kant-synthesis",
-    "item_form": "scenario"
-  },
-  {
     "question": "According to Week 2B, what is metaphysics really investigating? Answer in 1-3 sentences.",
     "model_answer": "the conditions of possible experience and how phenomena become knowable. The lecture explicitly rejects noumena as the direct object of metaphysics and focuses instead on the conditions that make experience possible.",
     "key_points": [
@@ -232,41 +88,5 @@
     "incorrect_count": 0,
     "concept_id": "w2b-metaphysics-object",
     "item_form": "definition"
-  },
-  {
-    "question": "Why does the inability to know the world as it is in itself create a need for metaphysical inquiry in Week 2B? Answer in 1-3 sentences.",
-    "model_answer": "Because that very limit pushes us to ask about the conditions under which appearances become knowable. The lecture says precisely this limit gives metaphysics its necessity: we must ask about the conditions of possible knowledge instead.",
-    "key_points": [
-      "Because that very limit pushes us to ask about the conditions under which appearances become knowable",
-      "The lecture says precisely this limit gives metaphysics its necessity: we must ask about the conditions of possible knowledge instead",
-      "it turns an apparent failure of knowledge into the motive for the whole Kantian project"
-    ],
-    "chapter": "Week 2B - Feb 11",
-    "related_info": "The lecture says precisely this limit gives metaphysics its necessity: we must ask about the conditions of possible knowledge instead.",
-    "why_high_yield": "High yield because it turns an apparent failure of knowledge into the motive for the whole Kantian project.",
-    "source_refs": [
-      "HUMA2831_Week2_02112026_Slides.pdf - slides 10-11 on why metaphysics remains necessary"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w2b-metaphysics-object",
-    "item_form": "comparison"
-  },
-  {
-    "question": "In Week 2B, what role do noumena play? Answer in 1-3 sentences.",
-    "model_answer": "They function as an unknowable boundary rather than as a directly knowable object. Noumena mark the limit of knowledge rather than a domain of direct cognition.",
-    "key_points": [
-      "They function as an unknowable boundary rather than as a directly knowable object",
-      "Noumena mark the limit of knowledge rather than a domain of direct cognition",
-      "wrong answers often turn noumena either into empirical objects or into nothing at all"
-    ],
-    "chapter": "Week 2B - Feb 11",
-    "related_info": "Noumena mark the limit of knowledge rather than a domain of direct cognition.",
-    "why_high_yield": "High yield because wrong answers often turn noumena either into empirical objects or into nothing at all.",
-    "source_refs": [
-      "HUMA2831_Week2_02112026_Slides.pdf - slide 10 on noumena as boundary, not target"
-    ],
-    "incorrect_count": 0,
-    "concept_id": "w2b-metaphysics-object",
-    "item_form": "comparison"
   }
 ]
