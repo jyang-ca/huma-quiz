@@ -1,0 +1,272 @@
+[
+  {
+    "question": "Why does Week 7B say comparison is meaningful only in the phenomenal dimension? Answer in 1-3 sentences.",
+    "model_answer": "Because only phenomena come with the space, time, and differentiable features needed for coherent comparison. The slides say comparison requires the very conditions that belong to phenomena; beyond that domain, comparison loses its footing.",
+    "key_points": [
+      "Because only phenomena come with the space, time, and differentiable features needed for coherent comparison",
+      "The slides say comparison requires the very conditions that belong to phenomena; beyond that domain, comparison loses its footing",
+      "this is the headline thesis of the in-scope March 18 material"
+    ],
+    "chapter": "Week 7B - Mar 18",
+    "related_info": "The slides say comparison requires the very conditions that belong to phenomena; beyond that domain, comparison loses its footing.",
+    "why_high_yield": "High yield because this is the headline thesis of the in-scope March 18 material.",
+    "source_refs": [
+      "HUMA2831_Week7_03182026_Slides.pdf - slides 2-3 on comparison and the phenomenal realm"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7b-comparison",
+    "item_form": "definition"
+  },
+  {
+    "question": "What would comparison of reason's ideas yield according to Week 7B? Answer in 1-3 sentences.",
+    "model_answer": "Only further analytic identity-style statements. The lecture says that when comparison is attempted at the level of Ideas, it collapses into analytic identity statements rather than meaningful synthetic comparison.",
+    "key_points": [
+      "Only further analytic identity-style statements",
+      "The lecture says that when comparison is attempted at the level of Ideas, it collapses into analytic identity statements rather than meaningful synthetic comparison",
+      "it distinguishes phenomenal comparison from reason's analytic reiteration"
+    ],
+    "chapter": "Week 7B - Mar 18",
+    "related_info": "The lecture says that when comparison is attempted at the level of Ideas, it collapses into analytic identity statements rather than meaningful synthetic comparison.",
+    "why_high_yield": "High yield because it distinguishes phenomenal comparison from reason's analytic reiteration.",
+    "source_refs": [
+      "HUMA2831_Week7_03182026_Slides.pdf - slides 2-4 on comparison and identity statements"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7b-comparison",
+    "item_form": "comparison"
+  },
+  {
+    "question": "What role do reason's ideas still play in Week 7B if they are not directly comparable objects? Answer in 1-3 sentences.",
+    "model_answer": "They provide the foundation and direction for the comparisons we actually make. The slides assign Ideas a regulative role: they orient and guide comparison without themselves becoming directly comparable appearances.",
+    "key_points": [
+      "They provide the foundation and direction for the comparisons we actually make",
+      "The slides assign Ideas a regulative role: they orient and guide comparison without themselves becoming directly comparable appearances",
+      "it tests the regulative role in the specific context of comparison"
+    ],
+    "chapter": "Week 7B - Mar 18",
+    "related_info": "The slides assign Ideas a regulative role: they orient and guide comparison without themselves becoming directly comparable appearances.",
+    "why_high_yield": "High yield because it tests the regulative role in the specific context of comparison.",
+    "source_refs": [
+      "HUMA2831_Week7_03182026_Slides.pdf - slides 2-3 on the regulative role of Ideas"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7b-comparison",
+    "item_form": "definition"
+  },
+  {
+    "question": "In Week 7B, what is the best reading of \"A is not B\"? Answer in 1-3 sentences.",
+    "model_answer": "A comparative or relative negation between two terms. The lecture contrasts this comparative negation with the intrinsic, definitional structure of 'A is non-B.'",
+    "key_points": [
+      "A comparative or relative negation between two terms",
+      "The lecture contrasts this comparative negation with the intrinsic, definitional structure of 'A is non-B.'",
+      "the exam may well use this exact pair as a fine-grained distinction question"
+    ],
+    "chapter": "Week 7B - Mar 18",
+    "related_info": "The lecture contrasts this comparative negation with the intrinsic, definitional structure of 'A is non-B.'",
+    "why_high_yield": "High yield because the exam may well use this exact pair as a fine-grained distinction question.",
+    "source_refs": [
+      "HUMA2831_Week7_03182026_Slides.pdf - slide 4 on 'A is not B' versus 'A is non-B'"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7b-nonb",
+    "item_form": "comparison"
+  },
+  {
+    "question": "How does Week 7B treat \"A is non-B\"? Answer in 1-3 sentences.",
+    "model_answer": "As an analytic confirmation of A through an intrinsic negated predicate. The slide says \"non-\" presents the negation as an intrinsic property of A, making the judgment a definitional confirmation rather than a comparison.",
+    "key_points": [
+      "As an analytic confirmation of A through an intrinsic negated predicate",
+      "The slide says \"non-\" presents the negation as an intrinsic property of A, making the judgment a definitional confirmation rather than a comparison",
+      "it is a distinctive exam-ready formulation from the March 18 lecture"
+    ],
+    "chapter": "Week 7B - Mar 18",
+    "related_info": "The slide says \"non-\" presents the negation as an intrinsic property of A, making the judgment a definitional confirmation rather than a comparison.",
+    "why_high_yield": "High yield because it is a distinctive exam-ready formulation from the March 18 lecture.",
+    "source_refs": [
+      "HUMA2831_Week7_03182026_Slides.pdf - slide 4 on analytic confirmation through 'non-B'"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7b-nonb",
+    "item_form": "definition"
+  },
+  {
+    "question": "If asked \"Is A is non-B a comparison or a confirmation of A?\" what answer does Week 7B support? Answer in 1-3 sentences.",
+    "model_answer": "A confirmation of A, because the negation functions as an intrinsic determination. Week 7B directly frames the issue this way and answers that 'non-B' analytically confirms A rather than comparing A with B.",
+    "key_points": [
+      "A confirmation of A, because the negation functions as an intrinsic determination",
+      "Week 7B directly frames the issue this way and answers that 'non-B' analytically confirms A rather than comparing A with B",
+      "the lecture itself poses nearly this exact multiple-choice style distinction"
+    ],
+    "chapter": "Week 7B - Mar 18",
+    "related_info": "Week 7B directly frames the issue this way and answers that 'non-B' analytically confirms A rather than comparing A with B.",
+    "why_high_yield": "High yield because the lecture itself poses nearly this exact multiple-choice style distinction.",
+    "source_refs": [
+      "HUMA2831_Week7_03182026_Slides.pdf - slide 4 on confirmation versus comparison"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7b-nonb",
+    "item_form": "comparison"
+  },
+  {
+    "question": "What epistemological conclusion does Week 7B draw about human existence? Answer in 1-3 sentences.",
+    "model_answer": "We exist as both phenomenal and noumenal beings. The slide explicitly states this double status as part of its epistemological conclusion.",
+    "key_points": [
+      "We exist as both phenomenal and noumenal beings",
+      "The slide explicitly states this double status as part of its epistemological conclusion",
+      "it condenses the broader course argument into one claim about the human condition"
+    ],
+    "chapter": "Week 7B - Mar 18",
+    "related_info": "The slide explicitly states this double status as part of its epistemological conclusion.",
+    "why_high_yield": "High yield because it condenses the broader course argument into one claim about the human condition.",
+    "source_refs": [
+      "HUMA2831_Week7_03182026_Slides.pdf - slide 5 on the epistemological conclusion"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7b-epistemology",
+    "item_form": "definition"
+  },
+  {
+    "question": "What does Week 7B say about our knowledge of phenomena? Answer in 1-3 sentences.",
+    "model_answer": "It is synthesized by our cognitive capacities. The slide says our knowledge of phenomena is synthesized by our capacities rather than passively copied from reality-in-itself.",
+    "key_points": [
+      "It is synthesized by our cognitive capacities",
+      "The slide says our knowledge of phenomena is synthesized by our capacities rather than passively copied from reality-in-itself",
+      "it pulls together the course's ongoing account of synthetic cognition"
+    ],
+    "chapter": "Week 7B - Mar 18",
+    "related_info": "The slide says our knowledge of phenomena is synthesized by our capacities rather than passively copied from reality-in-itself.",
+    "why_high_yield": "High yield because it pulls together the course's ongoing account of synthetic cognition.",
+    "source_refs": [
+      "HUMA2831_Week7_03182026_Slides.pdf - slide 5 on synthesized knowledge of phenomena"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7b-epistemology",
+    "item_form": "comparison"
+  },
+  {
+    "question": "What transcendental capacity does Week 7B attribute to us? Answer in 1-3 sentences.",
+    "model_answer": "The capacity to limit the phenomenal. The lecture says we possess a transcendental capacity to limit the phenomenal, which is part of why critique matters.",
+    "key_points": [
+      "The capacity to limit the phenomenal",
+      "The lecture says we possess a transcendental capacity to limit the phenomenal, which is part of why critique matters",
+      "it reframes critique as a power of delimitation rather than simple skepticism"
+    ],
+    "chapter": "Week 7B - Mar 18",
+    "related_info": "The lecture says we possess a transcendental capacity to limit the phenomenal, which is part of why critique matters.",
+    "why_high_yield": "High yield because it reframes critique as a power of delimitation rather than simple skepticism.",
+    "source_refs": [
+      "HUMA2831_Week7_03182026_Slides.pdf - slide 5 on transcendental capacity and limits"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7b-epistemology",
+    "item_form": "definition"
+  },
+  {
+    "question": "What counts as the overuse of reason in Week 7B? Answer in 1-3 sentences.",
+    "model_answer": "Applying reason's absolute demands as if they could function directly within the phenomenal realm. The lecture says reason oversteps when its transcendental reach is misapplied within phenomena as though it directly constituted objects there.",
+    "key_points": [
+      "Applying reason's absolute demands as if they could function directly within the phenomenal realm",
+      "The lecture says reason oversteps when its transcendental reach is misapplied within phenomena as though it directly constituted objects there",
+      "it turns the sublimity of reason into a bounded-use question rather than mere praise"
+    ],
+    "chapter": "Week 7B - Mar 18",
+    "related_info": "The lecture says reason oversteps when its transcendental reach is misapplied within phenomena as though it directly constituted objects there.",
+    "why_high_yield": "High yield because it turns the sublimity of reason into a bounded-use question rather than mere praise.",
+    "source_refs": [
+      "HUMA2831_Week7_03182026_Slides.pdf - slide 6 on the overuse of reason"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7b-sublimity",
+    "item_form": "comparison"
+  },
+  {
+    "question": "What does Week 7B mean by the sublimity of reason? Answer in 1-3 sentences.",
+    "model_answer": "Reason's transcendental power reveals a deeper existence beyond space, time, and appearance. The slide presents reason as revealing that our existence is not exhausted by phenomenal appearance, even though overuse within phenomena is still an error.",
+    "key_points": [
+      "Reason's transcendental power reveals a deeper existence beyond space, time, and appearance",
+      "The slide presents reason as revealing that our existence is not exhausted by phenomenal appearance, even though overuse within phenomena is still an error",
+      "it balances reason's greatness with the need for critique"
+    ],
+    "chapter": "Week 7B - Mar 18",
+    "related_info": "The slide presents reason as revealing that our existence is not exhausted by phenomenal appearance, even though overuse within phenomena is still an error.",
+    "why_high_yield": "High yield because it balances reason's greatness with the need for critique.",
+    "source_refs": [
+      "HUMA2831_Week7_03182026_Slides.pdf - slide 6 on the sublimity of reason"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7b-sublimity",
+    "item_form": "definition"
+  },
+  {
+    "question": "What statement would misuse Week 7B's idea of reason's sublimity? Answer in 1-3 sentences.",
+    "model_answer": "Reason's transcendental reach can simply be turned into an empirical fact about appearances. The lecture praises reason's transcendental significance without allowing that significance to become a constitutive empirical claim.",
+    "key_points": [
+      "Reason's transcendental reach can simply be turned into an empirical fact about appearances",
+      "The lecture praises reason's transcendental significance without allowing that significance to become a constitutive empirical claim",
+      "it asks whether you can keep the uplifting language within critical bounds"
+    ],
+    "chapter": "Week 7B - Mar 18",
+    "related_info": "The lecture praises reason's transcendental significance without allowing that significance to become a constitutive empirical claim.",
+    "why_high_yield": "High yield because it asks whether you can keep the uplifting language within critical bounds.",
+    "source_refs": [
+      "HUMA2831_Week7_03182026_Slides.pdf - slide 6 on reason's sublimity and limits"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7b-sublimity",
+    "item_form": "counterexample"
+  },
+  {
+    "question": "Why does Week 7B suggest happiness is not fully comparable in the same way as size or age? Answer in 1-3 sentences.",
+    "model_answer": "Because true happiness lacks fixed external criteria and is not exhausted by empirical comparison. The slide says wealth and honor may matter, but they do not exhaust the absolute or ontological sense in which happiness is being considered.",
+    "key_points": [
+      "Because true happiness lacks fixed external criteria and is not exhausted by empirical comparison",
+      "The slide says wealth and honor may matter, but they do not exhaust the absolute or ontological sense in which happiness is being considered",
+      "it turns the comparison thesis into a fresh example rather than repeating the same abstract wording"
+    ],
+    "chapter": "Week 7B - Mar 18",
+    "related_info": "The slide says wealth and honor may matter, but they do not exhaust the absolute or ontological sense in which happiness is being considered.",
+    "why_high_yield": "High yield because it turns the comparison thesis into a fresh example rather than repeating the same abstract wording.",
+    "source_refs": [
+      "HUMA2831_Week7_03182026_Slides.pdf - slide 7 on whether happiness is comparable"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7b-happiness",
+    "item_form": "scenario"
+  },
+  {
+    "question": "What do wealth and honor show in the Week 7B happiness discussion? Answer in 1-3 sentences.",
+    "model_answer": "They may be relevant conditions, but they do not capture the absolute standard of happiness itself. The slide says such factors may be necessary in some way, but they are not sufficient to capture happiness as an absolute notion.",
+    "key_points": [
+      "They may be relevant conditions, but they do not capture the absolute standard of happiness itself",
+      "The slide says such factors may be necessary in some way, but they are not sufficient to capture happiness as an absolute notion",
+      "it tests whether you can separate empirical indicators from the absolute standard they fail to exhaust"
+    ],
+    "chapter": "Week 7B - Mar 18",
+    "related_info": "The slide says such factors may be necessary in some way, but they are not sufficient to capture happiness as an absolute notion.",
+    "why_high_yield": "High yield because it tests whether you can separate empirical indicators from the absolute standard they fail to exhaust.",
+    "source_refs": [
+      "HUMA2831_Week7_03182026_Slides.pdf - slide 7 on wealth, honor, and happiness"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7b-happiness",
+    "item_form": "comparison"
+  },
+  {
+    "question": "If comparison seeks only part of an appearance, what does Week 7B say it cannot capture by itself? Answer in 1-3 sentences.",
+    "model_answer": "The totality or absolute unity toward which reason aims. The lecture says comparison operates within appearances and therefore cannot, by itself, deliver the totality that reason seeks.",
+    "key_points": [
+      "The totality or absolute unity toward which reason aims",
+      "The lecture says comparison operates within appearances and therefore cannot, by itself, deliver the totality that reason seeks",
+      "it ties the comparison thesis back to reason's demand for unity"
+    ],
+    "chapter": "Week 7B - Mar 18",
+    "related_info": "The lecture says comparison operates within appearances and therefore cannot, by itself, deliver the totality that reason seeks.",
+    "why_high_yield": "High yield because it ties the comparison thesis back to reason's demand for unity.",
+    "source_refs": [
+      "HUMA2831_Week7_03182026_Slides.pdf - slides 2-7 on comparison, Ideas, and totality"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7b-happiness",
+    "item_form": "definition"
+  }
+]

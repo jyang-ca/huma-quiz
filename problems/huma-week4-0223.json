@@ -1,0 +1,272 @@
+[
+  {
+    "question": "Which contrast best matches Week 4A's treatment of time? Answer in 1-3 sentences.",
+    "model_answer": "Pure time is the empty form of intuition, while real time is time filled with events as constituted in experience. The lecture distinguishes time as the a priori form of intuition from objective time as time of events constituted in experience.",
+    "key_points": [
+      "Pure time is the empty form of intuition, while real time is time filled with events as constituted in experience",
+      "The lecture distinguishes time as the a priori form of intuition from objective time as time of events constituted in experience",
+      "the exam can easily turn 'time' into a confusion between form and objectified experience"
+    ],
+    "chapter": "Week 4A - Feb 23",
+    "related_info": "The lecture distinguishes time as the a priori form of intuition from objective time as time of events constituted in experience.",
+    "why_high_yield": "High yield because the exam can easily turn 'time' into a confusion between form and objectified experience.",
+    "source_refs": [
+      "HUMA2831_Week4_02232026_Slides.pdf - slides 3-5 on pure time and real time"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w4a-time",
+    "item_form": "comparison"
+  },
+  {
+    "question": "Why does Week 4A say pure time must come before real or objective time? Answer in 1-3 sentences.",
+    "model_answer": "Because events can be arranged 'in time' only if the pure form is already available. The empty timeline of pure intuition is the prior condition that makes any ordered sequence of events possible.",
+    "key_points": [
+      "Because events can be arranged 'in time' only if the pure form is already available",
+      "The empty timeline of pure intuition is the prior condition that makes any ordered sequence of events possible",
+      "it tests the relation between a priori form and empirical content"
+    ],
+    "chapter": "Week 4A - Feb 23",
+    "related_info": "The empty timeline of pure intuition is the prior condition that makes any ordered sequence of events possible.",
+    "why_high_yield": "High yield because it tests the relation between a priori form and empirical content.",
+    "source_refs": [
+      "HUMA2831_Week4_02232026_Slides.pdf - slides 4-5 on the priority of pure time"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w4a-time",
+    "item_form": "definition"
+  },
+  {
+    "question": "According to Week 4A, what makes objective, measurable time possible? Answer in 1-3 sentences.",
+    "model_answer": "Pure time plus the application of categories to events. The slides say real or objective time in phenomena is constituted when the pure form of time is filled and ordered through categories.",
+    "key_points": [
+      "Pure time plus the application of categories to events",
+      "The slides say real or objective time in phenomena is constituted when the pure form of time is filled and ordered through categories",
+      "it connects the form of intuition with objective experience rather than isolating them"
+    ],
+    "chapter": "Week 4A - Feb 23",
+    "related_info": "The slides say real or objective time in phenomena is constituted when the pure form of time is filled and ordered through categories.",
+    "why_high_yield": "High yield because it connects the form of intuition with objective experience rather than isolating them.",
+    "source_refs": [
+      "HUMA2831_Week4_02232026_Slides.pdf - slides 4-5 on objective time"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w4a-time",
+    "item_form": "scenario"
+  },
+  {
+    "question": "State Week 4A's account of objective experience. Answer in 1-3 sentences.",
+    "model_answer": "Manifold of intuitions -> synthetic unity of apperception -> objective experience. The lecture presents disordered intuitions being unified under one consciousness and then brought to objective judgment.",
+    "key_points": [
+      "Manifold of intuitions -> synthetic unity of apperception -> objective experience",
+      "The lecture presents disordered intuitions being unified under one consciousness and then brought to objective judgment",
+      "this sequence is the backbone of Kant's account of cognition in the middle weeks"
+    ],
+    "chapter": "Week 4A - Feb 23",
+    "related_info": "The lecture presents disordered intuitions being unified under one consciousness and then brought to objective judgment.",
+    "why_high_yield": "High yield because this sequence is the backbone of Kant's account of cognition in the middle weeks.",
+    "source_refs": [
+      "HUMA2831_Week4_02232026_Slides.pdf - slide 6 on manifold, unity of apperception, and objective experience"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w4a-apperception",
+    "item_form": "definition"
+  },
+  {
+    "question": "What does the phrase \"I think\" do in Week 4A? Answer in 1-3 sentences.",
+    "model_answer": "It unifies representations under one consciousness. The \"I think\" is presented as the formal unity that can accompany representations and hold them together as mine.",
+    "key_points": [
+      "It unifies representations under one consciousness",
+      "The \"I think\" is presented as the formal unity that can accompany representations and hold them together as mine",
+      "the exam may ask what the transcendental subject does without asking for the phrase 'unity of apperception' directly"
+    ],
+    "chapter": "Week 4A - Feb 23",
+    "related_info": "The \"I think\" is presented as the formal unity that can accompany representations and hold them together as mine.",
+    "why_high_yield": "High yield because the exam may ask what the transcendental subject does without asking for the phrase 'unity of apperception' directly.",
+    "source_refs": [
+      "HUMA2831_Week4_02232026_Slides.pdf - slides 6 and 8-11 on the 'I think'"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w4a-apperception",
+    "item_form": "comparison"
+  },
+  {
+    "question": "Without synthetic unity of apperception, what would be missing according to Week 4A? Answer in 1-3 sentences.",
+    "model_answer": "coherent objective experience under one consciousness. The lecture treats unity of apperception as the condition that lets representations belong together within one experience.",
+    "key_points": [
+      "coherent objective experience under one consciousness",
+      "The lecture treats unity of apperception as the condition that lets representations belong together within one experience",
+      "it tests the function of apperception rather than just its label"
+    ],
+    "chapter": "Week 4A - Feb 23",
+    "related_info": "The lecture treats unity of apperception as the condition that lets representations belong together within one experience.",
+    "why_high_yield": "High yield because it tests the function of apperception rather than just its label.",
+    "source_refs": [
+      "HUMA2831_Week4_02232026_Slides.pdf - slide 6 on the role of synthetic unity"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w4a-apperception",
+    "item_form": "counterexample"
+  },
+  {
+    "question": "How does Week 4A answer the question about causality? Answer in 1-3 sentences.",
+    "model_answer": "Causality is a framework through which we know reality, not something copied from noumena. The lecture says causality is not read off from reality-in-itself but is part of the framework that makes objective experience possible.",
+    "key_points": [
+      "Causality is a framework through which we know reality, not something copied from noumena",
+      "The lecture says causality is not read off from reality-in-itself but is part of the framework that makes objective experience possible",
+      "causality is one of the course's main tests for whether you understand categories correctly"
+    ],
+    "chapter": "Week 4A - Feb 23",
+    "related_info": "The lecture says causality is not read off from reality-in-itself but is part of the framework that makes objective experience possible.",
+    "why_high_yield": "High yield because causality is one of the course's main tests for whether you understand categories correctly.",
+    "source_refs": [
+      "HUMA2831_Week4_02232026_Slides.pdf - slide 7 on causality as a framework of cognition"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w4a-categories",
+    "item_form": "definition"
+  },
+  {
+    "question": "What are categories in Week 4A? Answer in 1-3 sentences.",
+    "model_answer": "Pure concepts of the understanding that structure experience. The slides call categories pure concepts of understanding and list them as conditions for objective judgment.",
+    "key_points": [
+      "Pure concepts of the understanding that structure experience",
+      "The slides call categories pure concepts of understanding and list them as conditions for objective judgment",
+      "categories are the bridge between faculty structure and objective knowledge"
+    ],
+    "chapter": "Week 4A - Feb 23",
+    "related_info": "The slides call categories pure concepts of understanding and list them as conditions for objective judgment.",
+    "why_high_yield": "High yield because categories are the bridge between faculty structure and objective knowledge.",
+    "source_refs": [
+      "HUMA2831_Week4_02232026_Slides.pdf - slides 6 and 12 on categories"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w4a-categories",
+    "item_form": "comparison"
+  },
+  {
+    "question": "How do categories function in Week 4A? Answer in 1-3 sentences.",
+    "model_answer": "They are transcendental conditions for objective judgments. Categories are not optional labels; they are conditions that make objective judgment possible at all.",
+    "key_points": [
+      "They are transcendental conditions for objective judgments",
+      "Categories are not optional labels; they are conditions that make objective judgment possible at all",
+      "exam questions often ask not just what categories are, but what kind of role they play"
+    ],
+    "chapter": "Week 4A - Feb 23",
+    "related_info": "Categories are not optional labels; they are conditions that make objective judgment possible at all.",
+    "why_high_yield": "High yield because exam questions often ask not just what categories are, but what kind of role they play.",
+    "source_refs": [
+      "HUMA2831_Week4_02232026_Slides.pdf - slides 6 and 12 on the role of categories"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w4a-categories",
+    "item_form": "definition"
+  },
+  {
+    "question": "What is the \"pure I think\" in Week 4A? Answer in 1-3 sentences.",
+    "model_answer": "the timeless transcendental self that conditions experience. The lecture sharply distinguishes the transcendental self from the phenomenal self that appears in inner sense.",
+    "key_points": [
+      "the timeless transcendental self that conditions experience",
+      "The lecture sharply distinguishes the transcendental self from the phenomenal self that appears in inner sense",
+      "the exam can easily test selfhood by asking whether you confuse the transcendental self with the empirical me"
+    ],
+    "chapter": "Week 4A - Feb 23",
+    "related_info": "The lecture sharply distinguishes the transcendental self from the phenomenal self that appears in inner sense.",
+    "why_high_yield": "High yield because the exam can easily test selfhood by asking whether you confuse the transcendental self with the empirical me.",
+    "source_refs": [
+      "HUMA2831_Week4_02232026_Slides.pdf - slides 8-11 on the transcendental self"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w4a-transcendental-self",
+    "item_form": "definition"
+  },
+  {
+    "question": "In the example \"Yesterday's hungry me remembers today's lecturing me,\" who is doing the remembering according to Week 4A? Answer in 1-3 sentences.",
+    "model_answer": "the transcendental self or \"I think\" that unifies temporal experiences. The rememberer cannot be just one remembered event among others; it is the timeless subject that binds them together as mine.",
+    "key_points": [
+      "the transcendental self or \"I think\" that unifies temporal experiences",
+      "The rememberer cannot be just one remembered event among others; it is the timeless subject that binds them together as mine",
+      "this memorable example directly tests transcendental self versus phenomenal self"
+    ],
+    "chapter": "Week 4A - Feb 23",
+    "related_info": "The rememberer cannot be just one remembered event among others; it is the timeless subject that binds them together as mine.",
+    "why_high_yield": "High yield because this memorable example directly tests transcendental self versus phenomenal self.",
+    "source_refs": [
+      "HUMA2831_Week4_02232026_Slides.pdf - slides 10-11 on memory and the transcendental self"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w4a-transcendental-self",
+    "item_form": "scenario"
+  },
+  {
+    "question": "Which statement about the transcendental self is correct in Week 4A? Answer in 1-3 sentences.",
+    "model_answer": "It is a formal and timeless condition of self-consciousness. The lecture says the transcendental self precedes experience and therefore is not itself one more object inside time.",
+    "key_points": [
+      "It is a formal and timeless condition of self-consciousness",
+      "The lecture says the transcendental self precedes experience and therefore is not itself one more object inside time",
+      "this is a classic place where empirical and transcendental levels get mixed up"
+    ],
+    "chapter": "Week 4A - Feb 23",
+    "related_info": "The lecture says the transcendental self precedes experience and therefore is not itself one more object inside time.",
+    "why_high_yield": "High yield because this is a classic place where empirical and transcendental levels get mixed up.",
+    "source_refs": [
+      "HUMA2831_Week4_02232026_Slides.pdf - slides 8-11 on transcendental versus phenomenal self"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w4a-transcendental-self",
+    "item_form": "comparison"
+  },
+  {
+    "question": "What does Week 4A mean by calling categories 'pure concepts'? Answer in 1-3 sentences.",
+    "model_answer": "They are a priori concepts applied to intuitions rather than drawn from them. The slide explicitly says pure concepts are applied to intuitions and are not abstracted from them.",
+    "key_points": [
+      "They are a priori concepts applied to intuitions rather than drawn from them",
+      "The slide explicitly says pure concepts are applied to intuitions and are not abstracted from them",
+      "it separates categories from ordinary empirical concepts"
+    ],
+    "chapter": "Week 4A - Feb 23",
+    "related_info": "The slide explicitly says pure concepts are applied to intuitions and are not abstracted from them.",
+    "why_high_yield": "High yield because it separates categories from ordinary empirical concepts.",
+    "source_refs": [
+      "HUMA2831_Week4_02232026_Slides.pdf - slide 12 on pure concepts of the understanding"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w4a-pure-concepts",
+    "item_form": "definition"
+  },
+  {
+    "question": "What does the phrase \"empty without intuition\" mean in Week 4A? Answer in 1-3 sentences.",
+    "model_answer": "Pure concepts lose meaning if they are not supplied with sensory content. Categories need intuitions in order to have determinable content; otherwise they are formally available but cognitively empty.",
+    "key_points": [
+      "Pure concepts lose meaning if they are not supplied with sensory content",
+      "Categories need intuitions in order to have determinable content; otherwise they are formally available but cognitively empty",
+      "it is half of the course's most repeated Kantian slogan"
+    ],
+    "chapter": "Week 4A - Feb 23",
+    "related_info": "Categories need intuitions in order to have determinable content; otherwise they are formally available but cognitively empty.",
+    "why_high_yield": "High yield because it is half of the course's most repeated Kantian slogan.",
+    "source_refs": [
+      "HUMA2831_Week4_02232026_Slides.pdf - slide 12 on categories as empty without intuition"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w4a-pure-concepts",
+    "item_form": "comparison"
+  },
+  {
+    "question": "What claim would Week 4A reject? Answer in 1-3 sentences.",
+    "model_answer": "Time applies to the transcendental self in exactly the same way it applies to the phenomenal self. The lecture repeatedly insists that time belongs to the phenomenal self as inner sense, not to the transcendental subject as such.",
+    "key_points": [
+      "Time applies to the transcendental self in exactly the same way it applies to the phenomenal self",
+      "The lecture repeatedly insists that time belongs to the phenomenal self as inner sense, not to the transcendental subject as such",
+      "it tests whether you can keep the transcendental and phenomenal registers apart"
+    ],
+    "chapter": "Week 4A - Feb 23",
+    "related_info": "The lecture repeatedly insists that time belongs to the phenomenal self as inner sense, not to the transcendental subject as such.",
+    "why_high_yield": "High yield because it tests whether you can keep the transcendental and phenomenal registers apart.",
+    "source_refs": [
+      "HUMA2831_Week4_02232026_Slides.pdf - slides 9-12 on time, self, and categories"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w4a-pure-concepts",
+    "item_form": "counterexample"
+  }
+]

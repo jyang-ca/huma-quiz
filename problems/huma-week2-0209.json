@@ -1,0 +1,272 @@
+[
+  {
+    "question": "What do the shadow-rabbit, mirror image, and spatial illusion examples collectively show in Week 2A? Answer in 1-3 sentences.",
+    "model_answer": "We sense only appearances, not the reality of things as they are in themselves. The lecture explicitly says those three examples reveal that what we sense are phenomena, not things-in-themselves.",
+    "key_points": [
+      "We sense only appearances, not the reality of things as they are in themselves",
+      "The lecture explicitly says those three examples reveal that what we sense are phenomena, not things-in-themselves",
+      "the exam is likely to ask what the examples prove rather than asking about the examples for their own sake"
+    ],
+    "chapter": "Week 2A - Feb 9",
+    "related_info": "The lecture explicitly says those three examples reveal that what we sense are phenomena, not things-in-themselves.",
+    "why_high_yield": "High yield because the exam is likely to ask what the examples prove rather than asking about the examples for their own sake.",
+    "source_refs": [
+      "HUMA2831_Week2_02092026_Slides.pdf - slides 4-7 on rabbit, mirror image, and appearance"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w2a-appearance-examples",
+    "item_form": "comparison"
+  },
+  {
+    "question": "In the mirror-image example, what are we said to intuit? Answer in 1-3 sentences.",
+    "model_answer": "only the body's appearance as given to sensibility. The example is meant to show that even what looks maximally identical to the body is still only an appearance for us.",
+    "key_points": [
+      "only the body's appearance as given to sensibility",
+      "The example is meant to show that even what looks maximally identical to the body is still only an appearance for us",
+      "mirror image is one of the clearest route-in examples for phenomena versus things-in-themselves"
+    ],
+    "chapter": "Week 2A - Feb 9",
+    "related_info": "The example is meant to show that even what looks maximally identical to the body is still only an appearance for us.",
+    "why_high_yield": "High yield because mirror image is one of the clearest route-in examples for phenomena versus things-in-themselves.",
+    "source_refs": [
+      "HUMA2831_Week2_02092026_Slides.pdf - slides 5-6 on the mirror image paradox"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w2a-appearance-examples",
+    "item_form": "scenario"
+  },
+  {
+    "question": "Why are the visual examples in Week 2A philosophically important? Answer in 1-3 sentences.",
+    "model_answer": "They distinguish appearances as given from reality as it may be in itself. The lecture does not say appearances are useless or always false. It says appearances are what sensibility gives us, which is different from things-in-themselves.",
+    "key_points": [
+      "They distinguish appearances as given from reality as it may be in itself",
+      "The lecture does not say appearances are useless or always false. It says appearances are what sensibility gives us, which is different from things-in-themselves",
+      "many exam items are really asking whether you can keep appearance distinct from reality-in-itself"
+    ],
+    "chapter": "Week 2A - Feb 9",
+    "related_info": "The lecture does not say appearances are useless or always false. It says appearances are what sensibility gives us, which is different from things-in-themselves.",
+    "why_high_yield": "High yield because many exam items are really asking whether you can keep appearance distinct from reality-in-itself.",
+    "source_refs": [
+      "HUMA2831_Week2_02092026_Slides.pdf - slides 4-7 on the limits of intuition"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w2a-appearance-examples",
+    "item_form": "definition"
+  },
+  {
+    "question": "According to Week 2A, where does the specific spatial form we intuit exist? Answer in 1-3 sentences.",
+    "model_answer": "in our sensibility as the form of outer intuition. The slides quote Kant's claim that space is the form of outer intuition belonging to sensibility, not a property copied from objects as they are in themselves.",
+    "key_points": [
+      "in our sensibility as the form of outer intuition",
+      "The slides quote Kant's claim that space is the form of outer intuition belonging to sensibility, not a property copied from objects as they are in themselves",
+      "this is the lecture's central answer to how spatial experience is possible"
+    ],
+    "chapter": "Week 2A - Feb 9",
+    "related_info": "The slides quote Kant's claim that space is the form of outer intuition belonging to sensibility, not a property copied from objects as they are in themselves.",
+    "why_high_yield": "High yield because this is the lecture's central answer to how spatial experience is possible.",
+    "source_refs": [
+      "HUMA2831_Week2_02092026_Slides.pdf - slides 8-9 on space as the form of outer intuition"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w2a-space-form",
+    "item_form": "definition"
+  },
+  {
+    "question": "If we cannot know whether space outside us is finite or infinite, what conclusion does the lecture draw? Answer in 1-3 sentences.",
+    "model_answer": "The space we intuit is limited by the form of our sensibility. The point is not that space is meaningless, but that the spatial form we intuit is conditioned by our sensibility rather than identical with reality as it is in itself.",
+    "key_points": [
+      "The space we intuit is limited by the form of our sensibility",
+      "The point is not that space is meaningless, but that the spatial form we intuit is conditioned by our sensibility rather than identical with reality as it is in itself",
+      "it tests whether you can connect finitude/infinity talk back to the form of intuition"
+    ],
+    "chapter": "Week 2A - Feb 9",
+    "related_info": "The point is not that space is meaningless, but that the spatial form we intuit is conditioned by our sensibility rather than identical with reality as it is in itself.",
+    "why_high_yield": "High yield because it tests whether you can connect finitude/infinity talk back to the form of intuition.",
+    "source_refs": [
+      "HUMA2831_Week2_02092026_Slides.pdf - slide 9 on the limits of intuited space"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w2a-space-form",
+    "item_form": "scenario"
+  },
+  {
+    "question": "What claim would Week 2A reject about space? Answer in 1-3 sentences.",
+    "model_answer": "Space as we intuit it is identical with external reality as such. The lecture insists that intuited space is not simply the external world as it is in itself, but space as shaped by our sensibility.",
+    "key_points": [
+      "Space as we intuit it is identical with external reality as such",
+      "The lecture insists that intuited space is not simply the external world as it is in itself, but space as shaped by our sensibility",
+      "wrong answers often swap 'form of intuition' for 'property of things-in-themselves.'"
+    ],
+    "chapter": "Week 2A - Feb 9",
+    "related_info": "The lecture insists that intuited space is not simply the external world as it is in itself, but space as shaped by our sensibility.",
+    "why_high_yield": "High yield because wrong answers often swap 'form of intuition' for 'property of things-in-themselves.'",
+    "source_refs": [
+      "HUMA2831_Week2_02092026_Slides.pdf - slides 8-9 on space and sensibility"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w2a-space-form",
+    "item_form": "counterexample"
+  },
+  {
+    "question": "State the Week 2A claim about how objects are known. Answer in 1-3 sentences.",
+    "model_answer": "Objects are given in intuition through the senses, while understanding reflects rather than intuits. The lecture quotes Kant's claim that all objects must be given in intuition, intuition occurs through the senses, and understanding does not intuit.",
+    "key_points": [
+      "Objects are given in intuition through the senses, while understanding reflects rather than intuits",
+      "The lecture quotes Kant's claim that all objects must be given in intuition, intuition occurs through the senses, and understanding does not intuit",
+      "it tests the division of labor among sensibility and understanding"
+    ],
+    "chapter": "Week 2A - Feb 9",
+    "related_info": "The lecture quotes Kant's claim that all objects must be given in intuition, intuition occurs through the senses, and understanding does not intuit.",
+    "why_high_yield": "High yield because it tests the division of labor among sensibility and understanding.",
+    "source_refs": [
+      "HUMA2831_Week2_02092026_Slides.pdf - slide 10 on intuition, senses, and understanding"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w2a-intuition-understanding",
+    "item_form": "comparison"
+  },
+  {
+    "question": "Why does Week 2A treat sensibility as crucial to metaphysics rather than as something metaphysics can ignore? Answer in 1-3 sentences.",
+    "model_answer": "Because objects must be given in intuition before understanding can think them. If nothing is given in intuition, there is no object for thought to be about. That is why the conditions of intuition matter for metaphysics.",
+    "key_points": [
+      "Because objects must be given in intuition before understanding can think them",
+      "If nothing is given in intuition, there is no object for thought to be about. That is why the conditions of intuition matter for metaphysics",
+      "it prevents the common mistake of treating metaphysics as detached from the conditions of possible experience"
+    ],
+    "chapter": "Week 2A - Feb 9",
+    "related_info": "If nothing is given in intuition, there is no object for thought to be about. That is why the conditions of intuition matter for metaphysics.",
+    "why_high_yield": "High yield because it prevents the common mistake of treating metaphysics as detached from the conditions of possible experience.",
+    "source_refs": [
+      "HUMA2831_Week2_02092026_Slides.pdf - slide 10 on the object of metaphysics and intuition"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w2a-intuition-understanding",
+    "item_form": "scenario"
+  },
+  {
+    "question": "What does the line 'the understanding intuits nothing, but only reflects' mean in Week 2A? Answer in 1-3 sentences.",
+    "model_answer": "Understanding thinks about what sensibility gives rather than receiving objects immediately. Understanding does not receive objects directly. It works on what is given through intuition and the senses.",
+    "key_points": [
+      "Understanding thinks about what sensibility gives rather than receiving objects immediately",
+      "Understanding does not receive objects directly. It works on what is given through intuition and the senses",
+      "this line is a compact summary of the faculty distinction the course keeps revisiting"
+    ],
+    "chapter": "Week 2A - Feb 9",
+    "related_info": "Understanding does not receive objects directly. It works on what is given through intuition and the senses.",
+    "why_high_yield": "High yield because this line is a compact summary of the faculty distinction the course keeps revisiting.",
+    "source_refs": [
+      "HUMA2831_Week2_02092026_Slides.pdf - slide 10 on understanding as reflective, not intuitive"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w2a-intuition-understanding",
+    "item_form": "definition"
+  },
+  {
+    "question": "Describe Descartes in the Week 2A contrast. Answer in 1-3 sentences.",
+    "model_answer": "Knowledge begins with radical doubt and the certainty of the thinking self. The slide introduces Descartes as beginning with radical doubt until he reaches the indubitable Cogito.",
+    "key_points": [
+      "Knowledge begins with radical doubt and the certainty of the thinking self",
+      "The slide introduces Descartes as beginning with radical doubt until he reaches the indubitable Cogito",
+      "the exam is likely to compare Kant's project with the rationalist and empiricist backgrounds"
+    ],
+    "chapter": "Week 2A - Feb 9",
+    "related_info": "The slide introduces Descartes as beginning with radical doubt until he reaches the indubitable Cogito.",
+    "why_high_yield": "High yield because the exam is likely to compare Kant's project with the rationalist and empiricist backgrounds.",
+    "source_refs": [
+      "HUMA2831_Week2_02092026_Slides.pdf - slides 12-14 on rationalism versus empiricism"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w2a-rationalism-empiricism",
+    "item_form": "definition"
+  },
+  {
+    "question": "Which point best captures Hume's challenge as presented in Week 2A? Answer in 1-3 sentences.",
+    "model_answer": "What we call causation comes from habit rather than observed necessity. Hume's challenge is that repeated conjunction may produce expectation, but not a rationally observed necessity.",
+    "key_points": [
+      "What we call causation comes from habit rather than observed necessity",
+      "Hume's challenge is that repeated conjunction may produce expectation, but not a rationally observed necessity",
+      "it sets up why Kant must explain necessity without falling back into simple rationalism"
+    ],
+    "chapter": "Week 2A - Feb 9",
+    "related_info": "Hume's challenge is that repeated conjunction may produce expectation, but not a rationally observed necessity.",
+    "why_high_yield": "High yield because it sets up why Kant must explain necessity without falling back into simple rationalism.",
+    "source_refs": [
+      "HUMA2831_Week2_02092026_Slides.pdf - slides 13-14 on Hume, habit, and causation skepticism"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w2a-rationalism-empiricism",
+    "item_form": "comparison"
+  },
+  {
+    "question": "Explain the contrast between Descartes and Hume is most accurate for Week 2A. Answer in 1-3 sentences.",
+    "model_answer": "Descartes trusts reason's certainty, while Hume reduces knowledge to impressions and associations. The slides present Descartes as privileging rational certainty and Hume as reducing content to impressions, ideas, and habit.",
+    "key_points": [
+      "Descartes trusts reason's certainty, while Hume reduces knowledge to impressions and associations",
+      "The slides present Descartes as privileging rational certainty and Hume as reducing content to impressions, ideas, and habit",
+      "this contrast is the historical backdrop for Kant's synthesis"
+    ],
+    "chapter": "Week 2A - Feb 9",
+    "related_info": "The slides present Descartes as privileging rational certainty and Hume as reducing content to impressions, ideas, and habit.",
+    "why_high_yield": "High yield because this contrast is the historical backdrop for Kant's synthesis.",
+    "source_refs": [
+      "HUMA2831_Week2_02092026_Slides.pdf - slides 12-14 on Descartes and Hume"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w2a-rationalism-empiricism",
+    "item_form": "comparison"
+  },
+  {
+    "question": "According to Week 2A, what does sensibility represent? Answer in 1-3 sentences.",
+    "model_answer": "appearances rather than things-in-themselves. The lecture states directly that sensibility represents not things-in-themselves but merely their appearances.",
+    "key_points": [
+      "appearances rather than things-in-themselves",
+      "The lecture states directly that sensibility represents not things-in-themselves but merely their appearances",
+      "it is one of the cleanest one-line statements of Kant's basic divide"
+    ],
+    "chapter": "Week 2A - Feb 9",
+    "related_info": "The lecture states directly that sensibility represents not things-in-themselves but merely their appearances.",
+    "why_high_yield": "High yield because it is one of the cleanest one-line statements of Kant's basic divide.",
+    "source_refs": [
+      "HUMA2831_Week2_02092026_Slides.pdf - slide 15 on sensibility and appearances"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w2a-phenomena-noumena",
+    "item_form": "definition"
+  },
+  {
+    "question": "If we say that what we know are mind-shaped appearances rather than things-in-themselves, what is being limited? Answer in 1-3 sentences.",
+    "model_answer": "our knowledge of objects as they are in themselves. The slides do not deny that objects exist. They deny that our cognition reaches them as they are in themselves.",
+    "key_points": [
+      "our knowledge of objects as they are in themselves",
+      "The slides do not deny that objects exist. They deny that our cognition reaches them as they are in themselves",
+      "exam distractors often turn epistemic limitation into denial of existence"
+    ],
+    "chapter": "Week 2A - Feb 9",
+    "related_info": "The slides do not deny that objects exist. They deny that our cognition reaches them as they are in themselves.",
+    "why_high_yield": "High yield because exam distractors often turn epistemic limitation into denial of existence.",
+    "source_refs": [
+      "HUMA2831_Week2_02092026_Slides.pdf - slides 15-16 on appearances and things-in-themselves"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w2a-phenomena-noumena",
+    "item_form": "scenario"
+  },
+  {
+    "question": "Which statement best avoids confusing Kant's position with simple idealism in Week 2A? Answer in 1-3 sentences.",
+    "model_answer": "Objects are known only as appearances, which leaves things-in-themselves unknowable rather than abolished. The lecture raises the idealism worry, but the Kantian point is that the unknowable thing-in-itself remains as a limit, even though knowledge is confined to appearances.",
+    "key_points": [
+      "Objects are known only as appearances, which leaves things-in-themselves unknowable rather than abolished",
+      "The lecture raises the idealism worry, but the Kantian point is that the unknowable thing-in-itself remains as a limit, even though knowledge is confined to appearances",
+      "the exam may test whether you confuse unknowability with nonexistence"
+    ],
+    "chapter": "Week 2A - Feb 9",
+    "related_info": "The lecture raises the idealism worry, but the Kantian point is that the unknowable thing-in-itself remains as a limit, even though knowledge is confined to appearances.",
+    "why_high_yield": "High yield because the exam may test whether you confuse unknowability with nonexistence.",
+    "source_refs": [
+      "HUMA2831_Week2_02092026_Slides.pdf - slides 15-16 on the problem of idealism and appearances"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w2a-phenomena-noumena",
+    "item_form": "counterexample"
+  }
+]
