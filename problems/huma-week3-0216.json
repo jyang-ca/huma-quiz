@@ -1,12 +1,6 @@
 [
   {
-    "question": "What question frames Week 3's discussion of Kantian metaphysics? Answer in 1-3 sentences.",
-    "model_answer": "How are synthetic a priori judgments possible? The lecture presents this as the decisive question for grounding metaphysics through Kant.",
-    "key_points": [
-      "How are synthetic a priori judgments possible?",
-      "The lecture presents this as the decisive question for grounding metaphysics through Kant",
-      "it names the central problem that organizes the rest of the course"
-    ],
+    "question": "Fill in the blank: Week 3 is framed by the question, How are synthetic a priori ______ possible?",
     "chapter": "Week 3 - Feb 16",
     "related_info": "The lecture presents this as the decisive question for grounding metaphysics through Kant.",
     "why_high_yield": "High yield because it names the central problem that organizes the rest of the course.",
@@ -15,16 +9,71 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w3-synthetic-apriori",
-    "item_form": "definition"
+    "item_form": "definition",
+    "question_type": "fill_in",
+    "model_answer": "judgments",
+    "key_points": [
+      "judgments",
+      "The lecture presents this as the decisive question for grounding metaphysics through Kant",
+      "it names the central problem that organizes the rest of the course"
+    ]
   },
   {
-    "question": "Which statement about phenomena and things-in-themselves matches Week 3? Answer in 1-3 sentences.",
-    "model_answer": "Objects may exist as things-in-themselves, but we know only their appearances. The lecture keeps existence and knowability separate: objects may exist in themselves, but cognition reaches only appearances.",
-    "key_points": [
-      "Objects may exist as things-in-themselves, but we know only their appearances",
-      "The lecture keeps existence and knowability separate: objects may exist in themselves, but cognition reaches only appearances",
-      "it blocks the common confusion between epistemic limit and ontological denial"
+    "question": "Which contrast between experience and the a priori is stated in Week 3?",
+    "chapter": "Week 3 - Feb 16",
+    "related_info": "The lecture defines experience as empirical knowledge and the a priori as what is independent of experience and universally necessary.",
+    "why_high_yield": "High yield because exam items often rest on whether you can distinguish empirical content from a priori form.",
+    "source_refs": [
+      "HUMA2831_Week3_02162026_Slides.pdf - slide 5 on experience and the a priori"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w3-synthetic-apriori",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "Experience is universal and necessary, while the a priori is sensory",
+      "B": "Experience comes from the senses, while the a priori is independent of experience and carries universality and necessity",
+      "C": "Experience concerns noumena, while the a priori concerns only language",
+      "D": "Experience is analytic, while the a priori is always empirical"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture defines experience as empirical knowledge and the a priori as what is independent of experience and universally necessary.",
+    "explanation_key_points": [
+      "Experience comes from the senses, while the a priori is independent of experience and carries universality and necessity",
+      "The lecture defines experience as empirical knowledge and the a priori as what is independent of experience and universally necessary",
+      "exam items often rest on whether you can distinguish empirical content from a priori form"
+    ]
+  },
+  {
+    "question": "How does Week 3 summarize Kant's response to both rationalism and empiricism?",
+    "chapter": "Week 3 - Feb 16",
+    "related_info": "The slides say Kant rejects pure rationalism by requiring sensory content and rejects pure empiricism by requiring a priori form.",
+    "why_high_yield": "High yield because it is the cleanest summary of Kant's middle path between Descartes and Hume.",
+    "source_refs": [
+      "HUMA2831_Week3_02162026_Slides.pdf - slide 6 on Kant's synthesis of rationalism and empiricism"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w3-synthetic-apriori",
+    "item_form": "scenario",
+    "question_type": "mcq",
+    "options": {
+      "A": "Knowledge arises from the cooperation of sensibility and understanding",
+      "B": "Knowledge is supplied entirely by pure reason",
+      "C": "Knowledge is only a flow of impressions with no form",
+      "D": "Knowledge comes from comparing noumena directly"
+    },
+    "correct_option": "A",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The slides say Kant rejects pure rationalism by requiring sensory content and rejects pure empiricism by requiring a priori form.",
+    "explanation_key_points": [
+      "Knowledge arises from the cooperation of sensibility and understanding",
+      "The slides say Kant rejects pure rationalism by requiring sensory content and rejects pure empiricism by requiring a priori form",
+      "it is the cleanest summary of Kant's middle path between Descartes and Hume"
+    ]
+  },
+  {
+    "question": "Fill in the blank: Objects may exist as things-in-themselves, but we know only their ______.",
     "chapter": "Week 3 - Feb 16",
     "related_info": "The lecture keeps existence and knowability separate: objects may exist in themselves, but cognition reaches only appearances.",
     "why_high_yield": "High yield because it blocks the common confusion between epistemic limit and ontological denial.",
@@ -33,16 +82,71 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w3-phenomena-noumena",
-    "item_form": "definition"
+    "item_form": "definition",
+    "question_type": "fill_in",
+    "model_answer": "appearances",
+    "key_points": [
+      "appearances",
+      "The lecture keeps existence and knowability separate: objects may exist in themselves, but cognition reaches only appearances",
+      "it blocks the common confusion between epistemic limit and ontological denial"
+    ]
   },
   {
-    "question": "How does Week 3 distinguish sensibility from understanding? Answer in 1-3 sentences.",
-    "model_answer": "Sensibility gives appearances, while understanding forms judgments about them. The lecture assigns raw appearing to sensibility and judgment to understanding.",
-    "key_points": [
-      "Sensibility gives appearances, while understanding forms judgments about them",
-      "The lecture assigns raw appearing to sensibility and judgment to understanding",
-      "sensibility/understanding is one of the most repeated distinctions in the whole exam range"
+    "question": "Why does Week 3 say metaphysics must examine the conditions of possible experience rather than go beyond them?",
+    "chapter": "Week 3 - Feb 16",
+    "related_info": "Kantian metaphysics is about how experience is possible, not about direct cognition of what lies beyond every condition of experience.",
+    "why_high_yield": "High yield because it tests the transcendental orientation of the course.",
+    "source_refs": [
+      "HUMA2831_Week3_02162026_Slides.pdf - slide 7 on the task of metaphysics"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w3-phenomena-noumena",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "Because beyond experience we can obtain even stronger empirical evidence",
+      "B": "Because cognition is limited to the conditions under which appearances become knowable",
+      "C": "Because phenomena are unreal",
+      "D": "Because logic forbids all thinking about limits"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "Kantian metaphysics is about how experience is possible, not about direct cognition of what lies beyond every condition of experience.",
+    "explanation_key_points": [
+      "Because cognition is limited to the conditions under which appearances become knowable",
+      "Kantian metaphysics is about how experience is possible, not about direct cognition of what lies beyond every condition of experience",
+      "it tests the transcendental orientation of the course"
+    ]
+  },
+  {
+    "question": "Which claim would Week 3 reject?",
+    "chapter": "Week 3 - Feb 16",
+    "related_info": "The lecture makes the conditions of possible experience the central issue, so skipping them would miss the point of metaphysics entirely.",
+    "why_high_yield": "High yield because it checks whether you remember the target of Kantian critique rather than only its slogans.",
+    "source_refs": [
+      "HUMA2831_Week3_02162026_Slides.pdf - slides 4-7 on the foundation of metaphysics"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w3-phenomena-noumena",
+    "item_form": "counterexample",
+    "question_type": "mcq",
+    "options": {
+      "A": "Appearance is what sensibility gives us",
+      "B": "Things-in-themselves may exist without being known as such",
+      "C": "Metaphysics can simply skip the question of experience's conditions",
+      "D": "Our knowledge is confined to phenomena"
+    },
+    "correct_option": "C",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture makes the conditions of possible experience the central issue, so skipping them would miss the point of metaphysics entirely.",
+    "explanation_key_points": [
+      "Metaphysics can simply skip the question of experience's conditions",
+      "The lecture makes the conditions of possible experience the central issue, so skipping them would miss the point of metaphysics entirely",
+      "it checks whether you remember the target of Kantian critique rather than only its slogans"
+    ]
+  },
+  {
+    "question": "Fill in the blank: Sensibility gives ______, while understanding forms judgments about them.",
     "chapter": "Week 3 - Feb 16",
     "related_info": "The lecture assigns raw appearing to sensibility and judgment to understanding.",
     "why_high_yield": "High yield because sensibility/understanding is one of the most repeated distinctions in the whole exam range.",
@@ -51,16 +155,71 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w3-sensibility-understanding",
-    "item_form": "definition"
+    "item_form": "definition",
+    "question_type": "fill_in",
+    "model_answer": "appearances",
+    "key_points": [
+      "appearances",
+      "The lecture assigns raw appearing to sensibility and judgment to understanding",
+      "sensibility/understanding is one of the most repeated distinctions in the whole exam range"
+    ]
   },
   {
-    "question": "What does Week 3 mean by saying understanding as a faculty is a priori and not in the phenomenal realm? Answer in 1-3 sentences.",
-    "model_answer": "Understanding precedes and conditions experience rather than appearing as one empirical item within it. The lecture treats understanding not as one more thing seen in experience, but as a condition that makes objective experience possible.",
-    "key_points": [
-      "Understanding precedes and conditions experience rather than appearing as one empirical item within it",
-      "The lecture treats understanding not as one more thing seen in experience, but as a condition that makes objective experience possible",
-      "it connects 'understanding' to the transcendental side of the course"
+    "question": "Who is responsible for truth and error in Week 3's faculty distinction?",
+    "chapter": "Week 3 - Feb 16",
+    "related_info": "The lecture says sensibility as mere appearance is not yet true or false; error arises when understanding judges appearances incorrectly.",
+    "why_high_yield": "High yield because the exam can turn this into a subtle question about where mistake really occurs.",
+    "source_refs": [
+      "HUMA2831_Week3_02162026_Slides.pdf - slide 9 on responsibility for truth and error"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w3-sensibility-understanding",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "sensibility, because appearances can be false",
+      "B": "understanding, because judgment belongs to it",
+      "C": "space, because it limits intuition",
+      "D": "noumena, because they hide themselves"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture says sensibility as mere appearance is not yet true or false; error arises when understanding judges appearances incorrectly.",
+    "explanation_key_points": [
+      "understanding, because judgment belongs to it",
+      "The lecture says sensibility as mere appearance is not yet true or false; error arises when understanding judges appearances incorrectly",
+      "the exam can turn this into a subtle question about where mistake really occurs"
+    ]
+  },
+  {
+    "question": "Why does the lecture say the apparent backward motion of planets is not itself an error of sensibility?",
+    "chapter": "Week 3 - Feb 16",
+    "related_info": "The appearance is simply given. The error comes when understanding mistakes that appearance for the objective state of the object.",
+    "why_high_yield": "High yield because it asks you to locate error at the right faculty level instead of blaming the senses generically.",
+    "source_refs": [
+      "HUMA2831_Week3_02162026_Slides.pdf - slide 9 on planetary motion and judgment"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w3-sensibility-understanding",
+    "item_form": "scenario",
+    "question_type": "mcq",
+    "options": {
+      "A": "Because sensibility only presents the appearance; the mistaken objectivity belongs to understanding's judgment",
+      "B": "Because planets never appear to move backward",
+      "C": "Because reason corrects the senses directly",
+      "D": "Because noumena are visible in astronomy"
+    },
+    "correct_option": "A",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The appearance is simply given. The error comes when understanding mistakes that appearance for the objective state of the object.",
+    "explanation_key_points": [
+      "Because sensibility only presents the appearance; the mistaken objectivity belongs to understanding's judgment",
+      "The appearance is simply given. The error comes when understanding mistakes that appearance for the objective state of the object",
+      "it asks you to locate error at the right faculty level instead of blaming the senses generically"
+    ]
+  },
+  {
+    "question": "Fill in the blank: Understanding precedes and ______ experience rather than appearing as one more empirical item within it.",
     "chapter": "Week 3 - Feb 16",
     "related_info": "The lecture treats understanding not as one more thing seen in experience, but as a condition that makes objective experience possible.",
     "why_high_yield": "High yield because it connects 'understanding' to the transcendental side of the course.",
@@ -69,16 +228,71 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w3-understanding-transcendental",
-    "item_form": "definition"
+    "item_form": "definition",
+    "question_type": "fill_in",
+    "model_answer": "conditions",
+    "key_points": [
+      "conditions",
+      "The lecture treats understanding not as one more thing seen in experience, but as a condition that makes objective experience possible",
+      "it connects 'understanding' to the transcendental side of the course"
+    ]
   },
   {
-    "question": "How does Week 3 describe the human relation to reality? Answer in 1-3 sentences.",
-    "model_answer": "Humans stand in relation to both the phenomenal and the metaphysical dimensions. The lecture says the human being stands in relation to two dimensions of reality, which is why metaphysics matters at all.",
-    "key_points": [
-      "Humans stand in relation to both the phenomenal and the metaphysical dimensions",
-      "The lecture says the human being stands in relation to two dimensions of reality, which is why metaphysics matters at all",
-      "it frames why the course does not stop at mere empirical intelligence"
+    "question": "Why is understanding called a transcendental condition in Week 3?",
+    "chapter": "Week 3 - Feb 16",
+    "related_info": "A transcendental condition is one that must already be in place for experience to become objective at all.",
+    "why_high_yield": "High yield because it shifts the focus from what understanding does in experience to what it makes possible beforehand.",
+    "source_refs": [
+      "HUMA2831_Week3_02162026_Slides.pdf - slide 10 on transcendental conditions"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w3-understanding-transcendental",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "Because it creates noumena directly",
+      "B": "Because it precedes and helps make phenomena knowable",
+      "C": "Because it is identical with empirical memory",
+      "D": "Because it belongs to excluded middle"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "A transcendental condition is one that must already be in place for experience to become objective at all.",
+    "explanation_key_points": [
+      "Because it precedes and helps make phenomena knowable",
+      "A transcendental condition is one that must already be in place for experience to become objective at all",
+      "it shifts the focus from what understanding does in experience to what it makes possible beforehand"
+    ]
+  },
+  {
+    "question": "Which statement confuses understanding with a phenomenal object?",
+    "chapter": "Week 3 - Feb 16",
+    "related_info": "The lecture explicitly denies that understanding as faculty is just one more empirical thing in the phenomenal world.",
+    "why_high_yield": "High yield because many errors come from treating conditions of experience as if they were ordinary contents of experience.",
+    "source_refs": [
+      "HUMA2831_Week3_02162026_Slides.pdf - slide 10 on understanding not belonging to the phenomenal realm"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w3-understanding-transcendental",
+    "item_form": "counterexample",
+    "question_type": "mcq",
+    "options": {
+      "A": "Understanding is one of the a priori conditions of objective cognition",
+      "B": "Understanding belongs to the side of cognition that precedes appearances",
+      "C": "Understanding is just another object given in space and time like a chair",
+      "D": "Understanding makes judgment possible"
+    },
+    "correct_option": "C",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture explicitly denies that understanding as faculty is just one more empirical thing in the phenomenal world.",
+    "explanation_key_points": [
+      "Understanding is just another object given in space and time like a chair",
+      "The lecture explicitly denies that understanding as faculty is just one more empirical thing in the phenomenal world",
+      "many errors come from treating conditions of experience as if they were ordinary contents of experience"
+    ]
+  },
+  {
+    "question": "Fill in the blank: Week 3 says humans stand in relation to both the phenomenal and the ______ dimensions.",
     "chapter": "Week 3 - Feb 16",
     "related_info": "The lecture says the human being stands in relation to two dimensions of reality, which is why metaphysics matters at all.",
     "why_high_yield": "High yield because it frames why the course does not stop at mere empirical intelligence.",
@@ -87,6 +301,67 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w3-human-dimensions",
-    "item_form": "definition"
+    "item_form": "definition",
+    "question_type": "fill_in",
+    "model_answer": "metaphysical",
+    "key_points": [
+      "metaphysical",
+      "The lecture says the human being stands in relation to two dimensions of reality, which is why metaphysics matters at all",
+      "it frames why the course does not stop at mere empirical intelligence"
+    ]
+  },
+  {
+    "question": "Why does Week 3 suggest that 'true smart' exceeds merely technical intelligence?",
+    "chapter": "Week 3 - Feb 16",
+    "related_info": "The lecture contrasts replaceable technical intelligence with a deeper human capacity tied to both phenomenal and metaphysical dimensions.",
+    "why_high_yield": "High yield because it links the opening 'future smart' theme back to the course's metaphysical framework.",
+    "source_refs": [
+      "HUMA2831_Week3_02162026_Slides.pdf - slides 2-4 on intelligence and the human relation to metaphysics"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w3-human-dimensions",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "Because only technical skill can judge phenomena",
+      "B": "Because human cognition also relates to the metaphysical dimension beyond replaceable technical functions",
+      "C": "Because technical skill already knows noumena directly",
+      "D": "Because intelligence is identical with sensation"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture contrasts replaceable technical intelligence with a deeper human capacity tied to both phenomenal and metaphysical dimensions.",
+    "explanation_key_points": [
+      "Because human cognition also relates to the metaphysical dimension beyond replaceable technical functions",
+      "The lecture contrasts replaceable technical intelligence with a deeper human capacity tied to both phenomenal and metaphysical dimensions",
+      "it links the opening 'future smart' theme back to the course's metaphysical framework"
+    ]
+  },
+  {
+    "question": "What task does metaphysics receive from Week 3's picture of the human being?",
+    "chapter": "Week 3 - Feb 16",
+    "related_info": "Since humans relate to more than what is immediately given, metaphysics must investigate the conditions and reach of that relation.",
+    "why_high_yield": "High yield because it connects the course's anthropology back to its epistemology.",
+    "source_refs": [
+      "HUMA2831_Week3_02162026_Slides.pdf - slides 3-4 on the foundations of metaphysics"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w3-human-dimensions",
+    "item_form": "scenario",
+    "question_type": "mcq",
+    "options": {
+      "A": "To reduce all cognition to sense data alone",
+      "B": "To examine the mind's capacity to relate to what exceeds immediate empirical givenness",
+      "C": "To deny all objective knowledge",
+      "D": "To replace judgment with imagination"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "Since humans relate to more than what is immediately given, metaphysics must investigate the conditions and reach of that relation.",
+    "explanation_key_points": [
+      "To examine the mind's capacity to relate to what exceeds immediate empirical givenness",
+      "Since humans relate to more than what is immediately given, metaphysics must investigate the conditions and reach of that relation",
+      "it connects the course's anthropology back to its epistemology"
+    ]
   }
 ]

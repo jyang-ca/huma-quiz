@@ -1,12 +1,6 @@
 [
   {
-    "question": "According to Week 6B, is the concept of perfection grounded a priori or derived from experience? Answer in 1-3 sentences.",
-    "model_answer": "It is grounded a priori through reason's extension of the categories. The lecture says perfection is a reason-Idea grounded a priori rather than abstracted from limited empirical cases.",
-    "key_points": [
-      "It is grounded a priori through reason's extension of the categories",
-      "The lecture says perfection is a reason-Idea grounded a priori rather than abstracted from limited empirical cases",
-      "the exam can easily ask whether perfection belongs to experience or to reason"
-    ],
+    "question": "Fill in the blank: Week 6B says the concept of perfection is grounded a priori through reason's extension of the ______.",
     "chapter": "Week 6B - Mar 11",
     "related_info": "The lecture says perfection is a reason-Idea grounded a priori rather than abstracted from limited empirical cases.",
     "why_high_yield": "High yield because the exam can easily ask whether perfection belongs to experience or to reason.",
@@ -15,16 +9,71 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w6b-perfection",
-    "item_form": "definition"
+    "item_form": "definition",
+    "question_type": "fill_in",
+    "model_answer": "categories",
+    "key_points": [
+      "categories",
+      "The lecture says perfection is a reason-Idea grounded a priori rather than abstracted from limited empirical cases",
+      "the exam can easily ask whether perfection belongs to experience or to reason"
+    ]
   },
   {
-    "question": "Can perfection have an object in the realm of appearances according to Week 6B? Answer in 1-3 sentences.",
-    "model_answer": "No, because it functions as an ideal standard rather than as a directly encountered perfect object. The lecture says perfection regulates how we judge appearances, but is not itself found as a complete object among them.",
-    "key_points": [
-      "No, because it functions as an ideal standard rather than as a directly encountered perfect object",
-      "The lecture says perfection regulates how we judge appearances, but is not itself found as a complete object among them",
-      "it tests whether you can separate an Idea's regulative role from constitutive objecthood"
+    "question": "Why does Week 6B deny that perfection is derived from experience?",
+    "chapter": "Week 6B - Mar 11",
+    "related_info": "The lecture stresses that we never encounter true perfection directly in appearance, so experience cannot be its source.",
+    "why_high_yield": "High yield because it forces you to distinguish empirical comparison from the a priori standard used in comparison.",
+    "source_refs": [
+      "HUMA2831_Week6_03112026_Slides.pdf - slides 4-6 on perfection and experience"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w6b-perfection",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "Because we directly sense absolute perfection everywhere",
+      "B": "Because the empirical world offers no perfect model from which the concept could be copied",
+      "C": "Because experience is always analytic",
+      "D": "Because categories do not apply to judgment"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture stresses that we never encounter true perfection directly in appearance, so experience cannot be its source.",
+    "explanation_key_points": [
+      "Because the empirical world offers no perfect model from which the concept could be copied",
+      "The lecture stresses that we never encounter true perfection directly in appearance, so experience cannot be its source",
+      "it forces you to distinguish empirical comparison from the a priori standard used in comparison"
+    ]
+  },
+  {
+    "question": "What role does perfection play in Week 6B?",
+    "chapter": "Week 6B - Mar 11",
+    "related_info": "Perfection functions as a standard for judging good and bad, even though it is not itself given as a direct empirical object.",
+    "why_high_yield": "High yield because this is the regulative use of an idea in one of the lecture's clearest examples.",
+    "source_refs": [
+      "HUMA2831_Week6_03112026_Slides.pdf - slides 5-6 on perfection as a standard"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w6b-perfection",
+    "item_form": "definition",
+    "question_type": "mcq",
+    "options": {
+      "A": "It is a standard that guides judgments of better and worse",
+      "B": "It is an object we can fully encounter in appearances",
+      "C": "It is a direct category of sensibility",
+      "D": "It eliminates all need for comparison"
+    },
+    "correct_option": "A",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "Perfection functions as a standard for judging good and bad, even though it is not itself given as a direct empirical object.",
+    "explanation_key_points": [
+      "It is a standard that guides judgments of better and worse",
+      "Perfection functions as a standard for judging good and bad, even though it is not itself given as a direct empirical object",
+      "this is the regulative use of an idea in one of the lecture's clearest examples"
+    ]
+  },
+  {
+    "question": "Fill in the blank: Perfection functions as an ideal standard rather than as a directly encountered perfect ______.",
     "chapter": "Week 6B - Mar 11",
     "related_info": "The lecture says perfection regulates how we judge appearances, but is not itself found as a complete object among them.",
     "why_high_yield": "High yield because it tests whether you can separate an Idea's regulative role from constitutive objecthood.",
@@ -33,16 +82,71 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w6b-regulative-constitutive",
-    "item_form": "comparison"
+    "item_form": "comparison",
+    "question_type": "fill_in",
+    "model_answer": "object",
+    "key_points": [
+      "object",
+      "The lecture says perfection regulates how we judge appearances, but is not itself found as a complete object among them",
+      "it tests whether you can separate an Idea's regulative role from constitutive objecthood"
+    ]
   },
   {
-    "question": "Can sensibility sense the absent according to Week 6B? Answer in 1-3 sentences.",
-    "model_answer": "No, sensibility grasps present reality but not absence as such. The lecture says sensibility receives what is present, not absence itself as a positive datum.",
-    "key_points": [
-      "No, sensibility grasps present reality but not absence as such",
-      "The lecture says sensibility receives what is present, not absence itself as a positive datum",
-      "absence is one of the course's main examples for distinguishing sensibility, understanding, and reason"
+    "question": "What is the dialectical error in Week 6B's treatment of perfection?",
+    "chapter": "Week 6B - Mar 11",
+    "related_info": "The problem begins when an Idea that should guide inquiry is instead taken as a constitutive object of experience.",
+    "why_high_yield": "High yield because regulative versus constitutive is one of the most likely distinction questions on the exam.",
+    "source_refs": [
+      "HUMA2831_Week6_03112026_Slides.pdf - slides 7-8 on dialectical error and objectification"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w6b-regulative-constitutive",
+    "item_form": "definition",
+    "question_type": "mcq",
+    "options": {
+      "A": "Using perfection to guide judgment",
+      "B": "Treating the Idea as if a perfect being or object existed somewhere as an appearance",
+      "C": "Comparing better and worse cases in experience",
+      "D": "Denying that categories are finite"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The problem begins when an Idea that should guide inquiry is instead taken as a constitutive object of experience.",
+    "explanation_key_points": [
+      "Treating the Idea as if a perfect being or object existed somewhere as an appearance",
+      "The problem begins when an Idea that should guide inquiry is instead taken as a constitutive object of experience",
+      "regulative versus constitutive is one of the most likely distinction questions on the exam"
+    ]
+  },
+  {
+    "question": "Which statement uses perfection regulatively rather than constitutively in Week 6B?",
+    "chapter": "Week 6B - Mar 11",
+    "related_info": "A regulative use guides comparison and inquiry, whereas a constitutive use illegitimately objectifies the Idea.",
+    "why_high_yield": "High yield because the exam may present two statements and ask which one stays within bounds.",
+    "source_refs": [
+      "HUMA2831_Week6_03112026_Slides.pdf - slides 6-8 on regulative use and objectification"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w6b-regulative-constitutive",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "Perfection helps guide our judgments of good and bad without being an empirical object",
+      "B": "Perfection exists as a fully knowable object somewhere in appearances",
+      "C": "Perfection is a sensation inside every judgment",
+      "D": "Perfection abolishes categories"
+    },
+    "correct_option": "A",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "A regulative use guides comparison and inquiry, whereas a constitutive use illegitimately objectifies the Idea.",
+    "explanation_key_points": [
+      "Perfection helps guide our judgments of good and bad without being an empirical object",
+      "A regulative use guides comparison and inquiry, whereas a constitutive use illegitimately objectifies the Idea",
+      "the exam may present two statements and ask which one stays within bounds"
+    ]
+  },
+  {
+    "question": "Fill in the blank: Sensibility grasps present reality but not ______ as such.",
     "chapter": "Week 6B - Mar 11",
     "related_info": "The lecture says sensibility receives what is present, not absence itself as a positive datum.",
     "why_high_yield": "High yield because absence is one of the course's main examples for distinguishing sensibility, understanding, and reason.",
@@ -51,16 +155,71 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w6b-absence",
-    "item_form": "definition"
+    "item_form": "definition",
+    "question_type": "fill_in",
+    "model_answer": "absence",
+    "key_points": [
+      "absence",
+      "The lecture says sensibility receives what is present, not absence itself as a positive datum",
+      "absence is one of the course's main examples for distinguishing sensibility, understanding, and reason"
+    ]
   },
   {
-    "question": "What does \"The knife is absent\" mean in Week 6B? Answer in 1-3 sentences.",
-    "model_answer": "An empirical absence is judged within a given context or room. This is still an understanding-level judgment about empirical absence within experience.",
-    "key_points": [
-      "An empirical absence is judged within a given context or room",
-      "This is still an understanding-level judgment about empirical absence within experience",
-      "the knife example returns later and anchors the absence-versus-nothingness distinction"
+    "question": "What does the \"empty wallet\" example show in Week 6B?",
+    "chapter": "Week 6B - Mar 11",
+    "related_info": "The lecture says sensibility gives the currently present wallet and empty space; the absence of money depends on a prior horizon of expectation.",
+    "why_high_yield": "High yield because it turns a simple example into a precise distinction between presence, expectation, and absence.",
+    "source_refs": [
+      "HUMA2831_Week6_03112026_Slides.pdf - slides 10-11 on the empty wallet"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w6b-absence",
+    "item_form": "scenario",
+    "question_type": "mcq",
+    "options": {
+      "A": "That sensibility directly senses absence itself",
+      "B": "That what is sensed is present empty space, while the sense of absence depends on a prior expectation",
+      "C": "That categories are unnecessary for experience",
+      "D": "That reason begins with pure nothingness"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture says sensibility gives the currently present wallet and empty space; the absence of money depends on a prior horizon of expectation.",
+    "explanation_key_points": [
+      "That what is sensed is present empty space, while the sense of absence depends on a prior expectation",
+      "The lecture says sensibility gives the currently present wallet and empty space; the absence of money depends on a prior horizon of expectation",
+      "it turns a simple example into a precise distinction between presence, expectation, and absence"
+    ]
+  },
+  {
+    "question": "What cannot be sensed according to the Week 6B absence discussion?",
+    "chapter": "Week 6B - Mar 11",
+    "related_info": "The lecture says sensibility can receive what is presently there, but not a pure absence that never had any phenomenal givenness.",
+    "why_high_yield": "High yield because it asks you to distinguish empirical absence from total nothingness.",
+    "source_refs": [
+      "HUMA2831_Week6_03112026_Slides.pdf - slides 10-11 on phenomenal absence"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w6b-absence",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "what was never there at all as a sensory datum",
+      "B": "present empty space",
+      "C": "the continuity of change in time",
+      "D": "a wallet as a phenomenal object"
+    },
+    "correct_option": "A",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture says sensibility can receive what is presently there, but not a pure absence that never had any phenomenal givenness.",
+    "explanation_key_points": [
+      "what was never there at all as a sensory datum",
+      "The lecture says sensibility can receive what is presently there, but not a pure absence that never had any phenomenal givenness",
+      "it asks you to distinguish empirical absence from total nothingness"
+    ]
+  },
+  {
+    "question": "Fill in the blank: \"The knife is absent\" names an empirical ______ judged within a given context or room.",
     "chapter": "Week 6B - Mar 11",
     "related_info": "This is still an understanding-level judgment about empirical absence within experience.",
     "why_high_yield": "High yield because the knife example returns later and anchors the absence-versus-nothingness distinction.",
@@ -69,16 +228,71 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w6b-knife",
-    "item_form": "definition"
+    "item_form": "definition",
+    "question_type": "fill_in",
+    "model_answer": "absence",
+    "key_points": [
+      "absence",
+      "This is still an understanding-level judgment about empirical absence within experience",
+      "the knife example returns later and anchors the absence-versus-nothingness distinction"
+    ]
   },
   {
-    "question": "What does it mean in Week 6B to say that \"something negative is derived, not primary\"? Answer in 1-3 sentences.",
-    "model_answer": "Negation depends on a prior positive determination and cannot originate by itself. The lecture uses absence examples to show that negation presupposes what is being negated rather than functioning as an original datum.",
-    "key_points": [
-      "Negation depends on a prior positive determination and cannot originate by itself",
-      "The lecture uses absence examples to show that negation presupposes what is being negated rather than functioning as an original datum",
-      "this point is central to chipped bowl, wallet, and knife questions alike"
+    "question": "What does \"the nothingness of the knife-idea itself\" mean in Week 6B?",
+    "chapter": "Week 6B - Mar 11",
+    "related_info": "The lecture treats this as reason's move away from empirical absence toward absolute nothingness, beyond possible sensory givenness.",
+    "why_high_yield": "High yield because it marks the shift from understanding's relative negation to reason's absolute extension.",
+    "source_refs": [
+      "HUMA2831_Week6_03112026_Slides.pdf - slide 12 on knife-idea and absolute absence"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w6b-knife",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "A sensory report about a missing object in a room",
+      "B": "An absolute negation that has moved away from empirical absence toward thought beyond experience",
+      "C": "A statement about present empty space only",
+      "D": "A geometric truth"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture treats this as reason's move away from empirical absence toward absolute nothingness, beyond possible sensory givenness.",
+    "explanation_key_points": [
+      "An absolute negation that has moved away from empirical absence toward thought beyond experience",
+      "The lecture treats this as reason's move away from empirical absence toward absolute nothingness, beyond possible sensory givenness",
+      "it marks the shift from understanding's relative negation to reason's absolute extension"
+    ]
+  },
+  {
+    "question": "How does Week 6B say reason constructs absolute nothingness?",
+    "chapter": "Week 6B - Mar 11",
+    "related_info": "The lecture says reason pushes beyond experience and constructs absolute nothingness through logical form, which is why illusion threatens here.",
+    "why_high_yield": "High yield because it links absence, logical form, and dialectical illusion in one move.",
+    "source_refs": [
+      "HUMA2831_Week6_03112026_Slides.pdf - slide 12 on absolute nothingness and logical form"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w6b-knife",
+    "item_form": "scenario",
+    "question_type": "mcq",
+    "options": {
+      "A": "By receiving a stronger sensory absence than understanding can receive",
+      "B": "By using logical form beyond temporal-change experience",
+      "C": "By copying a perfect empirical model",
+      "D": "By turning categories off completely"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture says reason pushes beyond experience and constructs absolute nothingness through logical form, which is why illusion threatens here.",
+    "explanation_key_points": [
+      "By using logical form beyond temporal-change experience",
+      "The lecture says reason pushes beyond experience and constructs absolute nothingness through logical form, which is why illusion threatens here",
+      "it links absence, logical form, and dialectical illusion in one move"
+    ]
+  },
+  {
+    "question": "Fill in the blank: Saying that something negative is derived, not primary means negation depends on a prior ______ determination.",
     "chapter": "Week 6B - Mar 11",
     "related_info": "The lecture uses absence examples to show that negation presupposes what is being negated rather than functioning as an original datum.",
     "why_high_yield": "High yield because this point is central to chipped bowl, wallet, and knife questions alike.",
@@ -87,6 +301,67 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w6b-nothingness",
-    "item_form": "definition"
+    "item_form": "definition",
+    "question_type": "fill_in",
+    "model_answer": "positive",
+    "key_points": [
+      "positive",
+      "The lecture uses absence examples to show that negation presupposes what is being negated rather than functioning as an original datum",
+      "this point is central to chipped bowl, wallet, and knife questions alike"
+    ]
+  },
+  {
+    "question": "Which statement is the clearest example of a constitutive misuse in Week 6B?",
+    "chapter": "Week 6B - Mar 11",
+    "related_info": "The slides treat the claim that absolute nothingness exists as an object as a dialectical error, because it illegitimately objectifies reason's extension.",
+    "why_high_yield": "High yield because it is a textbook constitutive error paired with the user's own study priorities.",
+    "source_refs": [
+      "HUMA2831_Week6_03112026_Slides.pdf - slide 12 on constitutive misuse and absolute nothingness"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w6b-nothingness",
+    "item_form": "counterexample",
+    "question_type": "mcq",
+    "options": {
+      "A": "Perfection guides our judgments",
+      "B": "Absolute nothingness actually exists as an object",
+      "C": "Categories structure appearances",
+      "D": "Empirical absence depends on a prior concept"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The slides treat the claim that absolute nothingness exists as an object as a dialectical error, because it illegitimately objectifies reason's extension.",
+    "explanation_key_points": [
+      "Absolute nothingness actually exists as an object",
+      "The slides treat the claim that absolute nothingness exists as an object as a dialectical error, because it illegitimately objectifies reason's extension",
+      "it is a textbook constitutive error paired with the user's own study priorities"
+    ]
+  },
+  {
+    "question": "Which statement stays within the limits of Week 6B's transcendental dialectic?",
+    "chapter": "Week 6B - Mar 11",
+    "related_info": "This answer keeps the Idea in a regulative role rather than turning it into a constitutive object of experience.",
+    "why_high_yield": "High yield because the exam may ask you to choose the bounded use of reason from several tempting overextensions.",
+    "source_refs": [
+      "HUMA2831_Week6_03112026_Slides.pdf - slides 6-12 on regulative use, absence, and dialectical error"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w6b-nothingness",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "The Idea of perfection should guide inquiry rather than be objectified as an appearance",
+      "B": "Absolute nothingness is an observable object in the world",
+      "C": "Sensibility senses absence directly as absence",
+      "D": "Perfection is copied from perfect cases in experience"
+    },
+    "correct_option": "A",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "This answer keeps the Idea in a regulative role rather than turning it into a constitutive object of experience.",
+    "explanation_key_points": [
+      "The Idea of perfection should guide inquiry rather than be objectified as an appearance",
+      "This answer keeps the Idea in a regulative role rather than turning it into a constitutive object of experience",
+      "the exam may ask you to choose the bounded use of reason from several tempting overextensions"
+    ]
   }
 ]

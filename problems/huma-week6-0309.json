@@ -1,12 +1,6 @@
 [
   {
-    "question": "Why does Week 6A say transcendental logic is necessary? Answer in 1-3 sentences.",
-    "model_answer": "Because thought's a priori relation to objects cannot be captured by a logic concerned only with form. The lecture contrasts general logic, which studies formal validity, with transcendental logic, which studies thought insofar as it relates to objects a priori.",
-    "key_points": [
-      "Because thought's a priori relation to objects cannot be captured by a logic concerned only with form",
-      "The lecture contrasts general logic, which studies formal validity, with transcendental logic, which studies thought insofar as it relates to objects a priori",
-      "the exam may test whether you can distinguish merely formal logic from Kant's transcendental project"
-    ],
+    "question": "Fill in the blank: Transcendental logic is necessary because thought's a priori relation to ______ cannot be captured by merely formal logic.",
     "chapter": "Week 6A - Mar 9",
     "related_info": "The lecture contrasts general logic, which studies formal validity, with transcendental logic, which studies thought insofar as it relates to objects a priori.",
     "why_high_yield": "High yield because the exam may test whether you can distinguish merely formal logic from Kant's transcendental project.",
@@ -15,16 +9,71 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w6a-transcendental-logic",
-    "item_form": "definition"
+    "item_form": "definition",
+    "question_type": "fill_in",
+    "model_answer": "objects",
+    "key_points": [
+      "objects",
+      "The lecture contrasts general logic, which studies formal validity, with transcendental logic, which studies thought insofar as it relates to objects a priori",
+      "the exam may test whether you can distinguish merely formal logic from Kant's transcendental project"
+    ]
   },
   {
-    "question": "How are reason's ideas generated according to Week 6A? Answer in 1-3 sentences.",
-    "model_answer": "By infinitely extending the inferential movement of understanding. The lecture repeats that reason takes understanding's inferential chain and pushes it toward the unconditioned.",
-    "key_points": [
-      "By infinitely extending the inferential movement of understanding",
-      "The lecture repeats that reason takes understanding's inferential chain and pushes it toward the unconditioned",
-      "the exam may ask how reason arises from understanding rather than appearing as a separate mystery"
+    "question": "Which contrast best captures general logic versus transcendental logic in Week 6A?",
+    "chapter": "Week 6A - Mar 9",
+    "related_info": "The key distinction is between mere form and the conditions under which thought can legitimately concern objects.",
+    "why_high_yield": "High yield because the two terms are close enough to confuse unless the object-relation point is clear.",
+    "source_refs": [
+      "HUMA2831_Week6_03092026_Slides.pdf - slides 2-3 on general and transcendental logic"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w6a-transcendental-logic",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "General logic studies thought's pure form, while transcendental logic studies thought's a priori relation to objects",
+      "B": "General logic studies objects, while transcendental logic studies feelings",
+      "C": "General logic is empirical, while transcendental logic is sensory",
+      "D": "They are simply two names for the same discipline"
+    },
+    "correct_option": "A",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The key distinction is between mere form and the conditions under which thought can legitimately concern objects.",
+    "explanation_key_points": [
+      "General logic studies thought's pure form, while transcendental logic studies thought's a priori relation to objects",
+      "The key distinction is between mere form and the conditions under which thought can legitimately concern objects",
+      "the two terms are close enough to confuse unless the object-relation point is clear"
+    ]
+  },
+  {
+    "question": "What does it mean in Week 6A to say that the categories are 'true a priori'?",
+    "chapter": "Week 6A - Mar 9",
+    "related_info": "Calling them true a priori means they belong to the conditions that must already be in place for objective experience to occur.",
+    "why_high_yield": "High yield because it tests whether you hear 'a priori' as condition rather than as a mere psychological possession.",
+    "source_refs": [
+      "HUMA2831_Week6_03092026_Slides.pdf - slides 9 and 14 on the a priori faculty and the categories"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w6a-transcendental-logic",
+    "item_form": "definition",
+    "question_type": "mcq",
+    "options": {
+      "A": "They are empirical habits repeatedly confirmed by observation",
+      "B": "They are necessary forms for possible experience rather than products of experience",
+      "C": "They are direct perceptions of noumena",
+      "D": "They are identical with reason's Ideas"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "Calling them true a priori means they belong to the conditions that must already be in place for objective experience to occur.",
+    "explanation_key_points": [
+      "They are necessary forms for possible experience rather than products of experience",
+      "Calling them true a priori means they belong to the conditions that must already be in place for objective experience to occur",
+      "it tests whether you hear 'a priori' as condition rather than as a mere psychological possession"
+    ]
+  },
+  {
+    "question": "Fill in the blank: Reason's ideas are generated by infinitely extending the inferential movement of ______.",
     "chapter": "Week 6A - Mar 9",
     "related_info": "The lecture repeats that reason takes understanding's inferential chain and pushes it toward the unconditioned.",
     "why_high_yield": "High yield because the exam may ask how reason arises from understanding rather than appearing as a separate mystery.",
@@ -33,16 +82,71 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w6a-reason-inference",
-    "item_form": "definition"
+    "item_form": "definition",
+    "question_type": "fill_in",
+    "model_answer": "understanding",
+    "key_points": [
+      "understanding",
+      "The lecture repeats that reason takes understanding's inferential chain and pushes it toward the unconditioned",
+      "the exam may ask how reason arises from understanding rather than appearing as a separate mystery"
+    ]
   },
   {
-    "question": "How does Week 6A describe the difference between understanding and reason? Answer in 1-3 sentences.",
-    "model_answer": "Understanding works through synthetic a priori judgments, while reason works analytically with pure concepts and Ideas. The lecture explicitly says understanding constitutes objective knowledge synthetically, while reason moves analytically through Ideas.",
-    "key_points": [
-      "Understanding works through synthetic a priori judgments, while reason works analytically with pure concepts and Ideas",
-      "The lecture explicitly says understanding constitutes objective knowledge synthetically, while reason moves analytically through Ideas",
-      "the exam will likely ask for the judgment mode tied to each faculty"
+    "question": "Why does the gravity inference count as valid in Week 6A?",
+    "chapter": "Week 6A - Mar 9",
+    "related_info": "The gravity example stays grounded in empirical cases that are unified into a law within the phenomenal realm.",
+    "why_high_yield": "High yield because it offers a clean contrast with illegitimate inferences that go beyond possible experience.",
+    "source_refs": [
+      "HUMA2831_Week6_03092026_Slides.pdf - slides 6-7 on gravity and possible experience"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w6a-reason-inference",
+    "item_form": "scenario",
+    "question_type": "mcq",
+    "options": {
+      "A": "Because it remains tied to possible experience and lawful category application",
+      "B": "Because it directly cognizes the unconditioned",
+      "C": "Because it is merely a feeling of necessity",
+      "D": "Because it compares noumena with phenomena"
+    },
+    "correct_option": "A",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The gravity example stays grounded in empirical cases that are unified into a law within the phenomenal realm.",
+    "explanation_key_points": [
+      "Because it remains tied to possible experience and lawful category application",
+      "The gravity example stays grounded in empirical cases that are unified into a law within the phenomenal realm",
+      "it offers a clean contrast with illegitimate inferences that go beyond possible experience"
+    ]
+  },
+  {
+    "question": "Why is \"my death\" an empty thought in Week 6A?",
+    "chapter": "Week 6A - Mar 9",
+    "related_info": "The lecture says the representation of my death lacks matter that could be secured in experience, so it remains an empty thought.",
+    "why_high_yield": "High yield because this example directly tests the line between lawful cognition and reason's empty extension.",
+    "source_refs": [
+      "HUMA2831_Week6_03092026_Slides.pdf - slides 7-8 on the consciousness of my death"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w6a-reason-inference",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "Because death is analytically contained in every concept",
+      "B": "Because my own death lacks empirical content that categories could cognize as an experienced object",
+      "C": "Because understanding can never think negation",
+      "D": "Because time applies only to noumena"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture says the representation of my death lacks matter that could be secured in experience, so it remains an empty thought.",
+    "explanation_key_points": [
+      "Because my own death lacks empirical content that categories could cognize as an experienced object",
+      "The lecture says the representation of my death lacks matter that could be secured in experience, so it remains an empty thought",
+      "this example directly tests the line between lawful cognition and reason's empty extension"
+    ]
+  },
+  {
+    "question": "Fill in the blank: Understanding works through synthetic a priori judgments, while reason works analytically with pure concepts and ______.",
     "chapter": "Week 6A - Mar 9",
     "related_info": "The lecture explicitly says understanding constitutes objective knowledge synthetically, while reason moves analytically through Ideas.",
     "why_high_yield": "High yield because the exam will likely ask for the judgment mode tied to each faculty.",
@@ -51,16 +155,71 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w6a-analytic-reason",
-    "item_form": "definition"
+    "item_form": "definition",
+    "question_type": "fill_in",
+    "model_answer": "Ideas",
+    "key_points": [
+      "Ideas",
+      "The lecture explicitly says understanding constitutes objective knowledge synthetically, while reason moves analytically through Ideas",
+      "the exam will likely ask for the judgment mode tied to each faculty"
+    ]
   },
   {
-    "question": "What happens in the chipped-bowl example of Week 6A? Answer in 1-3 sentences.",
-    "model_answer": "We first think of the complete, unbroken bowl because reason seeks wholeness. The lecture says the broken object immediately evokes the whole it falls short of, revealing reason's drive toward completeness.",
-    "key_points": [
-      "We first think of the complete, unbroken bowl because reason seeks wholeness",
-      "The lecture says the broken object immediately evokes the whole it falls short of, revealing reason's drive toward completeness",
-      "it turns a simple visual example into a test of reason's orientation toward wholeness"
+    "question": "In Week 6A, what kind of movement is the transition from understanding to reason?",
+    "chapter": "Week 6A - Mar 9",
+    "related_info": "Reason does not newly constitute empirical objects; it analyzes and extends understanding's products toward systematic unity.",
+    "why_high_yield": "High yield because it is a favorite contrast point throughout Weeks 5-7.",
+    "source_refs": [
+      "HUMA2831_Week6_03092026_Slides.pdf - slides 9-10 on the understanding-reason transition"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w6a-analytic-reason",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "a new sensory synthesis of empirical content",
+      "B": "an analytic movement that systematizes what understanding has already constituted",
+      "C": "a direct intuition of things-in-themselves",
+      "D": "a purely emotional association"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "Reason does not newly constitute empirical objects; it analyzes and extends understanding's products toward systematic unity.",
+    "explanation_key_points": [
+      "an analytic movement that systematizes what understanding has already constituted",
+      "Reason does not newly constitute empirical objects; it analyzes and extends understanding's products toward systematic unity",
+      "it is a favorite contrast point throughout Weeks 5-7"
+    ]
+  },
+  {
+    "question": "Why does reason fail to create new knowledge in Week 6A?",
+    "chapter": "Week 6A - Mar 9",
+    "related_info": "Reason organizes existing cognition toward totality, but it does not synthesize fresh sensory material into new objects.",
+    "why_high_yield": "High yield because it distinguishes regulative systematization from genuine knowledge expansion.",
+    "source_refs": [
+      "HUMA2831_Week6_03092026_Slides.pdf - slides 9-10 on analytic reason"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w6a-analytic-reason",
+    "item_form": "definition",
+    "question_type": "mcq",
+    "options": {
+      "A": "Because reason has no relation to categories at all",
+      "B": "Because reason unifies and extends already constituted knowledge rather than adding new empirical matter",
+      "C": "Because all analytic judgment is false",
+      "D": "Because sensibility alone determines truth"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "Reason organizes existing cognition toward totality, but it does not synthesize fresh sensory material into new objects.",
+    "explanation_key_points": [
+      "Because reason unifies and extends already constituted knowledge rather than adding new empirical matter",
+      "Reason organizes existing cognition toward totality, but it does not synthesize fresh sensory material into new objects",
+      "it distinguishes regulative systematization from genuine knowledge expansion"
+    ]
+  },
+  {
+    "question": "Fill in the blank: In the chipped-bowl example, we first think of the complete, unbroken ______.",
     "chapter": "Week 6A - Mar 9",
     "related_info": "The lecture says the broken object immediately evokes the whole it falls short of, revealing reason's drive toward completeness.",
     "why_high_yield": "High yield because it turns a simple visual example into a test of reason's orientation toward wholeness.",
@@ -69,16 +228,71 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w6a-negativity",
-    "item_form": "scenario"
+    "item_form": "scenario",
+    "question_type": "fill_in",
+    "model_answer": "bowl",
+    "key_points": [
+      "bowl",
+      "The lecture says the broken object immediately evokes the whole it falls short of, revealing reason's drive toward completeness",
+      "it turns a simple visual example into a test of reason's orientation toward wholeness"
+    ]
   },
   {
-    "question": "What is an a priori faculty in Week 6A? Answer in 1-3 sentences.",
-    "model_answer": "A capacity given in advance prior to experience that conditions experience. The lecture says our a priori faculty is given beforehand and makes phenomena into experience through its forms.",
-    "key_points": [
-      "A capacity given in advance prior to experience that conditions experience",
-      "The lecture says our a priori faculty is given beforehand and makes phenomena into experience through its forms",
-      "it generalizes the course's repeated point about cognition's preconditions"
+    "question": "What does Week 6A mean by saying \"all concepts of negativity are derivative\"?",
+    "chapter": "Week 6A - Mar 9",
+    "related_info": "A lack or negation can be thought only against the background of some prior positive determination.",
+    "why_high_yield": "High yield because this point ties the chipped bowl, absence, and nothingness examples together.",
+    "source_refs": [
+      "HUMA2831_Week6_03092026_Slides.pdf - slide 12 on derivative negativity"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w6a-negativity",
+    "item_form": "definition",
+    "question_type": "mcq",
+    "options": {
+      "A": "Negation is sensed before any positive content",
+      "B": "Negation depends on a prior positive concept and does not originate cognition by itself",
+      "C": "Negative concepts are more real than positive ones",
+      "D": "Only empirical concepts can be negative"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "A lack or negation can be thought only against the background of some prior positive determination.",
+    "explanation_key_points": [
+      "Negation depends on a prior positive concept and does not originate cognition by itself",
+      "A lack or negation can be thought only against the background of some prior positive determination",
+      "this point ties the chipped bowl, absence, and nothingness examples together"
+    ]
+  },
+  {
+    "question": "Why can't negation itself constitute wholeness in Week 6A?",
+    "chapter": "Week 6A - Mar 9",
+    "related_info": "The chipped-bowl discussion says negation points back to a whole already anticipated; it does not generate completeness on its own.",
+    "why_high_yield": "High yield because the exam may ask about the order between positive and negative concepts.",
+    "source_refs": [
+      "HUMA2831_Week6_03092026_Slides.pdf - slides 11-12 on chipped bowl and negation"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w6a-negativity",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "Because reason never uses negation",
+      "B": "Because negation is derivative and presupposes the prior positive whole it negates",
+      "C": "Because sensibility alone determines completeness",
+      "D": "Because excluded middle forbids negative judgments"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The chipped-bowl discussion says negation points back to a whole already anticipated; it does not generate completeness on its own.",
+    "explanation_key_points": [
+      "Because negation is derivative and presupposes the prior positive whole it negates",
+      "The chipped-bowl discussion says negation points back to a whole already anticipated; it does not generate completeness on its own",
+      "the exam may ask about the order between positive and negative concepts"
+    ]
+  },
+  {
+    "question": "Fill in the blank: An a priori faculty is a capacity given in advance prior to ______.",
     "chapter": "Week 6A - Mar 9",
     "related_info": "The lecture says our a priori faculty is given beforehand and makes phenomena into experience through its forms.",
     "why_high_yield": "High yield because it generalizes the course's repeated point about cognition's preconditions.",
@@ -87,6 +301,67 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w6a-apriori-faculty",
-    "item_form": "definition"
+    "item_form": "definition",
+    "question_type": "fill_in",
+    "model_answer": "experience",
+    "key_points": [
+      "experience",
+      "The lecture says our a priori faculty is given beforehand and makes phenomena into experience through its forms",
+      "it generalizes the course's repeated point about cognition's preconditions"
+    ]
+  },
+  {
+    "question": "Why does Week 6A say AI lacks the relevant a priori faculty?",
+    "chapter": "Week 6A - Mar 9",
+    "related_info": "The lecture's point is that AI may manipulate data, but it does not ground experience through the same a priori faculty structure attributed to human cognition.",
+    "why_high_yield": "High yield because it turns the course's faculty theory into an applied contrast that is easy to test.",
+    "source_refs": [
+      "HUMA2831_Week6_03092026_Slides.pdf - slide 14 on AI and a priori faculty"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w6a-apriori-faculty",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "Because AI cannot process symbols at all",
+      "B": "Because AI does not constitute the fundamental synthetic a priori conditions of experience",
+      "C": "Because AI is already noumenal",
+      "D": "Because AI senses absence too directly"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture's point is that AI may manipulate data, but it does not ground experience through the same a priori faculty structure attributed to human cognition.",
+    "explanation_key_points": [
+      "Because AI does not constitute the fundamental synthetic a priori conditions of experience",
+      "The lecture's point is that AI may manipulate data, but it does not ground experience through the same a priori faculty structure attributed to human cognition",
+      "it turns the course's faculty theory into an applied contrast that is easy to test"
+    ]
+  },
+  {
+    "question": "Which summary does Week 6A tell students to remember?",
+    "chapter": "Week 6A - Mar 9",
+    "related_info": "The lecture repeats this four-part structure as a core architecture for understanding reason and categories.",
+    "why_high_yield": "High yield because it appears across several weeks and is very likely exam material.",
+    "source_refs": [
+      "HUMA2831_Week6_03092026_Slides.pdf - slide 15 on reason, categories, and totality"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w6a-apriori-faculty",
+    "item_form": "definition",
+    "question_type": "mcq",
+    "options": {
+      "A": "Reason conditions phenomena, while categories seek totality",
+      "B": "Reason seeks totality and the unconditioned, while categories condition phenomena",
+      "C": "Sensibility knows noumena, while reason knows only sensations",
+      "D": "Analytic judgment creates new empirical content"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture repeats this four-part structure as a core architecture for understanding reason and categories.",
+    "explanation_key_points": [
+      "Reason seeks totality and the unconditioned, while categories condition phenomena",
+      "The lecture repeats this four-part structure as a core architecture for understanding reason and categories",
+      "it appears across several weeks and is very likely exam material"
+    ]
   }
 ]

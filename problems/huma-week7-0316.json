@@ -1,12 +1,6 @@
 [
   {
-    "question": "What is the fundamental difference between \"The knife is absent\" and \"the nothingness of the knife-idea itself\" in Week 7A? Answer in 1-3 sentences.",
-    "model_answer": "The first is an empirical judgment of relative absence, while the second is reason's move toward absolute negation beyond experience. The lecture distinguishes understanding's contextual judgment of absence from reason's attempt to think the nullity of the concept itself.",
-    "key_points": [
-      "The first is an empirical judgment of relative absence, while the second is reason's move toward absolute negation beyond experience",
-      "The lecture distinguishes understanding's contextual judgment of absence from reason's attempt to think the nullity of the concept itself",
-      "this is one of the clearest distinction questions in the later lectures"
-    ],
+    "question": "Fill in the blank: Week 7A contrasts \"the knife is absent\" with reason's move toward absolute ______ beyond experience.",
     "chapter": "Week 7A - Mar 16",
     "related_info": "The lecture distinguishes understanding's contextual judgment of absence from reason's attempt to think the nullity of the concept itself.",
     "why_high_yield": "High yield because this is one of the clearest distinction questions in the later lectures.",
@@ -15,16 +9,71 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w7a-knife",
-    "item_form": "comparison"
+    "item_form": "comparison",
+    "question_type": "fill_in",
+    "model_answer": "negation",
+    "key_points": [
+      "negation",
+      "The lecture distinguishes understanding's contextual judgment of absence from reason's attempt to think the nullity of the concept itself",
+      "this is one of the clearest distinction questions in the later lectures"
+    ]
   },
   {
-    "question": "What does Week 7A mean by saying \"something negative is derived, not primary\"? Answer in 1-3 sentences.",
-    "model_answer": "Negation presupposes a positive concept and is not an original starting point. The lecture insists that absence and nothingness can only be thought on the basis of some prior positive determination.",
-    "key_points": [
-      "Negation presupposes a positive concept and is not an original starting point",
-      "The lecture insists that absence and nothingness can only be thought on the basis of some prior positive determination",
-      "it is the conceptual key to the knife and nothingness examples"
+    "question": "Why does reason start from the knife-idea itself rather than from empirical absence in Week 7A?",
+    "chapter": "Week 7A - Mar 16",
+    "related_info": "The lecture says reason begins from the concept because its drive is toward absolute totality, not toward a local empirical deficit.",
+    "why_high_yield": "High yield because it connects the knife example to the broader structure of reason and the unconditioned.",
+    "source_refs": [
+      "HUMA2831_Week7_03162026_Slides.pdf - slides 3-4 on why reason begins from the concept"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w7a-knife",
+    "item_form": "definition",
+    "question_type": "mcq",
+    "options": {
+      "A": "Because reason seeks totality and the unconditioned rather than a merely contextual lack",
+      "B": "Because sensibility has no access to knives",
+      "C": "Because empirical absence already gives absolute nothingness",
+      "D": "Because categories apply only to pure ideas"
+    },
+    "correct_option": "A",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture says reason begins from the concept because its drive is toward absolute totality, not toward a local empirical deficit.",
+    "explanation_key_points": [
+      "Because reason seeks totality and the unconditioned rather than a merely contextual lack",
+      "The lecture says reason begins from the concept because its drive is toward absolute totality, not toward a local empirical deficit",
+      "it connects the knife example to the broader structure of reason and the unconditioned"
+    ]
+  },
+  {
+    "question": "Why does the judgment \"The knife is absent\" still depend on a prior concept in Week 7A?",
+    "chapter": "Week 7A - Mar 16",
+    "related_info": "The lecture says the cognition of absence presupposes a horizon of expectation; negation is intelligible only relative to a prior concept.",
+    "why_high_yield": "High yield because it ties understanding, negation, and prior concept together in one move.",
+    "source_refs": [
+      "HUMA2831_Week7_03162026_Slides.pdf - slides 2 and 5 on empirical absence"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7a-knife",
+    "item_form": "scenario",
+    "question_type": "mcq",
+    "options": {
+      "A": "Because absence can only be sensed directly if the object is present",
+      "B": "Because empirical negation makes sense only against an expected object or concept already in place",
+      "C": "Because reason has already destroyed the concept",
+      "D": "Because no context is needed for absence"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture says the cognition of absence presupposes a horizon of expectation; negation is intelligible only relative to a prior concept.",
+    "explanation_key_points": [
+      "Because empirical negation makes sense only against an expected object or concept already in place",
+      "The lecture says the cognition of absence presupposes a horizon of expectation; negation is intelligible only relative to a prior concept",
+      "it ties understanding, negation, and prior concept together in one move"
+    ]
+  },
+  {
+    "question": "Fill in the blank: Negation presupposes a ______ concept and is not an original starting point.",
     "chapter": "Week 7A - Mar 16",
     "related_info": "The lecture insists that absence and nothingness can only be thought on the basis of some prior positive determination.",
     "why_high_yield": "High yield because it is the conceptual key to the knife and nothingness examples.",
@@ -33,16 +82,71 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w7a-negativity",
-    "item_form": "definition"
+    "item_form": "definition",
+    "question_type": "fill_in",
+    "model_answer": "positive",
+    "key_points": [
+      "positive",
+      "The lecture insists that absence and nothingness can only be thought on the basis of some prior positive determination",
+      "it is the conceptual key to the knife and nothingness examples"
+    ]
   },
   {
-    "question": "What is the basic form of analytic judgment in Week 7A? Answer in 1-3 sentences.",
-    "model_answer": "A is B in an affirmative structure. The lecture underscores that even reason's negative-seeming moves still operate within an affirmative judgment form.",
-    "key_points": [
-      "A is B in an affirmative structure",
-      "The lecture underscores that even reason's negative-seeming moves still operate within an affirmative judgment form",
-      "it prepares the later distinction between 'A is not B' and 'A is non-B.'"
+    "question": "How does reason derive concepts like absolute absence or nothingness in Week 7A?",
+    "chapter": "Week 7A - Mar 16",
+    "related_info": "The lecture asks exactly this question and answers that reason derives such notions through form rather than through sensible content.",
+    "why_high_yield": "High yield because it clarifies why these notions are tied to dialectical illusion rather than to ordinary experience.",
+    "source_refs": [
+      "HUMA2831_Week7_03162026_Slides.pdf - slides 6-7 on logical extension and nothingness"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w7a-negativity",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "By receiving stronger and stronger sensations of emptiness",
+      "B": "By extending logical form beyond temporal-change experience",
+      "C": "By abandoning all concepts",
+      "D": "By perceiving noumena directly"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture asks exactly this question and answers that reason derives such notions through form rather than through sensible content.",
+    "explanation_key_points": [
+      "By extending logical form beyond temporal-change experience",
+      "The lecture asks exactly this question and answers that reason derives such notions through form rather than through sensible content",
+      "it clarifies why these notions are tied to dialectical illusion rather than to ordinary experience"
+    ]
+  },
+  {
+    "question": "What pattern of reason's extension is given in Week 7A?",
+    "chapter": "Week 7A - Mar 16",
+    "related_info": "The slide explicitly presents positive and negative extremes of category-extension as yielding God and absolute nothingness respectively.",
+    "why_high_yield": "High yield because it directly links categories, positivity/negativity, and reason's extreme extensions.",
+    "source_refs": [
+      "HUMA2831_Week7_03162026_Slides.pdf - slides 7 and 13 on the pattern of extension"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7a-negativity",
+    "item_form": "definition",
+    "question_type": "mcq",
+    "options": {
+      "A": "From categories' positive extreme comes the highest being, and from their negative extreme comes absolute nothingness",
+      "B": "From sensation comes God, and from intuition comes nonbeing",
+      "C": "From excluded middle comes noumena, and from contradiction comes phenomena",
+      "D": "From empirical absence comes synthetic a priori knowledge"
+    },
+    "correct_option": "A",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The slide explicitly presents positive and negative extremes of category-extension as yielding God and absolute nothingness respectively.",
+    "explanation_key_points": [
+      "From categories' positive extreme comes the highest being, and from their negative extreme comes absolute nothingness",
+      "The slide explicitly presents positive and negative extremes of category-extension as yielding God and absolute nothingness respectively",
+      "it directly links categories, positivity/negativity, and reason's extreme extensions"
+    ]
+  },
+  {
+    "question": "Fill in the blank: The basic form of analytic judgment in Week 7A is A is ______.",
     "chapter": "Week 7A - Mar 16",
     "related_info": "The lecture underscores that even reason's negative-seeming moves still operate within an affirmative judgment form.",
     "why_high_yield": "High yield because it prepares the later distinction between 'A is not B' and 'A is non-B.'",
@@ -51,16 +155,98 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w7a-analytic-form",
-    "item_form": "definition"
+    "item_form": "definition",
+    "question_type": "fill_in",
+    "model_answer": "B",
+    "key_points": [
+      "B",
+      "The lecture underscores that even reason's negative-seeming moves still operate within an affirmative judgment form",
+      "it prepares the later distinction between 'A is not B' and 'A is non-B.'"
+    ]
   },
   {
-    "question": "What limits the recognition of phenomena in Week 7A? Answer in 1-3 sentences.",
-    "model_answer": "Forms of intuition, then schematism, then categories. The lecture lists these successive limits to show how phenomenon is structured and bounded before reason's later overreach.",
-    "key_points": [
-      "Forms of intuition, then schematism, then categories",
-      "The lecture lists these successive limits to show how phenomenon is structured and bounded before reason's later overreach",
-      "it gives a compact layered model of how experience is constituted"
+    "question": "Why does Week 7A say even \"A is non-B\" still has an affirmative judgment structure?",
+    "chapter": "Week 7A - Mar 16",
+    "related_info": "The slide says pure reason derives the unconditioned through analytic judgments, and even \"A is non-B\" still takes the form of affirming something of A.",
+    "why_high_yield": "High yield because it is one of the course's most distinctive later-lecture claims about negativity.",
+    "source_refs": [
+      "HUMA2831_Week7_03162026_Slides.pdf - slide 8 on affirmative judgment form"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w7a-analytic-form",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "Because the \"non-\" is treated as an intrinsic determination of A within the predicate slot",
+      "B": "Because all negative judgments are sensory perceptions",
+      "C": "Because contradiction disappears entirely",
+      "D": "Because comparison has no role in phenomena"
+    },
+    "correct_option": "A",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The slide says pure reason derives the unconditioned through analytic judgments, and even \"A is non-B\" still takes the form of affirming something of A.",
+    "explanation_key_points": [
+      "Because the \"non-\" is treated as an intrinsic determination of A within the predicate slot",
+      "The slide says pure reason derives the unconditioned through analytic judgments, and even \"A is non-B\" still takes the form of affirming something of A",
+      "it is one of the course's most distinctive later-lecture claims about negativity"
+    ]
+  },
+  {
+    "question": "How does pure reason derive the unconditioned in Week 7A?",
+    "chapter": "Week 7A - Mar 16",
+    "related_info": "The lecture says reason pushes analytically toward the unconditioned; it does not synthesize new experiential content there.",
+    "why_high_yield": "High yield because it ties together reason, analytic judgment, and the unconditioned.",
+    "source_refs": [
+      "HUMA2831_Week7_03162026_Slides.pdf - slides 8-9 on reason and analytic judgment"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7a-analytic-form",
+    "item_form": "definition",
+    "question_type": "mcq",
+    "options": {
+      "A": "Through analytic judgments rather than through new synthetic experience",
+      "B": "By sensing noumena directly",
+      "C": "By removing all concepts from thought",
+      "D": "By relying only on empirical comparison"
+    },
+    "correct_option": "A",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture says reason pushes analytically toward the unconditioned; it does not synthesize new experiential content there.",
+    "explanation_key_points": [
+      "Through analytic judgments rather than through new synthetic experience",
+      "The lecture says reason pushes analytically toward the unconditioned; it does not synthesize new experiential content there",
+      "it ties together reason, analytic judgment, and the unconditioned"
+    ]
+  },
+  {
+    "question": "What broad claim does Week 7A make about understanding?",
+    "chapter": "Week 7A - Mar 16",
+    "related_info": "The lecture says our entire understanding of the world requires combination and constitution, which is why it is synthetic.",
+    "why_high_yield": "High yield because it sets up the contrast between understanding's synthetic role and reason's analytic expansion.",
+    "source_refs": [
+      "HUMA2831_Week7_03162026_Slides.pdf - slide 9 on all understanding as synthetic"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7a-understanding-limits",
+    "item_form": "definition",
+    "question_type": "mcq",
+    "options": {
+      "A": "All understanding is ultimately synthetic",
+      "B": "All understanding is purely analytic",
+      "C": "Understanding knows noumena directly",
+      "D": "Understanding is identical with sensibility"
+    },
+    "correct_option": "A",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture says our entire understanding of the world requires combination and constitution, which is why it is synthetic.",
+    "explanation_key_points": [
+      "All understanding is ultimately synthetic",
+      "The lecture says our entire understanding of the world requires combination and constitution, which is why it is synthetic",
+      "it sets up the contrast between understanding's synthetic role and reason's analytic expansion"
+    ]
+  },
+  {
+    "question": "Fill in the blank: Recognition of phenomena is limited by forms of intuition, then ______, then categories.",
     "chapter": "Week 7A - Mar 16",
     "related_info": "The lecture lists these successive limits to show how phenomenon is structured and bounded before reason's later overreach.",
     "why_high_yield": "High yield because it gives a compact layered model of how experience is constituted.",
@@ -69,16 +255,71 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w7a-understanding-limits",
-    "item_form": "comparison"
+    "item_form": "comparison",
+    "question_type": "fill_in",
+    "model_answer": "schematism",
+    "key_points": [
+      "schematism",
+      "The lecture lists these successive limits to show how phenomenon is structured and bounded before reason's later overreach",
+      "it gives a compact layered model of how experience is constituted"
+    ]
   },
   {
-    "question": "What is the endpoint of analytic judgment according to Week 7A? Answer in 1-3 sentences.",
-    "model_answer": "Subdivision and unpacking without real expansion of knowledge. The lecture says analytic judgment can proliferate ideas, but it does not produce genuine knowledge expansion.",
-    "key_points": [
-      "Subdivision and unpacking without real expansion of knowledge",
-      "The lecture says analytic judgment can proliferate ideas, but it does not produce genuine knowledge expansion",
-      "it reinforces why reason's infinite conceptual growth should not be confused with new cognition"
+    "question": "Why is the possibility of understanding not confined simply to finite phenomena in Week 7A?",
+    "chapter": "Week 7A - Mar 16",
+    "related_info": "The lecture says ideas arise from understanding's own possibility, even though they should not be mistaken for constitutive knowledge of objects beyond experience.",
+    "why_high_yield": "High yield because it helps explain why ideas are grounded yet still risky.",
+    "source_refs": [
+      "HUMA2831_Week7_03162026_Slides.pdf - slides 11-12 on ideas from understanding"
     ],
+    "incorrect_count": 0,
+    "concept_id": "w7a-understanding-limits",
+    "item_form": "comparison",
+    "question_type": "mcq",
+    "options": {
+      "A": "Because understanding directly intuits things-in-themselves",
+      "B": "Because its possibility generates ideas that point beyond finite appearances, even though these do not become empirical objects",
+      "C": "Because there are no limits on sensibility",
+      "D": "Because comparison is meaningless"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture says ideas arise from understanding's own possibility, even though they should not be mistaken for constitutive knowledge of objects beyond experience.",
+    "explanation_key_points": [
+      "Because its possibility generates ideas that point beyond finite appearances, even though these do not become empirical objects",
+      "The lecture says ideas arise from understanding's own possibility, even though they should not be mistaken for constitutive knowledge of objects beyond experience",
+      "it helps explain why ideas are grounded yet still risky"
+    ]
+  },
+  {
+    "question": "What kind of truth does Week 7A grant to ideas generated from understanding?",
+    "chapter": "Week 7A - Mar 16",
+    "related_info": "The slides say the ideas are grounded in the possibility of understanding, which gives them a kind of a priori validity without making them empirical objects.",
+    "why_high_yield": "High yield because it distinguishes grounded possibility from constitutive object-cognition.",
+    "source_refs": [
+      "HUMA2831_Week7_03162026_Slides.pdf - slide 12 on the truth of understanding for ideas"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7a-understanding-limits",
+    "item_form": "definition",
+    "question_type": "mcq",
+    "options": {
+      "A": "Direct empirical truth as appearances",
+      "B": "A priori validity as generated from the ground of understanding, not as sensed objects",
+      "C": "No validity at all",
+      "D": "Purely accidental truth from habit"
+    },
+    "correct_option": "B",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The slides say the ideas are grounded in the possibility of understanding, which gives them a kind of a priori validity without making them empirical objects.",
+    "explanation_key_points": [
+      "A priori validity as generated from the ground of understanding, not as sensed objects",
+      "The slides say the ideas are grounded in the possibility of understanding, which gives them a kind of a priori validity without making them empirical objects",
+      "it distinguishes grounded possibility from constitutive object-cognition"
+    ]
+  },
+  {
+    "question": "Fill in the blank: Analytic judgment ends in subdivision and ______ without real expansion of knowledge.",
     "chapter": "Week 7A - Mar 16",
     "related_info": "The lecture says analytic judgment can proliferate ideas, but it does not produce genuine knowledge expansion.",
     "why_high_yield": "High yield because it reinforces why reason's infinite conceptual growth should not be confused with new cognition.",
@@ -87,6 +328,40 @@
     ],
     "incorrect_count": 0,
     "concept_id": "w7a-understanding-limits",
-    "item_form": "comparison"
+    "item_form": "comparison",
+    "question_type": "fill_in",
+    "model_answer": "unpacking",
+    "key_points": [
+      "unpacking",
+      "The lecture says analytic judgment can proliferate ideas, but it does not produce genuine knowledge expansion",
+      "it reinforces why reason's infinite conceptual growth should not be confused with new cognition"
+    ]
+  },
+  {
+    "question": "Which statement would Week 7A reject?",
+    "chapter": "Week 7A - Mar 16",
+    "related_info": "The lecture repeatedly emphasizes that reason starts from concepts and extends them, rather than beginning from sensation.",
+    "why_high_yield": "High yield because it cleanly separates reason from sensibility in a late-course context.",
+    "source_refs": [
+      "HUMA2831_Week7_03162026_Slides.pdf - slides 2-13 on reason's starting point and structure"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "w7a-understanding-limits",
+    "item_form": "counterexample",
+    "question_type": "mcq",
+    "options": {
+      "A": "Reason begins from concepts rather than raw sensory data",
+      "B": "Empirical absence presupposes a prior concept",
+      "C": "Reason starts from sensory data and only later forms concepts",
+      "D": "Understanding is synthetic while reason moves analytically"
+    },
+    "correct_option": "C",
+    "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
+    "model_explanation": "The lecture repeatedly emphasizes that reason starts from concepts and extends them, rather than beginning from sensation.",
+    "explanation_key_points": [
+      "Reason starts from sensory data and only later forms concepts",
+      "The lecture repeatedly emphasizes that reason starts from concepts and extends them, rather than beginning from sensation",
+      "it cleanly separates reason from sensibility in a late-course context"
+    ]
   }
 ]
