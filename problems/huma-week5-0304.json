@@ -31,10 +31,10 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "A and not-A can both be true together",
-      "B": "Every concept contains its predicate",
+      "A": "A and not-A can both be true together on the lecture's account within the lecture's framework",
+      "B": "Every concept contains its predicate in the relevant contrast",
       "C": "Between a proposition and its negation there is no third middle option",
-      "D": "All judgments are empirical"
+      "D": "All judgments are empirical on the lecture's account"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -58,9 +58,9 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "It maintains sameness as A = A",
-      "B": "It proves all synthetic judgments",
-      "C": "It generates sensory content",
+      "A": "It maintains sameness as A = A in the relevant discussion as the lecture frames it",
+      "B": "It proves all synthetic judgments as the lecture frames it within the lecture's framework",
+      "C": "It generates sensory content within the lecture's framework in the relevant discussion",
       "D": "It forbids affirming and denying the same proposition at once in the same respect"
     },
     "correct_option": "D",
@@ -105,9 +105,9 @@
     "question_type": "mcq",
     "options": {
       "A": "Denying an analytic predicate creates contradiction because the identical concept would oppose itself",
-      "B": "Identity is derived from excluded middle alone",
-      "C": "Synthetic judgment grounds identity by habit",
-      "D": "There is no connection between them"
+      "B": "Identity is derived from excluded middle alone in the relevant contrast within the lecture's framework",
+      "C": "Synthetic judgment grounds identity by habit within the lecture's framework on the lecture's account",
+      "D": "There is no connection between them on the lecture's account in the relevant contrast"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -133,8 +133,8 @@
     "options": {
       "A": "Because analytic judgments create new information by combining unlike concepts",
       "B": "Because analytic judgments reaffirm what is already selfsame within the subject concept",
-      "C": "Because identity is more empirical than non-contradiction",
-      "D": "Because analytic judgments compare appearances only"
+      "C": "Because identity is more empirical than non-contradiction within the lecture's framework",
+      "D": "Because analytic judgments compare appearances only on the lecture's account"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -177,10 +177,10 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "It merely unpacks what is already there",
-      "B": "It avoids all negativity and distinction",
+      "A": "It merely unpacks what is already there within the lecture's framework in the relevant contrast",
+      "B": "It avoids all negativity and distinction on the lecture's account",
       "C": "It amplifies knowledge by connecting the subject to an external predicate",
-      "D": "It functions only as a regulative idea"
+      "D": "It functions only as a regulative idea within the lecture's framework"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -204,7 +204,7 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "A is A all the way through",
+      "A": "A is A all the way through in the relevant discussion within the lecture's framework",
       "B": "First empirical sensation, then analytic identity",
       "C": "First noumenal cognition, then phenomenal comparison",
       "D": "First distinction or exclusion, then connection and expansion"
@@ -251,9 +251,9 @@
     "question_type": "mcq",
     "options": {
       "A": "No, because they only unpack what is already contained in the concept",
-      "B": "Yes, because they add predicates from experience",
+      "B": "Yes, because they add predicates from experience within the lecture's framework",
       "C": "Yes, because they move from conditioned to unconditioned",
-      "D": "No, because they are always false"
+      "D": "No, because they are always false as the lecture frames it"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -277,10 +277,10 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Through raw sensory input alone",
+      "A": "Through raw sensory input alone on the lecture's account",
       "B": "Through the same principle of identity that structures analytic judgment",
-      "C": "Through empirical induction without categories",
-      "D": "Through direct intuition of noumena"
+      "C": "Through empirical induction without categories within the lecture's framework",
+      "D": "Through direct intuition of noumena on the lecture's account"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -323,10 +323,10 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "They add new empirical matter through synthesis",
-      "B": "They sense absence directly",
+      "A": "They add new empirical matter through synthesis within the lecture's framework on the lecture's account",
+      "B": "They sense absence directly on the lecture's account in the relevant contrast within the lecture's framework in this framework",
       "C": "They operate through identity, add no new empirical content, and guide thought without constituting appearances",
-      "D": "They are all forms of pure intuition"
+      "D": "They are all forms of pure intuition within the lecture's framework on the lecture's account"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -350,9 +350,9 @@
     "item_form": "counterexample",
     "question_type": "mcq",
     "options": {
-      "A": "They guide thought toward unity",
+      "A": "They guide thought toward unity in the relevant discussion",
       "B": "They regulate inquiry without yielding constitutive empirical reality",
-      "C": "They follow an identity-like structure",
+      "C": "They follow an identity-like structure within the lecture's framework",
       "D": "They actually describe an object we encounter as such in appearances"
     },
     "correct_option": "D",

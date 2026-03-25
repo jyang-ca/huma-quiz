@@ -31,10 +31,10 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "final systematic unity",
-      "B": "pure ideas of totality",
+      "A": "final systematic unity within the lecture's framework",
+      "B": "pure ideas of totality on the lecture's account",
       "C": "immediate singular intuitions given through space and time",
-      "D": "analytic unpacking of concepts"
+      "D": "analytic unpacking of concepts within the lecture's framework"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -58,9 +58,9 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "Reason repeats sensations without changing them",
-      "B": "Reason belongs entirely to sensibility",
-      "C": "Reason is just another name for categories",
+      "A": "Reason repeats sensations without changing them on the lecture's account",
+      "B": "Reason belongs entirely to sensibility in this case within the lecture's framework",
+      "C": "Reason is just another name for categories within the lecture's framework",
       "D": "Reason develops from understanding and systematizes its judgments toward totality"
     },
     "correct_option": "D",
@@ -105,9 +105,9 @@
     "question_type": "mcq",
     "options": {
       "A": "Because abstract categories must be given temporal form to apply to experience",
-      "B": "Because categories are sensory by themselves",
-      "C": "Because noumena need to be visualized",
-      "D": "Because identity can never govern thought"
+      "B": "Because categories are sensory by themselves on the lecture's account",
+      "C": "Because noumena need to be visualized in the relevant contrast",
+      "D": "Because identity can never govern thought within the lecture's framework in the relevant contrast"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -131,10 +131,10 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "Because it replaces categories with sensation",
+      "A": "Because it replaces categories with sensation on the lecture's account",
       "B": "Because it makes concepts applicable to intuitions through mediation",
       "C": "Because it directly reveals things-in-themselves",
-      "D": "Because it abolishes the need for reason"
+      "D": "Because it abolishes the need for reason on the lecture's account"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -177,10 +177,10 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "They are abstracted from experience after many repetitions",
-      "B": "They are merely emotional habits",
+      "A": "They are abstracted from experience after many repetitions in the relevant contrast",
+      "B": "They are merely emotional habits within the lecture's framework on the lecture's account",
       "C": "They precede experience as logical functions and require sensory content for meaning",
-      "D": "They are identical with reason's Ideas of totality"
+      "D": "They are identical with reason's Ideas of totality in the relevant contrast"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -204,9 +204,9 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "They extend sensibility into noumena",
-      "B": "They remove all need for intuition",
-      "C": "They convert every judgment into an analytic one",
+      "A": "They extend sensibility into noumena within the lecture's framework",
+      "B": "They remove all need for intuition in the relevant discussion as the lecture frames it",
+      "C": "They convert every judgment into an analytic one as the lecture frames it",
       "D": "They limit sensibility to the phenomenal realm by structuring experience objectively"
     },
     "correct_option": "D",
@@ -251,9 +251,9 @@
     "question_type": "mcq",
     "options": {
       "A": "Because it stays within possible experience and universalizes empirical cases through category application",
-      "B": "Because it directly intuits noumena",
-      "C": "Because it ignores all sensory data",
-      "D": "Because it treats an idea of reason as a constitutive object"
+      "B": "Because it directly intuits noumena on the lecture's account in this case within the lecture's framework in this framework",
+      "C": "Because it ignores all sensory data in this case within the lecture's framework on the lecture's account",
+      "D": "Because it treats an idea of reason as a constitutive object within the lecture's framework"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -277,10 +277,10 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Because death can never be spoken about logically",
+      "A": "Because death can never be spoken about logically on the lecture's account",
       "B": "Because categories cannot supply empirical content for my own death as an experienced object",
-      "C": "Because death is analytically contained in the concept of self",
-      "D": "Because sensation directly intuits the unconditioned"
+      "C": "Because death is analytically contained in the concept of self within the lecture's framework",
+      "D": "Because sensation directly intuits the unconditioned on the lecture's account"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -323,10 +323,10 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Categories seek totality; reason conditions phenomena",
-      "B": "Sensibility creates categories; reason supplies sensation",
+      "A": "Categories seek totality; reason conditions phenomena in the relevant contrast",
+      "B": "Sensibility creates categories; reason supplies sensation within the lecture's framework in the relevant contrast",
       "C": "Categories condition phenomena; reason seeks the unconditioned totality of the conditioned realm",
-      "D": "Noumena are conditioned; phenomena are unconditioned"
+      "D": "Noumena are conditioned; phenomena are unconditioned in the relevant contrast"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -350,9 +350,9 @@
     "item_form": "counterexample",
     "question_type": "mcq",
     "options": {
-      "A": "Keeping inference tied to possible experience",
-      "B": "Applying categories to intuitions",
-      "C": "Using imagination to schematize time",
+      "A": "Keeping inference tied to possible experience on the lecture's account within the lecture's framework",
+      "B": "Applying categories to intuitions within the lecture's framework in the relevant discussion",
+      "C": "Using imagination to schematize time in the relevant discussion on the lecture's account",
       "D": "Treating reason's drive to totality as if it could constitute an actual object beyond experience"
     },
     "correct_option": "D",

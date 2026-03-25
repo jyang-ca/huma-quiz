@@ -32,9 +32,9 @@
     "question_type": "mcq",
     "options": {
       "A": "Because events can be arranged 'in time' only if the pure form is already available",
-      "B": "Because clocks create the form of inner sense",
-      "C": "Because noumena are temporal before phenomena",
-      "D": "Because reason supplies sensation directly"
+      "B": "Because clocks create the form of inner sense as the lecture frames it",
+      "C": "Because noumena are temporal before phenomena within the lecture's framework as the lecture frames it",
+      "D": "Because reason supplies sensation directly in the relevant discussion"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -61,7 +61,7 @@
       "A": "Pure time by itself, without any categories",
       "B": "Pure time plus the application of categories to events",
       "C": "Excluded middle applied to sensations",
-      "D": "Reason's ideas of totality alone"
+      "D": "Reason's ideas of totality alone on the lecture's account"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -131,9 +131,9 @@
     "item_form": "counterexample",
     "question_type": "mcq",
     "options": {
-      "A": "all sensations whatsoever",
-      "B": "the law of identity",
-      "C": "the possibility of geometry alone",
+      "A": "all sensations whatsoever on the lecture's account",
+      "B": "the law of identity within the lecture's framework",
+      "C": "the possibility of geometry alone in the relevant discussion",
       "D": "coherent objective experience under one consciousness"
     },
     "correct_option": "D",
@@ -179,8 +179,8 @@
     "options": {
       "A": "Pure concepts of the understanding that structure experience",
       "B": "Empirical summaries drawn from repeated observations",
-      "C": "Images produced by sensation alone",
-      "D": "Synonyms for things-in-themselves"
+      "C": "Images produced by sensation alone in the relevant contrast",
+      "D": "Synonyms for things-in-themselves within the lecture's framework"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -206,8 +206,8 @@
     "options": {
       "A": "They are private feelings that guide aesthetics only",
       "B": "They are transcendental conditions for objective judgments",
-      "C": "They directly reveal noumena",
-      "D": "They eliminate the need for intuition"
+      "C": "They directly reveal noumena within the lecture's framework",
+      "D": "They eliminate the need for intuition in the relevant discussion"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -250,10 +250,10 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "the phenomenal self as one more event in time",
-      "B": "space as outer intuition",
+      "A": "the phenomenal self as one more event in time within the lecture's framework",
+      "B": "space as outer intuition on the lecture's account in this case",
       "C": "the transcendental self or \"I think\" that unifies temporal experiences",
-      "D": "the category of plurality alone"
+      "D": "the category of plurality alone within the lecture's framework"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -277,7 +277,7 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "It is an empirical object directly sensed in inner time",
+      "A": "It is an empirical object directly sensed in inner time within the lecture's framework",
       "B": "It is identical with the phenomenal body",
       "C": "It is a synthetic judgment discovered by experiment",
       "D": "It is a formal and timeless condition of self-consciousness"
@@ -324,9 +324,9 @@
     "question_type": "mcq",
     "options": {
       "A": "Pure concepts lose meaning if they are not supplied with sensory content",
-      "B": "Intuitions become blind when they are too vivid",
-      "C": "Reason alone can create objects from nothing",
-      "D": "Time is empty because it has no events"
+      "B": "Intuitions become blind when they are too vivid on the lecture's account",
+      "C": "Reason alone can create objects from nothing in the relevant contrast",
+      "D": "Time is empty because it has no events within the lecture's framework"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -350,10 +350,10 @@
     "item_form": "counterexample",
     "question_type": "mcq",
     "options": {
-      "A": "The phenomenal self appears in time",
+      "A": "The phenomenal self appears in time on the lecture's account within the lecture's framework",
       "B": "Time applies to the transcendental self in exactly the same way it applies to the phenomenal self",
-      "C": "The transcendental self is outside time as a condition of experience",
-      "D": "Categories require intuition for determinate meaning"
+      "C": "The transcendental self is outside time as a condition of experience in the relevant discussion within the lecture's framework",
+      "D": "Categories require intuition for determinate meaning on the lecture's account"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",

@@ -32,9 +32,9 @@
     "question_type": "mcq",
     "options": {
       "A": "simply knowing without understanding",
-      "B": "understanding without any knowledge",
-      "C": "pure reason without sensibility",
-      "D": "noumenal intuition without concepts"
+      "B": "understanding without any knowledge in this case",
+      "C": "pure reason without sensibility within the lecture's framework",
+      "D": "noumenal intuition without concepts on the lecture's account"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -58,10 +58,10 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "private belief; public proof",
+      "A": "private belief; public proof in the relevant discussion",
       "B": "mere measurable appearances; the principles that make them intelligible",
-      "C": "empirical science; religious faith",
-      "D": "analytic judgment; excluded middle"
+      "C": "empirical science; religious faith within the lecture's framework as the lecture frames it",
+      "D": "analytic judgment; excluded middle in the relevant discussion"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -104,9 +104,9 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "the principle of sufficient reason",
-      "B": "the principle of induction",
-      "C": "the principle of non-contradiction",
+      "A": "the principle of sufficient reason within the lecture's framework",
+      "B": "the principle of induction on the lecture's account",
+      "C": "the principle of non-contradiction in the relevant contrast",
       "D": "the principle of empirical verification"
     },
     "correct_option": "C",
@@ -179,8 +179,8 @@
     "options": {
       "A": "They add a predicate not already contained in the subject concept",
       "B": "They merely repeat what is already implied in the subject",
-      "C": "They avoid all use of intuition",
-      "D": "They cancel the need for distinction"
+      "C": "They avoid all use of intuition on the lecture's account",
+      "D": "They cancel the need for distinction in the relevant contrast on the lecture's account"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -207,7 +207,7 @@
       "A": "First reaffirm identity, then eliminate all difference",
       "B": "First exclude the predicate from the subject concept, then connect it",
       "C": "First deny all intuition, then affirm pure sensation",
-      "D": "First compare noumena, then derive phenomena"
+      "D": "First compare noumena, then derive phenomena in this case on the lecture's account"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -251,9 +251,9 @@
     "question_type": "mcq",
     "options": {
       "A": "Analytic judgment depends on excluded middle",
-      "B": "Sensibility creates noumena",
+      "B": "Sensibility creates noumena on the lecture's account",
       "C": "Synthetic expansion begins with distinction",
-      "D": "Mathematics is purely empirical"
+      "D": "Mathematics is purely empirical within the lecture's framework"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -324,9 +324,9 @@
     "question_type": "mcq",
     "options": {
       "A": "Because arithmetic results must be constructed rather than found by mere concept analysis",
-      "B": "Because the concept \"12\" is already hidden inside \"7 + 5\"",
-      "C": "Because arithmetic is always based on repeated experience",
-      "D": "Because contradiction alone produces the sum"
+      "B": "Because the concept \"12\" is already hidden inside \"7 + 5\" within the lecture's framework in the relevant contrast",
+      "C": "Because arithmetic is always based on repeated experience on the lecture's account",
+      "D": "Because contradiction alone produces the sum in the relevant contrast"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -350,10 +350,10 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Mathematics is analytic, while metaphysics alone is synthetic",
-      "B": "Mathematics uses intuition within phenomena, while metaphysics investigates the conditions of cognition through pure concepts",
-      "C": "Mathematics concerns noumena, while metaphysics concerns appearances",
-      "D": "Mathematics depends on experience, while metaphysics rejects all thought"
+      "A": "Mathematics is analytic, while metaphysics alone is synthetic on the lecture's account",
+      "B": "Mathematics uses intuition within phenomena, while metaphysics studies cognition through pure concepts",
+      "C": "Mathematics concerns noumena, while metaphysics concerns appearances within the lecture's framework in the relevant contrast",
+      "D": "Mathematics depends on experience, while metaphysics rejects all thought on the lecture's account"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",

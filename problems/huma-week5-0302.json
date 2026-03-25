@@ -32,9 +32,9 @@
     "question_type": "mcq",
     "options": {
       "A": "It shows that experience without categories does not yet become objective knowledge",
-      "B": "It proves that all knowledge comes straight from pain",
-      "C": "It demonstrates that noumena are observable",
-      "D": "It turns synthetic judgment into analytic judgment"
+      "B": "It proves that all knowledge comes straight from pain in the relevant contrast on the lecture's account",
+      "C": "It demonstrates that noumena are observable within the lecture's framework",
+      "D": "It turns synthetic judgment into analytic judgment on the lecture's account"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -58,10 +58,10 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "Thoughts without content are empty",
+      "A": "Thoughts without content are empty within the lecture's framework",
       "B": "Intuitions without concepts are blind",
-      "C": "Identity grounds analytic judgment",
-      "D": "Reason seeks totality"
+      "C": "Identity grounds analytic judgment as the lecture frames it",
+      "D": "Reason seeks totality within the lecture's framework"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -104,10 +104,10 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Because categories are already sensory images",
-      "B": "Because reason cannot think without contradiction",
+      "A": "Because categories are already sensory images on the lecture's account in the relevant contrast",
+      "B": "Because reason cannot think without contradiction in the relevant contrast within the lecture's framework",
       "C": "Because abstract categories such as causality need temporal concretion to apply to actual experience",
-      "D": "Because empirical objects are identical with noumena"
+      "D": "Because empirical objects are identical with noumena on the lecture's account in the relevant contrast"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -131,9 +131,9 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Both discard categories altogether",
-      "B": "Both are purely empirical habits",
-      "C": "Both are direct perceptions of absence",
+      "A": "Both discard categories altogether within the lecture's framework",
+      "B": "Both are purely empirical habits on the lecture's account in the relevant contrast",
+      "C": "Both are direct perceptions of absence in the relevant contrast",
       "D": "Both involve mediation through categories to connect different levels of cognition"
     },
     "correct_option": "D",
@@ -178,9 +178,9 @@
     "question_type": "mcq",
     "options": {
       "A": "analysis or systematization of what is already constituted",
-      "B": "raw sensation",
-      "C": "direct intuition of noumena",
-      "D": "construction of empirical matter"
+      "B": "raw sensation within the lecture's framework",
+      "C": "direct intuition of noumena on the lecture's account",
+      "D": "construction of empirical matter in the relevant contrast on the lecture's account"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -206,8 +206,8 @@
     "options": {
       "A": "Sensibility -> Understanding: analytic; Understanding -> Reason: synthetic",
       "B": "Sensibility -> Understanding: synthetic; Understanding -> Reason: analytic",
-      "C": "Both stages are purely empirical",
-      "D": "Both stages are forms of direct intuition"
+      "C": "Both stages are purely empirical in the relevant contrast",
+      "D": "Both stages are forms of direct intuition within the lecture's framework"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -250,10 +250,10 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Transcendental means beyond all cognition, while transcendent means lawful categories",
-      "B": "Transcendental is empirical, while transcendent is analytic",
+      "A": "Transcendental means beyond all cognition, while transcendent means lawful categories within the lecture's framework in the relevant contrast",
+      "B": "Transcendental is empirical, while transcendent is analytic on the lecture's account in the relevant contrast",
       "C": "Transcendental concerns conditions of possible experience, while transcendent is the improper extension beyond experience",
-      "D": "They are two names for the same process"
+      "D": "They are two names for the same process within the lecture's framework on the lecture's account"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -277,9 +277,9 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "Leaving categories within the empirical domain",
-      "B": "Using sensibility to receive appearances",
-      "C": "Applying identity in analytic judgments",
+      "A": "Leaving categories within the empirical domain within the lecture's framework",
+      "B": "Using sensibility to receive appearances on the lecture's account",
+      "C": "Applying identity in analytic judgments in this case within the lecture's framework",
       "D": "Extending categories beyond possible experience under reason's transcendent command"
     },
     "correct_option": "D",
@@ -324,9 +324,9 @@
     "question_type": "mcq",
     "options": {
       "A": "Because understanding must constitute experience, whereas reason systematizes what has already been constituted",
-      "B": "Because reason alone receives sensations",
-      "C": "Because analytic judgments are more empirical than synthetic ones",
-      "D": "Because categories do not apply to understanding"
+      "B": "Because reason alone receives sensations in the relevant contrast within the lecture's framework",
+      "C": "Because analytic judgments are more empirical than synthetic ones within the lecture's framework",
+      "D": "Because categories do not apply to understanding on the lecture's account in the relevant contrast within the lecture's framework"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -350,10 +350,10 @@
     "item_form": "counterexample",
     "question_type": "mcq",
     "options": {
-      "A": "Transcendental critique studies the conditions of possible experience",
+      "A": "Transcendental critique studies the conditions of possible experience in the relevant discussion",
       "B": "The transition from understanding to reason creates new empirical knowledge by fresh synthesis",
-      "C": "Reason can tempt us to misuse categories beyond phenomena",
-      "D": "Schematization mediates between categories and intuition"
+      "C": "Reason can tempt us to misuse categories beyond phenomena within the lecture's framework",
+      "D": "Schematization mediates between categories and intuition in the relevant discussion"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",

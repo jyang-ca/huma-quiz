@@ -31,10 +31,10 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Experience is universal and necessary, while the a priori is sensory",
-      "B": "Experience concerns noumena, while the a priori concerns only language",
+      "A": "Experience is universal and necessary, while the a priori is sensory in the relevant contrast",
+      "B": "Experience concerns noumena, while the a priori concerns only language within the lecture's framework",
       "C": "Experience comes from the senses, while the a priori is independent of experience and carries universality and necessity",
-      "D": "Experience is analytic, while the a priori is always empirical"
+      "D": "Experience is analytic, while the a priori is always empirical in the relevant contrast within the lecture's framework on the lecture's account"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -58,9 +58,9 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "Knowledge is supplied entirely by pure reason",
+      "A": "Knowledge is supplied entirely by pure reason within the lecture's framework",
       "B": "Knowledge is only a flow of impressions with no form",
-      "C": "Knowledge comes from comparing noumena directly",
+      "C": "Knowledge comes from comparing noumena directly in this case",
       "D": "Knowledge arises from the cooperation of sensibility and understanding"
     },
     "correct_option": "D",
@@ -106,8 +106,8 @@
     "options": {
       "A": "Because cognition is limited to the conditions under which appearances become knowable",
       "B": "Because beyond experience we can obtain even stronger empirical evidence",
-      "C": "Because phenomena are unreal",
-      "D": "Because logic forbids all thinking about limits"
+      "C": "Because phenomena are unreal in the relevant contrast within the lecture's framework on the lecture's account",
+      "D": "Because logic forbids all thinking about limits within the lecture's framework"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -131,10 +131,10 @@
     "item_form": "counterexample",
     "question_type": "mcq",
     "options": {
-      "A": "Appearance is what sensibility gives us",
+      "A": "Appearance is what sensibility gives us in the relevant discussion within the lecture's framework",
       "B": "Metaphysics can simply skip the question of experience's conditions",
       "C": "Things-in-themselves may exist without being known as such",
-      "D": "Our knowledge is confined to phenomena"
+      "D": "Our knowledge is confined to phenomena in the relevant discussion"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -178,7 +178,7 @@
     "question_type": "mcq",
     "options": {
       "A": "sensibility, because appearances can be false",
-      "B": "space, because it limits intuition",
+      "B": "space, because it limits intuition on the lecture's account",
       "C": "understanding, because judgment belongs to it",
       "D": "noumena, because they hide themselves"
     },
@@ -204,9 +204,9 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "Because planets never appear to move backward",
-      "B": "Because reason corrects the senses directly",
-      "C": "Because noumena are visible in astronomy",
+      "A": "Because planets never appear to move backward in this case within the lecture's framework",
+      "B": "Because reason corrects the senses directly within the lecture's framework on the lecture's account",
+      "C": "Because noumena are visible in astronomy on the lecture's account in this case within the lecture's framework in this framework",
       "D": "Because sensibility only presents the appearance; the mistaken objectivity belongs to understanding's judgment"
     },
     "correct_option": "D",
@@ -251,7 +251,7 @@
     "question_type": "mcq",
     "options": {
       "A": "Because it precedes and helps make phenomena knowable",
-      "B": "Because it creates noumena directly",
+      "B": "Because it creates noumena directly within the lecture's framework",
       "C": "Because it is identical with empirical memory",
       "D": "Because it belongs to excluded middle"
     },
@@ -279,8 +279,8 @@
     "options": {
       "A": "Understanding is one of the a priori conditions of objective cognition",
       "B": "Understanding is just another object given in space and time like a chair",
-      "C": "Understanding belongs to the side of cognition that precedes appearances",
-      "D": "Understanding makes judgment possible"
+      "C": "Understanding belongs to the side of cognition that precedes appearances within the lecture's framework",
+      "D": "Understanding makes judgment possible on the lecture's account"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -323,10 +323,10 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Because only technical skill can judge phenomena",
-      "B": "Because technical skill already knows noumena directly",
+      "A": "Because only technical skill can judge phenomena in the relevant contrast within the lecture's framework on the lecture's account",
+      "B": "Because technical skill already knows noumena directly within the lecture's framework",
       "C": "Because human cognition also relates to the metaphysical dimension beyond replaceable technical functions",
-      "D": "Because intelligence is identical with sensation"
+      "D": "Because intelligence is identical with sensation in the relevant contrast within the lecture's framework"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -350,9 +350,9 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "To reduce all cognition to sense data alone",
-      "B": "To deny all objective knowledge",
-      "C": "To replace judgment with imagination",
+      "A": "To reduce all cognition to sense data alone within the lecture's framework",
+      "B": "To deny all objective knowledge on the lecture's account in this case",
+      "C": "To replace judgment with imagination in this case within the lecture's framework on the lecture's account",
       "D": "To examine the mind's capacity to relate to what exceeds immediate empirical givenness"
     },
     "correct_option": "D",

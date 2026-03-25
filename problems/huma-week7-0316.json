@@ -32,9 +32,9 @@
     "question_type": "mcq",
     "options": {
       "A": "Because reason seeks totality and the unconditioned rather than a merely contextual lack",
-      "B": "Because sensibility has no access to knives",
-      "C": "Because empirical absence already gives absolute nothingness",
-      "D": "Because categories apply only to pure ideas"
+      "B": "Because sensibility has no access to knives in the relevant discussion",
+      "C": "Because empirical absence already gives absolute nothingness as the lecture frames it in the relevant discussion",
+      "D": "Because categories apply only to pure ideas within the lecture's framework"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -58,10 +58,10 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "Because absence can only be sensed directly if the object is present",
+      "A": "Because absence can only be sensed directly if the object is present in this case",
       "B": "Because empirical negation makes sense only against an expected object or concept already in place",
-      "C": "Because reason has already destroyed the concept",
-      "D": "Because no context is needed for absence"
+      "C": "Because reason has already destroyed the concept on the lecture's account in this case within the lecture's framework",
+      "D": "Because no context is needed for absence in this case within the lecture's framework"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -105,9 +105,9 @@
     "question_type": "mcq",
     "options": {
       "A": "By receiving stronger and stronger sensations of emptiness",
-      "B": "By abandoning all concepts",
+      "B": "By abandoning all concepts on the lecture's account",
       "C": "By extending logical form beyond temporal-change experience",
-      "D": "By perceiving noumena directly"
+      "D": "By perceiving noumena directly within the lecture's framework"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -131,9 +131,9 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "From sensation comes God, and from intuition comes nonbeing",
-      "B": "From excluded middle comes noumena, and from contradiction comes phenomena",
-      "C": "From empirical absence comes synthetic a priori knowledge",
+      "A": "From sensation comes God, and from intuition comes nonbeing as the lecture frames it within the lecture's framework in the relevant discussion",
+      "B": "From excluded middle comes noumena, and from contradiction comes phenomena within the lecture's framework",
+      "C": "From empirical absence comes synthetic a priori knowledge in the relevant discussion as the lecture frames it",
       "D": "From categories' positive extreme comes the highest being, and from their negative extreme comes absolute nothingness"
     },
     "correct_option": "D",
@@ -178,9 +178,9 @@
     "question_type": "mcq",
     "options": {
       "A": "Because the \"non-\" is treated as an intrinsic determination of A within the predicate slot",
-      "B": "Because all negative judgments are sensory perceptions",
-      "C": "Because contradiction disappears entirely",
-      "D": "Because comparison has no role in phenomena"
+      "B": "Because all negative judgments are sensory perceptions within the lecture's framework",
+      "C": "Because contradiction disappears entirely on the lecture's account in the relevant contrast",
+      "D": "Because comparison has no role in phenomena in the relevant contrast within the lecture's framework"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -204,10 +204,10 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "By sensing noumena directly",
+      "A": "By sensing noumena directly within the lecture's framework",
       "B": "Through analytic judgments rather than through new synthetic experience",
-      "C": "By removing all concepts from thought",
-      "D": "By relying only on empirical comparison"
+      "C": "By removing all concepts from thought as the lecture frames it",
+      "D": "By relying only on empirical comparison within the lecture's framework as the lecture frames it"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -277,9 +277,9 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Because understanding directly intuits things-in-themselves",
-      "B": "Because there are no limits on sensibility",
-      "C": "Because comparison is meaningless",
+      "A": "Because understanding directly intuits things-in-themselves in the relevant contrast within the lecture's framework on the lecture's account",
+      "B": "Because there are no limits on sensibility within the lecture's framework on the lecture's account",
+      "C": "Because comparison is meaningless on the lecture's account in the relevant contrast within the lecture's framework",
       "D": "Because its possibility generates ideas that point beyond finite appearances, even though these do not become empirical objects"
     },
     "correct_option": "D",
@@ -305,9 +305,9 @@
     "question_type": "mcq",
     "options": {
       "A": "A priori validity as generated from the ground of understanding, not as sensed objects",
-      "B": "Direct empirical truth as appearances",
-      "C": "No validity at all",
-      "D": "Purely accidental truth from habit"
+      "B": "Direct empirical truth as appearances within the lecture's framework",
+      "C": "No validity at all in the relevant discussion as the lecture frames it",
+      "D": "Purely accidental truth from habit as the lecture frames it within the lecture's framework"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -353,7 +353,7 @@
       "A": "Reason begins from concepts rather than raw sensory data",
       "B": "Reason starts from sensory data and only later forms concepts",
       "C": "Empirical absence presupposes a prior concept",
-      "D": "Understanding is synthetic while reason moves analytically"
+      "D": "Understanding is synthetic while reason moves analytically in the relevant discussion"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",

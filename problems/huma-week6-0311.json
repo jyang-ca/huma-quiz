@@ -31,10 +31,10 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Because we directly sense absolute perfection everywhere",
-      "B": "Because experience is always analytic",
+      "A": "Because we directly sense absolute perfection everywhere on the lecture's account",
+      "B": "Because experience is always analytic in the relevant contrast within the lecture's framework",
       "C": "Because the empirical world offers no perfect model from which the concept could be copied",
-      "D": "Because categories do not apply to judgment"
+      "D": "Because categories do not apply to judgment on the lecture's account in the relevant contrast"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -60,7 +60,7 @@
     "options": {
       "A": "It is an object we can fully encounter in appearances",
       "B": "It is a direct category of sensibility",
-      "C": "It eliminates all need for comparison",
+      "C": "It eliminates all need for comparison in the relevant discussion",
       "D": "It is a standard that guides judgments of better and worse"
     },
     "correct_option": "D",
@@ -105,9 +105,9 @@
     "question_type": "mcq",
     "options": {
       "A": "Treating the Idea as if a perfect being or object existed somewhere as an appearance",
-      "B": "Using perfection to guide judgment",
-      "C": "Comparing better and worse cases in experience",
-      "D": "Denying that categories are finite"
+      "B": "Using perfection to guide judgment in the relevant discussion as the lecture frames it",
+      "C": "Comparing better and worse cases in experience as the lecture frames it",
+      "D": "Denying that categories are finite within the lecture's framework"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -133,8 +133,8 @@
     "options": {
       "A": "Perfection exists as a fully knowable object somewhere in appearances",
       "B": "Perfection helps guide our judgments of good and bad without being an empirical object",
-      "C": "Perfection is a sensation inside every judgment",
-      "D": "Perfection abolishes categories"
+      "C": "Perfection is a sensation inside every judgment on the lecture's account",
+      "D": "Perfection abolishes categories in the relevant contrast within the lecture's framework"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -177,10 +177,10 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "That sensibility directly senses absence itself",
-      "B": "That categories are unnecessary for experience",
+      "A": "That sensibility directly senses absence itself in this case within the lecture's framework",
+      "B": "That categories are unnecessary for experience within the lecture's framework on the lecture's account",
       "C": "That what is sensed is present empty space, while the sense of absence depends on a prior expectation",
-      "D": "That reason begins with pure nothingness"
+      "D": "That reason begins with pure nothingness in this case within the lecture's framework"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -204,9 +204,9 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "present empty space",
-      "B": "the continuity of change in time",
-      "C": "a wallet as a phenomenal object",
+      "A": "present empty space on the lecture's account",
+      "B": "the continuity of change in time in the relevant contrast",
+      "C": "a wallet as a phenomenal object within the lecture's framework",
       "D": "what was never there at all as a sensory datum"
     },
     "correct_option": "D",
@@ -251,9 +251,9 @@
     "question_type": "mcq",
     "options": {
       "A": "An absolute negation that has moved away from empirical absence toward thought beyond experience",
-      "B": "A sensory report about a missing object in a room",
-      "C": "A statement about present empty space only",
-      "D": "A geometric truth"
+      "B": "A sensory report about a missing object in a room on the lecture's account in the relevant contrast",
+      "C": "A statement about present empty space only in the relevant contrast within the lecture's framework",
+      "D": "A geometric truth within the lecture's framework on the lecture's account in the relevant contrast"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -279,8 +279,8 @@
     "options": {
       "A": "By receiving a stronger sensory absence than understanding can receive",
       "B": "By using logical form beyond temporal-change experience",
-      "C": "By copying a perfect empirical model",
-      "D": "By turning categories off completely"
+      "C": "By copying a perfect empirical model in this case within the lecture's framework",
+      "D": "By turning categories off completely within the lecture's framework"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -323,8 +323,8 @@
     "item_form": "counterexample",
     "question_type": "mcq",
     "options": {
-      "A": "Perfection guides our judgments",
-      "B": "Categories structure appearances",
+      "A": "Perfection guides our judgments on the lecture's account",
+      "B": "Categories structure appearances within the lecture's framework",
       "C": "Absolute nothingness actually exists as an object",
       "D": "Empirical absence depends on a prior concept"
     },
@@ -350,9 +350,9 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Absolute nothingness is an observable object in the world",
-      "B": "Sensibility senses absence directly as absence",
-      "C": "Perfection is copied from perfect cases in experience",
+      "A": "Absolute nothingness is an observable object in the world in the relevant contrast on the lecture's account",
+      "B": "Sensibility senses absence directly as absence within the lecture's framework",
+      "C": "Perfection is copied from perfect cases in experience on the lecture's account",
       "D": "The Idea of perfection should guide inquiry rather than be objectified as an appearance"
     },
     "correct_option": "D",

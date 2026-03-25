@@ -32,9 +32,9 @@
     "question_type": "mcq",
     "options": {
       "A": "General logic studies thought's pure form, while transcendental logic studies thought's a priori relation to objects",
-      "B": "General logic studies objects, while transcendental logic studies feelings",
-      "C": "General logic is empirical, while transcendental logic is sensory",
-      "D": "They are simply two names for the same discipline"
+      "B": "General logic studies objects, while transcendental logic studies feelings within the lecture's framework in the relevant contrast",
+      "C": "General logic is empirical, while transcendental logic is sensory on the lecture's account",
+      "D": "They are simply two names for the same discipline in the relevant contrast within the lecture's framework"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -58,10 +58,10 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "They are empirical habits repeatedly confirmed by observation",
+      "A": "They are empirical habits repeatedly confirmed by observation as the lecture frames it",
       "B": "They are necessary forms for possible experience rather than products of experience",
-      "C": "They are direct perceptions of noumena",
-      "D": "They are identical with reason's Ideas"
+      "C": "They are direct perceptions of noumena in the relevant discussion",
+      "D": "They are identical with reason's Ideas as the lecture frames it"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -104,10 +104,10 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "Because it directly cognizes the unconditioned",
-      "B": "Because it is merely a feeling of necessity",
+      "A": "Because it directly cognizes the unconditioned within the lecture's framework in this case",
+      "B": "Because it is merely a feeling of necessity on the lecture's account",
       "C": "Because it remains tied to possible experience and lawful category application",
-      "D": "Because it compares noumena with phenomena"
+      "D": "Because it compares noumena with phenomena within the lecture's framework"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -131,9 +131,9 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Because death is analytically contained in every concept",
-      "B": "Because understanding can never think negation",
-      "C": "Because time applies only to noumena",
+      "A": "Because death is analytically contained in every concept on the lecture's account",
+      "B": "Because understanding can never think negation in the relevant contrast within the lecture's framework",
+      "C": "Because time applies only to noumena within the lecture's framework on the lecture's account",
       "D": "Because my own death lacks empirical content that categories could cognize as an experienced object"
     },
     "correct_option": "D",
@@ -178,9 +178,9 @@
     "question_type": "mcq",
     "options": {
       "A": "an analytic movement that systematizes what understanding has already constituted",
-      "B": "a new sensory synthesis of empirical content",
-      "C": "a direct intuition of things-in-themselves",
-      "D": "a purely emotional association"
+      "B": "a new sensory synthesis of empirical content within the lecture's framework",
+      "C": "a direct intuition of things-in-themselves on the lecture's account",
+      "D": "a purely emotional association in the relevant contrast within the lecture's framework"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -204,10 +204,10 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "Because reason has no relation to categories at all",
+      "A": "Because reason has no relation to categories at all in the relevant discussion as the lecture frames it within the lecture's framework",
       "B": "Because reason unifies and extends already constituted knowledge rather than adding new empirical matter",
-      "C": "Because all analytic judgment is false",
-      "D": "Because sensibility alone determines truth"
+      "C": "Because all analytic judgment is false within the lecture's framework in the relevant discussion",
+      "D": "Because sensibility alone determines truth in the relevant discussion as the lecture frames it"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -250,10 +250,10 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "Negation is sensed before any positive content",
-      "B": "Negative concepts are more real than positive ones",
+      "A": "Negation is sensed before any positive content within the lecture's framework as the lecture frames it",
+      "B": "Negative concepts are more real than positive ones in the relevant discussion",
       "C": "Negation depends on a prior positive concept and does not originate cognition by itself",
-      "D": "Only empirical concepts can be negative"
+      "D": "Only empirical concepts can be negative within the lecture's framework"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -277,9 +277,9 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "Because reason never uses negation",
-      "B": "Because sensibility alone determines completeness",
-      "C": "Because excluded middle forbids negative judgments",
+      "A": "Because reason never uses negation within the lecture's framework",
+      "B": "Because sensibility alone determines completeness on the lecture's account",
+      "C": "Because excluded middle forbids negative judgments in the relevant contrast on the lecture's account",
       "D": "Because negation is derivative and presupposes the prior positive whole it negates"
     },
     "correct_option": "D",
@@ -324,9 +324,9 @@
     "question_type": "mcq",
     "options": {
       "A": "Because AI does not constitute the fundamental synthetic a priori conditions of experience",
-      "B": "Because AI cannot process symbols at all",
-      "C": "Because AI is already noumenal",
-      "D": "Because AI senses absence too directly"
+      "B": "Because AI cannot process symbols at all on the lecture's account in the relevant contrast",
+      "C": "Because AI is already noumenal in the relevant contrast within the lecture's framework",
+      "D": "Because AI senses absence too directly within the lecture's framework on the lecture's account"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -350,10 +350,10 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "Reason conditions phenomena, while categories seek totality",
+      "A": "Reason conditions phenomena, while categories seek totality as the lecture frames it",
       "B": "Reason seeks totality and the unconditioned, while categories condition phenomena",
       "C": "Sensibility knows noumena, while reason knows only sensations",
-      "D": "Analytic judgment creates new empirical content"
+      "D": "Analytic judgment creates new empirical content as the lecture frames it"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",

@@ -32,9 +32,9 @@
     "question_type": "mcq",
     "options": {
       "A": "What we know are appearances shaped by sensibility, not things-in-themselves",
-      "B": "Bodies are imaginary fictions with no external ground",
-      "C": "Reason directly intuits material substance",
-      "D": "Empirical science is impossible"
+      "B": "Bodies are imaginary fictions with no external ground in the relevant contrast",
+      "C": "Reason directly intuits material substance within the lecture's framework",
+      "D": "Empirical science is impossible on the lecture's account"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -58,10 +58,10 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "Reason becomes identical with sensation",
+      "A": "Reason becomes identical with sensation in this case",
       "B": "Phenomena are the appearances given to us through sensibility",
-      "C": "Space and time disappear from experience",
-      "D": "Analytic judgments become impossible"
+      "C": "Space and time disappear from experience on the lecture's account",
+      "D": "Analytic judgments become impossible in this case"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -104,10 +104,10 @@
     "item_form": "comparison",
     "question_type": "mcq",
     "options": {
-      "A": "It depends on excluded middle rather than identity",
-      "B": "It denies that thought occurs",
+      "A": "It depends on excluded middle rather than identity within the lecture's framework in the relevant contrast",
+      "B": "It denies that thought occurs on the lecture's account in the relevant contrast",
       "C": "It proves too little because it omits all sensation but still sneaks in an enduring \"I\"",
-      "D": "It is based on too much empirical evidence"
+      "D": "It is based on too much empirical evidence within the lecture's framework"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -131,9 +131,9 @@
     "item_form": "counterexample",
     "question_type": "mcq",
     "options": {
-      "A": "No empirical content can ever be repeated",
-      "B": "Space is a form of intuition",
-      "C": "Mathematics is synthetic a priori",
+      "A": "No empirical content can ever be repeated within the lecture's framework on the lecture's account",
+      "B": "Space is a form of intuition in the relevant discussion",
+      "C": "Mathematics is synthetic a priori on the lecture's account",
       "D": "We observe only a bundle of perceptions, not an enduring thinking substance"
     },
     "correct_option": "D",
@@ -179,8 +179,8 @@
     "options": {
       "A": "Causality is constant conjunction or habit, not observed necessity",
       "B": "Causality is an innate idea guaranteed by reason",
-      "C": "Causality belongs only to noumena",
-      "D": "Causality is a direct sensation"
+      "C": "Causality belongs only to noumena in the relevant contrast",
+      "D": "Causality is a direct sensation within the lecture's framework in the relevant contrast"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -204,10 +204,10 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "that there are any sensations",
+      "A": "that there are any sensations as the lecture frames it",
       "B": "that there is an underlying substantial self directly known in experience",
-      "C": "that impressions can become ideas",
-      "D": "that experience ever happens in time"
+      "C": "that impressions can become ideas in the relevant discussion",
+      "D": "that experience ever happens in time as the lecture frames it in the relevant discussion"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -250,10 +250,10 @@
     "item_form": "definition",
     "question_type": "mcq",
     "options": {
-      "A": "Experience provides both form and content by itself",
-      "B": "Reason creates objects without any experience",
+      "A": "Experience provides both form and content by itself as the lecture frames it",
+      "B": "Reason creates objects without any experience within the lecture's framework",
       "C": "Experience provides content, while the mind supplies form such as space, time, and categories",
-      "D": "Only analytic judgment yields knowledge"
+      "D": "Only analytic judgment yields knowledge as the lecture frames it within the lecture's framework"
     },
     "correct_option": "C",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -277,9 +277,9 @@
     "item_form": "scenario",
     "question_type": "mcq",
     "options": {
-      "A": "Empiricism gives too much certainty to innate ideas",
-      "B": "Empiricism proves things-in-themselves directly",
-      "C": "Empiricism has too many categories",
+      "A": "Empiricism gives too much certainty to innate ideas on the lecture's account",
+      "B": "Empiricism proves things-in-themselves directly in this case within the lecture's framework",
+      "C": "Empiricism has too many categories within the lecture's framework on the lecture's account",
       "D": "Empiricism cannot explain universal and necessary knowledge such as mathematics and science"
     },
     "correct_option": "D",
@@ -324,9 +324,9 @@
     "question_type": "mcq",
     "options": {
       "A": "Because that very limit pushes us to ask about the conditions under which appearances become knowable",
-      "B": "Because metaphysics can then photograph noumena directly",
-      "C": "Because empirical science stops functioning",
-      "D": "Because logic becomes meaningless"
+      "B": "Because metaphysics can then photograph noumena directly on the lecture's account",
+      "C": "Because empirical science stops functioning in the relevant contrast within the lecture's framework on the lecture's account",
+      "D": "Because logic becomes meaningless within the lecture's framework on the lecture's account"
     },
     "correct_option": "A",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
@@ -352,8 +352,8 @@
     "options": {
       "A": "They are the direct target that metaphysics positively describes",
       "B": "They function as an unknowable boundary rather than as a directly knowable object",
-      "C": "They are identical with sensory appearances",
-      "D": "They are just another name for categories"
+      "C": "They are identical with sensory appearances within the lecture's framework in the relevant contrast",
+      "D": "They are just another name for categories on the lecture's account"
     },
     "correct_option": "B",
     "explanation_prompt": "Briefly explain why your selected answer is correct. A correct choice without a solid explanation does not count as fully correct.",
