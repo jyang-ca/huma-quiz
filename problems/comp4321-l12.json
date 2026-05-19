@@ -1,0 +1,322 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "Why is good search quality hard to get according to L12?",
+    "chapter": "L12 - Relevance Feedback",
+    "related_info": "짧고 모호한 query는 사용자 의도를 충분히 드러내지 못하므로 query reformulation/relevance feedback이 필요하다.",
+    "why_high_yield": "L12 전체 동기를 묻는 기본 문제다.",
+    "source_refs": [
+      "L12.pdf p2-p3: why good search quality is hard"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l12-quality-hard",
+    "item_form": "definition",
+    "options": {
+      "A": "Users type only 1-2 keywords and words are ambiguous",
+      "B": "Every user query fully specifies the information need",
+      "C": "All words have exactly one meaning",
+      "D": "Relevance feedback is impossible in vector space"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 짧은 query와 apple/IR 같은 ambiguity 때문에 user information need를 알기 어렵습니다.",
+      "B": "오답입니다. 슬라이드는 오히려 query가 정보 요구를 충분히 포착하지 못한다고 말합니다.",
+      "C": "오답입니다. Ambiguity가 핵심 문제입니다.",
+      "D": "오답입니다. L12는 VSM에서 query modification/relevance feedback을 설명합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. 짧고 모호한 query는 사용자 의도를 충분히 드러내지 못하므로 query reformulation/relevance feedback이 필요하다.\n\n보기별 해설:\nA. 정답입니다. 짧은 query와 apple/IR 같은 ambiguity 때문에 user information need를 알기 어렵습니다.\nB. 오답입니다. 슬라이드는 오히려 query가 정보 요구를 충분히 포착하지 못한다고 말합니다.\nC. 오답입니다. Ambiguity가 핵심 문제입니다.\nD. 오답입니다. L12는 VSM에서 query modification/relevance feedback을 설명합니다.",
+    "explanation_key_points": [
+      "정답은 A (Users type only 1-2 keywords and words are ambiguous)이다.",
+      "짧고 모호한 query는 사용자 의도를 충분히 드러내지 못하므로 query reformulation/relevance feedback이 필요하다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which statement best distinguishes query expansion from query reformulation?",
+    "chapter": "L12 - Relevance Feedback",
+    "related_info": "Query reformulation/modification은 나쁜 query를 더 좋은 query로 바꾸며, expansion은 terms를 추가하는 좁은 형태다.",
+    "why_high_yield": "용어 구분형 MCQ로 자주 나올 수 있다.",
+    "source_refs": [
+      "L12.pdf p4: query expansion/reformulation/modification"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l12-reform-expansion",
+    "item_form": "comparison",
+    "options": {
+      "A": "Expansion adds terms to the original query; reformulation more generally modifies a bad query into a better one",
+      "B": "Expansion deletes the entire query while reformulation never changes it",
+      "C": "Expansion is link analysis, reformulation is advertisement bidding",
+      "D": "They are always strictly separated in practice"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 expansion을 original query에 terms를 더하는 것으로, reformulation은 더 넓은 query modification으로 설명합니다.",
+      "B": "오답입니다. 둘 다 query를 개선하려는 변형입니다.",
+      "C": "오답입니다. 둘 다 query modification category입니다.",
+      "D": "오답입니다. 슬라이드는 practice에서는 차이를 크게 걱정할 필요가 없다고 말합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Query reformulation/modification은 나쁜 query를 더 좋은 query로 바꾸며, expansion은 terms를 추가하는 좁은 형태다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 expansion을 original query에 terms를 더하는 것으로, reformulation은 더 넓은 query modification으로 설명합니다.\nB. 오답입니다. 둘 다 query를 개선하려는 변형입니다.\nC. 오답입니다. 둘 다 query modification category입니다.\nD. 오답입니다. 슬라이드는 practice에서는 차이를 크게 걱정할 필요가 없다고 말합니다.",
+    "explanation_key_points": [
+      "정답은 A (Expansion adds terms to the original query; reformulation more generally modifies a bad query into a better one)이다.",
+      "Query reformulation/modification은 나쁜 query를 더 좋은 query로 바꾸며, expansion은 terms를 추가하는 좁은 형태다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which is an example of implicit feedback?",
+    "chapter": "L12 - Relevance Feedback",
+    "related_info": "Explicit feedback은 사용자가 relevant/nonrelevant를 직접 표시하고, implicit feedback은 clicks 같은 행동에서 추론한다.",
+    "why_high_yield": "L12와 L13 개인화에서 반복되는 매우 중요한 구분이다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L12.pdf p6-p7: implicit versus explicit feedback",
+      "2026-05-08 review video: professor explicitly reviewed explicit vs implicit feedback."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l12-explicit-implicit",
+    "item_form": "scenario",
+    "options": {
+      "A": "Inferring user preference from clicks or browsing behavior",
+      "B": "A user explicitly marks a document relevant or nonrelevant",
+      "C": "A human assessor judges TREC relevance offline",
+      "D": "A crawler counts outgoing links only"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Implicit feedback은 사용자의 자연스러운 actions를 기반으로 선호를 추측합니다.",
+      "B": "오답입니다. 이것은 explicit feedback입니다.",
+      "C": "오답입니다. 이것은 benchmark evaluation judgment이지 user implicit feedback이 아닙니다.",
+      "D": "오답입니다. Link count는 user feedback이 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Explicit feedback은 사용자가 relevant/nonrelevant를 직접 표시하고, implicit feedback은 clicks 같은 행동에서 추론한다.\n\n보기별 해설:\nA. 정답입니다. Implicit feedback은 사용자의 자연스러운 actions를 기반으로 선호를 추측합니다.\nB. 오답입니다. 이것은 explicit feedback입니다.\nC. 오답입니다. 이것은 benchmark evaluation judgment이지 user implicit feedback이 아닙니다.\nD. 오답입니다. Link count는 user feedback이 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (Inferring user preference from clicks or browsing behavior)이다.",
+      "Explicit feedback은 사용자가 relevant/nonrelevant를 직접 표시하고, implicit feedback은 clicks 같은 행동에서 추론한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What is the basic idea of query modification with relevance feedback?",
+    "chapter": "L12 - Relevance Feedback",
+    "related_info": "Relevance feedback은 query vector를 relevant centroid 쪽으로 이동시키고 nonrelevant centroid에서 멀어지게 한다.",
+    "why_high_yield": "Rocchio formula의 직관을 묻는 핵심이다.",
+    "source_refs": [
+      "L12.pdf p9-p13: effect and basic idea of relevance feedback"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l12-basic-idea",
+    "item_form": "counterexample",
+    "options": {
+      "A": "Reinforce terms in relevant results and weaken terms in nonrelevant results",
+      "B": "Delete all terms appearing in relevant documents",
+      "C": "Increase weights of nonrelevant-only terms",
+      "D": "Ignore vector operations entirely"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Relevant documents의 terms는 query vector를 그쪽으로 끌고, nonrelevant documents의 terms는 멀어지게 합니다.",
+      "B": "오답입니다. Relevant terms는 오히려 강화/추가됩니다.",
+      "C": "오답입니다. Nonrelevant terms는 query와 멀어지도록 약화됩니다.",
+      "D": "오답입니다. VSM query/document vectors라서 더하고 빼는 modification이 가능합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Relevance feedback은 query vector를 relevant centroid 쪽으로 이동시키고 nonrelevant centroid에서 멀어지게 한다.\n\n보기별 해설:\nA. 정답입니다. Relevant documents의 terms는 query vector를 그쪽으로 끌고, nonrelevant documents의 terms는 멀어지게 합니다.\nB. 오답입니다. Relevant terms는 오히려 강화/추가됩니다.\nC. 오답입니다. Nonrelevant terms는 query와 멀어지도록 약화됩니다.\nD. 오답입니다. VSM query/document vectors라서 더하고 빼는 modification이 가능합니다.",
+    "explanation_key_points": [
+      "정답은 A (Reinforce terms in relevant results and weaken terms in nonrelevant results)이다.",
+      "Relevance feedback은 query vector를 relevant centroid 쪽으로 이동시키고 nonrelevant centroid에서 멀어지게 한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What is the issue with the optimal query formulation using known DR and DN?",
+    "chapter": "L12 - Relevance Feedback",
+    "related_info": "완전한 DR/DN은 알 수 없으므로 user-identified DR’/DN’을 estimate로 써서 반복적으로 query를 수정한다.",
+    "why_high_yield": "이론식과 실제 feedback의 차이를 묻는 문제로 좋다.",
+    "source_refs": [
+      "L12.pdf p11-p13: optimal query and query modification"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l12-optimal-query",
+    "item_form": "definition",
+    "options": {
+      "A": "The complete relevant and nonrelevant document sets are unknown in practice",
+      "B": "It cannot be represented as a vector",
+      "C": "It requires PageRank to be zero",
+      "D": "It uses no relevant documents at all"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Optimal query는 DR/DN을 안다고 가정하지만 실제로는 사용자 feedback으로 얻은 DR’/DN’만 있습니다.",
+      "B": "오답입니다. Query/document vector framework 안에서 centroids로 표현합니다.",
+      "C": "오답입니다. PageRank는 해당 optimal query issue와 무관합니다.",
+      "D": "오답입니다. Optimal query formulation은 relevant/nonrelevant sets를 핵심으로 사용합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. 완전한 DR/DN은 알 수 없으므로 user-identified DR’/DN’을 estimate로 써서 반복적으로 query를 수정한다.\n\n보기별 해설:\nA. 정답입니다. Optimal query는 DR/DN을 안다고 가정하지만 실제로는 사용자 feedback으로 얻은 DR’/DN’만 있습니다.\nB. 오답입니다. Query/document vector framework 안에서 centroids로 표현합니다.\nC. 오답입니다. PageRank는 해당 optimal query issue와 무관합니다.\nD. 오답입니다. Optimal query formulation은 relevant/nonrelevant sets를 핵심으로 사용합니다.",
+    "explanation_key_points": [
+      "정답은 A (The complete relevant and nonrelevant document sets are unknown in practice)이다.",
+      "완전한 DR/DN은 알 수 없으므로 user-identified DR’/DN’을 estimate로 써서 반복적으로 query를 수정한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "In Rocchio-style query modification, what do alpha, beta, and gamma control?",
+    "chapter": "L12 - Relevance Feedback",
+    "related_info": "Rocchio parameters는 원래 query를 얼마나 유지하고 relevant/nonrelevant feedback을 얼마나 반영할지 결정한다.",
+    "why_high_yield": "Canvas L12 quiz가 α, β, γ statement를 묻는다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L12.pdf p12-p16: query modification parameters",
+      "2026-05-08 review video: professor emphasized what feedback can do and how query/document movement works."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l12-rocchio-params",
+    "item_form": "comparison",
+    "options": {
+      "A": "The weights of original query, relevant feedback, and nonrelevant feedback components",
+      "B": "The damping factor, outdegree, and PageRank sink size",
+      "C": "The number of stopwords, stems, and suffixes",
+      "D": "The price, impression, and click rate of ads"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. α는 original query 유지, β는 relevant centroid 강화, γ는 nonrelevant centroid 약화 강도를 조절합니다.",
+      "B": "오답입니다. 이것은 PageRank 개념과 섞은 보기입니다.",
+      "C": "오답입니다. 이것은 L11 preprocessing parameter와 섞은 보기입니다.",
+      "D": "오답입니다. 광고 metrics는 query modification 공식의 parameter가 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Rocchio parameters는 원래 query를 얼마나 유지하고 relevant/nonrelevant feedback을 얼마나 반영할지 결정한다.\n\n보기별 해설:\nA. 정답입니다. α는 original query 유지, β는 relevant centroid 강화, γ는 nonrelevant centroid 약화 강도를 조절합니다.\nB. 오답입니다. 이것은 PageRank 개념과 섞은 보기입니다.\nC. 오답입니다. 이것은 L11 preprocessing parameter와 섞은 보기입니다.\nD. 오답입니다. 광고 metrics는 query modification 공식의 parameter가 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (The weights of original query, relevant feedback, and nonrelevant feedback components)이다.",
+      "Rocchio parameters는 원래 query를 얼마나 유지하고 relevant/nonrelevant feedback을 얼마나 반영할지 결정한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What is positive mode in relevance feedback?",
+    "chapter": "L12 - Relevance Feedback",
+    "related_info": "Relevant documents의 정보가 query modification에 더 valuable하다고 관찰되며 positive mode는 relevant feedback만 반영한다.",
+    "why_high_yield": "Parameter tuning과 feedback mode를 묻는 문제에 대비한다.",
+    "source_refs": [
+      "L12.pdf p15-p16: parameters and observations"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l12-positive-mode",
+    "item_form": "scenario",
+    "options": {
+      "A": "Only relevant documents are considered for query modification",
+      "B": "Only nonrelevant documents are used to expand the query",
+      "C": "Only PageRank-positive pages are crawled",
+      "D": "The query is never changed"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Positive mode는 nonrelevant feedback을 쓰지 않고 relevant document information만 사용합니다.",
+      "B": "오답입니다. Positive mode는 relevant side만 고려합니다.",
+      "C": "오답입니다. PageRank와 관련된 mode가 아닙니다.",
+      "D": "오답입니다. Positive mode도 relevant documents를 이용해 query를 수정합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Relevant documents의 정보가 query modification에 더 valuable하다고 관찰되며 positive mode는 relevant feedback만 반영한다.\n\n보기별 해설:\nA. 정답입니다. Positive mode는 nonrelevant feedback을 쓰지 않고 relevant document information만 사용합니다.\nB. 오답입니다. Positive mode는 relevant side만 고려합니다.\nC. 오답입니다. PageRank와 관련된 mode가 아닙니다.\nD. 오답입니다. Positive mode도 relevant documents를 이용해 query를 수정합니다.",
+    "explanation_key_points": [
+      "정답은 A (Only relevant documents are considered for query modification)이다.",
+      "Relevant documents의 정보가 query modification에 더 valuable하다고 관찰되며 positive mode는 relevant feedback만 반영한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Document space modification has a global and persistent impact on future queries.",
+    "chapter": "L12 - Relevance Feedback",
+    "related_info": "Query modification은 특정 query/session에 국한되지만 document vector modification은 index/document representation을 영구적으로 바꿔 future queries에 영향을 준다.",
+    "why_high_yield": "L12 후반의 설계 위험 포인트다.",
+    "source_refs": [
+      "L12.pdf p19-p25: document modification in practice"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l12-document-modification-global",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Query modification은 특정 query/session에 국한되지만 document vector modification은 index/document representation을 영구적으로 바꿔 future queries에 영향을 준다.",
+      "B": "이 보기를 고르면 틀립니다. Query modification은 특정 query/session에 국한되지만 document vector modification은 index/document representation을 영구적으로 바꿔 future queries에 영향을 준다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Query modification은 특정 query/session에 국한되지만 document vector modification은 index/document representation을 영구적으로 바꿔 future queries에 영향을 준다.\n\n보기별 해설:\nA. 참입니다. Query modification은 특정 query/session에 국한되지만 document vector modification은 index/document representation을 영구적으로 바꿔 future queries에 영향을 준다.\nB. 이 보기를 고르면 틀립니다. Query modification은 특정 query/session에 국한되지만 document vector modification은 index/document representation을 영구적으로 바꿔 future queries에 영향을 준다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Query modification은 특정 query/session에 국한되지만 document vector modification은 index/document representation을 영구적으로 바꿔 future queries에 영향을 준다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: The lecture says terms in nonrelevant documents are generally more valuable than relevant-document information for query modification.",
+    "chapter": "L12 - Relevance Feedback",
+    "related_info": "슬라이드는 relevant documents의 정보가 query modification에 더 valuable하다고 말한다. Nonrelevant information도 쓸 수 있지만 보통 더 조심스럽다.",
+    "why_high_yield": "β/γ 파라미터 해석과 연결되는 함정이다.",
+    "source_refs": [
+      "L12.pdf p16: observations"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l12-nonrel-more-valuable",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. 슬라이드는 relevant documents의 정보가 query modification에 더 valuable하다고 말한다. Nonrelevant information도 쓸 수 있지만 보통 더 조심스럽다.",
+      "B": "거짓입니다. 슬라이드는 relevant documents의 정보가 query modification에 더 valuable하다고 말한다. Nonrelevant information도 쓸 수 있지만 보통 더 조심스럽다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. 슬라이드는 relevant documents의 정보가 query modification에 더 valuable하다고 말한다. Nonrelevant information도 쓸 수 있지만 보통 더 조심스럽다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. 슬라이드는 relevant documents의 정보가 query modification에 더 valuable하다고 말한다. Nonrelevant information도 쓸 수 있지만 보통 더 조심스럽다.\nB. 거짓입니다. 슬라이드는 relevant documents의 정보가 query modification에 더 valuable하다고 말한다. Nonrelevant information도 쓸 수 있지만 보통 더 조심스럽다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "슬라이드는 relevant documents의 정보가 query modification에 더 valuable하다고 말한다. Nonrelevant information도 쓸 수 있지만 보통 더 조심스럽다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: If relevant documents form two distinct clusters, a single modified query may still fail to retrieve satisfactory results.",
+    "chapter": "L12 - Relevance Feedback",
+    "related_info": "Relevant set이 서로 다른 clusters로 나뉘면 하나의 query vector를 어디로 이동시켜도 양쪽을 모두 만족시키기 어려울 수 있다.",
+    "why_high_yield": "Relevance feedback의 한계를 묻는 고급 개념이다.",
+    "source_refs": [
+      "L12.pdf p26: distinct document clusters"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l12-multi-cluster",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Relevant set이 서로 다른 clusters로 나뉘면 하나의 query vector를 어디로 이동시켜도 양쪽을 모두 만족시키기 어려울 수 있다.",
+      "B": "이 보기를 고르면 틀립니다. Relevant set이 서로 다른 clusters로 나뉘면 하나의 query vector를 어디로 이동시켜도 양쪽을 모두 만족시키기 어려울 수 있다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Relevant set이 서로 다른 clusters로 나뉘면 하나의 query vector를 어디로 이동시켜도 양쪽을 모두 만족시키기 어려울 수 있다.\n\n보기별 해설:\nA. 참입니다. Relevant set이 서로 다른 clusters로 나뉘면 하나의 query vector를 어디로 이동시켜도 양쪽을 모두 만족시키기 어려울 수 있다.\nB. 이 보기를 고르면 틀립니다. Relevant set이 서로 다른 clusters로 나뉘면 하나의 query vector를 어디로 이동시켜도 양쪽을 모두 만족시키기 어려울 수 있다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Relevant set이 서로 다른 clusters로 나뉘면 하나의 query vector를 어디로 이동시켜도 양쪽을 모두 만족시키기 어려울 수 있다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]

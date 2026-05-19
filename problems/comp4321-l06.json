@@ -1,0 +1,322 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "What is the purpose of soft logical operators in the extended Boolean model?",
+    "chapter": "L06 - Extended Boolean Model",
+    "related_info": "Extended Boolean model은 Boolean filter와 vector-space ranking을 결합해 부분 일치를 순위화하려는 모델이다.",
+    "why_high_yield": "Canvas L06 quiz도 Boolean model drawbacks와 soft operator를 묻는다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L06.pdf p2-p3: extended Boolean model and soft logical operators",
+      "2026-05-08 review video: professor said extended Boolean model is very important and contrasted exact Boolean matching with soft matching."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l06-soft-operators",
+    "item_form": "definition",
+    "options": {
+      "A": "To rank partial matches instead of returning only hard true/false Boolean matches",
+      "B": "To remove all term weights and force exact set matching",
+      "C": "To replace text terms with hyperlinks only",
+      "D": "To make every OR query behave as strict AND"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Extended Boolean은 Boolean의 rigidity를 줄여 AND/OR query에서도 부분 일치를 점수화합니다.",
+      "B": "오답입니다. 오히려 term weight를 0-1로 두고 soft similarity를 계산합니다.",
+      "C": "오답입니다. Link-based ranking은 L07-L08 주제이고 extended Boolean은 term weights 기반입니다.",
+      "D": "오답입니다. OR와 AND 각각의 soft operator를 정의해 선호 방향을 유지합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Extended Boolean model은 Boolean filter와 vector-space ranking을 결합해 부분 일치를 순위화하려는 모델이다.\n\n보기별 해설:\nA. 정답입니다. Extended Boolean은 Boolean의 rigidity를 줄여 AND/OR query에서도 부분 일치를 점수화합니다.\nB. 오답입니다. 오히려 term weight를 0-1로 두고 soft similarity를 계산합니다.\nC. 오답입니다. Link-based ranking은 L07-L08 주제이고 extended Boolean은 term weights 기반입니다.\nD. 오답입니다. OR와 AND 각각의 soft operator를 정의해 선호 방향을 유지합니다.",
+    "explanation_key_points": [
+      "정답은 A (To rank partial matches instead of returning only hard true/false Boolean matches)이다.",
+      "Extended Boolean model은 Boolean filter와 vector-space ranking을 결합해 부분 일치를 순위화하려는 모델이다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "For q = x OR y with normalized weights x and y, which point gives the highest possible OR similarity?",
+    "chapter": "L06 - Extended Boolean Model",
+    "related_info": "Extended Boolean OR는 (0,0)에서 멀고 (1,1)에 가까울수록 좋다. 한 term만 있어도 partial credit을 받는다.",
+    "why_high_yield": "좌표/거리 해석이 계산 문제로 자주 바뀐다.",
+    "source_refs": [
+      "L06.pdf p4 and p6-p7: OR in extended Boolean model"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l06-or-formula",
+    "item_form": "comparison",
+    "options": {
+      "A": "(1,1), where both x and y have maximum weight",
+      "B": "(0,0), where neither term appears",
+      "C": "(0.5,0.5) only, because OR rejects strong evidence",
+      "D": "(1,0) must always beat (1,1)"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. OR에서도 두 term이 모두 강하면 가장 좋은 문서입니다. 한 term만 강해도 괜찮지만 둘 다 강하면 최고입니다.",
+      "B": "오답입니다. 두 term 모두 없으면 OR query와의 유사도는 0에 가깝습니다.",
+      "C": "오답입니다. 0.5,0.5는 중간 정도이며 OR에서 최고점은 아닙니다.",
+      "D": "오답입니다. OR에서 한 term만 있는 문서도 점수를 받지만 둘 다 있는 문서가 더 desirable합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Extended Boolean OR는 (0,0)에서 멀고 (1,1)에 가까울수록 좋다. 한 term만 있어도 partial credit을 받는다.\n\n보기별 해설:\nA. 정답입니다. OR에서도 두 term이 모두 강하면 가장 좋은 문서입니다. 한 term만 강해도 괜찮지만 둘 다 강하면 최고입니다.\nB. 오답입니다. 두 term 모두 없으면 OR query와의 유사도는 0에 가깝습니다.\nC. 오답입니다. 0.5,0.5는 중간 정도이며 OR에서 최고점은 아닙니다.\nD. 오답입니다. OR에서 한 term만 있는 문서도 점수를 받지만 둘 다 있는 문서가 더 desirable합니다.",
+    "explanation_key_points": [
+      "정답은 A ((1,1), where both x and y have maximum weight)이다.",
+      "Extended Boolean OR는 (0,0)에서 멀고 (1,1)에 가까울수록 좋다. 한 term만 있어도 partial credit을 받는다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "For q = x AND y, why does the formula use the complement of the distance from (1,1)?",
+    "chapter": "L06 - Extended Boolean Model",
+    "related_info": "simAND는 1 - distance-to-(1,1) 형태로, 두 term 모두 강할수록 점수가 높다.",
+    "why_high_yield": "AND/OR 기하 해석은 공식 암기보다 출제 가능성이 높다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L06.pdf p5: AND in extended Boolean model",
+      "2026-05-08 review video: professor emphasized understanding extended Boolean AND/OR behavior rather than only memorizing formulas."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l06-and-formula",
+    "item_form": "scenario",
+    "options": {
+      "A": "Because AND wants both terms to be present with high weights",
+      "B": "Because AND wants neither term to appear",
+      "C": "Because AND ignores normalized weights",
+      "D": "Because AND must be query independent like PageRank"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. AND는 desirable point가 (1,1)이므로 그 점에서 가까울수록 similarity가 높아야 합니다.",
+      "B": "오답입니다. (0,0)을 선호하는 것은 AND가 아니라 query와 무관한 문서입니다.",
+      "C": "오답입니다. 공식은 x,y weights를 직접 사용합니다.",
+      "D": "오답입니다. Extended Boolean AND는 query terms와 document weights에 의존합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. simAND는 1 - distance-to-(1,1) 형태로, 두 term 모두 강할수록 점수가 높다.\n\n보기별 해설:\nA. 정답입니다. AND는 desirable point가 (1,1)이므로 그 점에서 가까울수록 similarity가 높아야 합니다.\nB. 오답입니다. (0,0)을 선호하는 것은 AND가 아니라 query와 무관한 문서입니다.\nC. 오답입니다. 공식은 x,y weights를 직접 사용합니다.\nD. 오답입니다. Extended Boolean AND는 query terms와 document weights에 의존합니다.",
+    "explanation_key_points": [
+      "정답은 A (Because AND wants both terms to be present with high weights)이다.",
+      "simAND는 1 - distance-to-(1,1) 형태로, 두 term 모두 강할수록 점수가 높다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Under binary weights, what happens for x AND y when a document contains only x?",
+    "chapter": "L06 - Extended Boolean Model",
+    "related_info": "Binary setting에서도 extended Boolean은 partial match를 점수화한다. AND는 한 term만 있는 문서에 낮은 partial credit을 준다.",
+    "why_high_yield": "Boolean과 extended Boolean의 차이를 묻는 핵심 함정이다.",
+    "source_refs": [
+      "L06.pdf p6: observations with binary weights"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l06-binary-observation",
+    "item_form": "counterexample",
+    "options": {
+      "A": "It receives partial score, but lower than a document containing both x and y",
+      "B": "It receives exactly the same score as containing both x and y",
+      "C": "It must receive zero under every extended Boolean setting",
+      "D": "It receives PageRank instead of term similarity"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Extended Boolean에서는 only x도 완전 탈락하지 않지만 AND query에서는 penalty가 크고 both terms가 최고입니다.",
+      "B": "오답입니다. AND는 both terms를 더 선호합니다.",
+      "C": "오답입니다. 그것은 hard Boolean AND의 동작에 가깝고, extended Boolean은 soft matching을 합니다.",
+      "D": "오답입니다. 이 문제는 link score가 아니라 term weight 기반 similarity입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Binary setting에서도 extended Boolean은 partial match를 점수화한다. AND는 한 term만 있는 문서에 낮은 partial credit을 준다.\n\n보기별 해설:\nA. 정답입니다. Extended Boolean에서는 only x도 완전 탈락하지 않지만 AND query에서는 penalty가 크고 both terms가 최고입니다.\nB. 오답입니다. AND는 both terms를 더 선호합니다.\nC. 오답입니다. 그것은 hard Boolean AND의 동작에 가깝고, extended Boolean은 soft matching을 합니다.\nD. 오답입니다. 이 문제는 link score가 아니라 term weight 기반 similarity입니다.",
+    "explanation_key_points": [
+      "정답은 A (It receives partial score, but lower than a document containing both x and y)이다.",
+      "Binary setting에서도 extended Boolean은 partial match를 점수화한다. AND는 한 term만 있는 문서에 낮은 partial credit을 준다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "When x = y = 0.5 in the non-binary examples, what is true?",
+    "chapter": "L06 - Extended Boolean Model",
+    "related_info": "Non-binary weights에서는 AND/OR penalty와 reward가 term weight 크기에 따라 부드럽게 변한다.",
+    "why_high_yield": "Canvas L06 계산 문제의 기반이 되는 숫자 관찰이다.",
+    "source_refs": [
+      "L06.pdf p7-p8: observations with non-binary weights"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l06-nonbinary-and-or",
+    "item_form": "definition",
+    "options": {
+      "A": "simAND(q,d) and simOR(q,d) can both equal 0.5",
+      "B": "simAND must be 1 and simOR must be 0",
+      "C": "The model cannot handle non-binary weights",
+      "D": "The result is determined only by document length"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 x와 y가 모두 0.5이면 simAND와 simOR가 0.5라고 관찰합니다.",
+      "B": "오답입니다. 0.5 weights는 중간 evidence이지 완전 match/완전 mismatch가 아닙니다.",
+      "C": "오답입니다. L06의 핵심 확장이 0-1 normalized non-binary weights입니다.",
+      "D": "오답입니다. 이 계산은 x,y normalized term weights에 의해 결정됩니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Non-binary weights에서는 AND/OR penalty와 reward가 term weight 크기에 따라 부드럽게 변한다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 x와 y가 모두 0.5이면 simAND와 simOR가 0.5라고 관찰합니다.\nB. 오답입니다. 0.5 weights는 중간 evidence이지 완전 match/완전 mismatch가 아닙니다.\nC. 오답입니다. L06의 핵심 확장이 0-1 normalized non-binary weights입니다.\nD. 오답입니다. 이 계산은 x,y normalized term weights에 의해 결정됩니다.",
+    "explanation_key_points": [
+      "정답은 A (simAND(q,d) and simOR(q,d) can both equal 0.5)이다.",
+      "Non-binary weights에서는 AND/OR penalty와 reward가 term weight 크기에 따라 부드럽게 변한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What happens in the p-norm model when p = infinity?",
+    "chapter": "L06 - Extended Boolean Model",
+    "related_info": "p-norm은 Boolean softness를 조절한다. p=1은 평균에 가깝고 p=∞는 OR=max, AND=min이 된다.",
+    "why_high_yield": "p 값 극단은 짧은 공식형 문제로 나오기 좋다.",
+    "source_refs": [
+      "L06.pdf p9: p-norm model generalization"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l06-p-norm",
+    "item_form": "comparison",
+    "options": {
+      "A": "OR becomes max(x_i), and AND becomes min(x_i)",
+      "B": "OR and AND both become the arithmetic average for all cases",
+      "C": "The model stops using term weights",
+      "D": "The model becomes PageRank"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 p=∞에서 simOR=max(xi), simAND=min(xi)라고 정리합니다.",
+      "B": "오답입니다. p=1일 때 평균 형태가 되고, p=∞는 max/min 극한입니다.",
+      "C": "오답입니다. p-norm도 xi weights를 사용합니다.",
+      "D": "오답입니다. p 값은 extended Boolean term matching의 softness를 조절하는 매개변수이지 link graph ranking으로 바꾸지 않습니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. p-norm은 Boolean softness를 조절한다. p=1은 평균에 가깝고 p=∞는 OR=max, AND=min이 된다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 p=∞에서 simOR=max(xi), simAND=min(xi)라고 정리합니다.\nB. 오답입니다. p=1일 때 평균 형태가 되고, p=∞는 max/min 극한입니다.\nC. 오답입니다. p-norm도 xi weights를 사용합니다.\nD. 오답입니다. p 값은 extended Boolean term matching의 softness를 조절하는 매개변수이지 link graph ranking으로 바꾸지 않습니다.",
+    "explanation_key_points": [
+      "정답은 A (OR becomes max(x_i), and AND becomes min(x_i))이다.",
+      "p-norm은 Boolean softness를 조절한다. p=1은 평균에 가깝고 p=∞는 OR=max, AND=min이 된다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "In (k1 OR_2 k2) AND_infinity k3, what role does k3 play?",
+    "chapter": "L06 - Extended Boolean Model",
+    "related_info": "p=∞의 AND는 min처럼 작동해 required term이 없으면 전체 similarity를 0으로 만든다.",
+    "why_high_yield": "복합 query expression 해석은 실제 시험 계산형으로 변형하기 쉽다.",
+    "source_refs": [
+      "L06.pdf p10: p-norm model with AND/OR operators"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l06-required-term",
+    "item_form": "scenario",
+    "options": {
+      "A": "k3 is required; if k3 does not exist, similarity becomes 0",
+      "B": "k3 is ignored entirely",
+      "C": "k3 is treated as a hyperlink authority score",
+      "D": "k3 makes k1 and k2 stop being query terms"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 ∧∞ k3가 k3 required 조건을 만든다고 설명합니다.",
+      "B": "오답입니다. k3는 query expression의 필수 term 역할을 합니다.",
+      "C": "오답입니다. k3는 term weight이며 hyperlink authority가 아닙니다.",
+      "D": "오답입니다. k1∨2k2는 여전히 Extended Boolean OR 부분식으로 남습니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. p=∞의 AND는 min처럼 작동해 required term이 없으면 전체 similarity를 0으로 만든다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 ∧∞ k3가 k3 required 조건을 만든다고 설명합니다.\nB. 오답입니다. k3는 query expression의 필수 term 역할을 합니다.\nC. 오답입니다. k3는 term weight이며 hyperlink authority가 아닙니다.\nD. 오답입니다. k1∨2k2는 여전히 Extended Boolean OR 부분식으로 남습니다.",
+    "explanation_key_points": [
+      "정답은 A (k3 is required; if k3 does not exist, similarity becomes 0)이다.",
+      "p=∞의 AND는 min처럼 작동해 required term이 없으면 전체 similarity를 0으로 만든다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: The extended Boolean model was introduced partly because hard Boolean retrieval has difficulty ranking output.",
+    "chapter": "L06 - Extended Boolean Model",
+    "related_info": "Hard Boolean은 조건 만족 여부만 주기 쉬워 ranking과 partial match가 어렵다. Extended Boolean은 Boolean operator를 유지하면서 점수화를 시도한다.",
+    "why_high_yield": "L03 문제점과 L06 해결책을 연결하는 고득점 포인트다.",
+    "source_refs": [
+      "L06.pdf p2 and L03.pdf p6: Boolean ranking limitation"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l06-hard-boolean-rank",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Hard Boolean은 조건 만족 여부만 주기 쉬워 ranking과 partial match가 어렵다. Extended Boolean은 Boolean operator를 유지하면서 점수화를 시도한다.",
+      "B": "이 보기를 고르면 틀립니다. Hard Boolean은 조건 만족 여부만 주기 쉬워 ranking과 partial match가 어렵다. Extended Boolean은 Boolean operator를 유지하면서 점수화를 시도한다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Hard Boolean은 조건 만족 여부만 주기 쉬워 ranking과 partial match가 어렵다. Extended Boolean은 Boolean operator를 유지하면서 점수화를 시도한다.\n\n보기별 해설:\nA. 참입니다. Hard Boolean은 조건 만족 여부만 주기 쉬워 ranking과 partial match가 어렵다. Extended Boolean은 Boolean operator를 유지하면서 점수화를 시도한다.\nB. 이 보기를 고르면 틀립니다. Hard Boolean은 조건 만족 여부만 주기 쉬워 ranking과 partial match가 어렵다. Extended Boolean은 Boolean operator를 유지하면서 점수화를 시도한다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Hard Boolean은 조건 만족 여부만 주기 쉬워 ranking과 partial match가 어렵다. Extended Boolean은 Boolean operator를 유지하면서 점수화를 시도한다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: For an OR query in extended Boolean, a document containing only one query term can still receive a nonzero similarity score.",
+    "chapter": "L06 - Extended Boolean Model",
+    "related_info": "Soft OR는 한 term만 있어도 partial credit을 준다. 다만 두 term 모두 강한 문서가 더 높은 점수를 받을 수 있다.",
+    "why_high_yield": "Hard OR와 soft OR의 차이를 묻는 T/F로 적합하다.",
+    "source_refs": [
+      "L06.pdf p3-p7: soft OR observations"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l06-or-one-term",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Soft OR는 한 term만 있어도 partial credit을 준다. 다만 두 term 모두 강한 문서가 더 높은 점수를 받을 수 있다.",
+      "B": "이 보기를 고르면 틀립니다. Soft OR는 한 term만 있어도 partial credit을 준다. 다만 두 term 모두 강한 문서가 더 높은 점수를 받을 수 있다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Soft OR는 한 term만 있어도 partial credit을 준다. 다만 두 term 모두 강한 문서가 더 높은 점수를 받을 수 있다.\n\n보기별 해설:\nA. 참입니다. Soft OR는 한 term만 있어도 partial credit을 준다. 다만 두 term 모두 강한 문서가 더 높은 점수를 받을 수 있다.\nB. 이 보기를 고르면 틀립니다. Soft OR는 한 term만 있어도 partial credit을 준다. 다만 두 term 모두 강한 문서가 더 높은 점수를 받을 수 있다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Soft OR는 한 term만 있어도 partial credit을 준다. 다만 두 term 모두 강한 문서가 더 높은 점수를 받을 수 있다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: When p = 1, both extended Boolean OR and AND reduce to the average of the term weights.",
+    "chapter": "L06 - Extended Boolean Model",
+    "related_info": "슬라이드의 p-norm 정리에 따르면 p=1일 때 simOR와 simAND 모두 (x1+...+xm)/m 형태가 된다.",
+    "why_high_yield": "p-norm 극단값을 확인하는 공식형 문항이다.",
+    "source_refs": [
+      "L06.pdf p9: p-norm model"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l06-p-one-average",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. 슬라이드의 p-norm 정리에 따르면 p=1일 때 simOR와 simAND 모두 (x1+...+xm)/m 형태가 된다.",
+      "B": "이 보기를 고르면 틀립니다. 슬라이드의 p-norm 정리에 따르면 p=1일 때 simOR와 simAND 모두 (x1+...+xm)/m 형태가 된다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. 슬라이드의 p-norm 정리에 따르면 p=1일 때 simOR와 simAND 모두 (x1+...+xm)/m 형태가 된다.\n\n보기별 해설:\nA. 참입니다. 슬라이드의 p-norm 정리에 따르면 p=1일 때 simOR와 simAND 모두 (x1+...+xm)/m 형태가 된다.\nB. 이 보기를 고르면 틀립니다. 슬라이드의 p-norm 정리에 따르면 p=1일 때 simOR와 simAND 모두 (x1+...+xm)/m 형태가 된다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "슬라이드의 p-norm 정리에 따르면 p=1일 때 simOR와 simAND 모두 (x1+...+xm)/m 형태가 된다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]

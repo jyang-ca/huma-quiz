@@ -1,0 +1,321 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "Why is search personalization needed?",
+    "chapter": "L13 - Personalized Web Search",
+    "related_info": "Personalization은 user preference에 따라 같은 query의 ranking을 조정하려는 접근이다.",
+    "why_high_yield": "L13의 시작 질문이자 전체 흐름의 기본 개념이다.",
+    "source_refs": [
+      "L13.pdf p2: one search fits all and personalization"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l13-personalization-need",
+    "item_form": "definition",
+    "options": {
+      "A": "Different users can have different interests for the same query",
+      "B": "All users always want exactly the same results",
+      "C": "Search engines cannot log any user behavior",
+      "D": "Personalization is only a business model for ads"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. “apple” 같은 query는 사용자에 따라 과일, 회사, 제품 등 다른 의도를 가질 수 있습니다.",
+      "B": "오답입니다. 이것이 personalization이 필요한 이유와 반대입니다.",
+      "C": "오답입니다. L13은 query, clickthrough, browsing, location 등 다양한 user activity logging을 설명합니다.",
+      "D": "오답입니다. 광고에도 쓰일 수 있지만 L13의 핵심은 user preferences에 따른 ranking adjustment입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Personalization은 user preference에 따라 같은 query의 ranking을 조정하려는 접근이다.\n\n보기별 해설:\nA. 정답입니다. “apple” 같은 query는 사용자에 따라 과일, 회사, 제품 등 다른 의도를 가질 수 있습니다.\nB. 오답입니다. 이것이 personalization이 필요한 이유와 반대입니다.\nC. 오답입니다. L13은 query, clickthrough, browsing, location 등 다양한 user activity logging을 설명합니다.\nD. 오답입니다. 광고에도 쓰일 수 있지만 L13의 핵심은 user preferences에 따른 ranking adjustment입니다.",
+    "explanation_key_points": [
+      "정답은 A (Different users can have different interests for the same query)이다.",
+      "Personalization은 user preference에 따라 같은 query의 ranking을 조정하려는 접근이다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What is relative feedback?",
+    "chapter": "L13 - Personalized Web Search",
+    "related_info": "Click은 absolute relevance를 보장하지 않지만, skipped/clicked 관계에서 relative preference를 추론할 수 있다.",
+    "why_high_yield": "Clickthrough mining 전략을 이해하기 위한 필수 구분이다.",
+    "source_refs": [
+      "L13.pdf p5: absolute vs relative feedback"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l13-absolute-relative",
+    "item_form": "comparison",
+    "options": {
+      "A": "Feedback indicating one result is preferred to another result",
+      "B": "A binary label saying each result is relevant or nonrelevant",
+      "C": "A PageRank value independent of query",
+      "D": "A stopword dictionary entry"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Relative feedback은 어떤 결과가 다른 결과보다 선호된다는 pairwise preference를 제공합니다.",
+      "B": "오답입니다. 이것은 absolute feedback입니다.",
+      "C": "오답입니다. PageRank는 link signal이고 feedback type이 아닙니다.",
+      "D": "오답입니다. Stopword dictionary는 text processing 자원입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Click은 absolute relevance를 보장하지 않지만, skipped/clicked 관계에서 relative preference를 추론할 수 있다.\n\n보기별 해설:\nA. 정답입니다. Relative feedback은 어떤 결과가 다른 결과보다 선호된다는 pairwise preference를 제공합니다.\nB. 오답입니다. 이것은 absolute feedback입니다.\nC. 오답입니다. PageRank는 link signal이고 feedback type이 아닙니다.\nD. 오답입니다. Stopword dictionary는 text processing 자원입니다.",
+    "explanation_key_points": [
+      "정답은 A (Feedback indicating one result is preferred to another result)이다.",
+      "Click은 absolute relevance를 보장하지 않지만, skipped/clicked 관계에서 relative preference를 추론할 수 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What information is in the formal clickthrough triplet (q, r, c)?",
+    "chapter": "L13 - Personalized Web Search",
+    "related_info": "Clickthrough log는 query와 ranked list, click behavior를 함께 기록해 personalization preference mining의 입력이 된다.",
+    "why_high_yield": "형식 정의 문제와 전략 적용 문제가 모두 가능하다.",
+    "source_refs": [
+      "L13.pdf p29: clickthrough data format"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l13-click-log",
+    "item_form": "scenario",
+    "options": {
+      "A": "q is the input query, r is the ranked result list, and c records clicks",
+      "B": "q is PageRank, r is revenue, and c is crawler depth",
+      "C": "q is a stopword, r is a stem, and c is a suffix",
+      "D": "q is a benchmark topic, r is only one relevance judge, and c is no-click by definition"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. L13은 clickthrough data를 query, result list, click information의 triplet으로 공식화합니다.",
+      "B": "오답입니다. 광고/크롤링 변수와 clickthrough triplet을 섞은 보기입니다.",
+      "C": "오답입니다. 이것은 L11 preprocessing 용어입니다.",
+      "D": "오답입니다. TREC topic과 clickthrough personalization data를 혼동한 보기입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Clickthrough log는 query와 ranked list, click behavior를 함께 기록해 personalization preference mining의 입력이 된다.\n\n보기별 해설:\nA. 정답입니다. L13은 clickthrough data를 query, result list, click information의 triplet으로 공식화합니다.\nB. 오답입니다. 광고/크롤링 변수와 clickthrough triplet을 섞은 보기입니다.\nC. 오답입니다. 이것은 L11 preprocessing 용어입니다.\nD. 오답입니다. TREC topic과 clickthrough personalization data를 혼동한 보기입니다.",
+    "explanation_key_points": [
+      "정답은 A (q is the input query, r is the ranked result list, and c records clicks)이다.",
+      "Clickthrough log는 query와 ranked list, click behavior를 함께 기록해 personalization preference mining의 입력이 된다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What did the eye-tracking discussion emphasize?",
+    "chapter": "L13 - Personalized Web Search",
+    "related_info": "Eye tracking은 click data를 해석할 때 position bias와 user attention을 고려해야 함을 보여준다.",
+    "why_high_yield": "Canvas L13 quiz에서 eye tracking statement가 나온다.",
+    "source_refs": [
+      "L13.pdf p9-p13: eye tracking, heatmap, fixations, clicks"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l13-eye-tracking",
+    "item_form": "counterexample",
+    "options": {
+      "A": "Users look and click unevenly across ranked results, creating position bias such as the golden triangle",
+      "B": "Users always inspect every result equally before clicking",
+      "C": "Clicks perfectly equal absolute relevance",
+      "D": "Eye tracking is a stemming method"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Eye tracking은 fixation, saccades, golden triangle, first-result click bias를 보여줍니다.",
+      "B": "오답입니다. 실제로 상위 결과와 특정 화면 영역에 attention이 몰립니다.",
+      "C": "오답입니다. Clicks are biased by rank/trust and do not directly equal relevance.",
+      "D": "오답입니다. Eye tracking은 사용자 행동 연구 도구입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Eye tracking은 click data를 해석할 때 position bias와 user attention을 고려해야 함을 보여준다.\n\n보기별 해설:\nA. 정답입니다. Eye tracking은 fixation, saccades, golden triangle, first-result click bias를 보여줍니다.\nB. 오답입니다. 실제로 상위 결과와 특정 화면 영역에 attention이 몰립니다.\nC. 오답입니다. Clicks are biased by rank/trust and do not directly equal relevance.\nD. 오답입니다. Eye tracking은 사용자 행동 연구 도구입니다.",
+    "explanation_key_points": [
+      "정답은 A (Users look and click unevenly across ranked results, creating position bias such as the golden triangle)이다.",
+      "Eye tracking은 click data를 해석할 때 position bias와 user attention을 고려해야 함을 보여준다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "In the “Click > Skip Above” strategy, when is a preference generated?",
+    "chapter": "L13 - Personalized Web Search",
+    "related_info": "Clickthrough preference mining은 clicked/skipped pattern에서 relative preferences를 만든다.",
+    "why_high_yield": "전략별 confidence와 pairwise preference를 묻는 계산/해석 문제에 대비한다.",
+    "source_refs": [
+      "L13.pdf p20-p21: Strategy 1 Click > Skip Above"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l13-click-skip",
+    "item_form": "definition",
+    "options": {
+      "A": "When a user skips a higher-ranked result and clicks a lower-ranked result",
+      "B": "Whenever the first result is clicked",
+      "C": "Only when no result is clicked",
+      "D": "Whenever a page has many outgoing links"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 사용자가 search engine의 높은 순위를 믿지 않고 더 아래 결과를 클릭하면 lower clicked page가 skipped above pages보다 선호된다고 추론합니다.",
+      "B": "오답입니다. First result click은 position bias 때문에 lower preference evidence를 만들기 어렵습니다.",
+      "C": "오답입니다. Click > Skip Above는 click과 skipped higher-ranked results의 관계가 필요합니다.",
+      "D": "오답입니다. Link structure가 아니라 click behavior에서 preference를 추론합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Clickthrough preference mining은 clicked/skipped pattern에서 relative preferences를 만든다.\n\n보기별 해설:\nA. 정답입니다. 사용자가 search engine의 높은 순위를 믿지 않고 더 아래 결과를 클릭하면 lower clicked page가 skipped above pages보다 선호된다고 추론합니다.\nB. 오답입니다. First result click은 position bias 때문에 lower preference evidence를 만들기 어렵습니다.\nC. 오답입니다. Click > Skip Above는 click과 skipped higher-ranked results의 관계가 필요합니다.\nD. 오답입니다. Link structure가 아니라 click behavior에서 preference를 추론합니다.",
+    "explanation_key_points": [
+      "정답은 A (When a user skips a higher-ranked result and clicks a lower-ranked result)이다.",
+      "Clickthrough preference mining은 clicked/skipped pattern에서 relative preferences를 만든다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which kind of inferred preference generally has the least confidence?",
+    "chapter": "L13 - Personalized Web Search",
+    "related_info": "Clickthrough preference는 assumptions에 의존하므로 어떤 click pattern에서 만든 preference인지에 따라 신뢰도가 다르다.",
+    "why_high_yield": "Canvas L13에 LEAST confidence 문제가 등장한다.",
+    "source_refs": [
+      "L13.pdf p16-p26: inferring preferences and reliability of strategies"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l13-least-confidence",
+    "item_form": "comparison",
+    "options": {
+      "A": "A preference inferred from weak or ambiguous click behavior such as a click without evidence that higher snippets were examined",
+      "B": "A user explicitly stating that one document is relevant",
+      "C": "A skipped-higher/clicked-lower pattern under the model assumptions",
+      "D": "A query log containing no ranked results and no clicks"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Click data는 position bias와 reading assumptions에 의존하므로 evidence가 약하면 confidence가 낮습니다.",
+      "B": "오답입니다. Explicit label은 implicit click inference보다 일반적으로 직접적인 evidence입니다.",
+      "C": "오답입니다. 이 패턴은 사용자가 higher result를 넘어 lower result를 선택했다는 상대 preference 근거가 있습니다.",
+      "D": "오답입니다. 이것은 preference 자체를 만들 정보가 없다는 점에서는 약하지만, 문제의 “inferred preference”로 보기 어렵습니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Clickthrough preference는 assumptions에 의존하므로 어떤 click pattern에서 만든 preference인지에 따라 신뢰도가 다르다.\n\n보기별 해설:\nA. 정답입니다. Click data는 position bias와 reading assumptions에 의존하므로 evidence가 약하면 confidence가 낮습니다.\nB. 오답입니다. Explicit label은 implicit click inference보다 일반적으로 직접적인 evidence입니다.\nC. 오답입니다. 이 패턴은 사용자가 higher result를 넘어 lower result를 선택했다는 상대 preference 근거가 있습니다.\nD. 오답입니다. 이것은 preference 자체를 만들 정보가 없다는 점에서는 약하지만, 문제의 “inferred preference”로 보기 어렵습니다.",
+    "explanation_key_points": [
+      "정답은 A (A preference inferred from weak or ambiguous click behavior such as a click without evidence that higher snippets were examined)이다.",
+      "Clickthrough preference는 assumptions에 의존하므로 어떤 click pattern에서 만든 preference인지에 따라 신뢰도가 다르다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What is personalized re-ranking?",
+    "chapter": "L13 - Personalized Web Search",
+    "related_info": "Re-ranking은 backend result list 위에 user-specific score를 얹어 순서를 바꾼다.",
+    "why_high_yield": "Canvas L13에서 personalized re-ranking NOT true 문제가 나온다.",
+    "source_refs": [
+      "L13.pdf p31-p33: personalized ranking function and re-ranking"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l13-reranking",
+    "item_form": "scenario",
+    "options": {
+      "A": "A middleware reorders backend search results using a user model or persona weights",
+      "B": "Changing the original index permanently for all future users",
+      "C": "Removing all clicked pages from results",
+      "D": "Using only PageRank and ignoring user data"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Backend search engine 결과를 받은 뒤 user preference model로 similarity/ranking을 조정합니다.",
+      "B": "오답입니다. 이것은 document space modification 쪽 위험과 가깝고 personalized re-ranking은 user-specific middleware에 가깝습니다.",
+      "C": "오답입니다. Clicked pages는 보통 preference evidence이지 제거 대상이 아닙니다.",
+      "D": "오답입니다. Personalized re-ranking의 핵심은 user model을 반영하는 것입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Re-ranking은 backend result list 위에 user-specific score를 얹어 순서를 바꾼다.\n\n보기별 해설:\nA. 정답입니다. Backend search engine 결과를 받은 뒤 user preference model로 similarity/ranking을 조정합니다.\nB. 오답입니다. 이것은 document space modification 쪽 위험과 가깝고 personalized re-ranking은 user-specific middleware에 가깝습니다.\nC. 오답입니다. Clicked pages는 보통 preference evidence이지 제거 대상이 아닙니다.\nD. 오답입니다. Personalized re-ranking의 핵심은 user model을 반영하는 것입니다.",
+    "explanation_key_points": [
+      "정답은 A (A middleware reorders backend search results using a user model or persona weights)이다.",
+      "Re-ranking은 backend result list 위에 user-specific score를 얹어 순서를 바꾼다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Personalized query reformulation can use a persona weight vector to modify the query before submitting it to the backend search engine.",
+    "chapter": "L13 - Personalized Web Search",
+    "related_info": "Middleware가 user persona vector를 이용해 query를 reformulate한 뒤 backend search engine에 보낼 수 있다.",
+    "why_high_yield": "Re-ranking과 reformulation의 차이를 묻는 문제에 대비한다.",
+    "source_refs": [
+      "L13.pdf p34-p35: personalization using query reformulation"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l13-query-reformulation",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Middleware가 user persona vector를 이용해 query를 reformulate한 뒤 backend search engine에 보낼 수 있다.",
+      "B": "이 보기를 고르면 틀립니다. Middleware가 user persona vector를 이용해 query를 reformulate한 뒤 backend search engine에 보낼 수 있다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Middleware가 user persona vector를 이용해 query를 reformulate한 뒤 backend search engine에 보낼 수 있다.\n\n보기별 해설:\nA. 참입니다. Middleware가 user persona vector를 이용해 query를 reformulate한 뒤 backend search engine에 보낼 수 있다.\nB. 이 보기를 고르면 틀립니다. Middleware가 user persona vector를 이용해 query를 reformulate한 뒤 backend search engine에 보낼 수 있다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Middleware가 user persona vector를 이용해 query를 reformulate한 뒤 backend search engine에 보낼 수 있다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: An advantage of implicit feedback is that clicks can be collected transparently and in bulk.",
+    "chapter": "L13 - Personalized Web Search",
+    "related_info": "Implicit feedback은 사용자에게 별도 rating을 요구하지 않아 대량 수집이 가능하지만 noise/privacy/bias 문제가 있다.",
+    "why_high_yield": "L13 take-home message의 장단점 균형을 묻는 T/F다.",
+    "source_refs": [
+      "L13.pdf p36-p37: conclusion and observations"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l13-implicit-free",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Implicit feedback은 사용자에게 별도 rating을 요구하지 않아 대량 수집이 가능하지만 noise/privacy/bias 문제가 있다.",
+      "B": "이 보기를 고르면 틀립니다. Implicit feedback은 사용자에게 별도 rating을 요구하지 않아 대량 수집이 가능하지만 noise/privacy/bias 문제가 있다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Implicit feedback은 사용자에게 별도 rating을 요구하지 않아 대량 수집이 가능하지만 noise/privacy/bias 문제가 있다.\n\n보기별 해설:\nA. 참입니다. Implicit feedback은 사용자에게 별도 rating을 요구하지 않아 대량 수집이 가능하지만 noise/privacy/bias 문제가 있다.\nB. 이 보기를 고르면 틀립니다. Implicit feedback은 사용자에게 별도 rating을 요구하지 않아 대량 수집이 가능하지만 noise/privacy/bias 문제가 있다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Implicit feedback은 사용자에게 별도 rating을 요구하지 않아 대량 수집이 가능하지만 noise/privacy/bias 문제가 있다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: A click always means the clicked page is absolutely relevant.",
+    "chapter": "L13 - Personalized Web Search",
+    "related_info": "Click은 rank trust, snippet attractiveness, position bias의 영향을 받으므로 absolute relevance를 보장하지 않는다. Relative preference 추론에 더 조심스럽게 사용한다.",
+    "why_high_yield": "Clickthrough mining의 대표 함정이다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L13.pdf p5 and p16-p17: absolute vs relative, click assumptions",
+      "2026-05-08 review video: professor reviewed implicit feedback assumptions from user behavior."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l13-click-absolute",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. Click은 rank trust, snippet attractiveness, position bias의 영향을 받으므로 absolute relevance를 보장하지 않는다. Relative preference 추론에 더 조심스럽게 사용한다.",
+      "B": "거짓입니다. Click은 rank trust, snippet attractiveness, position bias의 영향을 받으므로 absolute relevance를 보장하지 않는다. Relative preference 추론에 더 조심스럽게 사용한다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. Click은 rank trust, snippet attractiveness, position bias의 영향을 받으므로 absolute relevance를 보장하지 않는다. Relative preference 추론에 더 조심스럽게 사용한다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. Click은 rank trust, snippet attractiveness, position bias의 영향을 받으므로 absolute relevance를 보장하지 않는다. Relative preference 추론에 더 조심스럽게 사용한다.\nB. 거짓입니다. Click은 rank trust, snippet attractiveness, position bias의 영향을 받으므로 absolute relevance를 보장하지 않는다. Relative preference 추론에 더 조심스럽게 사용한다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Click은 rank trust, snippet attractiveness, position bias의 영향을 받으므로 absolute relevance를 보장하지 않는다. Relative preference 추론에 더 조심스럽게 사용한다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]

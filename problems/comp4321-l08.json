@@ -1,0 +1,322 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "What type of page is considered in HITS but not in basic PageRank?",
+    "chapter": "L08 - HITS Algorithm",
+    "related_info": "HITS는 좋은 정보를 담은 authority와 좋은 authority를 가리키는 hub를 구분한다. PageRank는 hub weight를 별도로 두지 않는다.",
+    "why_high_yield": "Canvas L08 첫 문제 유형과 직접 맞는 핵심 비교다.",
+    "source_refs": [
+      "L08.pdf p3-p4 and p20: authority/hub and conclusion"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l08-authority-hub",
+    "item_form": "definition",
+    "options": {
+      "A": "Hub pages",
+      "B": "HTML pages",
+      "C": "Pages with terms",
+      "D": "Pages with URLs"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. HITS는 authority와 hub 두 weight를 모두 두지만 PageRank는 authority-like single score만 갖습니다.",
+      "B": "오답입니다. 두 방법 모두 웹페이지 graph에 적용될 수 있습니다.",
+      "C": "오답입니다. Page content는 검색 초기 root set 등에 쓰일 수 있지만 HITS의 특별한 추가 type은 hub입니다.",
+      "D": "오답입니다. URL은 모든 웹페이지의 식별자이지 HITS만의 page type이 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. HITS는 좋은 정보를 담은 authority와 좋은 authority를 가리키는 hub를 구분한다. PageRank는 hub weight를 별도로 두지 않는다.\n\n보기별 해설:\nA. 정답입니다. HITS는 authority와 hub 두 weight를 모두 두지만 PageRank는 authority-like single score만 갖습니다.\nB. 오답입니다. 두 방법 모두 웹페이지 graph에 적용될 수 있습니다.\nC. 오답입니다. Page content는 검색 초기 root set 등에 쓰일 수 있지만 HITS의 특별한 추가 type은 hub입니다.\nD. 오답입니다. URL은 모든 웹페이지의 식별자이지 HITS만의 page type이 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (Hub pages)이다.",
+      "HITS는 좋은 정보를 담은 authority와 좋은 authority를 가리키는 hub를 구분한다. PageRank는 hub weight를 별도로 두지 않는다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Given adjacency matrix A, which update relationship is used in HITS power iteration?",
+    "chapter": "L08 - HITS Algorithm",
+    "related_info": "HITS는 links를 따라 hub와 authority가 서로 reinforce되도록 반복 계산한다.",
+    "why_high_yield": "L08 계산 문제의 공식 출발점이다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L08.pdf p5-p7: adjacency graph and power iteration",
+      "2026-05-08 review video: professor stated there must be a question about HITS in the final exam."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l08-hits-update",
+    "item_form": "comparison",
+    "options": {
+      "A": "Authority X is updated from A^T Y, and hub Y is updated from A X",
+      "B": "Authority X is updated only from term frequency, and hub Y is ignored",
+      "C": "Both X and Y are fixed constants after initialization",
+      "D": "X is PageRank damping and Y is click price"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Authority는 incoming hubs의 합, hub는 outgoing authorities의 합으로 갱신됩니다.",
+      "B": "오답입니다. HITS는 link adjacency graph 기반 authority/hub 상호강화 알고리즘입니다.",
+      "C": "오답입니다. Power iteration으로 반복 갱신하고 normalization합니다.",
+      "D": "오답입니다. HITS의 X/Y는 authority/hub vectors입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. HITS는 links를 따라 hub와 authority가 서로 reinforce되도록 반복 계산한다.\n\n보기별 해설:\nA. 정답입니다. Authority는 incoming hubs의 합, hub는 outgoing authorities의 합으로 갱신됩니다.\nB. 오답입니다. HITS는 link adjacency graph 기반 authority/hub 상호강화 알고리즘입니다.\nC. 오답입니다. Power iteration으로 반복 갱신하고 normalization합니다.\nD. 오답입니다. HITS의 X/Y는 authority/hub vectors입니다.",
+    "explanation_key_points": [
+      "정답은 A (Authority X is updated from A^T Y, and hub Y is updated from A X)이다.",
+      "HITS는 links를 따라 hub와 authority가 서로 reinforce되도록 반복 계산한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why are HITS weights normalized in each iteration?",
+    "chapter": "L08 - HITS Algorithm",
+    "related_info": "HITS power iteration은 raw weights가 증가할 수 있어 반복마다 L2 norm 등으로 정규화한다.",
+    "why_high_yield": "Canvas L08의 iteration 계산에서는 normalization 여부가 답을 바꿀 수 있다.",
+    "source_refs": [
+      "L08.pdf p11-p13: convergence and normalization"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l08-normalization",
+    "item_form": "scenario",
+    "options": {
+      "A": "To avoid overflow and align with the theoretical model during many iterations",
+      "B": "To force every authority and hub score to become exactly zero",
+      "C": "To remove all links from the graph",
+      "D": "To convert HITS into a pure Boolean retrieval model"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 power iteration에서 weights가 커질 수 있어 overflow를 피하고 이론 모델에 맞추기 위해 normalization한다고 설명합니다.",
+      "B": "오답입니다. Normalization은 scale을 조절하지 ranking 정보를 제거하지 않습니다.",
+      "C": "오답입니다. Links는 HITS 계산의 입력이며 normalization은 graph를 삭제하지 않습니다.",
+      "D": "오답입니다. HITS는 link-based numerical ranking이고 Boolean retrieval이 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. HITS power iteration은 raw weights가 증가할 수 있어 반복마다 L2 norm 등으로 정규화한다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 power iteration에서 weights가 커질 수 있어 overflow를 피하고 이론 모델에 맞추기 위해 normalization한다고 설명합니다.\nB. 오답입니다. Normalization은 scale을 조절하지 ranking 정보를 제거하지 않습니다.\nC. 오답입니다. Links는 HITS 계산의 입력이며 normalization은 graph를 삭제하지 않습니다.\nD. 오답입니다. HITS는 link-based numerical ranking이고 Boolean retrieval이 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (To avoid overflow and align with the theoretical model during many iterations)이다.",
+      "HITS power iteration은 raw weights가 증가할 수 있어 반복마다 L2 norm 등으로 정규화한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What is the CLEVER architecture proposed for integrating HITS?",
+    "chapter": "L08 - HITS Algorithm",
+    "related_info": "HITS는 query/topic 주변 subgraph에서 authority/hub를 계산해 기존 검색 결과를 re-rank하는 방식으로 통합될 수 있다.",
+    "why_high_yield": "HITS가 PageRank처럼 전역 offline score가 아니라 topic-dependent하다는 점을 묻기 좋다.",
+    "source_refs": [
+      "L08.pdf p15-p16: integrating HITS and CLEVER architecture"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l08-clever",
+    "item_form": "counterexample",
+    "options": {
+      "A": "Use a search engine to obtain a root set, expand to a base set, then re-rank using HITS",
+      "B": "Compute HITS once offline for the entire web independent of any topic",
+      "C": "Replace crawling with manual relevance judgment only",
+      "D": "Run AdSense before every authority update"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. CLEVER는 topic query로 root set을 얻고 link expansion 후 HITS로 re-ranking하는 구조입니다.",
+      "B": "오답입니다. HITS는 topic/query-specific root/base set에서 계산되는 성격이 강합니다.",
+      "C": "오답입니다. CLEVER는 search results와 links를 활용하는 architecture이지 수작업 평가만 쓰지 않습니다.",
+      "D": "오답입니다. 광고 모델은 HITS integration architecture와 무관합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. HITS는 query/topic 주변 subgraph에서 authority/hub를 계산해 기존 검색 결과를 re-rank하는 방식으로 통합될 수 있다.\n\n보기별 해설:\nA. 정답입니다. CLEVER는 topic query로 root set을 얻고 link expansion 후 HITS로 re-ranking하는 구조입니다.\nB. 오답입니다. HITS는 topic/query-specific root/base set에서 계산되는 성격이 강합니다.\nC. 오답입니다. CLEVER는 search results와 links를 활용하는 architecture이지 수작업 평가만 쓰지 않습니다.\nD. 오답입니다. 광고 모델은 HITS integration architecture와 무관합니다.",
+    "explanation_key_points": [
+      "정답은 A (Use a search engine to obtain a root set, expand to a base set, then re-rank using HITS)이다.",
+      "HITS는 query/topic 주변 subgraph에서 authority/hub를 계산해 기존 검색 결과를 re-rank하는 방식으로 통합될 수 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What is the diffusion effect problem in HITS?",
+    "chapter": "L08 - HITS Algorithm",
+    "related_info": "HITS는 link reinforcement 때문에 topic이 섞이거나 가까운 구조가 서로 점수를 밀어주는 문제가 있다.",
+    "why_high_yield": "HITS의 장점뿐 아니라 한계를 묻는 비교 문제에 대비한다.",
+    "source_refs": [
+      "L08.pdf p17-p18: diffusion effects and multiple topics"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l08-diffusion",
+    "item_form": "definition",
+    "options": {
+      "A": "Linked pages can reinforce each other and spread authority/hub weight beyond the intended topic",
+      "B": "All pages lose every hub score immediately",
+      "C": "Only stopwords receive authority scores",
+      "D": "The algorithm cannot use any adjacency matrix"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. HITS의 mutual reinforcement는 topic drift나 tightly linked pages의 과도한 강화로 이어질 수 있습니다.",
+      "B": "오답입니다. Diffusion effect는 점수가 사라지는 문제가 아니라 관련 없는 방향으로 퍼지는 문제입니다.",
+      "C": "오답입니다. Stopwords는 L11 text processing 문제이고 HITS score 대상은 pages입니다.",
+      "D": "오답입니다. HITS는 adjacency matrix를 핵심 입력으로 씁니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. HITS는 link reinforcement 때문에 topic이 섞이거나 가까운 구조가 서로 점수를 밀어주는 문제가 있다.\n\n보기별 해설:\nA. 정답입니다. HITS의 mutual reinforcement는 topic drift나 tightly linked pages의 과도한 강화로 이어질 수 있습니다.\nB. 오답입니다. Diffusion effect는 점수가 사라지는 문제가 아니라 관련 없는 방향으로 퍼지는 문제입니다.\nC. 오답입니다. Stopwords는 L11 text processing 문제이고 HITS score 대상은 pages입니다.\nD. 오답입니다. HITS는 adjacency matrix를 핵심 입력으로 씁니다.",
+    "explanation_key_points": [
+      "정답은 A (Linked pages can reinforce each other and spread authority/hub weight beyond the intended topic)이다.",
+      "HITS는 link reinforcement 때문에 topic이 섞이거나 가까운 구조가 서로 점수를 밀어주는 문제가 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which statement best contrasts HITS and PageRank?",
+    "chapter": "L08 - HITS Algorithm",
+    "related_info": "HITS는 hub와 authority를 모두 계산하고 topic-dependent하다. PageRank는 hub 없이 query-independent quality signal에 가깝다.",
+    "why_high_yield": "PageRank와 HITS 비교는 거의 반드시 나오는 주제다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L08.pdf p19-p20: HITS vs PageRank and conclusion",
+      "2026-05-08 review video: professor stated there must be a question about HITS in the final exam."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l08-hits-vs-pr",
+    "item_form": "comparison",
+    "options": {
+      "A": "HITS has query/topic-dependent authority and hub weights; PageRank is a query-independent authority-like score",
+      "B": "HITS uses only document terms while PageRank uses only stopword lists",
+      "C": "HITS cannot be influenced by a page’s own outgoing links, but PageRank can never be affected by links",
+      "D": "HITS and PageRank are exactly the same algorithm with different names"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. HITS는 root/base set 기반 topic computation이고, PageRank는 전역 link graph에서 query-independent하게 계산됩니다.",
+      "B": "오답입니다. 둘 다 link graph 기반이지만 HITS는 authority/hub 두 vector, PageRank는 single score입니다.",
+      "C": "오답입니다. Link structure가 둘 모두의 핵심입니다. 자기 페이지의 links가 hub/authority 상호작용에 영향을 줄 수 있습니다.",
+      "D": "오답입니다. 둘은 update target, query dependence, hub treatment가 다릅니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. HITS는 hub와 authority를 모두 계산하고 topic-dependent하다. PageRank는 hub 없이 query-independent quality signal에 가깝다.\n\n보기별 해설:\nA. 정답입니다. HITS는 root/base set 기반 topic computation이고, PageRank는 전역 link graph에서 query-independent하게 계산됩니다.\nB. 오답입니다. 둘 다 link graph 기반이지만 HITS는 authority/hub 두 vector, PageRank는 single score입니다.\nC. 오답입니다. Link structure가 둘 모두의 핵심입니다. 자기 페이지의 links가 hub/authority 상호작용에 영향을 줄 수 있습니다.\nD. 오답입니다. 둘은 update target, query dependence, hub treatment가 다릅니다.",
+    "explanation_key_points": [
+      "정답은 A (HITS has query/topic-dependent authority and hub weights; PageRank is a query-independent authority-like score)이다.",
+      "HITS는 hub와 authority를 모두 계산하고 topic-dependent하다. PageRank는 hub 없이 query-independent quality signal에 가깝다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "In HITS, what is a high-authority page?",
+    "chapter": "L08 - HITS Algorithm",
+    "related_info": "Authority는 topic-specific high-quality content page이고, hub는 그런 authorities를 잘 가리키는 page이다.",
+    "why_high_yield": "정의형 T/F/MCQ로 빠르게 묻기 좋다.",
+    "source_refs": [
+      "L08.pdf p3: authority and hub weights"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l08-authority-definition",
+    "item_form": "scenario",
+    "options": {
+      "A": "A page containing high-quality information on the topic",
+      "B": "A page that only lists many good information pages but has no topic content",
+      "C": "A page with the highest advertisement price",
+      "D": "A page with no incoming links by definition"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Authority는 topic에 대한 좋은 정보를 담은 페이지입니다.",
+      "B": "오답입니다. 이것은 hub page의 설명에 가깝습니다.",
+      "C": "오답입니다. 광고 가격은 HITS authority 정의와 무관합니다.",
+      "D": "오답입니다. Authority는 좋은 hubs가 링크하는 페이지로 강화됩니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Authority는 topic-specific high-quality content page이고, hub는 그런 authorities를 잘 가리키는 page이다.\n\n보기별 해설:\nA. 정답입니다. Authority는 topic에 대한 좋은 정보를 담은 페이지입니다.\nB. 오답입니다. 이것은 hub page의 설명에 가깝습니다.\nC. 오답입니다. 광고 가격은 HITS authority 정의와 무관합니다.\nD. 오답입니다. Authority는 좋은 hubs가 링크하는 페이지로 강화됩니다.",
+    "explanation_key_points": [
+      "정답은 A (A page containing high-quality information on the topic)이다.",
+      "Authority는 topic-specific high-quality content page이고, hub는 그런 authorities를 잘 가리키는 page이다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Under HITS, a page can influence its own authority and hub weights indirectly by changing its links/content around the local graph.",
+    "chapter": "L08 - HITS Algorithm",
+    "related_info": "HITS는 topic subgraph의 authority/hub reinforcement에 민감하므로 page의 outgoing links나 surrounding graph changes가 score에 영향을 줄 수 있다.",
+    "why_high_yield": "교수님 비교 슬라이드의 질문형 포인트다.",
+    "source_refs": [
+      "L08.pdf p19: HITS vs PageRank discussion"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l08-page-influence",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. HITS는 topic subgraph의 authority/hub reinforcement에 민감하므로 page의 outgoing links나 surrounding graph changes가 score에 영향을 줄 수 있다.",
+      "B": "이 보기를 고르면 틀립니다. HITS는 topic subgraph의 authority/hub reinforcement에 민감하므로 page의 outgoing links나 surrounding graph changes가 score에 영향을 줄 수 있다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. HITS는 topic subgraph의 authority/hub reinforcement에 민감하므로 page의 outgoing links나 surrounding graph changes가 score에 영향을 줄 수 있다.\n\n보기별 해설:\nA. 참입니다. HITS는 topic subgraph의 authority/hub reinforcement에 민감하므로 page의 outgoing links나 surrounding graph changes가 score에 영향을 줄 수 있다.\nB. 이 보기를 고르면 틀립니다. HITS는 topic subgraph의 authority/hub reinforcement에 민감하므로 page의 outgoing links나 surrounding graph changes가 score에 영향을 줄 수 있다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "HITS는 topic subgraph의 authority/hub reinforcement에 민감하므로 page의 outgoing links나 surrounding graph changes가 score에 영향을 줄 수 있다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Basic PageRank has both authority and hub weights just like HITS.",
+    "chapter": "L08 - HITS Algorithm",
+    "related_info": "PageRank는 authority-like single score만 있고 hub weight를 별도로 계산하지 않는다. Hub가 유용할 수 있다는 것이 HITS의 차별점이다.",
+    "why_high_yield": "HITS vs PageRank의 대표 함정이다.",
+    "source_refs": [
+      "L08.pdf p20: conclusion"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l08-pagerank-hub",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. PageRank는 authority-like single score만 있고 hub weight를 별도로 계산하지 않는다. Hub가 유용할 수 있다는 것이 HITS의 차별점이다.",
+      "B": "거짓입니다. PageRank는 authority-like single score만 있고 hub weight를 별도로 계산하지 않는다. Hub가 유용할 수 있다는 것이 HITS의 차별점이다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. PageRank는 authority-like single score만 있고 hub weight를 별도로 계산하지 않는다. Hub가 유용할 수 있다는 것이 HITS의 차별점이다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. PageRank는 authority-like single score만 있고 hub weight를 별도로 계산하지 않는다. Hub가 유용할 수 있다는 것이 HITS의 차별점이다.\nB. 거짓입니다. PageRank는 authority-like single score만 있고 hub weight를 별도로 계산하지 않는다. Hub가 유용할 수 있다는 것이 HITS의 차별점이다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "PageRank는 authority-like single score만 있고 hub weight를 별도로 계산하지 않는다. Hub가 유용할 수 있다는 것이 HITS의 차별점이다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Both PageRank and HITS are completely link based in the lecture conclusion.",
+    "chapter": "L08 - HITS Algorithm",
+    "related_info": "L08 conclusion은 PageRank와 HITS가 모두 link based라고 정리한다. 실제 검색엔진에서는 content score와 결합될 수 있지만 알고리즘 자체 요약은 link based다.",
+    "why_high_yield": "결론 슬라이드 기반 T/F로 적합하다.",
+    "source_refs": [
+      "L08.pdf p20: conclusion"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l08-hits-link-based",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. L08 conclusion은 PageRank와 HITS가 모두 link based라고 정리한다. 실제 검색엔진에서는 content score와 결합될 수 있지만 알고리즘 자체 요약은 link based다.",
+      "B": "이 보기를 고르면 틀립니다. L08 conclusion은 PageRank와 HITS가 모두 link based라고 정리한다. 실제 검색엔진에서는 content score와 결합될 수 있지만 알고리즘 자체 요약은 link based다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. L08 conclusion은 PageRank와 HITS가 모두 link based라고 정리한다. 실제 검색엔진에서는 content score와 결합될 수 있지만 알고리즘 자체 요약은 link based다.\n\n보기별 해설:\nA. 참입니다. L08 conclusion은 PageRank와 HITS가 모두 link based라고 정리한다. 실제 검색엔진에서는 content score와 결합될 수 있지만 알고리즘 자체 요약은 link based다.\nB. 이 보기를 고르면 틀립니다. L08 conclusion은 PageRank와 HITS가 모두 link based라고 정리한다. 실제 검색엔진에서는 content score와 결합될 수 있지만 알고리즘 자체 요약은 link based다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "L08 conclusion은 PageRank와 HITS가 모두 link based라고 정리한다. 실제 검색엔진에서는 content score와 결합될 수 있지만 알고리즘 자체 요약은 link based다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]

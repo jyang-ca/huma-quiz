@@ -1,0 +1,320 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "What does an ideal benchmark collection contain?",
+    "chapter": "L10 - Benchmarking and TREC",
+    "related_info": "Benchmark는 여러 시스템을 같은 조건에서 비교하기 위해 표준 documents, queries, relevance judgments를 제공해야 한다.",
+    "why_high_yield": "L10의 가장 기본 정의형 문제다.",
+    "source_refs": [
+      "L10.pdf p2-p3: experimental setup and benchmarking ideal"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l10-benchmark-ideal",
+    "item_form": "definition",
+    "options": {
+      "A": "Standard documents, standard queries, and relevant documents for each query",
+      "B": "Only a crawler and no relevance judgments",
+      "C": "Only advertisements and click prices",
+      "D": "Only one search result page screenshot"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Benchmark ideal은 documents, queries, relevance judgments를 모두 갖춘 collection입니다.",
+      "B": "오답입니다. Relevance judgments가 없으면 effectiveness 비교가 어렵습니다.",
+      "C": "오답입니다. 광고 데이터는 benchmark effectiveness collection의 핵심 구성요소가 아닙니다.",
+      "D": "오답입니다. 단일 screenshot은 표준 문서/질의/정답 relevance set을 제공하지 않습니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Benchmark는 여러 시스템을 같은 조건에서 비교하기 위해 표준 documents, queries, relevance judgments를 제공해야 한다.\n\n보기별 해설:\nA. 정답입니다. Benchmark ideal은 documents, queries, relevance judgments를 모두 갖춘 collection입니다.\nB. 오답입니다. Relevance judgments가 없으면 effectiveness 비교가 어렵습니다.\nC. 오답입니다. 광고 데이터는 benchmark effectiveness collection의 핵심 구성요소가 아닙니다.\nD. 오답입니다. 단일 screenshot은 표준 문서/질의/정답 relevance set을 제공하지 않습니다.",
+    "explanation_key_points": [
+      "정답은 A (Standard documents, standard queries, and relevant documents for each query)이다.",
+      "Benchmark는 여러 시스템을 같은 조건에서 비교하기 위해 표준 documents, queries, relevance judgments를 제공해야 한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which is a problem of benchmarking described in L10?",
+    "chapter": "L10 - Benchmarking and TREC",
+    "related_info": "Benchmarking은 필수지만 collection-specific validity, 비용, web benchmark 부재 같은 한계가 있다.",
+    "why_high_yield": "INCORRECT/NOT true 형식으로 묻기 좋은 부분이다.",
+    "source_refs": [
+      "L10.pdf p4: benchmarking problems"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l10-benchmark-problems",
+    "item_form": "comparison",
+    "options": {
+      "A": "Performance data is valid only for a particular benchmark",
+      "B": "Benchmarks never require large document collections",
+      "C": "A perfect web benchmark already exists",
+      "D": "Benchmarking eliminates the need for evaluation metrics"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Benchmark 결과는 해당 collection/query/judgment 조건에 묶여 있어 일반화에 한계가 있습니다.",
+      "B": "오답입니다. L10은 benchmark가 resource consuming하고 large collection이 필요하다고 말합니다.",
+      "C": "오답입니다. 슬라이드는 no good benchmark for the web을 문제로 듭니다.",
+      "D": "오답입니다. Benchmark 위에서 precision/recall/AP 등 evaluation metrics를 계산합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Benchmarking은 필수지만 collection-specific validity, 비용, web benchmark 부재 같은 한계가 있다.\n\n보기별 해설:\nA. 정답입니다. Benchmark 결과는 해당 collection/query/judgment 조건에 묶여 있어 일반화에 한계가 있습니다.\nB. 오답입니다. L10은 benchmark가 resource consuming하고 large collection이 필요하다고 말합니다.\nC. 오답입니다. 슬라이드는 no good benchmark for the web을 문제로 듭니다.\nD. 오답입니다. Benchmark 위에서 precision/recall/AP 등 evaluation metrics를 계산합니다.",
+    "explanation_key_points": [
+      "정답은 A (Performance data is valid only for a particular benchmark)이다.",
+      "Benchmarking은 필수지만 collection-specific validity, 비용, web benchmark 부재 같은 한계가 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What is TREC?",
+    "chapter": "L10 - Benchmarking and TREC",
+    "related_info": "TREC는 표준 데이터/질의/평가 방법을 제공해 IR techniques를 비교할 common ground를 만드는 benchmark framework다.",
+    "why_high_yield": "L10 핵심 명사라 정의형 MCQ가 매우 쉽다.",
+    "source_refs": [
+      "L10.pdf p6: TREC benchmark"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l10-trec",
+    "item_form": "scenario",
+    "options": {
+      "A": "Text Retrieval Conference, a benchmark initiative from TIPSTER/DARPA/NIST context",
+      "B": "A stemming algorithm with five suffix-removal steps",
+      "C": "A link-analysis algorithm with hubs and authorities",
+      "D": "A keyword advertising platform"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. TREC는 DARPA TIPSTER에서 시작되어 NIST/DARPA가 지원한 benchmark/evaluation conference입니다.",
+      "B": "오답입니다. 이것은 Porter algorithm 설명입니다.",
+      "C": "오답입니다. 이것은 HITS입니다.",
+      "D": "오답입니다. 광고 플랫폼은 AdWords/AdSense 쪽입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. TREC는 표준 데이터/질의/평가 방법을 제공해 IR techniques를 비교할 common ground를 만드는 benchmark framework다.\n\n보기별 해설:\nA. 정답입니다. TREC는 DARPA TIPSTER에서 시작되어 NIST/DARPA가 지원한 benchmark/evaluation conference입니다.\nB. 오답입니다. 이것은 Porter algorithm 설명입니다.\nC. 오답입니다. 이것은 HITS입니다.\nD. 오답입니다. 광고 플랫폼은 AdWords/AdSense 쪽입니다.",
+    "explanation_key_points": [
+      "정답은 A (Text Retrieval Conference, a benchmark initiative from TIPSTER/DARPA/NIST context)이다.",
+      "TREC는 표준 데이터/질의/평가 방법을 제공해 IR techniques를 비교할 common ground를 만드는 benchmark framework다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which is an objective of TREC?",
+    "chapter": "L10 - Benchmarking and TREC",
+    "related_info": "TREC는 common ground, resource sharing, industry/academia participation, new evaluation techniques를 장려한다.",
+    "why_high_yield": "TREC advantages/objectives는 Canvas L10 문제와 잘 맞는다.",
+    "source_refs": [
+      "L10.pdf p7: TREC objectives"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l10-trec-objectives",
+    "item_form": "counterexample",
+    "options": {
+      "A": "Give a common ground for comparing different IR techniques",
+      "B": "Sell trademarked keywords to advertisers",
+      "C": "Force all systems to use PageRank",
+      "D": "Remove the need for relevance judgments"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 같은 documents, queries, evaluation method로 techniques를 비교하게 하는 것이 TREC의 목적입니다.",
+      "B": "오답입니다. 이것은 L02 legal/business issue입니다.",
+      "C": "오답입니다. TREC는 특정 ranking algorithm을 강제하기보다 비교 환경을 제공합니다.",
+      "D": "오답입니다. TREC는 relevance judgments를 제공/활용합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. TREC는 common ground, resource sharing, industry/academia participation, new evaluation techniques를 장려한다.\n\n보기별 해설:\nA. 정답입니다. 같은 documents, queries, evaluation method로 techniques를 비교하게 하는 것이 TREC의 목적입니다.\nB. 오답입니다. 이것은 L02 legal/business issue입니다.\nC. 오답입니다. TREC는 특정 ranking algorithm을 강제하기보다 비교 환경을 제공합니다.\nD. 오답입니다. TREC는 relevance judgments를 제공/활용합니다.",
+    "explanation_key_points": [
+      "정답은 A (Give a common ground for comparing different IR techniques)이다.",
+      "TREC는 common ground, resource sharing, industry/academia participation, new evaluation techniques를 장려한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "How do ad hoc and routing tasks differ in TREC?",
+    "chapter": "L10 - Benchmarking and TREC",
+    "related_info": "Ad hoc와 routing은 query와 document stream의 시간적 관계가 다르다.",
+    "why_high_yield": "Canvas L10에서 ad-hoc/routing INCORRECT 문제가 등장한다.",
+    "source_refs": [
+      "L10.pdf p9-p10: TREC tasks and collections"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l10-adhoc-routing",
+    "item_form": "definition",
+    "options": {
+      "A": "Ad hoc uses new questions on a static data set; routing uses the same questions while new information arrives",
+      "B": "Ad hoc is only PageRank and routing is only HITS",
+      "C": "Ad hoc has no queries while routing has no documents",
+      "D": "They are exactly the same task with different names"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 ad hoc을 static set에 대한 new questions, routing을 same questions with new information으로 대비합니다.",
+      "B": "오답입니다. 둘은 benchmark task 유형이지 특정 ranking algorithm이 아닙니다.",
+      "C": "오답입니다. 둘 다 queries/documents/evaluation이 필요합니다.",
+      "D": "오답입니다. Query/data arrival pattern이 다릅니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Ad hoc와 routing은 query와 document stream의 시간적 관계가 다르다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 ad hoc을 static set에 대한 new questions, routing을 same questions with new information으로 대비합니다.\nB. 오답입니다. 둘은 benchmark task 유형이지 특정 ranking algorithm이 아닙니다.\nC. 오답입니다. 둘 다 queries/documents/evaluation이 필요합니다.\nD. 오답입니다. Query/data arrival pattern이 다릅니다.",
+    "explanation_key_points": [
+      "정답은 A (Ad hoc uses new questions on a static data set; routing uses the same questions while new information arrives)이다.",
+      "Ad hoc와 routing은 query와 document stream의 시간적 관계가 다르다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why do sample TREC documents and queries use SGML-like markup?",
+    "chapter": "L10 - Benchmarking and TREC",
+    "related_info": "TREC documents와 topics는 여러 fields를 포함하므로 markup이 formal query 생성과 평가 setup에 중요하다.",
+    "why_high_yield": "세부 구조를 묻는 문제에서 SGML field 예시가 나올 수 있다.",
+    "source_refs": [
+      "L10.pdf p12-p15: sample document/query marked up in SGML"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l10-sgml",
+    "item_form": "comparison",
+    "options": {
+      "A": "To represent fields such as document number, headline, title, description, and narrative",
+      "B": "To encrypt every document so systems cannot read it",
+      "C": "To remove all relevance judgments",
+      "D": "To convert all documents into advertisements"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. SGML markup은 documents/queries 안의 다양한 fields를 구분해 formal query generation/evaluation에 활용할 수 있게 합니다.",
+      "B": "오답입니다. Markup은 구조 표시이지 암호화가 아닙니다.",
+      "C": "오답입니다. Relevance judgment는 별도 평가 정보로 여전히 필요합니다.",
+      "D": "오답입니다. SGML fields는 benchmark document/query structure를 나타냅니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. TREC documents와 topics는 여러 fields를 포함하므로 markup이 formal query 생성과 평가 setup에 중요하다.\n\n보기별 해설:\nA. 정답입니다. SGML markup은 documents/queries 안의 다양한 fields를 구분해 formal query generation/evaluation에 활용할 수 있게 합니다.\nB. 오답입니다. Markup은 구조 표시이지 암호화가 아닙니다.\nC. 오답입니다. Relevance judgment는 별도 평가 정보로 여전히 필요합니다.\nD. 오답입니다. SGML fields는 benchmark document/query structure를 나타냅니다.",
+    "explanation_key_points": [
+      "정답은 A (To represent fields such as document number, headline, title, description, and narrative)이다.",
+      "TREC documents와 topics는 여러 fields를 포함하므로 markup이 formal query 생성과 평가 setup에 중요하다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why does TREC use sampling/pooling for relevance judgment?",
+    "chapter": "L10 - Benchmarking and TREC",
+    "related_info": "대규모 benchmark에서는 모든 문서-질의 쌍을 사람이 판단할 수 없으므로 pooling/sampling이 현실적 방법이다.",
+    "why_high_yield": "L09 pooling과 L10 benchmarking을 연결하는 중요 포인트다.",
+    "source_refs": [
+      "L10.pdf p16: relevance judgment and sampling"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l10-relevance-judgment",
+    "item_form": "scenario",
+    "options": {
+      "A": "Exhaustive judgment over all topic-document pairs is too expensive",
+      "B": "Because no documents are available in TREC",
+      "C": "Because relevance judgment is never needed for evaluation",
+      "D": "Because every document is automatically relevant"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 100 topics * 742,611 documents 같은 규모는 수천만 judgment가 필요하므로 sampling/pooling이 필요합니다.",
+      "B": "오답입니다. TREC는 large-scale documents를 제공합니다.",
+      "C": "오답입니다. Evaluation에는 relevance judgments가 필수입니다.",
+      "D": "오답입니다. Documents마다 query relevance가 다릅니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. 대규모 benchmark에서는 모든 문서-질의 쌍을 사람이 판단할 수 없으므로 pooling/sampling이 현실적 방법이다.\n\n보기별 해설:\nA. 정답입니다. 100 topics * 742,611 documents 같은 규모는 수천만 judgment가 필요하므로 sampling/pooling이 필요합니다.\nB. 오답입니다. TREC는 large-scale documents를 제공합니다.\nC. 오답입니다. Evaluation에는 relevance judgments가 필수입니다.\nD. 오답입니다. Documents마다 query relevance가 다릅니다.",
+    "explanation_key_points": [
+      "정답은 A (Exhaustive judgment over all topic-document pairs is too expensive)이다.",
+      "대규모 benchmark에서는 모든 문서-질의 쌍을 사람이 판단할 수 없으므로 pooling/sampling이 현실적 방법이다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Early SMART collections were small compared with TREC-scale collections.",
+    "chapter": "L10 - Benchmarking and TREC",
+    "related_info": "SMART collection은 초기 소규모 benchmark였고, TREC는 훨씬 큰 scale과 relevance judgments를 제공했다.",
+    "why_high_yield": "SMART vs TREC 비교는 L10의 역사 흐름을 묻는 T/F로 적합하다.",
+    "source_refs": [
+      "L10.pdf p5 and p8: early test collections and TREC advantages"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l10-smart-small",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. SMART collection은 초기 소규모 benchmark였고, TREC는 훨씬 큰 scale과 relevance judgments를 제공했다.",
+      "B": "이 보기를 고르면 틀립니다. SMART collection은 초기 소규모 benchmark였고, TREC는 훨씬 큰 scale과 relevance judgments를 제공했다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. SMART collection은 초기 소규모 benchmark였고, TREC는 훨씬 큰 scale과 relevance judgments를 제공했다.\n\n보기별 해설:\nA. 참입니다. SMART collection은 초기 소규모 benchmark였고, TREC는 훨씬 큰 scale과 relevance judgments를 제공했다.\nB. 이 보기를 고르면 틀립니다. SMART collection은 초기 소규모 benchmark였고, TREC는 훨씬 큰 scale과 relevance judgments를 제공했다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "SMART collection은 초기 소규모 benchmark였고, TREC는 훨씬 큰 scale과 relevance judgments를 제공했다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: L10 says there is already a perfect, generally accepted benchmark for the whole web.",
+    "chapter": "L10 - Benchmarking and TREC",
+    "related_info": "슬라이드는 web에 대해 good benchmark가 없다는 점을 문제로 든다. Web은 크고 변화하며 relevance도 복잡하다.",
+    "why_high_yield": "Benchmark 한계의 대표 함정이다.",
+    "source_refs": [
+      "L10.pdf p4: benchmarking problems"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l10-trec-web-perfect",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. 슬라이드는 web에 대해 good benchmark가 없다는 점을 문제로 든다. Web은 크고 변화하며 relevance도 복잡하다.",
+      "B": "거짓입니다. 슬라이드는 web에 대해 good benchmark가 없다는 점을 문제로 든다. Web은 크고 변화하며 relevance도 복잡하다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. 슬라이드는 web에 대해 good benchmark가 없다는 점을 문제로 든다. Web은 크고 변화하며 relevance도 복잡하다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. 슬라이드는 web에 대해 good benchmark가 없다는 점을 문제로 든다. Web은 크고 변화하며 relevance도 복잡하다.\nB. 거짓입니다. 슬라이드는 web에 대해 good benchmark가 없다는 점을 문제로 든다. Web은 크고 변화하며 relevance도 복잡하다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "슬라이드는 web에 대해 good benchmark가 없다는 점을 문제로 든다. Web은 크고 변화하며 relevance도 복잡하다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: The L10 summary says evaluation is essential and precision/recall/fallout remain main objective measurements despite difficult relevance judgment.",
+    "chapter": "L10 - Benchmarking and TREC",
+    "related_info": "Relevance judgment가 어렵더라도 evaluation은 필수이며 precision, recall, fallout은 여전히 주요 objective measurements로 정리된다.",
+    "why_high_yield": "요약 슬라이드 기반의 take-home T/F다.",
+    "source_refs": [
+      "L10.pdf p19: summary"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l10-evaluation-essential",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Relevance judgment가 어렵더라도 evaluation은 필수이며 precision, recall, fallout은 여전히 주요 objective measurements로 정리된다.",
+      "B": "이 보기를 고르면 틀립니다. Relevance judgment가 어렵더라도 evaluation은 필수이며 precision, recall, fallout은 여전히 주요 objective measurements로 정리된다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Relevance judgment가 어렵더라도 evaluation은 필수이며 precision, recall, fallout은 여전히 주요 objective measurements로 정리된다.\n\n보기별 해설:\nA. 참입니다. Relevance judgment가 어렵더라도 evaluation은 필수이며 precision, recall, fallout은 여전히 주요 objective measurements로 정리된다.\nB. 이 보기를 고르면 틀립니다. Relevance judgment가 어렵더라도 evaluation은 필수이며 precision, recall, fallout은 여전히 주요 objective measurements로 정리된다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Relevance judgment가 어렵더라도 evaluation은 필수이며 precision, recall, fallout은 여전히 주요 objective measurements로 정리된다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]

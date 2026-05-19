@@ -1,0 +1,320 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "What does Zipf’s law relate in word usage?",
+    "chapter": "L14 - Index Term Selection",
+    "related_info": "Zipf’s law는 단어 사용 빈도의 rank-frequency distribution을 설명하고 IR index size/stopword/content word 분석에 도움을 준다.",
+    "why_high_yield": "L14의 첫 핵심이자 term selection의 배경이다.",
+    "source_refs": [
+      "L14.pdf p4-p6: Zipf’s Law"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l14-zipf",
+    "item_form": "definition",
+    "options": {
+      "A": "A word’s frequency and its rank in the frequency list",
+      "B": "A page’s PageRank and its outgoing links only",
+      "C": "A user’s click and the exact relevance label",
+      "D": "A query’s advertisement price and trademark status"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Zipf’s law는 frequency f와 rank r의 관계를 설명하며 log-log slope가 -1에 가깝다고 소개됩니다.",
+      "B": "오답입니다. PageRank link graph 공식과 Zipf word distribution을 섞은 보기입니다.",
+      "C": "오답입니다. Click/relevance relation은 L13 personalization 주제입니다.",
+      "D": "오답입니다. 광고 keyword 법적 문제는 L02입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Zipf’s law는 단어 사용 빈도의 rank-frequency distribution을 설명하고 IR index size/stopword/content word 분석에 도움을 준다.\n\n보기별 해설:\nA. 정답입니다. Zipf’s law는 frequency f와 rank r의 관계를 설명하며 log-log slope가 -1에 가깝다고 소개됩니다.\nB. 오답입니다. PageRank link graph 공식과 Zipf word distribution을 섞은 보기입니다.\nC. 오답입니다. Click/relevance relation은 L13 personalization 주제입니다.\nD. 오답입니다. 광고 keyword 법적 문제는 L02입니다.",
+    "explanation_key_points": [
+      "정답은 A (A word’s frequency and its rank in the frequency list)이다.",
+      "Zipf’s law는 단어 사용 빈도의 rank-frequency distribution을 설명하고 IR index size/stopword/content word 분석에 도움을 준다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which observation follows from Zipf’s principle of least effort?",
+    "chapter": "L14 - Index Term Selection",
+    "related_info": "Zipf’s law는 human word usage의 불균형과 power law 성격을 보여주며 stopword/content word 선택에 영향을 준다.",
+    "why_high_yield": "Zipf law의 qualitative observation을 묻는 문제로 적합하다.",
+    "source_refs": [
+      "L14.pdf p7-p12: Zipf observations and take-home message"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l14-least-effort",
+    "item_form": "comparison",
+    "options": {
+      "A": "Most frequent words tend to be short and a small set of words accounts for much usage",
+      "B": "Rare technical terms always appear in every document",
+      "C": "Every word has exactly one meaning",
+      "D": "All terms should be indexed regardless of noise"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 frequent words are short, top 20% words account for 60% usage 등을 Zipf observations로 듭니다.",
+      "B": "오답입니다. Rare terms는 높은 discriminating power를 가질 수 있지만 모든 문서에 나타나지는 않습니다.",
+      "C": "오답입니다. Zipf observations는 word meanings and frequency correlation도 언급합니다.",
+      "D": "오답입니다. L14는 more is not necessarily better라고 term selection 문제를 제기합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Zipf’s law는 human word usage의 불균형과 power law 성격을 보여주며 stopword/content word 선택에 영향을 준다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 frequent words are short, top 20% words account for 60% usage 등을 Zipf observations로 듭니다.\nB. 오답입니다. Rare terms는 높은 discriminating power를 가질 수 있지만 모든 문서에 나타나지는 않습니다.\nC. 오답입니다. Zipf observations는 word meanings and frequency correlation도 언급합니다.\nD. 오답입니다. L14는 more is not necessarily better라고 term selection 문제를 제기합니다.",
+    "explanation_key_points": [
+      "정답은 A (Most frequent words tend to be short and a small set of words accounts for much usage)이다.",
+      "Zipf’s law는 human word usage의 불균형과 power law 성격을 보여주며 stopword/content word 선택에 영향을 준다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which is NOT one of the three views of what a term can do in L14?",
+    "chapter": "L14 - Index Term Selection",
+    "related_info": "Term은 content를 나타내고, index에 저장되고, search에서 문서를 식별한다는 세 관점으로 볼 수 있다.",
+    "why_high_yield": "용어 나열형 NOT true 문제에 적합하다.",
+    "source_refs": [
+      "L14.pdf p16: different views of what a term can do"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l14-term-views",
+    "item_form": "scenario",
+    "options": {
+      "A": "Advertisement price view",
+      "B": "Content point of view",
+      "C": "Index point of view",
+      "D": "Search point of view"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. L14의 세 관점은 content, index, search point of view이며 advertisement price view는 포함되지 않습니다.",
+      "B": "오답입니다. Term이 document content를 부분적으로 반영한다는 관점입니다.",
+      "C": "오답입니다. Term이 search engine에 indexed되어 있는지와 관련됩니다.",
+      "D": "오답입니다. Term이 relevant document를 identify하는 데 쓰이는 관점입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Term은 content를 나타내고, index에 저장되고, search에서 문서를 식별한다는 세 관점으로 볼 수 있다.\n\n보기별 해설:\nA. 정답입니다. L14의 세 관점은 content, index, search point of view이며 advertisement price view는 포함되지 않습니다.\nB. 오답입니다. Term이 document content를 부분적으로 반영한다는 관점입니다.\nC. 오답입니다. Term이 search engine에 indexed되어 있는지와 관련됩니다.\nD. 오답입니다. Term이 relevant document를 identify하는 데 쓰이는 관점입니다.",
+    "explanation_key_points": [
+      "정답은 A (Advertisement price view)이다.",
+      "Term은 content를 나타내고, index에 저장되고, search에서 문서를 식별한다는 세 관점으로 볼 수 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What is the purpose of an index term under term discrimination value?",
+    "chapter": "L14 - Index Term Selection",
+    "related_info": "Term discrimination value는 term을 추가했을 때 document space의 similarity/dissimilarity가 어떻게 변하는지 본다.",
+    "why_high_yield": "TFxIDF보다 원리적인 term selection을 묻는 L14 핵심이다.",
+    "source_refs": [
+      "L14.pdf p17-p22: term discrimination value"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l14-dv-purpose",
+    "item_form": "counterexample",
+    "options": {
+      "A": "To distinguish one document from another by increasing dissimilarity among documents",
+      "B": "To make every document more similar to every other document",
+      "C": "To remove all rare words automatically",
+      "D": "To compute advertisement impressions"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 좋은 index term은 document space에서 documents를 잘 분리해 relevant/nonrelevant 구분을 돕습니다.",
+      "B": "오답입니다. Term discrimination value는 좋은 term이 documents를 더 잘 구별해야 한다는 생각입니다.",
+      "C": "오답입니다. Rare/common 여부만으로 term value를 결정하지 않고 discrimination effect를 봅니다.",
+      "D": "오답입니다. DV는 IR term selection concept입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Term discrimination value는 term을 추가했을 때 document space의 similarity/dissimilarity가 어떻게 변하는지 본다.\n\n보기별 해설:\nA. 정답입니다. 좋은 index term은 document space에서 documents를 잘 분리해 relevant/nonrelevant 구분을 돕습니다.\nB. 오답입니다. Term discrimination value는 좋은 term이 documents를 더 잘 구별해야 한다는 생각입니다.\nC. 오답입니다. Rare/common 여부만으로 term value를 결정하지 않고 discrimination effect를 봅니다.\nD. 오답입니다. DV는 IR term selection concept입니다.",
+    "explanation_key_points": [
+      "정답은 A (To distinguish one document from another by increasing dissimilarity among documents)이다.",
+      "Term discrimination value는 term을 추가했을 때 document space의 similarity/dissimilarity가 어떻게 변하는지 본다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "How does discrimination value relate to document frequency?",
+    "chapter": "L14 - Index Term Selection",
+    "related_info": "DV는 rare/common의 단순 공식이 아니라 term이 documents를 얼마나 분리하는지에 따라 중간 df에서 positive value가 커질 수 있다.",
+    "why_high_yield": "Canvas L14 quiz가 DV NOT true를 묻는다.",
+    "source_refs": [
+      "L14.pdf p23-p25: term discrimination value and document frequency"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l14-dv-df",
+    "item_form": "definition",
+    "options": {
+      "A": "It increases from zero to positive as df increases, then decreases as df becomes too large",
+      "B": "It always increases as df approaches N",
+      "C": "It is completely unrelated to df",
+      "D": "It is exactly equal to idf for every term"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 너무 rare하면 구분에 기여가 작고, 너무 common하면 모든 문서를 비슷하게 만들어 가치가 낮아집니다.",
+      "B": "오답입니다. 너무 흔한 term은 stopword처럼 documents를 구분하지 못합니다.",
+      "C": "오답입니다. 슬라이드는 dv와 df의 intricate relationship을 그래프로 설명합니다.",
+      "D": "오답입니다. dv와 idf는 관련되지만 같은 공식이 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. DV는 rare/common의 단순 공식이 아니라 term이 documents를 얼마나 분리하는지에 따라 중간 df에서 positive value가 커질 수 있다.\n\n보기별 해설:\nA. 정답입니다. 너무 rare하면 구분에 기여가 작고, 너무 common하면 모든 문서를 비슷하게 만들어 가치가 낮아집니다.\nB. 오답입니다. 너무 흔한 term은 stopword처럼 documents를 구분하지 못합니다.\nC. 오답입니다. 슬라이드는 dv와 df의 intricate relationship을 그래프로 설명합니다.\nD. 오답입니다. dv와 idf는 관련되지만 같은 공식이 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (It increases from zero to positive as df increases, then decreases as df becomes too large)이다.",
+      "DV는 rare/common의 단순 공식이 아니라 term이 documents를 얼마나 분리하는지에 따라 중간 df에서 positive value가 커질 수 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why use the document centroid to compute DV?",
+    "chapter": "L14 - Index Term Selection",
+    "related_info": "DV의 direct computation은 pairwise similarity 비용이 커서 centroid를 사용한 효율적 계산이 제안된다.",
+    "why_high_yield": "설계/복잡도 관점의 MCQ로 좋다.",
+    "source_refs": [
+      "L14.pdf p26: using document centroid to compute DV"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l14-centroid-dv",
+    "item_form": "comparison",
+    "options": {
+      "A": "Computing all pairwise document similarities for every term is expensive",
+      "B": "Because centroid removes all documents from the collection",
+      "C": "Because DV does not need any similarity measure",
+      "D": "Because PageRank cannot be computed offline"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. N(N-1)/2 pairwise similarities를 term마다 계산하는 것은 비싸므로 centroid 기반 근사를 사용합니다.",
+      "B": "오답입니다. Centroid는 collection을 평균 vector로 대표할 뿐 documents를 삭제하지 않습니다.",
+      "C": "오답입니다. DV는 similarity/distance 변화에 기반합니다.",
+      "D": "오답입니다. DV computation cost와 PageRank offline 여부는 별개입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. DV의 direct computation은 pairwise similarity 비용이 커서 centroid를 사용한 효율적 계산이 제안된다.\n\n보기별 해설:\nA. 정답입니다. N(N-1)/2 pairwise similarities를 term마다 계산하는 것은 비싸므로 centroid 기반 근사를 사용합니다.\nB. 오답입니다. Centroid는 collection을 평균 vector로 대표할 뿐 documents를 삭제하지 않습니다.\nC. 오답입니다. DV는 similarity/distance 변화에 기반합니다.\nD. 오답입니다. DV computation cost와 PageRank offline 여부는 별개입니다.",
+    "explanation_key_points": [
+      "정답은 A (Computing all pairwise document similarities for every term is expensive)이다.",
+      "DV의 direct computation은 pairwise similarity 비용이 커서 centroid를 사용한 효율적 계산이 제안된다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What does probabilistic term weighting explicitly distinguish?",
+    "chapter": "L14 - Index Term Selection",
+    "related_info": "Probabilistic term weights는 relevant set과 nonrelevant set에서 term occurrence가 얼마나 다른지로 ideal weight를 정의하려 한다.",
+    "why_high_yield": "L12 relevance feedback과 연결되는 term selection 고급 포인트다.",
+    "source_refs": [
+      "L14.pdf p29-p30: probabilistic term weights"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l14-prob-term",
+    "item_form": "scenario",
+    "options": {
+      "A": "Occurrences of terms in relevant and non-relevant documents",
+      "B": "Only the font size of a term in a page",
+      "C": "Only the number of outgoing links",
+      "D": "Only the cost of keyword ads"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Probabilistic model은 relevant/nonrelevant documents에서 term occurrence 확률을 구분합니다.",
+      "B": "오답입니다. Font/hit property는 Google ranking signal 쪽입니다.",
+      "C": "오답입니다. Link count는 probabilistic term weight의 핵심 구분이 아닙니다.",
+      "D": "오답입니다. 광고 비용은 term weighting model이 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Probabilistic term weights는 relevant set과 nonrelevant set에서 term occurrence가 얼마나 다른지로 ideal weight를 정의하려 한다.\n\n보기별 해설:\nA. 정답입니다. Probabilistic model은 relevant/nonrelevant documents에서 term occurrence 확률을 구분합니다.\nB. 오답입니다. Font/hit property는 Google ranking signal 쪽입니다.\nC. 오답입니다. Link count는 probabilistic term weight의 핵심 구분이 아닙니다.\nD. 오답입니다. 광고 비용은 term weighting model이 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (Occurrences of terms in relevant and non-relevant documents)이다.",
+      "Probabilistic term weights는 relevant set과 nonrelevant set에서 term occurrence가 얼마나 다른지로 ideal weight를 정의하려 한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: TFxIDF is presented as an empirical formula, not a fully principled answer to term selection.",
+    "chapter": "L14 - Index Term Selection",
+    "related_info": "L14는 지금까지 TFxIDF를 썼지만 이것이 empirical formula라며 principled term selection 문제를 제기한다.",
+    "why_high_yield": "Canvas L14에 TFxIDF NOT true 문제가 등장한다.",
+    "source_refs": [
+      "L14.pdf p3: computing importance of a term"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l14-tfxidf-empirical",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. L14는 지금까지 TFxIDF를 썼지만 이것이 empirical formula라며 principled term selection 문제를 제기한다.",
+      "B": "이 보기를 고르면 틀립니다. L14는 지금까지 TFxIDF를 썼지만 이것이 empirical formula라며 principled term selection 문제를 제기한다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. L14는 지금까지 TFxIDF를 썼지만 이것이 empirical formula라며 principled term selection 문제를 제기한다.\n\n보기별 해설:\nA. 참입니다. L14는 지금까지 TFxIDF를 썼지만 이것이 empirical formula라며 principled term selection 문제를 제기한다.\nB. 이 보기를 고르면 틀립니다. L14는 지금까지 TFxIDF를 썼지만 이것이 empirical formula라며 principled term selection 문제를 제기한다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "L14는 지금까지 TFxIDF를 썼지만 이것이 empirical formula라며 principled term selection 문제를 제기한다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Power law is presented as a generalization of Zipf’s law with scale-free behavior.",
+    "chapter": "L14 - Index Term Selection",
+    "related_info": "Zipf는 power law의 한 형태/부모로 설명되고, scale invariance와 rich-get-richer 현상으로 확장된다.",
+    "why_high_yield": "Zipf 후반 take-home message를 묻는 T/F다.",
+    "source_refs": [
+      "L14.pdf p10-p12: Zipf, rich gets richer, power law"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l14-power-law",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Zipf는 power law의 한 형태/부모로 설명되고, scale invariance와 rich-get-richer 현상으로 확장된다.",
+      "B": "이 보기를 고르면 틀립니다. Zipf는 power law의 한 형태/부모로 설명되고, scale invariance와 rich-get-richer 현상으로 확장된다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Zipf는 power law의 한 형태/부모로 설명되고, scale invariance와 rich-get-richer 현상으로 확장된다.\n\n보기별 해설:\nA. 참입니다. Zipf는 power law의 한 형태/부모로 설명되고, scale invariance와 rich-get-richer 현상으로 확장된다.\nB. 이 보기를 고르면 틀립니다. Zipf는 power law의 한 형태/부모로 설명되고, scale invariance와 rich-get-richer 현상으로 확장된다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Zipf는 power law의 한 형태/부모로 설명되고, scale invariance와 rich-get-richer 현상으로 확장된다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Indexing more terms is always necessarily better for search quality.",
+    "chapter": "L14 - Index Term Selection",
+    "related_info": "Web era에는 words가 너무 많고 noise terms가 많기 때문에 모든 term을 넣는 것이 항상 더 좋은 것은 아니다. Term selection이 필요하다.",
+    "why_high_yield": "L14 제목 수준의 핵심 함정이다.",
+    "source_refs": [
+      "L14.pdf p13-p15: More is not necessarily better"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l14-more-terms-always",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. Web era에는 words가 너무 많고 noise terms가 많기 때문에 모든 term을 넣는 것이 항상 더 좋은 것은 아니다. Term selection이 필요하다.",
+      "B": "거짓입니다. Web era에는 words가 너무 많고 noise terms가 많기 때문에 모든 term을 넣는 것이 항상 더 좋은 것은 아니다. Term selection이 필요하다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. Web era에는 words가 너무 많고 noise terms가 많기 때문에 모든 term을 넣는 것이 항상 더 좋은 것은 아니다. Term selection이 필요하다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. Web era에는 words가 너무 많고 noise terms가 많기 때문에 모든 term을 넣는 것이 항상 더 좋은 것은 아니다. Term selection이 필요하다.\nB. 거짓입니다. Web era에는 words가 너무 많고 noise terms가 많기 때문에 모든 term을 넣는 것이 항상 더 좋은 것은 아니다. Term selection이 필요하다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Web era에는 words가 너무 많고 noise terms가 많기 때문에 모든 term을 넣는 것이 항상 더 좋은 것은 아니다. Term selection이 필요하다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]

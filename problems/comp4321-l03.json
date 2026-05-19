@@ -1,0 +1,320 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "A retrieval model specifies which three things most directly?",
+    "chapter": "L03 - Retrieval Models and Term Weighting",
+    "related_info": "Retrieval model은 문서와 질의를 어떻게 표현하고 어떤 기준으로 retrieve/rank할지 정하는 추상 모델이다.",
+    "why_high_yield": "모델과 구현(inverted file 등)을 구분하는 기본 문제로 자주 나온다.",
+    "source_refs": [
+      "L03.pdf p2: retrieval model definition"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l03-retrieval-model",
+    "item_form": "definition",
+    "options": {
+      "A": "Document representation, query representation, and retrieval/ranking mechanism",
+      "B": "Only the visual design of the result page",
+      "C": "Only the physical disk format of the inverted file",
+      "D": "Only the company business model for advertisements"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. L03는 retrieval model이 document representation, query representation, retrieval/ranking function의 세부 사항을 정한다고 설명합니다.",
+      "B": "오답입니다. UI는 중요하지만 retrieval model의 핵심 정의가 아닙니다.",
+      "C": "오답입니다. inverted file은 구현 방식이며, 모델은 그보다 추상적인 표현과 검색 기준입니다.",
+      "D": "오답입니다. business model은 L02 주제이고 retrieval model은 검색 알고리즘의 수학적/논리적 구조입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Retrieval model은 문서와 질의를 어떻게 표현하고 어떤 기준으로 retrieve/rank할지 정하는 추상 모델이다.\n\n보기별 해설:\nA. 정답입니다. L03는 retrieval model이 document representation, query representation, retrieval/ranking function의 세부 사항을 정한다고 설명합니다.\nB. 오답입니다. UI는 중요하지만 retrieval model의 핵심 정의가 아닙니다.\nC. 오답입니다. inverted file은 구현 방식이며, 모델은 그보다 추상적인 표현과 검색 기준입니다.\nD. 오답입니다. business model은 L02 주제이고 retrieval model은 검색 알고리즘의 수학적/논리적 구조입니다.",
+    "explanation_key_points": [
+      "정답은 A (Document representation, query representation, and retrieval/ranking mechanism)이다.",
+      "Retrieval model은 문서와 질의를 어떻게 표현하고 어떤 기준으로 retrieve/rank할지 정하는 추상 모델이다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "In the Boolean model, how is a document represented in the lecture?",
+    "chapter": "L03 - Retrieval Models and Term Weighting",
+    "related_info": "Boolean model은 문서를 keyword bag으로 표현하고 query는 AND/OR/NOT 같은 Boolean expression으로 표현한다.",
+    "why_high_yield": "BOW, no word order, no structure는 Boolean/VSM 모두에서 반복되는 기본 가정이다.",
+    "source_refs": [
+      "L03.pdf p3: Boolean model and bag of words"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l03-boolean-bow",
+    "item_form": "comparison",
+    "options": {
+      "A": "As a set or bag of keywords, usually without word order or structure",
+      "B": "As a dense neural embedding vector only",
+      "C": "As a full parse tree with syntax and semantics",
+      "D": "As a table of relational attributes and primary keys"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Boolean model은 document를 keyword set/bag으로 보고 word order, title/heading 구조 등은 무시하는 단순 표현을 씁니다.",
+      "B": "오답입니다. 이 강의의 Boolean model은 neural embedding이 아니라 keyword 기반 set 표현입니다.",
+      "C": "오답입니다. L03의 Boolean model은 문법/의미 구조를 보존하지 않습니다.",
+      "D": "오답입니다. 이것은 DB-style structured data에 가깝고 Boolean IR model의 핵심 표현이 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Boolean model은 문서를 keyword bag으로 표현하고 query는 AND/OR/NOT 같은 Boolean expression으로 표현한다.\n\n보기별 해설:\nA. 정답입니다. Boolean model은 document를 keyword set/bag으로 보고 word order, title/heading 구조 등은 무시하는 단순 표현을 씁니다.\nB. 오답입니다. 이 강의의 Boolean model은 neural embedding이 아니라 keyword 기반 set 표현입니다.\nC. 오답입니다. L03의 Boolean model은 문법/의미 구조를 보존하지 않습니다.\nD. 오답입니다. 이것은 DB-style structured data에 가깝고 Boolean IR model의 핵심 표현이 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (As a set or bag of keywords, usually without word order or structure)이다.",
+      "Boolean model은 문서를 keyword bag으로 표현하고 query는 AND/OR/NOT 같은 Boolean expression으로 표현한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which is a problem of the Boolean model emphasized in L03?",
+    "chapter": "L03 - Retrieval Models and Term Weighting",
+    "related_info": "Boolean model은 결과 수 조절, ranking, complex requests, relevance feedback에서 문제가 있다.",
+    "why_high_yield": "Extended Boolean model(L06)의 동기가 되는 부분이라 연결 출제가 쉽다.",
+    "source_refs": [
+      "L03.pdf p5-p6: Boolean model problems"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l03-boolean-problems",
+    "item_form": "scenario",
+    "options": {
+      "A": "It is very rigid: AND means all and OR means either one",
+      "B": "It always produces a well-calibrated ranked list by similarity",
+      "C": "It automatically performs relevance feedback well",
+      "D": "It eliminates the need for users to formulate queries"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Boolean은 정확한 논리 조건 때문에 “m of n words” 같은 부드러운 요구를 표현하기 어렵습니다.",
+      "B": "오답입니다. Boolean model은 원래 ranked output이 어렵다는 것이 단점입니다.",
+      "C": "오답입니다. L03는 Boolean queries are difficult to modify라고 하며 automatic relevance feedback이 어렵다고 설명합니다.",
+      "D": "오답입니다. Boolean은 오히려 사용자가 AND/OR/NOT query를 잘 만들어야 하는 부담이 있습니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Boolean model은 결과 수 조절, ranking, complex requests, relevance feedback에서 문제가 있다.\n\n보기별 해설:\nA. 정답입니다. Boolean은 정확한 논리 조건 때문에 “m of n words” 같은 부드러운 요구를 표현하기 어렵습니다.\nB. 오답입니다. Boolean model은 원래 ranked output이 어렵다는 것이 단점입니다.\nC. 오답입니다. L03는 Boolean queries are difficult to modify라고 하며 automatic relevance feedback이 어렵다고 설명합니다.\nD. 오답입니다. Boolean은 오히려 사용자가 AND/OR/NOT query를 잘 만들어야 하는 부담이 있습니다.",
+    "explanation_key_points": [
+      "정답은 A (It is very rigid: AND means all and OR means either one)이다.",
+      "Boolean model은 결과 수 조절, ranking, complex requests, relevance feedback에서 문제가 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What does recall measure?",
+    "chapter": "L03 - Retrieval Models and Term Weighting",
+    "related_info": "Precision은 retrieved 중 relevant의 비율이고, recall은 relevant 중 retrieved의 비율이다.",
+    "why_high_yield": "L09에서 다시 깊게 다루지만 L03부터 등장하는 필수 공식형 개념이다.",
+    "source_refs": [
+      "L03.pdf p7: precision versus recall"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l03-precision-recall",
+    "item_form": "counterexample",
+    "options": {
+      "A": "The percentage of relevant results that are retrieved",
+      "B": "The percentage of retrieved results that are relevant",
+      "C": "The number of nonrelevant documents not retrieved divided by all documents",
+      "D": "The logarithm of collection size divided by document frequency"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Recall은 전체 relevant documents 중 retrieve된 비율입니다.",
+      "B": "오답입니다. 이것은 precision의 정의입니다.",
+      "C": "오답입니다. 이것은 recall이 아니라 fallout/specificity와 관련된 다른 평가 관점입니다.",
+      "D": "오답입니다. 이것은 idf 계열의 term weighting 공식입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Precision은 retrieved 중 relevant의 비율이고, recall은 relevant 중 retrieved의 비율이다.\n\n보기별 해설:\nA. 정답입니다. Recall은 전체 relevant documents 중 retrieve된 비율입니다.\nB. 오답입니다. 이것은 precision의 정의입니다.\nC. 오답입니다. 이것은 recall이 아니라 fallout/specificity와 관련된 다른 평가 관점입니다.\nD. 오답입니다. 이것은 idf 계열의 term weighting 공식입니다.",
+    "explanation_key_points": [
+      "정답은 A (The percentage of relevant results that are retrieved)이다.",
+      "Precision은 retrieved 중 relevant의 비율이고, recall은 relevant 중 retrieved의 비율이다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which term receives a high tf-idf weight under the basic formula?",
+    "chapter": "L03 - Retrieval Models and Term Weighting",
+    "related_info": "tf-idf는 document 내부에서 자주 나오고 collection 전체에서는 드문 term을 중요하게 본다.",
+    "why_high_yield": "TF/IDF 방향성은 계산 없이도 T/F와 MCQ로 자주 묻는다.",
+    "source_refs": [
+      "L03.pdf p11-p12: document and term weights"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l03-tf-idf",
+    "item_form": "definition",
+    "options": {
+      "A": "A term that occurs frequently in one document but rarely in the collection",
+      "B": "A term that occurs in almost every document and once in the target document",
+      "C": "A term that never appears in the document",
+      "D": "A term whose spelling is long regardless of frequency"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. tf는 local frequency, idf는 collection-wide rarity를 반영하므로 둘 다 높을 때 tf-idf가 큽니다.",
+      "B": "오답입니다. 매우 흔한 term은 df가 커서 idf가 낮아집니다.",
+      "C": "오답입니다. document 내 tf가 0이면 그 document에서 weight도 0입니다.",
+      "D": "오답입니다. tf-idf는 단어 길이가 아니라 term frequency와 document frequency에 기반합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. tf-idf는 document 내부에서 자주 나오고 collection 전체에서는 드문 term을 중요하게 본다.\n\n보기별 해설:\nA. 정답입니다. tf는 local frequency, idf는 collection-wide rarity를 반영하므로 둘 다 높을 때 tf-idf가 큽니다.\nB. 오답입니다. 매우 흔한 term은 df가 커서 idf가 낮아집니다.\nC. 오답입니다. document 내 tf가 0이면 그 document에서 weight도 0입니다.\nD. 오답입니다. tf-idf는 단어 길이가 아니라 term frequency와 document frequency에 기반합니다.",
+    "explanation_key_points": [
+      "정답은 A (A term that occurs frequently in one document but rarely in the collection)이다.",
+      "tf-idf는 document 내부에서 자주 나오고 collection 전체에서는 드문 term을 중요하게 본다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "If document frequency df_j increases while N stays fixed, what happens to idf_j = log2(N / df_j)?",
+    "chapter": "L03 - Retrieval Models and Term Weighting",
+    "related_info": "IDF는 term의 global importance 또는 discriminating power를 나타내며, 흔한 term일수록 낮다.",
+    "why_high_yield": "슬라이드 공식에서 바로 변형되는 계산/방향성 문제다.",
+    "source_refs": [
+      "L03.pdf p11-p12: inverse document frequency"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l03-idf-direction",
+    "item_form": "comparison",
+    "options": {
+      "A": "It decreases",
+      "B": "It increases",
+      "C": "It is unchanged for all df_j",
+      "D": "It becomes equal to tf_ij"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. df_j가 커지면 N/df_j가 작아지므로 log 값도 작아집니다.",
+      "B": "오답입니다. 더 많은 문서에 나오는 term은 구별력이 낮아져 idf가 낮아지는 것이 핵심입니다.",
+      "C": "오답입니다. 공식에 df_j가 직접 들어가므로 df 변화에 영향을 받습니다.",
+      "D": "오답입니다. idf는 collection-level global weight이고 tf는 document-level local weight입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. IDF는 term의 global importance 또는 discriminating power를 나타내며, 흔한 term일수록 낮다.\n\n보기별 해설:\nA. 정답입니다. df_j가 커지면 N/df_j가 작아지므로 log 값도 작아집니다.\nB. 오답입니다. 더 많은 문서에 나오는 term은 구별력이 낮아져 idf가 낮아지는 것이 핵심입니다.\nC. 오답입니다. 공식에 df_j가 직접 들어가므로 df 변화에 영향을 받습니다.\nD. 오답입니다. idf는 collection-level global weight이고 tf는 document-level local weight입니다.",
+    "explanation_key_points": [
+      "정답은 A (It decreases)이다.",
+      "IDF는 term의 global importance 또는 discriminating power를 나타내며, 흔한 term일수록 낮다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why is term frequency normalization needed?",
+    "chapter": "L03 - Retrieval Models and Term Weighting",
+    "related_info": "tf는 문서 길이에 민감하므로 tf/tfmax 또는 modified tf 같은 normalization을 통해 긴 문서 편향을 줄인다.",
+    "why_high_yield": "VSM cosine, BM25, inverted-index global statistics로 이어지는 고빈도 기반 개념이다.",
+    "source_refs": [
+      "L03.pdf p13-p14: term frequency normalization and improved weights"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l03-tf-normalization",
+    "item_form": "scenario",
+    "options": {
+      "A": "Raw tf is affected by document length, unlike idf which is bounded by collection size",
+      "B": "Because idf cannot be computed from document frequency",
+      "C": "Because Boolean queries require all terms to have weight exactly 1",
+      "D": "Because stopword removal always makes tf negative"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 긴 문서는 단어가 더 많이 나와 raw tf가 커지기 쉬우므로 normalization이 필요합니다.",
+      "B": "오답입니다. idf는 df와 N으로 직접 계산됩니다.",
+      "C": "오답입니다. tf normalization은 statistical weighting의 문제이지 Boolean truth value의 요구가 아닙니다.",
+      "D": "오답입니다. stopword removal은 term set을 줄이는 전처리이고 tf를 음수로 만드는 것이 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. tf는 문서 길이에 민감하므로 tf/tfmax 또는 modified tf 같은 normalization을 통해 긴 문서 편향을 줄인다.\n\n보기별 해설:\nA. 정답입니다. 긴 문서는 단어가 더 많이 나와 raw tf가 커지기 쉬우므로 normalization이 필요합니다.\nB. 오답입니다. idf는 df와 N으로 직접 계산됩니다.\nC. 오답입니다. tf normalization은 statistical weighting의 문제이지 Boolean truth value의 요구가 아닙니다.\nD. 오답입니다. stopword removal은 term set을 줄이는 전처리이고 tf를 음수로 만드는 것이 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (Raw tf is affected by document length, unlike idf which is bounded by collection size)이다.",
+      "tf는 문서 길이에 민감하므로 tf/tfmax 또는 modified tf 같은 normalization을 통해 긴 문서 편향을 줄인다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: A retrieval model and an inverted file are the same thing.",
+    "chapter": "L03 - Retrieval Models and Term Weighting",
+    "related_info": "Retrieval model은 표현과 ranking 원리를 정하는 추상 모델이고, inverted file은 이를 빠르게 구현하는 자료구조다. 같은 것이 아니다.",
+    "why_high_yield": "교수님이 model/implementation distinction을 명시했기 때문에 T/F로 적합하다.",
+    "source_refs": [
+      "L03.pdf p2: model versus implementation"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l03-model-implementation",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. Retrieval model은 표현과 ranking 원리를 정하는 추상 모델이고, inverted file은 이를 빠르게 구현하는 자료구조다. 같은 것이 아니다.",
+      "B": "거짓입니다. Retrieval model은 표현과 ranking 원리를 정하는 추상 모델이고, inverted file은 이를 빠르게 구현하는 자료구조다. 같은 것이 아니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. Retrieval model은 표현과 ranking 원리를 정하는 추상 모델이고, inverted file은 이를 빠르게 구현하는 자료구조다. 같은 것이 아니다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. Retrieval model은 표현과 ranking 원리를 정하는 추상 모델이고, inverted file은 이를 빠르게 구현하는 자료구조다. 같은 것이 아니다.\nB. 거짓입니다. Retrieval model은 표현과 ranking 원리를 정하는 추상 모델이고, inverted file은 이를 빠르게 구현하는 자료구조다. 같은 것이 아니다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Retrieval model은 표현과 ranking 원리를 정하는 추상 모델이고, inverted file은 이를 빠르게 구현하는 자료구조다. 같은 것이 아니다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Statistical models rank outputs according to similarity between query and document representations.",
+    "chapter": "L03 - Retrieval Models and Term Weighting",
+    "related_info": "Statistical model은 weighted keyword 표현을 쓰고 query-document similarity로 ranked output을 만든다.",
+    "why_high_yield": "Boolean과 statistical model의 핵심 차이를 묻는 문제다.",
+    "source_refs": [
+      "L03.pdf p8: statistical models"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l03-statistical-ranked",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Statistical model은 weighted keyword 표현을 쓰고 query-document similarity로 ranked output을 만든다.",
+      "B": "이 보기를 고르면 틀립니다. Statistical model은 weighted keyword 표현을 쓰고 query-document similarity로 ranked output을 만든다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Statistical model은 weighted keyword 표현을 쓰고 query-document similarity로 ranked output을 만든다.\n\n보기별 해설:\nA. 참입니다. Statistical model은 weighted keyword 표현을 쓰고 query-document similarity로 ranked output을 만든다.\nB. 이 보기를 고르면 틀립니다. Statistical model은 weighted keyword 표현을 쓰고 query-document similarity로 ranked output을 만든다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Statistical model은 weighted keyword 표현을 쓰고 query-document similarity로 ranked output을 만든다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: A term appearing in almost all documents should usually have a high idf.",
+    "chapter": "L03 - Retrieval Models and Term Weighting",
+    "related_info": "df가 크면 N/df가 작아지고 idf가 낮아진다. 흔한 term은 구별력이 낮기 때문이다.",
+    "why_high_yield": "IDF의 방향을 뒤집는 전형적인 함정이다.",
+    "source_refs": [
+      "L03.pdf p11-p12: idf and df"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l03-idf-common",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. df가 크면 N/df가 작아지고 idf가 낮아진다. 흔한 term은 구별력이 낮기 때문이다.",
+      "B": "거짓입니다. df가 크면 N/df가 작아지고 idf가 낮아진다. 흔한 term은 구별력이 낮기 때문이다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. df가 크면 N/df가 작아지고 idf가 낮아진다. 흔한 term은 구별력이 낮기 때문이다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. df가 크면 N/df가 작아지고 idf가 낮아진다. 흔한 term은 구별력이 낮기 때문이다.\nB. 거짓입니다. df가 크면 N/df가 작아지고 idf가 낮아진다. 흔한 term은 구별력이 낮기 때문이다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "df가 크면 N/df가 작아지고 idf가 낮아진다. 흔한 term은 구별력이 낮기 때문이다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]

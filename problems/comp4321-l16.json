@@ -1,0 +1,323 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "Which statement about insight engines is most accurate?",
+    "chapter": "L16 - Enterprise Search Engine",
+    "related_info": "Insight engines는 search, AI, NLP, analytics를 결합해 enterprise data에서 answer/insight를 제공하려 한다.",
+    "why_high_yield": "Canvas L16에 insight engines NOT true 문제가 등장한다.",
+    "source_refs": [
+      "L16.pdf p5-p6: Gartner Magic Quadrant for Insight Search"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l16-insight-engine",
+    "item_form": "definition",
+    "options": {
+      "A": "They combine search with AI/NLP and analytics to deliver richer enterprise knowledge access",
+      "B": "They are simply old keyword search with no natural-language processing",
+      "C": "They are only public web crawlers",
+      "D": "They eliminate all security requirements"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Gartner insight search slides는 search 이상의 knowledge/insight 기능, NLP, rich results를 강조합니다.",
+      "B": "오답입니다. Insight engine 설명은 더 높은 수준의 AI/NLP/analytics 결합을 말합니다.",
+      "C": "오답입니다. Insight engines는 enterprise/internal knowledge access 맥락입니다.",
+      "D": "오답입니다. Enterprise search에서는 security가 더 중요합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Insight engines는 search, AI, NLP, analytics를 결합해 enterprise data에서 answer/insight를 제공하려 한다.\n\n보기별 해설:\nA. 정답입니다. Gartner insight search slides는 search 이상의 knowledge/insight 기능, NLP, rich results를 강조합니다.\nB. 오답입니다. Insight engine 설명은 더 높은 수준의 AI/NLP/analytics 결합을 말합니다.\nC. 오답입니다. Insight engines는 enterprise/internal knowledge access 맥락입니다.\nD. 오답입니다. Enterprise search에서는 security가 더 중요합니다.",
+    "explanation_key_points": [
+      "정답은 A (They combine search with AI/NLP and analytics to deliver richer enterprise knowledge access)이다.",
+      "Insight engines는 search, AI, NLP, analytics를 결합해 enterprise data에서 answer/insight를 제공하려 한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "How does enterprise search differ from web search in relevance expectations?",
+    "chapter": "L16 - Enterprise Search Engine",
+    "related_info": "Enterprise search에서는 “relevant pages”보다 “the correct page/document”가 중요한 경우가 많다.",
+    "why_high_yield": "L16의 enterprise vs web comparison 핵심이다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L16.pdf p7: challenges on enterprise search - relevance vs correctness",
+      "2026-05-08 review video: professor emphasized enterprise search vs web search differences and correctness-oriented tasks."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l16-correctness",
+    "item_form": "comparison",
+    "options": {
+      "A": "Enterprise users often need the correct answer, not just many relevant pages",
+      "B": "Enterprise users are less critical than casual web users",
+      "C": "Web search has only one correct document for every query",
+      "D": "Enterprise search ignores correctness entirely"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. CEO meeting minutes 같은 enterprise query는 몇 개의 정확한 결과가 중요하며 users are more critical/mission critical입니다.",
+      "B": "오답입니다. 슬라이드는 enterprise users가 more critical/demanding/mission critical이라고 설명합니다.",
+      "C": "오답입니다. Web search는 많은 relevant pages를 탐색하는 경우가 많습니다.",
+      "D": "오답입니다. L16의 첫 challenge가 relevance vs correctness 대비입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Enterprise search에서는 “relevant pages”보다 “the correct page/document”가 중요한 경우가 많다.\n\n보기별 해설:\nA. 정답입니다. CEO meeting minutes 같은 enterprise query는 몇 개의 정확한 결과가 중요하며 users are more critical/mission critical입니다.\nB. 오답입니다. 슬라이드는 enterprise users가 more critical/demanding/mission critical이라고 설명합니다.\nC. 오답입니다. Web search는 많은 relevant pages를 탐색하는 경우가 많습니다.\nD. 오답입니다. L16의 첫 challenge가 relevance vs correctness 대비입니다.",
+    "explanation_key_points": [
+      "정답은 A (Enterprise users often need the correct answer, not just many relevant pages)이다.",
+      "Enterprise search에서는 “relevant pages”보다 “the correct page/document”가 중요한 경우가 많다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why is PageRank less likely to work well in enterprise search?",
+    "chapter": "L16 - Enterprise Search Engine",
+    "related_info": "Enterprise link graph는 web graph와 달라 PageRank 같은 link-based technology가 잘 작동하지 않을 수 있다.",
+    "why_high_yield": "Canvas L16에 “PageRank is not likely to be effective” 보기가 등장한다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L16.pdf p8: links/PageRank challenge",
+      "2026-05-08 review video: professor emphasized why PageRank is less important/effective in enterprise search."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l16-links",
+    "item_form": "scenario",
+    "options": {
+      "A": "Enterprise pages have few links and many links are navigational rather than quality votes",
+      "B": "Enterprise documents contain too many public backlinks from the whole web",
+      "C": "PageRank requires stopword removal to be disabled",
+      "D": "Enterprise search never has any documents"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 내부 사이트는 web처럼 natural endorsements가 풍부하지 않고 links가 navigation/organization 목적일 수 있습니다.",
+      "B": "오답입니다. 오히려 internal pages는 public web link structure가 부족합니다.",
+      "C": "오답입니다. PageRank의 한계는 link graph structure 문제입니다.",
+      "D": "오답입니다. Enterprise search는 PDF, Word, DBMS 등 다양한 documents/data sources가 많습니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Enterprise link graph는 web graph와 달라 PageRank 같은 link-based technology가 잘 작동하지 않을 수 있다.\n\n보기별 해설:\nA. 정답입니다. 내부 사이트는 web처럼 natural endorsements가 풍부하지 않고 links가 navigation/organization 목적일 수 있습니다.\nB. 오답입니다. 오히려 internal pages는 public web link structure가 부족합니다.\nC. 오답입니다. PageRank의 한계는 link graph structure 문제입니다.\nD. 오답입니다. Enterprise search는 PDF, Word, DBMS 등 다양한 documents/data sources가 많습니다.",
+    "explanation_key_points": [
+      "정답은 A (Enterprise pages have few links and many links are navigational rather than quality votes)이다.",
+      "Enterprise link graph는 web graph와 달라 PageRank 같은 link-based technology가 잘 작동하지 않을 수 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which data-source issue is emphasized for enterprise search?",
+    "chapter": "L16 - Enterprise Search Engine",
+    "related_info": "Enterprise search는 crawler보다 connector/parser/security-aware indexing이 더 중요해질 수 있다.",
+    "why_high_yield": "실무형 enterprise search 차이로 시험에 잘 맞는다.",
+    "source_refs": [
+      "L16.pdf p9 and p11: non-HTML data and key components"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l16-nonhtml",
+    "item_form": "counterexample",
+    "options": {
+      "A": "Many valuable sources are PDFs, Word files, DBMSs, folders, and non-web formats",
+      "B": "All enterprise documents are clean HTML pages with perfect links",
+      "C": "Enterprise search indexes only tweets",
+      "D": "Enterprise search does not need indexing"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. L16은 enterprise data가 non-HTML, DBMS, file folders 등 다양한 format/source에 있음을 강조합니다.",
+      "B": "오답입니다. Non-HTML과 diversified data sources가 challenge입니다.",
+      "C": "오답입니다. 내부 기업 데이터의 다양성이 핵심입니다.",
+      "D": "오답입니다. 다양한 format을 indexing하는 것이 핵심 component입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Enterprise search는 crawler보다 connector/parser/security-aware indexing이 더 중요해질 수 있다.\n\n보기별 해설:\nA. 정답입니다. L16은 enterprise data가 non-HTML, DBMS, file folders 등 다양한 format/source에 있음을 강조합니다.\nB. 오답입니다. Non-HTML과 diversified data sources가 challenge입니다.\nC. 오답입니다. 내부 기업 데이터의 다양성이 핵심입니다.\nD. 오답입니다. 다양한 format을 indexing하는 것이 핵심 component입니다.",
+    "explanation_key_points": [
+      "정답은 A (Many valuable sources are PDFs, Word files, DBMSs, folders, and non-web formats)이다.",
+      "Enterprise search는 crawler보다 connector/parser/security-aware indexing이 더 중요해질 수 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which factor can enterprise search exploit compared with open web search?",
+    "chapter": "L16 - Enterprise Search Engine",
+    "related_info": "Enterprise search는 제약도 많지만 domain, hierarchy, authenticated logs 같은 내부 맥락을 활용할 수 있다.",
+    "why_high_yield": "Enterprise challenges와 opportunities를 함께 묻는 비교형 문제다.",
+    "source_refs": [
+      "L16.pdf p10: things enterprise search can exploit"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l16-exploit",
+    "item_form": "definition",
+    "options": {
+      "A": "Smaller data volume, specific domain, no query/document spamming, hierarchy, and full user behavior logs",
+      "B": "Infinite unknown data with no user IDs and heavy spam",
+      "C": "Only public PageRank with no access control",
+      "D": "No document structure and no domain knowledge"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. L16은 enterprise 환경의 장점으로 상대적으로 작은 데이터, specific domain, no spam, hierarchy, user behavior capture를 듭니다.",
+      "B": "오답입니다. 이것은 open web의 어려움에 가깝습니다.",
+      "C": "오답입니다. Enterprise에서는 access control과 internal behavior가 중요합니다.",
+      "D": "오답입니다. Enterprise는 domain specificity와 hierarchy를 활용할 수 있습니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Enterprise search는 제약도 많지만 domain, hierarchy, authenticated logs 같은 내부 맥락을 활용할 수 있다.\n\n보기별 해설:\nA. 정답입니다. L16은 enterprise 환경의 장점으로 상대적으로 작은 데이터, specific domain, no spam, hierarchy, user behavior capture를 듭니다.\nB. 오답입니다. 이것은 open web의 어려움에 가깝습니다.\nC. 오답입니다. Enterprise에서는 access control과 internal behavior가 중요합니다.\nD. 오답입니다. Enterprise는 domain specificity와 hierarchy를 활용할 수 있습니다.",
+    "explanation_key_points": [
+      "정답은 A (Smaller data volume, specific domain, no query/document spamming, hierarchy, and full user behavior logs)이다.",
+      "Enterprise search는 제약도 많지만 domain, hierarchy, authenticated logs 같은 내부 맥락을 활용할 수 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which security requirement is specific and important in enterprise search?",
+    "chapter": "L16 - Enterprise Search Engine",
+    "related_info": "Enterprise search는 indexing과 serving 모두에서 security/access control을 지켜야 한다.",
+    "why_high_yield": "실제 시스템 설계형 T/F/MCQ로 매우 중요하다.",
+    "source_refs": [
+      "L16.pdf p12: security challenges"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l16-security",
+    "item_form": "comparison",
+    "options": {
+      "A": "Indexing SSL/protected servers while respecting document-level access permissions",
+      "B": "Showing every confidential document to every employee for recall",
+      "C": "Removing all authentication before crawling",
+      "D": "Using only public web pages"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Enterprise search는 secure sources를 index하고 user authorization에 맞는 결과만 보여줘야 합니다.",
+      "B": "오답입니다. 권한을 무시하면 enterprise search로서 실패합니다.",
+      "C": "오답입니다. 보안 source 접근은 인증/권한 처리를 필요로 합니다.",
+      "D": "오답입니다. Enterprise search는 내부 protected content가 핵심입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Enterprise search는 indexing과 serving 모두에서 security/access control을 지켜야 한다.\n\n보기별 해설:\nA. 정답입니다. Enterprise search는 secure sources를 index하고 user authorization에 맞는 결과만 보여줘야 합니다.\nB. 오답입니다. 권한을 무시하면 enterprise search로서 실패합니다.\nC. 오답입니다. 보안 source 접근은 인증/권한 처리를 필요로 합니다.\nD. 오답입니다. Enterprise search는 내부 protected content가 핵심입니다.",
+    "explanation_key_points": [
+      "정답은 A (Indexing SSL/protected servers while respecting document-level access permissions)이다.",
+      "Enterprise search는 indexing과 serving 모두에서 security/access control을 지켜야 한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which advanced requirement goes beyond basic keyword search in L16?",
+    "chapter": "L16 - Enterprise Search Engine",
+    "related_info": "Enterprise search는 단순 검색뿐 아니라 taxonomy/classification/clustering/entity/people/context/analytics 같은 knowledge engine 기능을 요구한다.",
+    "why_high_yield": "L16 후반 세부 기능을 묶어 묻는 문제로 적합하다.",
+    "source_refs": [
+      "L16.pdf p14-p20: advanced requirements"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l16-advanced-requirements",
+    "item_form": "scenario",
+    "options": {
+      "A": "Taxonomy, classification, clustering, context-sensitive search, people/expertise search, entity extraction, and analytics",
+      "B": "Only exact Boolean keyword matching with no metadata",
+      "C": "Only CPM advertising",
+      "D": "Only raw term frequency without UI or analytics"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. L16 후반은 content organization과 knowledge extraction 기능을 enterprise search의 advanced requirements로 제시합니다.",
+      "B": "오답입니다. Advanced requirements는 basic keyword search를 넘어섭니다.",
+      "C": "오답입니다. CPM은 L02 광고 과금이고 enterprise advanced requirement가 아닙니다.",
+      "D": "오답입니다. L16은 analytics, taxonomy, entity extraction 등 더 풍부한 기능을 다룹니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Enterprise search는 단순 검색뿐 아니라 taxonomy/classification/clustering/entity/people/context/analytics 같은 knowledge engine 기능을 요구한다.\n\n보기별 해설:\nA. 정답입니다. L16 후반은 content organization과 knowledge extraction 기능을 enterprise search의 advanced requirements로 제시합니다.\nB. 오답입니다. Advanced requirements는 basic keyword search를 넘어섭니다.\nC. 오답입니다. CPM은 L02 광고 과금이고 enterprise advanced requirement가 아닙니다.\nD. 오답입니다. L16은 analytics, taxonomy, entity extraction 등 더 풍부한 기능을 다룹니다.",
+    "explanation_key_points": [
+      "정답은 A (Taxonomy, classification, clustering, context-sensitive search, people/expertise search, entity extraction, and analytics)이다.",
+      "Enterprise search는 단순 검색뿐 아니라 taxonomy/classification/clustering/entity/people/context/analytics 같은 knowledge engine 기능을 요구한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: The take-home message says there are no fundamental differences in technology between enterprise and web search, but enterprise has different constraints and requirements.",
+    "chapter": "L16 - Enterprise Search Engine",
+    "related_info": "기술 기반은 비슷하지만 enterprise는 correctness, security, non-HTML data, hierarchy, user logs 등 조건이 달라진다.",
+    "why_high_yield": "L16 요약 슬라이드의 핵심 균형 문장이다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L16.pdf p21: take-home messages",
+      "2026-05-08 review video: professor emphasized enterprise search differences while tying them back to course technologies."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l16-no-fundamental-diff",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. 기술 기반은 비슷하지만 enterprise는 correctness, security, non-HTML data, hierarchy, user logs 등 조건이 달라진다.",
+      "B": "이 보기를 고르면 틀립니다. 기술 기반은 비슷하지만 enterprise는 correctness, security, non-HTML data, hierarchy, user logs 등 조건이 달라진다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. 기술 기반은 비슷하지만 enterprise는 correctness, security, non-HTML data, hierarchy, user logs 등 조건이 달라진다.\n\n보기별 해설:\nA. 참입니다. 기술 기반은 비슷하지만 enterprise는 correctness, security, non-HTML data, hierarchy, user logs 등 조건이 달라진다.\nB. 이 보기를 고르면 틀립니다. 기술 기반은 비슷하지만 enterprise는 correctness, security, non-HTML data, hierarchy, user logs 등 조건이 달라진다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "기술 기반은 비슷하지만 enterprise는 correctness, security, non-HTML data, hierarchy, user logs 등 조건이 달라진다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Enterprise websites usually have richer link structures than the public web, so PageRank becomes more reliable.",
+    "chapter": "L16 - Enterprise Search Engine",
+    "related_info": "Enterprise pages generally have fewer links and many links are navigational, so PageRank-style link vote가 약해질 수 있다.",
+    "why_high_yield": "Enterprise vs web link 구조를 뒤집는 대표 함정이다.",
+    "source_refs": [
+      "L16.pdf p8: links/PageRank challenge"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l16-enterprise-more-links",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. Enterprise pages generally have fewer links and many links are navigational, so PageRank-style link vote가 약해질 수 있다.",
+      "B": "거짓입니다. Enterprise pages generally have fewer links and many links are navigational, so PageRank-style link vote가 약해질 수 있다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. Enterprise pages generally have fewer links and many links are navigational, so PageRank-style link vote가 약해질 수 있다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. Enterprise pages generally have fewer links and many links are navigational, so PageRank-style link vote가 약해질 수 있다.\nB. 거짓입니다. Enterprise pages generally have fewer links and many links are navigational, so PageRank-style link vote가 약해질 수 있다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Enterprise pages generally have fewer links and many links are navigational, so PageRank-style link vote가 약해질 수 있다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Search engine analytics such as frequently asked queries is listed as an advanced enterprise search requirement.",
+    "chapter": "L16 - Enterprise Search Engine",
+    "related_info": "Enterprise search analytics는 frequent queries, failed queries, user behavior를 분석해 content/UX/search quality 개선에 쓰인다.",
+    "why_high_yield": "L16 후반 기능 목록에서 빠뜨리기 쉬운 세부 포인트다.",
+    "source_refs": [
+      "L16.pdf p20: advanced requirements - analytics"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l16-analytics",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Enterprise search analytics는 frequent queries, failed queries, user behavior를 분석해 content/UX/search quality 개선에 쓰인다.",
+      "B": "이 보기를 고르면 틀립니다. Enterprise search analytics는 frequent queries, failed queries, user behavior를 분석해 content/UX/search quality 개선에 쓰인다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Enterprise search analytics는 frequent queries, failed queries, user behavior를 분석해 content/UX/search quality 개선에 쓰인다.\n\n보기별 해설:\nA. 참입니다. Enterprise search analytics는 frequent queries, failed queries, user behavior를 분석해 content/UX/search quality 개선에 쓰인다.\nB. 이 보기를 고르면 틀립니다. Enterprise search analytics는 frequent queries, failed queries, user behavior를 분석해 content/UX/search quality 개선에 쓰인다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Enterprise search analytics는 frequent queries, failed queries, user behavior를 분석해 content/UX/search quality 개선에 쓰인다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]

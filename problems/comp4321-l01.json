@@ -1,0 +1,316 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "Which name best describes the academic root of search engines before Google?",
+    "chapter": "L01 - Search Engines and IR",
+    "related_info": "검색엔진은 IR, document retrieval, text retrieval 같은 이름으로 오래 연구된 분야이며 Google이 만든 개념이 아니다.",
+    "why_high_yield": "시험 초반 개념 문제는 “검색엔진=Google”이라는 직관을 깨고 IR의 범위를 묻는 형태가 나오기 쉽다.",
+    "source_refs": [
+      "L01.pdf p2: search engine names and information retrieval"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l01-ir-names",
+    "item_form": "definition",
+    "options": {
+      "A": "Information retrieval (IR)",
+      "B": "Relational transaction processing",
+      "C": "Packet routing",
+      "D": "Spreadsheet filtering"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 search engine이 Google에서 시작된 것이 아니라 1950년대부터 연구된 information retrieval의 한 형태라고 설명합니다.",
+      "B": "오답입니다. 관계형 트랜잭션 처리는 구조화된 DB 질의에 가깝고, L01의 핵심인 비정형 텍스트 검색의 학문적 이름이 아닙니다.",
+      "C": "오답입니다. 패킷 라우팅은 네트워크 전송 문제이지 문서 표현, 질의, 순위화를 다루는 IR 문제가 아닙니다.",
+      "D": "오답입니다. 스프레드시트 필터링은 제한된 표 데이터 조작이며, 웹/문서 검색의 일반 모델을 가리키지 않습니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. 검색엔진은 IR, document retrieval, text retrieval 같은 이름으로 오래 연구된 분야이며 Google이 만든 개념이 아니다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 search engine이 Google에서 시작된 것이 아니라 1950년대부터 연구된 information retrieval의 한 형태라고 설명합니다.\nB. 오답입니다. 관계형 트랜잭션 처리는 구조화된 DB 질의에 가깝고, L01의 핵심인 비정형 텍스트 검색의 학문적 이름이 아닙니다.\nC. 오답입니다. 패킷 라우팅은 네트워크 전송 문제이지 문서 표현, 질의, 순위화를 다루는 IR 문제가 아닙니다.\nD. 오답입니다. 스프레드시트 필터링은 제한된 표 데이터 조작이며, 웹/문서 검색의 일반 모델을 가리키지 않습니다.",
+    "explanation_key_points": [
+      "정답은 A (Information retrieval (IR))이다.",
+      "검색엔진은 IR, document retrieval, text retrieval 같은 이름으로 오래 연구된 분야이며 Google이 만든 개념이 아니다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which description matches vertical search rather than site search or enterprise search?",
+    "chapter": "L01 - Search Engines and IR",
+    "related_info": "Vertical search는 특정 관심 영역의 데이터를 대상으로 하는 검색이다. Site/custom/enterprise search와 범위 기준이 다르다.",
+    "why_high_yield": "L01은 비슷한 검색 유형 이름을 나란히 제시하므로, 정의를 서로 바꾸는 MCQ 함정이 잘 나온다.",
+    "source_refs": [
+      "L01.pdf p9: vertical, site, custom, and enterprise search"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l01-vertical-site-enterprise",
+    "item_form": "comparison",
+    "options": {
+      "A": "Search in one focused domain such as jobs, news, or movies",
+      "B": "Search only inside one website or a group of related sites",
+      "C": "Search for a corporate intranet",
+      "D": "A frontend to a large backend search engine"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 vertical search를 특정 도메인이나 초점 영역의 검색으로 설명하고 job/news/movie search를 예로 듭니다.",
+      "B": "오답입니다. 이것은 site search의 설명입니다. 범위가 특정 사이트로 제한되는 것이 핵심입니다.",
+      "C": "오답입니다. corporate intranet을 검색하는 것은 enterprise search입니다.",
+      "D": "오답입니다. 이것은 custom search의 설명입니다. 자체 데이터 도메인보다는 큰 백엔드를 빌려 쓰는 검색 프론트엔드가 핵심입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Vertical search는 특정 관심 영역의 데이터를 대상으로 하는 검색이다. Site/custom/enterprise search와 범위 기준이 다르다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 vertical search를 특정 도메인이나 초점 영역의 검색으로 설명하고 job/news/movie search를 예로 듭니다.\nB. 오답입니다. 이것은 site search의 설명입니다. 범위가 특정 사이트로 제한되는 것이 핵심입니다.\nC. 오답입니다. corporate intranet을 검색하는 것은 enterprise search입니다.\nD. 오답입니다. 이것은 custom search의 설명입니다. 자체 데이터 도메인보다는 큰 백엔드를 빌려 쓰는 검색 프론트엔드가 핵심입니다.",
+    "explanation_key_points": [
+      "정답은 A (Search in one focused domain such as jobs, news, or movies)이다.",
+      "Vertical search는 특정 관심 영역의 데이터를 대상으로 하는 검색이다. Site/custom/enterprise search와 범위 기준이 다르다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which data type is most directly associated with ordinary text documents in IR?",
+    "chapter": "L01 - Search Engines and IR",
+    "related_info": "IR이 중요한 이유는 대부분의 정보가 미리 정의된 형식이 없는 텍스트로 존재하기 때문이다.",
+    "why_high_yield": "비정형 데이터와 구조화 데이터의 차이는 IR과 DB 검색을 구분하는 기본축이다.",
+    "source_refs": [
+      "L01.pdf p4 and p19: types of data and why IR is important"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l01-data-types",
+    "item_form": "scenario",
+    "options": {
+      "A": "Unformatted or unstructured data",
+      "B": "Fully normalized relational tables",
+      "C": "Only multimedia data",
+      "D": "Only semi-structured XML records"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 이메일, 뉴스글, 웹페이지 본문 같은 텍스트는 미리 정해진 관계형 스키마가 없어 unstructured data로 다룹니다.",
+      "B": "오답입니다. 관계형 테이블은 구조화된 데이터이며 SQL 조건으로 검색하기 쉽지만, IR이 어려운 핵심 사례는 아닙니다.",
+      "C": "오답입니다. L01은 non-textual/multimedia data도 언급하지만, 일반적인 텍스트 IR의 주 대상은 unstructured text입니다.",
+      "D": "오답입니다. semi-structured data도 검색 대상이 될 수 있지만 ordinary text documents를 가장 직접적으로 설명하는 말은 unstructured입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. IR이 중요한 이유는 대부분의 정보가 미리 정의된 형식이 없는 텍스트로 존재하기 때문이다.\n\n보기별 해설:\nA. 정답입니다. 이메일, 뉴스글, 웹페이지 본문 같은 텍스트는 미리 정해진 관계형 스키마가 없어 unstructured data로 다룹니다.\nB. 오답입니다. 관계형 테이블은 구조화된 데이터이며 SQL 조건으로 검색하기 쉽지만, IR이 어려운 핵심 사례는 아닙니다.\nC. 오답입니다. L01은 non-textual/multimedia data도 언급하지만, 일반적인 텍스트 IR의 주 대상은 unstructured text입니다.\nD. 오답입니다. semi-structured data도 검색 대상이 될 수 있지만 ordinary text documents를 가장 직접적으로 설명하는 말은 unstructured입니다.",
+    "explanation_key_points": [
+      "정답은 A (Unformatted or unstructured data)이다.",
+      "IR이 중요한 이유는 대부분의 정보가 미리 정의된 형식이 없는 텍스트로 존재하기 때문이다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What is the main difference between federated search and meta search in L01?",
+    "chapter": "L01 - Search Engines and IR",
+    "related_info": "Federated와 meta search는 여러 소스를 이용한다는 점은 비슷하지만, 각 소스가 독립 검색엔진인지와 결과를 어떻게 모으는지가 다르다.",
+    "why_high_yield": "이름이 비슷해 T/F와 MCQ에서 헷갈리기 쉬운 구분이다.",
+    "source_refs": [
+      "L01.pdf p16-p17: federated and meta search"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l01-federated-meta",
+    "item_form": "counterexample",
+    "options": {
+      "A": "Federated search nodes are full-function search engines for their own sources; meta search mainly aggregates results from external engines.",
+      "B": "Federated search never ranks results, while meta search always uses PageRank.",
+      "C": "Federated search only searches local files; meta search only searches corporate intranets.",
+      "D": "Federated search is the same as desktop search."
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 federated search에서 각 node가 자체 데이터에 대한 full-function SE라고 대비합니다.",
+      "B": "오답입니다. 두 방식 모두 결과 병합과 순위화가 필요할 수 있으며 PageRank 사용 여부가 정의 차이가 아닙니다.",
+      "C": "오답입니다. 이 설명은 L01의 file search/enterprise search와 뒤섞인 것입니다.",
+      "D": "오답입니다. desktop search는 개인 장치 파일 검색이고 federated search는 여러 검색 노드의 통합 검색입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Federated와 meta search는 여러 소스를 이용한다는 점은 비슷하지만, 각 소스가 독립 검색엔진인지와 결과를 어떻게 모으는지가 다르다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 federated search에서 각 node가 자체 데이터에 대한 full-function SE라고 대비합니다.\nB. 오답입니다. 두 방식 모두 결과 병합과 순위화가 필요할 수 있으며 PageRank 사용 여부가 정의 차이가 아닙니다.\nC. 오답입니다. 이 설명은 L01의 file search/enterprise search와 뒤섞인 것입니다.\nD. 오답입니다. desktop search는 개인 장치 파일 검색이고 federated search는 여러 검색 노드의 통합 검색입니다.",
+    "explanation_key_points": [
+      "정답은 A (Federated search nodes are full-function search engines for their own sources; meta search mainly aggregates results from external engines.)이다.",
+      "Federated와 meta search는 여러 소스를 이용한다는 점은 비슷하지만, 각 소스가 독립 검색엔진인지와 결과를 어떻게 모으는지가 다르다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which factor is NOT listed as a major reason why IR is difficult?",
+    "chapter": "L01 - Search Engines and IR",
+    "related_info": "IR의 어려움은 규모, 비정형 의미, 다양한 사용자, 사람의 판단 비용과 불일치, 분산성과 링크 구조에서 온다.",
+    "why_high_yield": "NOT true 문제 형식으로 자주 나올 수 있는 L01 요약 포인트다.",
+    "source_refs": [
+      "L01.pdf p20-p26: why IR is difficult"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l01-ir-difficulty",
+    "item_form": "definition",
+    "options": {
+      "A": "Every document already has a precise relational schema",
+      "B": "The web and document collections are very large",
+      "C": "Users range from experts to casual users",
+      "D": "Human indexers are costly and inconsistent"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 이것은 IR이 쉬워지는 조건에 가깝습니다. 슬라이드는 오히려 unstructured data 때문에 semantics 포착이 어렵다고 말합니다.",
+      "B": "오답입니다. Size는 L01에서 IR이 어려운 핵심 이유로 강조됩니다.",
+      "C": "오답입니다. Diversified user base는 UI와 질의 언어 설계를 어렵게 만드는 이유입니다.",
+      "D": "오답입니다. 높은 인건비와 relevance/index term 판단 불일치는 명시된 어려움입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. IR의 어려움은 규모, 비정형 의미, 다양한 사용자, 사람의 판단 비용과 불일치, 분산성과 링크 구조에서 온다.\n\n보기별 해설:\nA. 정답입니다. 이것은 IR이 쉬워지는 조건에 가깝습니다. 슬라이드는 오히려 unstructured data 때문에 semantics 포착이 어렵다고 말합니다.\nB. 오답입니다. Size는 L01에서 IR이 어려운 핵심 이유로 강조됩니다.\nC. 오답입니다. Diversified user base는 UI와 질의 언어 설계를 어렵게 만드는 이유입니다.\nD. 오답입니다. 높은 인건비와 relevance/index term 판단 불일치는 명시된 어려움입니다.",
+    "explanation_key_points": [
+      "정답은 A (Every document already has a precise relational schema)이다.",
+      "IR의 어려움은 규모, 비정형 의미, 다양한 사용자, 사람의 판단 비용과 불일치, 분산성과 링크 구조에서 온다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "In the L01 vocabulary, what is an index?",
+    "chapter": "L01 - Search Engines and IR",
+    "related_info": "Index는 검색엔진이 문서를 빠르게 찾고 점수화하기 위해 사용하는 핵심 자료구조다.",
+    "why_high_yield": "뒤 강의의 inverted file, postings list, term weighting을 이해하려면 L01의 index 정의가 선행되어야 한다.",
+    "source_refs": [
+      "L01.pdf p27: document, index, query, similarity, ranking"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l01-search-components",
+    "item_form": "comparison",
+    "options": {
+      "A": "A list of important keywords from documents stored in an efficient file structure",
+      "B": "The original full document only, with no extracted terms",
+      "C": "A user’s natural-language information need",
+      "D": "A ranking algorithm independent of documents"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 index를 문서에서 뽑은 중요한 keyword 목록이 효율적인 파일 구조에 저장된 것이라고 정의합니다.",
+      "B": "오답입니다. 원문 문서 자체는 document이고, index는 검색을 빠르게 하기 위한 별도 표현입니다.",
+      "C": "오답입니다. 사용자의 정보 요구는 query formulation 이전의 의도에 가깝습니다.",
+      "D": "오답입니다. index는 알고리즘이 아니라 문서와 term을 연결하는 자료구조입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Index는 검색엔진이 문서를 빠르게 찾고 점수화하기 위해 사용하는 핵심 자료구조다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 index를 문서에서 뽑은 중요한 keyword 목록이 효율적인 파일 구조에 저장된 것이라고 정의합니다.\nB. 오답입니다. 원문 문서 자체는 document이고, index는 검색을 빠르게 하기 위한 별도 표현입니다.\nC. 오답입니다. 사용자의 정보 요구는 query formulation 이전의 의도에 가깝습니다.\nD. 오답입니다. index는 알고리즘이 아니라 문서와 term을 연결하는 자료구조입니다.",
+    "explanation_key_points": [
+      "정답은 A (A list of important keywords from documents stored in an efficient file structure)이다.",
+      "Index는 검색엔진이 문서를 빠르게 찾고 점수화하기 위해 사용하는 핵심 자료구조다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Search engines were created by Google in the late 1990s.",
+    "chapter": "L01 - Search Engines and IR",
+    "related_info": "슬라이드는 search engine이 Google 이전부터 IR/document retrieval/text retrieval로 존재했다고 말한다. Google은 대표적 웹 검색엔진일 뿐 기원이 아니다.",
+    "why_high_yield": "교수님 슬라이드 첫 제목 자체가 “Search Engine was not Created by Google!”이므로 강조 포인트다.",
+    "source_refs": [
+      "L01.pdf p2 and p33: search engine roots"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l01-google-origin",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. 슬라이드는 search engine이 Google 이전부터 IR/document retrieval/text retrieval로 존재했다고 말한다. Google은 대표적 웹 검색엔진일 뿐 기원이 아니다.",
+      "B": "거짓입니다. 슬라이드는 search engine이 Google 이전부터 IR/document retrieval/text retrieval로 존재했다고 말한다. Google은 대표적 웹 검색엔진일 뿐 기원이 아니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. 슬라이드는 search engine이 Google 이전부터 IR/document retrieval/text retrieval로 존재했다고 말한다. Google은 대표적 웹 검색엔진일 뿐 기원이 아니다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. 슬라이드는 search engine이 Google 이전부터 IR/document retrieval/text retrieval로 존재했다고 말한다. Google은 대표적 웹 검색엔진일 뿐 기원이 아니다.\nB. 거짓입니다. 슬라이드는 search engine이 Google 이전부터 IR/document retrieval/text retrieval로 존재했다고 말한다. Google은 대표적 웹 검색엔진일 뿐 기원이 아니다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "슬라이드는 search engine이 Google 이전부터 IR/document retrieval/text retrieval로 존재했다고 말한다. Google은 대표적 웹 검색엔진일 뿐 기원이 아니다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Enterprise or product search often has more structured data and access-control concerns than open web search.",
+    "chapter": "L01 - Search Engines and IR",
+    "related_info": "Enterprise/product search는 웹 검색과 기술은 유사하지만 필드, facet, 권한, 내부 데이터 같은 추가 구조와 제약이 많다.",
+    "why_high_yield": "L01의 응용 구분은 L16 enterprise search와 이어지므로 누적 시험 범위에서 다시 묻기 좋다.",
+    "source_refs": [
+      "L01.pdf p18 and L16.pdf p12: enterprise/product search and security"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l01-enterprise-structured",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Enterprise/product search는 웹 검색과 기술은 유사하지만 필드, facet, 권한, 내부 데이터 같은 추가 구조와 제약이 많다.",
+      "B": "이 보기를 고르면 틀립니다. Enterprise/product search는 웹 검색과 기술은 유사하지만 필드, facet, 권한, 내부 데이터 같은 추가 구조와 제약이 많다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Enterprise/product search는 웹 검색과 기술은 유사하지만 필드, facet, 권한, 내부 데이터 같은 추가 구조와 제약이 많다.\n\n보기별 해설:\nA. 참입니다. Enterprise/product search는 웹 검색과 기술은 유사하지만 필드, facet, 권한, 내부 데이터 같은 추가 구조와 제약이 많다.\nB. 이 보기를 고르면 틀립니다. Enterprise/product search는 웹 검색과 기술은 유사하지만 필드, facet, 권한, 내부 데이터 같은 추가 구조와 제약이 많다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Enterprise/product search는 웹 검색과 기술은 유사하지만 필드, facet, 권한, 내부 데이터 같은 추가 구조와 제약이 많다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Second-generation search engines added link analysis heavily on top of statistical keyword matching.",
+    "chapter": "L01 - Search Engines and IR",
+    "related_info": "First-generation은 통계적 keyword match 중심이고, second-generation은 link analysis를 강하게 결합한다.",
+    "why_high_yield": "PageRank/HITS로 이어지는 큰 흐름을 묻는 T/F로 적합하다.",
+    "source_refs": [
+      "L01.pdf p29-p30: evolution of search technologies"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l01-evolution-second-gen",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. First-generation은 통계적 keyword match 중심이고, second-generation은 link analysis를 강하게 결합한다.",
+      "B": "이 보기를 고르면 틀립니다. First-generation은 통계적 keyword match 중심이고, second-generation은 link analysis를 강하게 결합한다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. First-generation은 통계적 keyword match 중심이고, second-generation은 link analysis를 강하게 결합한다.\n\n보기별 해설:\nA. 참입니다. First-generation은 통계적 keyword match 중심이고, second-generation은 link analysis를 강하게 결합한다.\nB. 이 보기를 고르면 틀립니다. First-generation은 통계적 keyword match 중심이고, second-generation은 link analysis를 강하게 결합한다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "First-generation은 통계적 keyword match 중심이고, second-generation은 link analysis를 강하게 결합한다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Custom search is described as a search frontend to a large backend search engine.",
+    "chapter": "L01 - Search Engines and IR",
+    "related_info": "Custom search는 자체 전체 검색 인프라라기보다 큰 backend search engine에 붙는 frontend로 설명된다.",
+    "why_high_yield": "비슷한 용어(site, vertical, enterprise, custom)를 구분시키는 문제 유형에 대비한다.",
+    "source_refs": [
+      "L01.pdf p9: custom search"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l01-custom-search",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Custom search는 자체 전체 검색 인프라라기보다 큰 backend search engine에 붙는 frontend로 설명된다.",
+      "B": "이 보기를 고르면 틀립니다. Custom search는 자체 전체 검색 인프라라기보다 큰 backend search engine에 붙는 frontend로 설명된다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Custom search는 자체 전체 검색 인프라라기보다 큰 backend search engine에 붙는 frontend로 설명된다.\n\n보기별 해설:\nA. 참입니다. Custom search는 자체 전체 검색 인프라라기보다 큰 backend search engine에 붙는 frontend로 설명된다.\nB. 이 보기를 고르면 틀립니다. Custom search는 자체 전체 검색 인프라라기보다 큰 backend search engine에 붙는 frontend로 설명된다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Custom search는 자체 전체 검색 인프라라기보다 큰 backend search engine에 붙는 frontend로 설명된다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]

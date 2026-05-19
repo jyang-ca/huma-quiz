@@ -1,0 +1,320 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "What does an inverted file tell you?",
+    "chapter": "L05 - Inverted Files",
+    "related_info": "Inverted index는 query term을 찾아 postings list를 가져오고 각 document의 partial score를 누적하게 해준다.",
+    "why_high_yield": "실제 검색엔진 구현의 표준 index method로 L05 take-home에서 강조된다.",
+    "source_refs": [
+      "L05.pdf p3-p4: inverted file and postings list"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l05-inverted-file",
+    "item_form": "definition",
+    "options": {
+      "A": "Which documents contain a query term, usually through postings lists",
+      "B": "Which query was typed by which user in a session log",
+      "C": "Which advertisements were sold for a keyword",
+      "D": "Which web pages link to a given page for PageRank only"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Inverted file은 term에서 그 term을 포함한 documents/postings로 가는 index입니다.",
+      "B": "오답입니다. 이것은 query/click logging 쪽이며 inverted file의 기본 기능이 아닙니다.",
+      "C": "오답입니다. 광고 판매 정보는 L02 business model이고 inverted index 구조가 아닙니다.",
+      "D": "오답입니다. Link graph도 index될 수 있지만 L05 inverted file의 기본 설명은 term-to-documents mapping입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Inverted index는 query term을 찾아 postings list를 가져오고 각 document의 partial score를 누적하게 해준다.\n\n보기별 해설:\nA. 정답입니다. Inverted file은 term에서 그 term을 포함한 documents/postings로 가는 index입니다.\nB. 오답입니다. 이것은 query/click logging 쪽이며 inverted file의 기본 기능이 아닙니다.\nC. 오답입니다. 광고 판매 정보는 L02 business model이고 inverted index 구조가 아닙니다.\nD. 오답입니다. Link graph도 index될 수 있지만 L05 inverted file의 기본 설명은 term-to-documents mapping입니다.",
+    "explanation_key_points": [
+      "정답은 A (Which documents contain a query term, usually through postings lists)이다.",
+      "Inverted index는 query term을 찾아 postings list를 가져오고 각 document의 partial score를 누적하게 해준다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "In the inverted-index retrieval algorithm, what happens when a query term is not found in the index?",
+    "chapter": "L05 - Inverted Files",
+    "related_info": "Inverted-index 검색은 각 query term의 postings list를 읽고 문서별 partial score를 더한다. Term이 없으면 그 term은 건너뛴다.",
+    "why_high_yield": "구현 알고리즘 순서를 묻는 계산/절차형 문제에 대비한다.",
+    "source_refs": [
+      "L05.pdf p4: algorithm based on inverted index"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l05-inverted-algorithm",
+    "item_form": "comparison",
+    "options": {
+      "A": "The algorithm continues to the next query term",
+      "B": "Every document is immediately returned as relevant",
+      "C": "The index must be rebuilt from scratch before continuing",
+      "D": "The query is converted into an advertisement"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. L05 pseudocode는 query term을 lookup하고, if not found: continue라고 설명합니다.",
+      "B": "오답입니다. Term이 없으면 contribution이 없을 뿐 전체 문서를 relevant로 반환하지 않습니다.",
+      "C": "오답입니다. Retrieval 중 term not found는 일반적인 상황이며 즉시 rebuild할 이유가 없습니다.",
+      "D": "오답입니다. 광고 변환은 retrieval algorithm의 일부가 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Inverted-index 검색은 각 query term의 postings list를 읽고 문서별 partial score를 더한다. Term이 없으면 그 term은 건너뛴다.\n\n보기별 해설:\nA. 정답입니다. L05 pseudocode는 query term을 lookup하고, if not found: continue라고 설명합니다.\nB. 오답입니다. Term이 없으면 contribution이 없을 뿐 전체 문서를 relevant로 반환하지 않습니다.\nC. 오답입니다. Retrieval 중 term not found는 일반적인 상황이며 즉시 rebuild할 이유가 없습니다.\nD. 오답입니다. 광고 변환은 retrieval algorithm의 일부가 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (The algorithm continues to the next query term)이다.",
+      "Inverted-index 검색은 각 query term의 postings list를 읽고 문서별 partial score를 더한다. Term이 없으면 그 term은 건너뛴다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "For tf/tfmax * idf, which statistics are stored separately from postings according to L05?",
+    "chapter": "L05 - Inverted Files",
+    "related_info": "Postings에는 term frequency 같은 문서별 정보가 들어가고, tfmax/DF/N 같은 통계는 별도 파일로 유지될 수 있다.",
+    "why_high_yield": "프로젝트/시험 모두 inverted-index schema를 설명할 때 핵심이 되는 저장 경계다.",
+    "source_refs": [
+      "L05.pdf p4 and p7: postings and global statistics"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l05-global-stats",
+    "item_form": "scenario",
+    "options": {
+      "A": "tfmax, DF, and N",
+      "B": "Only the user password and browser cookies",
+      "C": "Only anchor text and PageRank",
+      "D": "Only raw HTML screenshots"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 tf는 postings에 저장되고 tfmax, DF, N은 separate files에 저장된다고 말합니다.",
+      "B": "오답입니다. 보안/로그 데이터가 아니라 term weighting에 필요한 global/local statistics입니다.",
+      "C": "오답입니다. 이것들은 L07의 ranking signals이고 L05의 tf/tfmax*idf 저장 설명과 다릅니다.",
+      "D": "오답입니다. 검색 점수 계산에는 term statistics가 필요하며 raw screenshot은 해당 공식의 저장 통계가 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Postings에는 term frequency 같은 문서별 정보가 들어가고, tfmax/DF/N 같은 통계는 별도 파일로 유지될 수 있다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 tf는 postings에 저장되고 tfmax, DF, N은 separate files에 저장된다고 말합니다.\nB. 오답입니다. 보안/로그 데이터가 아니라 term weighting에 필요한 global/local statistics입니다.\nC. 오답입니다. 이것들은 L07의 ranking signals이고 L05의 tf/tfmax*idf 저장 설명과 다릅니다.\nD. 오답입니다. 검색 점수 계산에는 term statistics가 필요하며 raw screenshot은 해당 공식의 저장 통계가 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (tfmax, DF, and N)이다.",
+      "Postings에는 term frequency 같은 문서별 정보가 들어가고, tfmax/DF/N 같은 통계는 별도 파일로 유지될 수 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why store word locations in an inverted index?",
+    "chapter": "L05 - Inverted Files",
+    "related_info": "Word locations는 “computer graph” 같은 phrase/adjacency query나 proximity query를 처리하기 위해 필요하다.",
+    "why_high_yield": "Phrase search 요구는 L15와 프로젝트 기능으로 이어지는 실전형 포인트다.",
+    "source_refs": [
+      "L05.pdf p8 and p14-p15: indexing with word locations and distance constraints"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l05-locations",
+    "item_form": "counterexample",
+    "options": {
+      "A": "To support phrase search, adjacency, proximity, and distance constraints",
+      "B": "To make every postings list shorter than before",
+      "C": "To remove the need for tokenization",
+      "D": "To replace all term weights with PageRank"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. L05는 word locations를 저장하면 phrase search와 distance constraints를 지원할 수 있다고 설명합니다.",
+      "B": "오답입니다. 위치 정보를 저장하면 보통 storage overhead가 증가합니다.",
+      "C": "오답입니다. 위치 정보도 tokenization 후 각 token의 위치를 기록해야 얻을 수 있습니다.",
+      "D": "오답입니다. 위치 정보는 term matching 확장이고 PageRank는 link-based quality signal입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Word locations는 “computer graph” 같은 phrase/adjacency query나 proximity query를 처리하기 위해 필요하다.\n\n보기별 해설:\nA. 정답입니다. L05는 word locations를 저장하면 phrase search와 distance constraints를 지원할 수 있다고 설명합니다.\nB. 오답입니다. 위치 정보를 저장하면 보통 storage overhead가 증가합니다.\nC. 오답입니다. 위치 정보도 tokenization 후 각 token의 위치를 기록해야 얻을 수 있습니다.\nD. 오답입니다. 위치 정보는 term matching 확장이고 PageRank는 link-based quality signal입니다.",
+    "explanation_key_points": [
+      "정답은 A (To support phrase search, adjacency, proximity, and distance constraints)이다.",
+      "Word locations는 “computer graph” 같은 phrase/adjacency query나 proximity query를 처리하기 위해 필요하다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "For Boolean retrieval on inverted indexes, what optimization is recommended for AND operations?",
+    "chapter": "L05 - Inverted Files",
+    "related_info": "Boolean AND는 짧은 postings list부터 처리하면 중간 결과를 작게 유지할 수 있다.",
+    "why_high_yield": "L05의 구현 최적화 중 가장 시험 문제로 만들기 쉬운 부분이다.",
+    "source_refs": [
+      "L05.pdf p9-p10: Boolean retrieval and query optimization"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l05-boolean-query-opt",
+    "item_form": "definition",
+    "options": {
+      "A": "Start with the shortest postings lists to keep intermediate results small",
+      "B": "Start with the longest postings list to maximize memory use",
+      "C": "Ignore postings lists and scan all documents every time",
+      "D": "Sort documents by PageRank before checking Boolean conditions"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. AND에서는 교집합이 작아지므로 shortest lists부터 처리해 intermediate results를 줄이는 것이 표준 최적화입니다.",
+      "B": "오답입니다. Longest list부터 시작하면 중간 결과가 커져 비효율적입니다.",
+      "C": "오답입니다. Inverted index의 목적은 전체 scan을 피하는 것입니다.",
+      "D": "오답입니다. Boolean list optimization의 핵심은 list length와 set operation 순서이지 PageRank가 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Boolean AND는 짧은 postings list부터 처리하면 중간 결과를 작게 유지할 수 있다.\n\n보기별 해설:\nA. 정답입니다. AND에서는 교집합이 작아지므로 shortest lists부터 처리해 intermediate results를 줄이는 것이 표준 최적화입니다.\nB. 오답입니다. Longest list부터 시작하면 중간 결과가 커져 비효율적입니다.\nC. 오답입니다. Inverted index의 목적은 전체 scan을 피하는 것입니다.\nD. 오답입니다. Boolean list optimization의 핵심은 list length와 set operation 순서이지 PageRank가 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (Start with the shortest postings lists to keep intermediate results small)이다.",
+      "Boolean AND는 짧은 postings list부터 처리하면 중간 결과를 작게 유지할 수 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why is a forward index maintained for deletion?",
+    "chapter": "L05 - Inverted Files",
+    "related_info": "Update는 deletion followed by insertion이며, deletion을 위해 document가 포함한 words를 기록하는 forward index가 필요하다.",
+    "why_high_yield": "실제 index maintenance를 묻는 설계형 문제에 자주 쓰인다.",
+    "source_refs": [
+      "L05.pdf p23-p24: deletion and update"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l05-forward-index",
+    "item_form": "comparison",
+    "options": {
+      "A": "It records the words contained in a document, so deletion can remove that document from relevant postings lists",
+      "B": "It stores only PageRank values for deleted pages",
+      "C": "It eliminates storage overhead entirely",
+      "D": "It replaces the need for a keyword index"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 문서를 삭제하려면 그 문서가 어떤 terms에 등장했는지 알아야 postings에서 제거할 수 있습니다.",
+      "B": "오답입니다. Forward index는 document-to-terms 방향의 term membership 정보입니다.",
+      "C": "오답입니다. 오히려 추가 구조를 유지하므로 overhead가 늘 수 있지만 update/deletion을 가능하게 합니다.",
+      "D": "오답입니다. Forward index는 inverted keyword index를 보완하지 대체하지 않습니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Update는 deletion followed by insertion이며, deletion을 위해 document가 포함한 words를 기록하는 forward index가 필요하다.\n\n보기별 해설:\nA. 정답입니다. 문서를 삭제하려면 그 문서가 어떤 terms에 등장했는지 알아야 postings에서 제거할 수 있습니다.\nB. 오답입니다. Forward index는 document-to-terms 방향의 term membership 정보입니다.\nC. 오답입니다. 오히려 추가 구조를 유지하므로 overhead가 늘 수 있지만 update/deletion을 가능하게 합니다.\nD. 오답입니다. Forward index는 inverted keyword index를 보완하지 대체하지 않습니다.",
+    "explanation_key_points": [
+      "정답은 A (It records the words contained in a document, so deletion can remove that document from relevant postings lists)이다.",
+      "Update는 deletion followed by insertion이며, deletion을 위해 document가 포함한 words를 기록하는 forward index가 필요하다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What is the idea of batch/bulk insertion by sorting?",
+    "chapter": "L05 - Inverted Files",
+    "related_info": "Batch index를 따로 만들고 master와 merge하면 postings list를 반복적으로 읽고 쓰는 비용을 줄일 수 있다.",
+    "why_high_yield": "Scalability/update overhead 문제와 연결되는 구현 포인트다.",
+    "source_refs": [
+      "L05.pdf p26-p27: batch/bulk insertion by sorting"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l05-batch-insertion",
+    "item_form": "scenario",
+    "options": {
+      "A": "Build a batch index for new documents and periodically merge it with the master index",
+      "B": "Insert every posting directly into the master index one by one forever",
+      "C": "Delete the master index whenever a new document arrives",
+      "D": "Use only a forward index and no inverted index"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 새 문서를 empty batch index에 넣고 master index와 주기적으로 merge하는 방식입니다.",
+      "B": "오답입니다. 이것은 overhead가 커서 batch insertion이 피하려는 방식입니다.",
+      "C": "오답입니다. 전체 master index를 매번 삭제하는 것은 비현실적입니다.",
+      "D": "오답입니다. Batch insertion도 inverted index를 더 효율적으로 갱신하기 위한 방법입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Batch index를 따로 만들고 master와 merge하면 postings list를 반복적으로 읽고 쓰는 비용을 줄일 수 있다.\n\n보기별 해설:\nA. 정답입니다. 새 문서를 empty batch index에 넣고 master index와 주기적으로 merge하는 방식입니다.\nB. 오답입니다. 이것은 overhead가 커서 batch insertion이 피하려는 방식입니다.\nC. 오답입니다. 전체 master index를 매번 삭제하는 것은 비현실적입니다.\nD. 오답입니다. Batch insertion도 inverted index를 더 효율적으로 갱신하기 위한 방법입니다.",
+    "explanation_key_points": [
+      "정답은 A (Build a batch index for new documents and periodically merge it with the master index)이다.",
+      "Batch index를 따로 만들고 master와 merge하면 postings list를 반복적으로 읽고 쓰는 비용을 줄일 수 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Adding more information into an inverted index tends to increase storage overhead.",
+    "chapter": "L05 - Inverted Files",
+    "related_info": "위치, frequency, field, distance 정보 등을 더 넣으면 더 sophisticated한 retrieval이 가능하지만 storage overhead가 커진다.",
+    "why_high_yield": "장점/단점 비교 문제에서 자주 묻는 tradeoff다.",
+    "source_refs": [
+      "L05.pdf p12 and p18: inverted index disadvantages and overhead"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l05-storage-overhead",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. 위치, frequency, field, distance 정보 등을 더 넣으면 더 sophisticated한 retrieval이 가능하지만 storage overhead가 커진다.",
+      "B": "이 보기를 고르면 틀립니다. 위치, frequency, field, distance 정보 등을 더 넣으면 더 sophisticated한 retrieval이 가능하지만 storage overhead가 커진다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. 위치, frequency, field, distance 정보 등을 더 넣으면 더 sophisticated한 retrieval이 가능하지만 storage overhead가 커진다.\n\n보기별 해설:\nA. 참입니다. 위치, frequency, field, distance 정보 등을 더 넣으면 더 sophisticated한 retrieval이 가능하지만 storage overhead가 커진다.\nB. 이 보기를 고르면 틀립니다. 위치, frequency, field, distance 정보 등을 더 넣으면 더 sophisticated한 retrieval이 가능하지만 storage overhead가 커진다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "위치, frequency, field, distance 정보 등을 더 넣으면 더 sophisticated한 retrieval이 가능하지만 storage overhead가 커진다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: When a collection is partitioned across multiple servers, a query may need to be searched on all partitions.",
+    "chapter": "L05 - Inverted Files",
+    "related_info": "각 partition은 작은 collection처럼 검색되고 결과가 병합된다. Scalability를 얻지만 distributed search coordination이 필요하다.",
+    "why_high_yield": "대규모 검색엔진 구조를 묻는 L05 후반 핵심이다.",
+    "source_refs": [
+      "L05.pdf p31-p32: partitioning and searching multiple collections"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l05-partition-search",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. 각 partition은 작은 collection처럼 검색되고 결과가 병합된다. Scalability를 얻지만 distributed search coordination이 필요하다.",
+      "B": "이 보기를 고르면 틀립니다. 각 partition은 작은 collection처럼 검색되고 결과가 병합된다. Scalability를 얻지만 distributed search coordination이 필요하다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. 각 partition은 작은 collection처럼 검색되고 결과가 병합된다. Scalability를 얻지만 distributed search coordination이 필요하다.\n\n보기별 해설:\nA. 참입니다. 각 partition은 작은 collection처럼 검색되고 결과가 병합된다. Scalability를 얻지만 distributed search coordination이 필요하다.\nB. 이 보기를 고르면 틀립니다. 각 partition은 작은 collection처럼 검색되고 결과가 병합된다. Scalability를 얻지만 distributed search coordination이 필요하다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "각 partition은 작은 collection처럼 검색되고 결과가 병합된다. Scalability를 얻지만 distributed search coordination이 필요하다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: A hash file can naturally support prefix truncation such as *symmetry without knowing the exact key.",
+    "chapter": "L05 - Inverted Files",
+    "related_info": "Hash file은 exact key를 알아야 하므로 prefix truncation 같은 wildcard 검색에는 tree/trie 계열 구조가 더 적합하다.",
+    "why_high_yield": "index structure 선택 이유를 묻는 T/F로 적합하다.",
+    "source_refs": [
+      "L05.pdf p16-p17: suffix and prefix truncation"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l05-hash-prefix",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. Hash file은 exact key를 알아야 하므로 prefix truncation 같은 wildcard 검색에는 tree/trie 계열 구조가 더 적합하다.",
+      "B": "거짓입니다. Hash file은 exact key를 알아야 하므로 prefix truncation 같은 wildcard 검색에는 tree/trie 계열 구조가 더 적합하다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. Hash file은 exact key를 알아야 하므로 prefix truncation 같은 wildcard 검색에는 tree/trie 계열 구조가 더 적합하다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. Hash file은 exact key를 알아야 하므로 prefix truncation 같은 wildcard 검색에는 tree/trie 계열 구조가 더 적합하다.\nB. 거짓입니다. Hash file은 exact key를 알아야 하므로 prefix truncation 같은 wildcard 검색에는 tree/trie 계열 구조가 더 적합하다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Hash file은 exact key를 알아야 하므로 prefix truncation 같은 wildcard 검색에는 tree/trie 계열 구조가 더 적합하다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]

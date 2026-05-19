@@ -1,0 +1,320 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "Which sequence matches the basic indexing process in L11?",
+    "chapter": "L11 - Stopword Removal and Stemming",
+    "related_info": "Indexing과 search process는 같은 stopword dictionary와 stemming algorithm을 써야 matching이 일관된다.",
+    "why_high_yield": "전처리 순서와 indexing/search matching은 L11의 기본 중 기본이다.",
+    "source_refs": [
+      "L11.pdf p2-p5: document processing and indexing process"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l11-pipeline",
+    "item_form": "definition",
+    "options": {
+      "A": "Tokenize, remove stop words, stem, replace by term ID, count tf, compute weights, create indexes",
+      "B": "Compute PageRank, sell ads, then tokenize",
+      "C": "Only store raw strings and skip indexing",
+      "D": "Ask human judges to rewrite every document before indexing"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. L11 indexing process는 tokenization부터 stopword removal/stemming/term ID/tf/weight/index creation으로 이어집니다.",
+      "B": "오답입니다. PageRank와 광고는 이 document processing pipeline의 기본 순서가 아닙니다.",
+      "C": "오답입니다. IR search를 위해 words/terms와 indexes를 만들어야 합니다.",
+      "D": "오답입니다. Human judgment는 evaluation에서 쓰이며 기본 indexing pipeline이 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Indexing과 search process는 같은 stopword dictionary와 stemming algorithm을 써야 matching이 일관된다.\n\n보기별 해설:\nA. 정답입니다. L11 indexing process는 tokenization부터 stopword removal/stemming/term ID/tf/weight/index creation으로 이어집니다.\nB. 오답입니다. PageRank와 광고는 이 document processing pipeline의 기본 순서가 아닙니다.\nC. 오답입니다. IR search를 위해 words/terms와 indexes를 만들어야 합니다.\nD. 오답입니다. Human judgment는 evaluation에서 쓰이며 기본 indexing pipeline이 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (Tokenize, remove stop words, stem, replace by term ID, count tf, compute weights, create indexes)이다.",
+      "Indexing과 search process는 같은 stopword dictionary와 stemming algorithm을 써야 matching이 일관된다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why must indexing and search processes use the same stemming and stopword logic?",
+    "chapter": "L11 - Stopword Removal and Stemming",
+    "related_info": "Indexing과 query processing은 같은 전처리 규칙을 공유해야 같은 concept가 같은 term ID로 매칭된다.",
+    "why_high_yield": "실제 프로젝트에서도 query/document stemming mismatch는 치명적인 버그라 고가중치다.",
+    "source_refs": [
+      "L11.pdf p4-p6: match between indexing and search processes"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l11-match-process",
+    "item_form": "comparison",
+    "options": {
+      "A": "Otherwise query terms and indexed terms may not match even when they should",
+      "B": "Because stemming is a link-analysis algorithm",
+      "C": "Because stopword removal computes PageRank",
+      "D": "Because query processing never uses tokenization"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Indexing 때 stem/stopword 처리를 했는데 query에서 다르게 처리하면 term IDs와 vector가 어긋납니다.",
+      "B": "오답입니다. Stemming은 word form normalization이지 link analysis가 아닙니다.",
+      "C": "오답입니다. Stopword removal은 common function words를 제거하는 text processing입니다.",
+      "D": "오답입니다. Query도 tokenization, stopword removal, stemming을 거쳐 vector로 만들어집니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Indexing과 query processing은 같은 전처리 규칙을 공유해야 같은 concept가 같은 term ID로 매칭된다.\n\n보기별 해설:\nA. 정답입니다. Indexing 때 stem/stopword 처리를 했는데 query에서 다르게 처리하면 term IDs와 vector가 어긋납니다.\nB. 오답입니다. Stemming은 word form normalization이지 link analysis가 아닙니다.\nC. 오답입니다. Stopword removal은 common function words를 제거하는 text processing입니다.\nD. 오답입니다. Query도 tokenization, stopword removal, stemming을 거쳐 vector로 만들어집니다.",
+    "explanation_key_points": [
+      "정답은 A (Otherwise query terms and indexed terms may not match even when they should)이다.",
+      "Indexing과 query processing은 같은 전처리 규칙을 공유해야 같은 concept가 같은 term ID로 매칭된다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What is the purpose of stemming?",
+    "chapter": "L11 - Stopword Removal and Stemming",
+    "related_info": "Stemming은 같은 root의 word forms를 하나로 줄여 matching을 넓힌다. 다만 over-stemming은 precision을 해칠 수 있다.",
+    "why_high_yield": "Canvas L11에 stemming NOT true 문제가 있어 고가중치다.",
+    "source_refs": [
+      "L11.pdf p7: purpose of stemming"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l11-stemming-purpose",
+    "item_form": "scenario",
+    "options": {
+      "A": "Reduce words with the same root to a single form to overcome word-form variants",
+      "B": "Increase every postings list by keeping all spelling variants separate",
+      "C": "Compute query-independent link authority",
+      "D": "Select advertisements based on page keywords"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. recognize/recognise/recognized/recognization 같은 variants를 하나의 stem으로 모으려는 목적입니다.",
+      "B": "오답입니다. Stemming은 variants를 합쳐 recall을 높이려는 방향입니다.",
+      "C": "오답입니다. 이것은 PageRank/HITS 계열입니다.",
+      "D": "오답입니다. 광고 matching은 L02이고 stemming 목적이 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Stemming은 같은 root의 word forms를 하나로 줄여 matching을 넓힌다. 다만 over-stemming은 precision을 해칠 수 있다.\n\n보기별 해설:\nA. 정답입니다. recognize/recognise/recognized/recognization 같은 variants를 하나의 stem으로 모으려는 목적입니다.\nB. 오답입니다. Stemming은 variants를 합쳐 recall을 높이려는 방향입니다.\nC. 오답입니다. 이것은 PageRank/HITS 계열입니다.\nD. 오답입니다. 광고 matching은 L02이고 stemming 목적이 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (Reduce words with the same root to a single form to overcome word-form variants)이다.",
+      "Stemming은 같은 root의 word forms를 하나로 줄여 matching을 넓힌다. 다만 over-stemming은 precision을 해칠 수 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which is NOT listed as a common stemming method in L11?",
+    "chapter": "L11 - Stopword Removal and Stemming",
+    "related_info": "L11은 table lookup, affix removal, successor variety, n-gram/shared bigram 등 여러 stemming 방법을 비교한다.",
+    "why_high_yield": "NOT true 형식으로 방법 이름을 섞어 묻기 쉽다.",
+    "source_refs": [
+      "L11.pdf p8-p11 and p18: common stemming methods"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l11-stemming-methods",
+    "item_form": "counterexample",
+    "options": {
+      "A": "Using PageRank damping factor as a suffix rule",
+      "B": "Table lookup",
+      "C": "Affix removal",
+      "D": "Successor variety"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. PageRank damping factor는 link ranking의 parameter이지 stemming method가 아닙니다.",
+      "B": "오답입니다. Terms와 stems table을 만들어 lookup하는 방법이 명시됩니다.",
+      "C": "오답입니다. Suffix/prefix 제거 규칙을 쓰는 대표 stemming 방법입니다.",
+      "D": "오답입니다. Corpus-based statistical stemming에서 prefix 뒤에 오는 character variety를 활용합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. L11은 table lookup, affix removal, successor variety, n-gram/shared bigram 등 여러 stemming 방법을 비교한다.\n\n보기별 해설:\nA. 정답입니다. PageRank damping factor는 link ranking의 parameter이지 stemming method가 아닙니다.\nB. 오답입니다. Terms와 stems table을 만들어 lookup하는 방법이 명시됩니다.\nC. 오답입니다. Suffix/prefix 제거 규칙을 쓰는 대표 stemming 방법입니다.\nD. 오답입니다. Corpus-based statistical stemming에서 prefix 뒤에 오는 character variety를 활용합니다.",
+    "explanation_key_points": [
+      "정답은 A (Using PageRank damping factor as a suffix rule)이다.",
+      "L11은 table lookup, affix removal, successor variety, n-gram/shared bigram 등 여러 stemming 방법을 비교한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which example best captures context-sensitive affix removal?",
+    "chapter": "L11 - Stopword Removal and Stemming",
+    "related_info": "Context-free는 suffix list/rules만 적용하고, context-sensitive는 word의 다른 조건을 함께 본다. Porter는 두 종류 규칙을 포함한다.",
+    "why_high_yield": "Canvas L11 quiz가 context-sensitive stemming example을 묻는다.",
+    "source_refs": [
+      "L11.pdf p12-p13: context sensitive vs context free and Porter algorithm"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l11-context-sensitive",
+    "item_form": "definition",
+    "options": {
+      "A": "A suffix rule fires only when other characters in the word satisfy a condition",
+      "B": "Remove every suffix from every word regardless of surrounding letters",
+      "C": "Choose a stem using only the number of outgoing links",
+      "D": "Ask users to manually choose from ads"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Context-sensitive는 suffix list만 보지 않고 word 내부의 다른 characters/conditions도 고려합니다.",
+      "B": "오답입니다. 이것은 context-free에 가깝습니다.",
+      "C": "오답입니다. Outgoing links는 stemming context가 아닙니다.",
+      "D": "오답입니다. Manual query expansion과 광고는 context-sensitive affix removal이 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Context-free는 suffix list/rules만 적용하고, context-sensitive는 word의 다른 조건을 함께 본다. Porter는 두 종류 규칙을 포함한다.\n\n보기별 해설:\nA. 정답입니다. Context-sensitive는 suffix list만 보지 않고 word 내부의 다른 characters/conditions도 고려합니다.\nB. 오답입니다. 이것은 context-free에 가깝습니다.\nC. 오답입니다. Outgoing links는 stemming context가 아닙니다.\nD. 오답입니다. Manual query expansion과 광고는 context-sensitive affix removal이 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (A suffix rule fires only when other characters in the word satisfy a condition)이다.",
+      "Context-free는 suffix list/rules만 적용하고, context-sensitive는 word의 다른 조건을 함께 본다. Porter는 두 종류 규칙을 포함한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which statement about Porter’s algorithm is true?",
+    "chapter": "L11 - Stopword Removal and Stemming",
+    "related_info": "Porter algorithm은 compact하지만 rule design과 coverage limitations가 있다.",
+    "why_high_yield": "이름/특징 매칭 문제가 나오기 좋다.",
+    "source_refs": [
+      "L11.pdf p13-p14: Porter algorithm and affix removal problems"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l11-porter",
+    "item_form": "comparison",
+    "options": {
+      "A": "It is compact, uses about 60 suffixes grouped into five steps, and has performance comparable to larger algorithms",
+      "B": "It is a PageRank variant for authority scores",
+      "C": "It requires no linguistic rules at all",
+      "D": "It always eliminates every stemming error"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. L11은 Porter algorithm을 compact하고 널리 쓰이는 affix removal algorithm으로 소개합니다.",
+      "B": "오답입니다. Porter는 stemming algorithm이지 link ranking이 아닙니다.",
+      "C": "오답입니다. 오히려 suffix/rule 설계에 linguistic knowledge가 필요합니다.",
+      "D": "오답입니다. Affix removal algorithms는 모든 경우를 완벽히 cover하지 못하는 문제가 있습니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Porter algorithm은 compact하지만 rule design과 coverage limitations가 있다.\n\n보기별 해설:\nA. 정답입니다. L11은 Porter algorithm을 compact하고 널리 쓰이는 affix removal algorithm으로 소개합니다.\nB. 오답입니다. Porter는 stemming algorithm이지 link ranking이 아닙니다.\nC. 오답입니다. 오히려 suffix/rule 설계에 linguistic knowledge가 필요합니다.\nD. 오답입니다. Affix removal algorithms는 모든 경우를 완벽히 cover하지 못하는 문제가 있습니다.",
+    "explanation_key_points": [
+      "정답은 A (It is compact, uses about 60 suffixes grouped into five steps, and has performance comparable to larger algorithms)이다.",
+      "Porter algorithm은 compact하지만 rule design과 coverage limitations가 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What is successor variety for a string?",
+    "chapter": "L11 - Stopword Removal and Stemming",
+    "related_info": "Successor variety는 word segmentation/stem selection에서 boundary 후보를 찾는 corpus-based signal이다.",
+    "why_high_yield": "Canvas L11에 cutoff/peak/plateau/entropy stemming 문제가 있어 고가중치다.",
+    "source_refs": [
+      "L11.pdf p18-p20: successor variety definition and word segmentation"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l11-successor-variety",
+    "item_form": "scenario",
+    "options": {
+      "A": "The number of different characters that follow the string in a corpus",
+      "B": "The number of documents retrieved at rank k",
+      "C": "The PageRank received from incoming pages",
+      "D": "The price of a keyword advertisement"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Successor variety는 corpus에서 특정 prefix/string 뒤에 이어지는 서로 다른 characters 수입니다.",
+      "B": "오답입니다. 이것은 evaluation/ranking 통계와 관련될 수 있지만 successor variety가 아닙니다.",
+      "C": "오답입니다. Link score가 아니라 corpus-based stemming 통계입니다.",
+      "D": "오답입니다. 광고 가격은 L02입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Successor variety는 word segmentation/stem selection에서 boundary 후보를 찾는 corpus-based signal이다.\n\n보기별 해설:\nA. 정답입니다. Successor variety는 corpus에서 특정 prefix/string 뒤에 이어지는 서로 다른 characters 수입니다.\nB. 오답입니다. 이것은 evaluation/ranking 통계와 관련될 수 있지만 successor variety가 아닙니다.\nC. 오답입니다. Link score가 아니라 corpus-based stemming 통계입니다.\nD. 오답입니다. 광고 가격은 L02입니다.",
+    "explanation_key_points": [
+      "정답은 A (The number of different characters that follow the string in a corpus)이다.",
+      "Successor variety는 word segmentation/stem selection에서 boundary 후보를 찾는 corpus-based signal이다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: To stem or not to stem, to stopword or not to stopword is an important design decision.",
+    "chapter": "L11 - Stopword Removal and Stemming",
+    "related_info": "Stemming과 stopword removal은 recall, precision, index size, query matching을 모두 바꾸므로 설계 단계에서 결정해야 한다.",
+    "why_high_yield": "L11 take-home message 그대로라 T/F로 적합하다.",
+    "source_refs": [
+      "L11.pdf p29: take-home message"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l11-stopword-design",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Stemming과 stopword removal은 recall, precision, index size, query matching을 모두 바꾸므로 설계 단계에서 결정해야 한다.",
+      "B": "이 보기를 고르면 틀립니다. Stemming과 stopword removal은 recall, precision, index size, query matching을 모두 바꾸므로 설계 단계에서 결정해야 한다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Stemming과 stopword removal은 recall, precision, index size, query matching을 모두 바꾸므로 설계 단계에서 결정해야 한다.\n\n보기별 해설:\nA. 참입니다. Stemming과 stopword removal은 recall, precision, index size, query matching을 모두 바꾸므로 설계 단계에서 결정해야 한다.\nB. 이 보기를 고르면 틀립니다. Stemming과 stopword removal은 recall, precision, index size, query matching을 모두 바꾸므로 설계 단계에서 결정해야 한다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Stemming과 stopword removal은 recall, precision, index size, query matching을 모두 바꾸므로 설계 단계에서 결정해야 한다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Stemming always improves both recall and precision with no tradeoff.",
+    "chapter": "L11 - Stopword Removal and Stemming",
+    "related_info": "Stemming은 variants를 합쳐 recall을 높일 수 있지만 unrelated words를 합치면 precision이 떨어질 수 있다. 항상 둘 다 좋아지는 것은 아니다.",
+    "why_high_yield": "Canvas L11의 “stemming NOT true” 함정과 직접 연결된다.",
+    "source_refs": [
+      "L11.pdf p7-p8 and p29: stemming pros/cons"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l11-stemming-always-better",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. Stemming은 variants를 합쳐 recall을 높일 수 있지만 unrelated words를 합치면 precision이 떨어질 수 있다. 항상 둘 다 좋아지는 것은 아니다.",
+      "B": "거짓입니다. Stemming은 variants를 합쳐 recall을 높일 수 있지만 unrelated words를 합치면 precision이 떨어질 수 있다. 항상 둘 다 좋아지는 것은 아니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. Stemming은 variants를 합쳐 recall을 높일 수 있지만 unrelated words를 합치면 precision이 떨어질 수 있다. 항상 둘 다 좋아지는 것은 아니다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. Stemming은 variants를 합쳐 recall을 높일 수 있지만 unrelated words를 합치면 precision이 떨어질 수 있다. 항상 둘 다 좋아지는 것은 아니다.\nB. 거짓입니다. Stemming은 variants를 합쳐 recall을 높일 수 있지만 unrelated words를 합치면 precision이 떨어질 수 있다. 항상 둘 다 좋아지는 것은 아니다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Stemming은 variants를 합쳐 recall을 높일 수 있지만 unrelated words를 합치면 precision이 떨어질 수 있다. 항상 둘 다 좋아지는 것은 아니다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Shared bigram stemming represents terms using character n-grams such as statistics -> st, ta, at, ...",
+    "chapter": "L11 - Stopword Removal and Stemming",
+    "related_info": "Shared bigram method는 단어를 character bigrams로 표현해 approximate match를 수행한다.",
+    "why_high_yield": "용어 정의와 예시를 연결하는 짧은 문제로 적합하다.",
+    "source_refs": [
+      "L11.pdf p27: shared bigram stemming"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l11-shared-bigram",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Shared bigram method는 단어를 character bigrams로 표현해 approximate match를 수행한다.",
+      "B": "이 보기를 고르면 틀립니다. Shared bigram method는 단어를 character bigrams로 표현해 approximate match를 수행한다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Shared bigram method는 단어를 character bigrams로 표현해 approximate match를 수행한다.\n\n보기별 해설:\nA. 참입니다. Shared bigram method는 단어를 character bigrams로 표현해 approximate match를 수행한다.\nB. 이 보기를 고르면 틀립니다. Shared bigram method는 단어를 character bigrams로 표현해 approximate match를 수행한다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Shared bigram method는 단어를 character bigrams로 표현해 approximate match를 수행한다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]

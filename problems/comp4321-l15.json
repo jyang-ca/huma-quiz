@@ -1,0 +1,326 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "Why does L15 move beyond the simple bag-of-words model?",
+    "chapter": "L15 - Phrases and Correlated Terms",
+    "related_info": "Single-word BOW는 “hong kong” 같은 phrase semantics를 잃으므로 phrase extraction과 correlated terms가 필요하다.",
+    "why_high_yield": "L15 전체 동기를 묻는 기본 문제다.",
+    "source_refs": [
+      "L15.pdf p2: reviews of simple document model"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l15-bow-limit",
+    "item_form": "definition",
+    "options": {
+      "A": "Because phrases are important semantic units that single-word coordinates can miss",
+      "B": "Because single words can never be indexed",
+      "C": "Because PageRank cannot rank pages",
+      "D": "Because benchmarks have no queries"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. BOW는 word order와 multiword semantics를 잃기 때문에 phrases/collocations를 다룹니다.",
+      "B": "오답입니다. 이전 강의는 single-word indexing을 계속 사용했습니다. 문제는 의미 단위 손실입니다.",
+      "C": "오답입니다. PageRank는 별도 link ranking 방법이고 L15의 동기는 phrase/correlation입니다.",
+      "D": "오답입니다. Benchmarking 문제와 BOW 한계는 다른 주제입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Single-word BOW는 “hong kong” 같은 phrase semantics를 잃으므로 phrase extraction과 correlated terms가 필요하다.\n\n보기별 해설:\nA. 정답입니다. BOW는 word order와 multiword semantics를 잃기 때문에 phrases/collocations를 다룹니다.\nB. 오답입니다. 이전 강의는 single-word indexing을 계속 사용했습니다. 문제는 의미 단위 손실입니다.\nC. 오답입니다. PageRank는 별도 link ranking 방법이고 L15의 동기는 phrase/correlation입니다.\nD. 오답입니다. Benchmarking 문제와 BOW 한계는 다른 주제입니다.",
+    "explanation_key_points": [
+      "정답은 A (Because phrases are important semantic units that single-word coordinates can miss)이다.",
+      "Single-word BOW는 “hong kong” 같은 phrase semantics를 잃으므로 phrase extraction과 correlated terms가 필요하다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why can using a standard phrase dictionary be problematic for search?",
+    "chapter": "L15 - Phrases and Correlated Terms",
+    "related_info": "Phrase dictionary는 precision은 높일 수 있지만 inflexible하여 표현 variation을 놓칠 수 있다.",
+    "why_high_yield": "Phrase search의 precision/recall tradeoff 문제로 자주 나온다.",
+    "source_refs": [
+      "L15.pdf p3: difficulties of using phrases in search"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l15-phrase-dictionary",
+    "item_form": "comparison",
+    "options": {
+      "A": "It can be too inflexible, yielding high precision but low recall",
+      "B": "It always indexes every possible n-gram cheaply",
+      "C": "It requires no maintenance and captures every new phrase",
+      "D": "It is the same as PageRank"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Dictionary phrase matching은 정확하지만 표현 변형을 놓쳐 recall이 떨어질 수 있습니다.",
+      "B": "오답입니다. Dictionary approach와 all n-gram indexing은 다른 방식입니다.",
+      "C": "오답입니다. Static dictionary는 coverage/maintenance 문제가 있습니다.",
+      "D": "오답입니다. Phrase dictionary는 text analysis 방법입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Phrase dictionary는 precision은 높일 수 있지만 inflexible하여 표현 variation을 놓칠 수 있다.\n\n보기별 해설:\nA. 정답입니다. Dictionary phrase matching은 정확하지만 표현 변형을 놓쳐 recall이 떨어질 수 있습니다.\nB. 오답입니다. Dictionary approach와 all n-gram indexing은 다른 방식입니다.\nC. 오답입니다. Static dictionary는 coverage/maintenance 문제가 있습니다.\nD. 오답입니다. Phrase dictionary는 text analysis 방법입니다.",
+    "explanation_key_points": [
+      "정답은 A (It can be too inflexible, yielding high precision but low recall)이다.",
+      "Phrase dictionary는 precision은 높일 수 있지만 inflexible하여 표현 variation을 놓칠 수 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why are n-grams considered a reasonable quick replacement for true phrases?",
+    "chapter": "L15 - Phrases and Correlated Terms",
+    "related_info": "N-gram은 syntactic/semantic parsing 없이 빠르게 phrase candidates를 만들 수 있지만 noise와 index size 문제가 있다.",
+    "why_high_yield": "Canvas L15에 n-gram filtering 문제가 많아 고가중치다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L15.pdf p4-p5 and p10: n-grams and summary",
+      "2026-05-08 review video: professor emphasized phrase detection, n-grams/bigrams, and project-related phrase handling."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l15-ngram-good",
+    "item_form": "scenario",
+    "options": {
+      "A": "Some n-grams are valid phrases and query n-grams can be matched quickly as terms",
+      "B": "Every n-gram is always a meaningful phrase",
+      "C": "N-grams require no additional index space",
+      "D": "N-grams are link-based authority scores"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 모든 n-gram이 의미 있지는 않지만, user query는 의미 있는 phrases를 포함할 가능성이 있어 retrieval 효율을 얻을 수 있습니다.",
+      "B": "오답입니다. 슬라이드는 many bigrams/trigrams are meaningless라고 강조합니다.",
+      "C": "오답입니다. Unique n-grams가 많아 index가 커집니다.",
+      "D": "오답입니다. N-gram은 text sequence feature입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. N-gram은 syntactic/semantic parsing 없이 빠르게 phrase candidates를 만들 수 있지만 noise와 index size 문제가 있다.\n\n보기별 해설:\nA. 정답입니다. 모든 n-gram이 의미 있지는 않지만, user query는 의미 있는 phrases를 포함할 가능성이 있어 retrieval 효율을 얻을 수 있습니다.\nB. 오답입니다. 슬라이드는 many bigrams/trigrams are meaningless라고 강조합니다.\nC. 오답입니다. Unique n-grams가 많아 index가 커집니다.\nD. 오답입니다. N-gram은 text sequence feature입니다.",
+    "explanation_key_points": [
+      "정답은 A (Some n-grams are valid phrases and query n-grams can be matched quickly as terms)이다.",
+      "N-gram은 syntactic/semantic parsing 없이 빠르게 phrase candidates를 만들 수 있지만 noise와 index size 문제가 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What does stopword filtering do to n-gram candidate phrases?",
+    "chapter": "L15 - Phrases and Correlated Terms",
+    "related_info": "Stopword filtering은 간단하지만 완벽하지 않으며, “university of science”처럼 stopword가 들어도 의미 있는 phrase를 버릴 수 있다.",
+    "why_high_yield": "Canvas L15에 stopword filtering 유효 n-gram 문제가 나온다.",
+    "source_refs": [
+      "L15.pdf p7: n-gram with stop word filtering"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l15-stopword-filter",
+    "item_form": "counterexample",
+    "options": {
+      "A": "Eliminate n-grams containing stop words",
+      "B": "Keep only n-grams made entirely of stop words",
+      "C": "Compute PMI directly without counts",
+      "D": "Turn every n-gram into a hyperlink"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. “has”, “and”, “to”, “the” 같은 stop words를 포함한 n-gram을 candidate에서 제거합니다.",
+      "B": "오답입니다. Stopword-only phrases는 일반적으로 semantic value가 낮아 제거 대상입니다.",
+      "C": "오답입니다. PMI는 frequency/probability를 필요로 하는 co-occurrence measure입니다.",
+      "D": "오답입니다. Stopword filtering은 text filtering입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Stopword filtering은 간단하지만 완벽하지 않으며, “university of science”처럼 stopword가 들어도 의미 있는 phrase를 버릴 수 있다.\n\n보기별 해설:\nA. 정답입니다. “has”, “and”, “to”, “the” 같은 stop words를 포함한 n-gram을 candidate에서 제거합니다.\nB. 오답입니다. Stopword-only phrases는 일반적으로 semantic value가 낮아 제거 대상입니다.\nC. 오답입니다. PMI는 frequency/probability를 필요로 하는 co-occurrence measure입니다.\nD. 오답입니다. Stopword filtering은 text filtering입니다.",
+    "explanation_key_points": [
+      "정답은 A (Eliminate n-grams containing stop words)이다.",
+      "Stopword filtering은 간단하지만 완벽하지 않으며, “university of science”처럼 stopword가 들어도 의미 있는 phrase를 버릴 수 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which grammatical patterns are preferred for phrase filtering in L15?",
+    "chapter": "L15 - Phrases and Correlated Terms",
+    "related_info": "Grammatical filtering은 POS tagging이 필요하지만 noun phrase에 가까운 n-gram을 고르는 데 효과적이다.",
+    "why_high_yield": "Canvas L15에 grammar pattern matching 문제가 등장한다.",
+    "source_refs": [
+      "L15.pdf p9-p10 and p15-p16: grammatical filtering"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l15-grammar-filter",
+    "item_form": "definition",
+    "options": {
+      "A": "Noun-noun and adjective-noun for bigrams; adjective/noun-*-noun for trigrams",
+      "B": "Verb-only and preposition-only patterns",
+      "C": "Only stopword-stopword pairs",
+      "D": "Only PageRank-high pages"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 noun phrases/compound nouns를 잡기 위해 이런 patterns를 제시합니다.",
+      "B": "오답입니다. L15는 nouns/noun phrases를 선호한다고 설명합니다.",
+      "C": "오답입니다. Stopwords는 보통 phrase candidate에서 제거하려는 대상입니다.",
+      "D": "오답입니다. Grammatical filtering은 phrase candidate의 POS pattern을 보는 text analysis입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Grammatical filtering은 POS tagging이 필요하지만 noun phrase에 가까운 n-gram을 고르는 데 효과적이다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 noun phrases/compound nouns를 잡기 위해 이런 patterns를 제시합니다.\nB. 오답입니다. L15는 nouns/noun phrases를 선호한다고 설명합니다.\nC. 오답입니다. Stopwords는 보통 phrase candidate에서 제거하려는 대상입니다.\nD. 오답입니다. Grammatical filtering은 phrase candidate의 POS pattern을 보는 text analysis입니다.",
+    "explanation_key_points": [
+      "정답은 A (Noun-noun and adjective-noun for bigrams; adjective/noun-*-noun for trigrams)이다.",
+      "Grammatical filtering은 POS tagging이 필요하지만 noun phrase에 가까운 n-gram을 고르는 데 효과적이다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "How does collocation differ from n-gram?",
+    "chapter": "L15 - Phrases and Correlated Terms",
+    "related_info": "Collocation/co-occurrence는 “dual core CPUs”와 “CPUs with dual core”처럼 sequence가 달라도 related terms를 잡기 위해 사용한다.",
+    "why_high_yield": "Phrase만으로 못 잡는 의미 관계를 묻는 핵심 개념이다.",
+    "source_refs": [
+      "L15.pdf p11-p12: collocation and co-occurrence"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l15-collocation",
+    "item_form": "comparison",
+    "options": {
+      "A": "Collocation relaxes consecutiveness and considers words used near/together",
+      "B": "Collocation requires words to be immediately adjacent in fixed order",
+      "C": "Collocation is only a hyperlink relation",
+      "D": "Collocation ignores frequency entirely"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. N-gram은 consecutive sequence이고, collocation은 window/document 내 함께 쓰이는 near terms를 봅니다.",
+      "B": "오답입니다. 그것은 n-gram에 더 가깝습니다.",
+      "C": "오답입니다. Collocation은 word usage relation입니다.",
+      "D": "오답입니다. Collocation은 co-occurrence frequency와 individual frequencies를 중요하게 봅니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Collocation/co-occurrence는 “dual core CPUs”와 “CPUs with dual core”처럼 sequence가 달라도 related terms를 잡기 위해 사용한다.\n\n보기별 해설:\nA. 정답입니다. N-gram은 consecutive sequence이고, collocation은 window/document 내 함께 쓰이는 near terms를 봅니다.\nB. 오답입니다. 그것은 n-gram에 더 가깝습니다.\nC. 오답입니다. Collocation은 word usage relation입니다.\nD. 오답입니다. Collocation은 co-occurrence frequency와 individual frequencies를 중요하게 봅니다.",
+    "explanation_key_points": [
+      "정답은 A (Collocation relaxes consecutiveness and considers words used near/together)이다.",
+      "Collocation/co-occurrence는 “dual core CPUs”와 “CPUs with dual core”처럼 sequence가 달라도 related terms를 잡기 위해 사용한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why are raw co-occurrence frequencies insufficient?",
+    "chapter": "L15 - Phrases and Correlated Terms",
+    "related_info": "Raw count만 보면 popular terms가 과대평가되므로 PMI처럼 expected chance co-occurrence 대비 association을 봐야 한다.",
+    "why_high_yield": "PMI 계산 문제의 개념적 전제다.",
+    "source_refs": [
+      "L15.pdf p19-p21: raw vs relative frequencies and PMI"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l15-raw-relative",
+    "item_form": "scenario",
+    "options": {
+      "A": "Frequent individual words can co-occur often by chance, so relative association is needed",
+      "B": "Raw frequency always equals PMI",
+      "C": "Raw frequency cannot be counted from text",
+      "D": "Raw frequency is a PageRank formula"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Toyota처럼 많이 나오는 단어는 raw co-occurrence가 커도 상대적으로 특별한 association인지 알기 어렵습니다.",
+      "B": "오답입니다. PMI는 joint probability와 individual probabilities의 비율을 봅니다.",
+      "C": "오답입니다. Count는 가능하지만 해석이 부족합니다.",
+      "D": "오답입니다. Raw frequency는 text co-occurrence count입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Raw count만 보면 popular terms가 과대평가되므로 PMI처럼 expected chance co-occurrence 대비 association을 봐야 한다.\n\n보기별 해설:\nA. 정답입니다. Toyota처럼 많이 나오는 단어는 raw co-occurrence가 커도 상대적으로 특별한 association인지 알기 어렵습니다.\nB. 오답입니다. PMI는 joint probability와 individual probabilities의 비율을 봅니다.\nC. 오답입니다. Count는 가능하지만 해석이 부족합니다.\nD. 오답입니다. Raw frequency는 text co-occurrence count입니다.",
+    "explanation_key_points": [
+      "정답은 A (Frequent individual words can co-occur often by chance, so relative association is needed)이다.",
+      "Raw count만 보면 popular terms가 과대평가되므로 PMI처럼 expected chance co-occurrence 대비 association을 봐야 한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What does PMI compare?",
+    "chapter": "L15 - Phrases and Correlated Terms",
+    "related_info": "PMI가 높으면 두 words의 relative association이 강하다는 뜻이지만, sparse counts와 negative values 가능성을 주의해야 한다.",
+    "why_high_yield": "Canvas L15에 PMI 계산과 NOT true 문제가 나온다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L15.pdf p21-p25: PMI definition and examples",
+      "Canvas L15 quiz emphasized PMI calculation/properties; review video emphasized phrase/correlated-term topics."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l15-pmi",
+    "item_form": "counterexample",
+    "options": {
+      "A": "Observed co-occurrence probability against the probability expected if two words were independent",
+      "B": "A page’s incoming links against its outgoing links",
+      "C": "Precision against recall at rank k",
+      "D": "The number of stopwords against stemming suffixes"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. PMI는 p(x,y)/(p(x)p(y))의 log로, chance보다 얼마나 자주 함께 나오는지 본다.",
+      "B": "오답입니다. 이것은 link analysis 쪽이고 PMI는 word association measure입니다.",
+      "C": "오답입니다. Precision/recall은 evaluation 지표입니다.",
+      "D": "오답입니다. Stopwords/stemming은 preprocessing입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. PMI가 높으면 두 words의 relative association이 강하다는 뜻이지만, sparse counts와 negative values 가능성을 주의해야 한다.\n\n보기별 해설:\nA. 정답입니다. PMI는 p(x,y)/(p(x)p(y))의 log로, chance보다 얼마나 자주 함께 나오는지 본다.\nB. 오답입니다. 이것은 link analysis 쪽이고 PMI는 word association measure입니다.\nC. 오답입니다. Precision/recall은 evaluation 지표입니다.\nD. 오답입니다. Stopwords/stemming은 preprocessing입니다.",
+    "explanation_key_points": [
+      "정답은 A (Observed co-occurrence probability against the probability expected if two words were independent)이다.",
+      "PMI가 높으면 두 words의 relative association이 강하다는 뜻이지만, sparse counts와 negative values 가능성을 주의해야 한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: PMI cannot be negative.",
+    "chapter": "L15 - Phrases and Correlated Terms",
+    "related_info": "Observed co-occurrence가 independence expectation보다 낮으면 log ratio가 0보다 작아져 PMI는 음수가 될 수 있다.",
+    "why_high_yield": "Canvas L15의 대표 함정 문장이다.",
+    "source_refs": [
+      "L15.pdf p21-p25 and Canvas L15 quiz: PMI properties"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l15-pmi-negative",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. Observed co-occurrence가 independence expectation보다 낮으면 log ratio가 0보다 작아져 PMI는 음수가 될 수 있다.",
+      "B": "거짓입니다. Observed co-occurrence가 independence expectation보다 낮으면 log ratio가 0보다 작아져 PMI는 음수가 될 수 있다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. Observed co-occurrence가 independence expectation보다 낮으면 log ratio가 0보다 작아져 PMI는 음수가 될 수 있다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. Observed co-occurrence가 independence expectation보다 낮으면 log ratio가 0보다 작아져 PMI는 음수가 될 수 있다.\nB. 거짓입니다. Observed co-occurrence가 independence expectation보다 낮으면 log ratio가 0보다 작아져 PMI는 음수가 될 수 있다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Observed co-occurrence가 independence expectation보다 낮으면 log ratio가 0보다 작아져 PMI는 음수가 될 수 있다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: The lecture says bigrams and trigrams look like the best practical choices for English n-gram phrase indexing.",
+    "chapter": "L15 - Phrases and Correlated Terms",
+    "related_info": "2-gram, 3-gram, 4-gram 등을 고를 수 있지만 영어에서는 bigrams와 trigrams가 가장 좋아 보인다고 정리된다.",
+    "why_high_yield": "요약 슬라이드 기반 T/F다.",
+    "source_refs": [
+      "L15.pdf p10: summary and conclusion"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l15-bigrams-trigrams",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. 2-gram, 3-gram, 4-gram 등을 고를 수 있지만 영어에서는 bigrams와 trigrams가 가장 좋아 보인다고 정리된다.",
+      "B": "이 보기를 고르면 틀립니다. 2-gram, 3-gram, 4-gram 등을 고를 수 있지만 영어에서는 bigrams와 trigrams가 가장 좋아 보인다고 정리된다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. 2-gram, 3-gram, 4-gram 등을 고를 수 있지만 영어에서는 bigrams와 trigrams가 가장 좋아 보인다고 정리된다.\n\n보기별 해설:\nA. 참입니다. 2-gram, 3-gram, 4-gram 등을 고를 수 있지만 영어에서는 bigrams와 trigrams가 가장 좋아 보인다고 정리된다.\nB. 이 보기를 고르면 틀립니다. 2-gram, 3-gram, 4-gram 등을 고를 수 있지만 영어에서는 bigrams와 trigrams가 가장 좋아 보인다고 정리된다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "2-gram, 3-gram, 4-gram 등을 고를 수 있지만 영어에서는 bigrams와 trigrams가 가장 좋아 보인다고 정리된다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]

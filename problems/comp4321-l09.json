@@ -1,0 +1,322 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "What is explicit evaluation in IR system evaluation?",
+    "chapter": "L09 - IR System Evaluation",
+    "related_info": "Explicit evaluation은 사람 assessor의 relevance judgment에 의존한다.",
+    "why_high_yield": "평가 강의의 출발점이며 human inconsistency 문제로 이어진다.",
+    "source_refs": [
+      "L09.pdf p2-p4: explicit evaluation"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l09-explicit-eval",
+    "item_form": "definition",
+    "options": {
+      "A": "Human judges examine results for given queries and decide relevance",
+      "B": "The system guesses preferences only from click logs without asking users",
+      "C": "The crawler counts only outgoing links",
+      "D": "Advertisers bid on keywords to evaluate relevance"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Explicit evaluation은 human judges가 query와 documents를 보고 relevant/non-relevant를 판단하는 방식입니다.",
+      "B": "오답입니다. 이것은 implicit feedback에 가깝고 L13에서도 다룹니다.",
+      "C": "오답입니다. Link count는 ranking signal이지 explicit effectiveness evaluation이 아닙니다.",
+      "D": "오답입니다. 광고 입찰은 L02 business model이고 IR effectiveness evaluation이 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Explicit evaluation은 사람 assessor의 relevance judgment에 의존한다.\n\n보기별 해설:\nA. 정답입니다. Explicit evaluation은 human judges가 query와 documents를 보고 relevant/non-relevant를 판단하는 방식입니다.\nB. 오답입니다. 이것은 implicit feedback에 가깝고 L13에서도 다룹니다.\nC. 오답입니다. Link count는 ranking signal이지 explicit effectiveness evaluation이 아닙니다.\nD. 오답입니다. 광고 입찰은 L02 business model이고 IR effectiveness evaluation이 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (Human judges examine results for given queries and decide relevance)이다.",
+      "Explicit evaluation은 사람 assessor의 relevance judgment에 의존한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Precision is defined as:",
+    "chapter": "L09 - IR System Evaluation",
+    "related_info": "Precision은 returned result의 정확도를 보고, recall은 relevant set을 얼마나 완전하게 찾았는지를 본다.",
+    "why_high_yield": "공식 암기와 적용 계산이 반드시 나오는 기본 평가 지표다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L09.pdf p8-p10: precision and recall",
+      "2026-05-08 review video: professor said evaluation will appear as a long/passaged topic and repeated precision/recall intuition."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l09-precision",
+    "item_form": "comparison",
+    "options": {
+      "A": "relevant retrieved / retrieved",
+      "B": "relevant retrieved / all relevant",
+      "C": "nonrelevant retrieved / all nonrelevant",
+      "D": "all retrieved / all documents"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Precision은 검색된 결과 중 relevant인 비율입니다.",
+      "B": "오답입니다. 이것은 recall입니다.",
+      "C": "오답입니다. 이것은 fallout rate의 방향입니다.",
+      "D": "오답입니다. 단순 retrieval volume은 precision이 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Precision은 returned result의 정확도를 보고, recall은 relevant set을 얼마나 완전하게 찾았는지를 본다.\n\n보기별 해설:\nA. 정답입니다. Precision은 검색된 결과 중 relevant인 비율입니다.\nB. 오답입니다. 이것은 recall입니다.\nC. 오답입니다. 이것은 fallout rate의 방향입니다.\nD. 오답입니다. 단순 retrieval volume은 precision이 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (relevant retrieved / retrieved)이다.",
+      "Precision은 returned result의 정확도를 보고, recall은 relevant set을 얼마나 완전하게 찾았는지를 본다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What does fallout rate measure?",
+    "chapter": "L09 - IR System Evaluation",
+    "related_info": "Fallout은 non-relevant items를 얼마나 잘 배제했는지를 보는 지표로, recall/precision만으로 부족한 관점을 보완한다.",
+    "why_high_yield": "L09 Canvas quiz에 recall-fallout graph 해석 문제가 나온다.",
+    "source_refs": [
+      "L09.pdf p11-p12 and p24: fallout and recall-fallout graph"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l09-fallout",
+    "item_form": "scenario",
+    "options": {
+      "A": "The proportion of non-relevant items that are retrieved",
+      "B": "The proportion of relevant items that are retrieved",
+      "C": "The average PageRank of relevant documents",
+      "D": "The number of query terms after stemming"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Fallout은 non-relevant collection 중 잘못 retrieve된 비율을 본다.",
+      "B": "오답입니다. 이것은 recall입니다.",
+      "C": "오답입니다. PageRank는 ranking signal이지 fallout 정의가 아닙니다.",
+      "D": "오답입니다. 이것은 text processing 통계이고 evaluation fallout이 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Fallout은 non-relevant items를 얼마나 잘 배제했는지를 보는 지표로, recall/precision만으로 부족한 관점을 보완한다.\n\n보기별 해설:\nA. 정답입니다. Fallout은 non-relevant collection 중 잘못 retrieve된 비율을 본다.\nB. 오답입니다. 이것은 recall입니다.\nC. 오답입니다. PageRank는 ranking signal이지 fallout 정의가 아닙니다.\nD. 오답입니다. 이것은 text processing 통계이고 evaluation fallout이 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (The proportion of non-relevant items that are retrieved)이다.",
+      "Fallout은 non-relevant items를 얼마나 잘 배제했는지를 보는 지표로, recall/precision만으로 부족한 관점을 보완한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why are human relevance judgments problematic?",
+    "chapter": "L09 - IR System Evaluation",
+    "related_info": "Relevance는 사용자의 정보 요구와 관련된 주관적 판단이어서 assessor disagreement가 생긴다.",
+    "why_high_yield": "명시적 평가의 한계를 묻는 개념형 문제다.",
+    "source_refs": [
+      "L09.pdf p5-p16: human judges and inconsistency"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l09-judgment-inconsistent",
+    "item_form": "counterexample",
+    "options": {
+      "A": "Assessors can disagree because they infer the user’s real information need differently",
+      "B": "Human judges always agree perfectly on every document",
+      "C": "Human judges remove the need for benchmark collections",
+      "D": "Human judges can only compute PageRank, not relevance"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Judges는 query creator가 아니므로 original intent를 추측해야 하고 assessor 간 판단이 불일치할 수 있습니다.",
+      "B": "오답입니다. 슬라이드는 two/three assessor disagreement 사례를 제시합니다.",
+      "C": "오답입니다. Benchmark에는 documents, queries, relevance judgments가 모두 필요합니다.",
+      "D": "오답입니다. Judges의 역할은 relevance 판단이지 PageRank 계산이 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Relevance는 사용자의 정보 요구와 관련된 주관적 판단이어서 assessor disagreement가 생긴다.\n\n보기별 해설:\nA. 정답입니다. Judges는 query creator가 아니므로 original intent를 추측해야 하고 assessor 간 판단이 불일치할 수 있습니다.\nB. 오답입니다. 슬라이드는 two/three assessor disagreement 사례를 제시합니다.\nC. 오답입니다. Benchmark에는 documents, queries, relevance judgments가 모두 필요합니다.\nD. 오답입니다. Judges의 역할은 relevance 판단이지 PageRank 계산이 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (Assessors can disagree because they infer the user’s real information need differently)이다.",
+      "Relevance는 사용자의 정보 요구와 관련된 주관적 판단이어서 assessor disagreement가 생긴다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why use interpolation in a recall-precision graph?",
+    "chapter": "L09 - IR System Evaluation",
+    "related_info": "Interpolated P/R graph는 ranking curve의 wiggles를 정리하고 여러 query/system 비교를 쉽게 한다.",
+    "why_high_yield": "Canvas L09에 interpolation graph 해석 문제가 있다.",
+    "source_refs": [
+      "L09.pdf p21-p23 and p30-p31: interpolated recall-precision graph"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l09-interpolation",
+    "item_form": "definition",
+    "options": {
+      "A": "To fill missing recall levels with the best precision observed at that or higher recall",
+      "B": "To make all systems have identical curves",
+      "C": "To replace human relevance judgments with PageRank",
+      "D": "To turn precision into fallout only"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Interpolation은 특정 recall level의 precision이 비어 있거나 wiggle이 있을 때 상위 envelope를 만든다.",
+      "B": "오답입니다. Interpolation은 비교를 가능하게 하지만 성능 차이를 없애지 않습니다.",
+      "C": "오답입니다. P/R curve는 relevance judgments가 있어야 계산됩니다.",
+      "D": "오답입니다. Recall-precision interpolation은 fallout graph와 별개입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Interpolated P/R graph는 ranking curve의 wiggles를 정리하고 여러 query/system 비교를 쉽게 한다.\n\n보기별 해설:\nA. 정답입니다. Interpolation은 특정 recall level의 precision이 비어 있거나 wiggle이 있을 때 상위 envelope를 만든다.\nB. 오답입니다. Interpolation은 비교를 가능하게 하지만 성능 차이를 없애지 않습니다.\nC. 오답입니다. P/R curve는 relevance judgments가 있어야 계산됩니다.\nD. 오답입니다. Recall-precision interpolation은 fallout graph와 별개입니다.",
+    "explanation_key_points": [
+      "정답은 A (To fill missing recall levels with the best precision observed at that or higher recall)이다.",
+      "Interpolated P/R graph는 ranking curve의 wiggles를 정리하고 여러 query/system 비교를 쉽게 한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What is Mean Average Precision (MAP)?",
+    "chapter": "L09 - IR System Evaluation",
+    "related_info": "AP는 precision-recall curve 아래 면적/관련 문서 위치를 반영하고, MAP는 query set에 대해 AP를 평균낸다.",
+    "why_high_yield": "평가 지표 중 시험 계산/정의 문제가 가장 잘 나오는 항목이다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L09.pdf p30-p33: AP and MAP",
+      "2026-05-08 review video: professor emphasized evaluation as a major final-exam area."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l09-ap-map",
+    "item_form": "comparison",
+    "options": {
+      "A": "The average of Average Precision values over a set of queries",
+      "B": "The maximum PageRank across all documents",
+      "C": "The precision of only the first retrieved document",
+      "D": "The number of documents in a benchmark collection"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. MAP는 여러 query의 AP를 평균낸 single-valued measure입니다.",
+      "B": "오답입니다. MAP는 relevance ranking effectiveness measure입니다.",
+      "C": "오답입니다. 첫 relevant rank에 집중하는 것은 RR/MRR이고, AP는 ranking 전반의 relevant positions를 반영합니다.",
+      "D": "오답입니다. Collection size는 MAP 정의가 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. AP는 precision-recall curve 아래 면적/관련 문서 위치를 반영하고, MAP는 query set에 대해 AP를 평균낸다.\n\n보기별 해설:\nA. 정답입니다. MAP는 여러 query의 AP를 평균낸 single-valued measure입니다.\nB. 오답입니다. MAP는 relevance ranking effectiveness measure입니다.\nC. 오답입니다. 첫 relevant rank에 집중하는 것은 RR/MRR이고, AP는 ranking 전반의 relevant positions를 반영합니다.\nD. 오답입니다. Collection size는 MAP 정의가 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (The average of Average Precision values over a set of queries)이다.",
+      "AP는 precision-recall curve 아래 면적/관련 문서 위치를 반영하고, MAP는 query set에 대해 AP를 평균낸다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why is DCG/NDCG useful compared with binary precision/recall?",
+    "chapter": "L09 - IR System Evaluation",
+    "related_info": "NDCG는 graded relevance와 ranking position을 함께 반영하므로 binary precision/recall보다 풍부한 평가가 가능하다.",
+    "why_high_yield": "현대 검색 평가에서도 쓰이는 지표라 개념 비교 출제가 쉽다.",
+    "source_refs": [
+      "L09.pdf p34-p36: DCG and NDCG"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l09-ndcg",
+    "item_form": "scenario",
+    "options": {
+      "A": "It can use graded relevance scores and discount lower-ranked documents",
+      "B": "It assumes every document is equally relevant",
+      "C": "It ignores ranking positions completely",
+      "D": "It is an advertisement pricing formula"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. DCG는 0/1 relevance가 아니라 graded relevance를 누적하고 rank position에 discount를 준다. NDCG는 ideal ranking으로 normalize합니다.",
+      "B": "오답입니다. DCG의 목적은 relevance grade 차이를 반영하는 것입니다.",
+      "C": "오답입니다. Discounted라는 이름처럼 rank position이 핵심입니다.",
+      "D": "오답입니다. DCG/NDCG는 IR evaluation metric입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. NDCG는 graded relevance와 ranking position을 함께 반영하므로 binary precision/recall보다 풍부한 평가가 가능하다.\n\n보기별 해설:\nA. 정답입니다. DCG는 0/1 relevance가 아니라 graded relevance를 누적하고 rank position에 discount를 준다. NDCG는 ideal ranking으로 normalize합니다.\nB. 오답입니다. DCG의 목적은 relevance grade 차이를 반영하는 것입니다.\nC. 오답입니다. Discounted라는 이름처럼 rank position이 핵심입니다.\nD. 오답입니다. DCG/NDCG는 IR evaluation metric입니다.",
+    "explanation_key_points": [
+      "정답은 A (It can use graded relevance scores and discount lower-ranked documents)이다.",
+      "NDCG는 graded relevance와 ranking position을 함께 반영하므로 binary precision/recall보다 풍부한 평가가 가능하다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Top-k precision is the number of relevant documents in the top k divided by k.",
+    "chapter": "L09 - IR System Evaluation",
+    "related_info": "Precision@k는 상위 k개 결과 중 relevant 비율이다. 사용자가 상위 결과만 보는 상황에서 중요하다.",
+    "why_high_yield": "짧은 공식형 T/F로 적합하다.",
+    "source_refs": [
+      "L09.pdf p29: Top-k Precision"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l09-topk",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Precision@k는 상위 k개 결과 중 relevant 비율이다. 사용자가 상위 결과만 보는 상황에서 중요하다.",
+      "B": "이 보기를 고르면 틀립니다. Precision@k는 상위 k개 결과 중 relevant 비율이다. 사용자가 상위 결과만 보는 상황에서 중요하다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Precision@k는 상위 k개 결과 중 relevant 비율이다. 사용자가 상위 결과만 보는 상황에서 중요하다.\n\n보기별 해설:\nA. 참입니다. Precision@k는 상위 k개 결과 중 relevant 비율이다. 사용자가 상위 결과만 보는 상황에서 중요하다.\nB. 이 보기를 고르면 틀립니다. Precision@k는 상위 k개 결과 중 relevant 비율이다. 사용자가 상위 결과만 보는 상황에서 중요하다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Precision@k는 상위 k개 결과 중 relevant 비율이다. 사용자가 상위 결과만 보는 상황에서 중요하다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: MRR averages the reciprocal of the rank at which the first relevant document is retrieved.",
+    "chapter": "L09 - IR System Evaluation",
+    "related_info": "RR은 첫 relevant document의 rank의 역수이고, MRR은 이를 query들에 대해 평균낸다.",
+    "why_high_yield": "질문응답/known-item search 평가에서 많이 쓰이는 지표다.",
+    "source_refs": [
+      "L09.pdf p37: MRR"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l09-mrr",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. RR은 첫 relevant document의 rank의 역수이고, MRR은 이를 query들에 대해 평균낸다.",
+      "B": "이 보기를 고르면 틀립니다. RR은 첫 relevant document의 rank의 역수이고, MRR은 이를 query들에 대해 평균낸다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. RR은 첫 relevant document의 rank의 역수이고, MRR은 이를 query들에 대해 평균낸다.\n\n보기별 해설:\nA. 참입니다. RR은 첫 relevant document의 rank의 역수이고, MRR은 이를 query들에 대해 평균낸다.\nB. 이 보기를 고르면 틀립니다. RR은 첫 relevant document의 rank의 역수이고, MRR은 이를 query들에 대해 평균낸다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "RR은 첫 relevant document의 rank의 역수이고, MRR은 이를 query들에 대해 평균낸다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Precision and recall alone fully capture the ranks of relevant documents.",
+    "chapter": "L09 - IR System Evaluation",
+    "related_info": "Precision/recall은 relevant documents의 rank 위치를 충분히 반영하지 못하므로 AP, MAP, DCG, MRR 같은 지표가 필요하다.",
+    "why_high_yield": "L09 후반의 single-valued/ranking-aware measure로 이어지는 핵심 한계다.",
+    "source_refs": [
+      "L09.pdf p28: limitation of precision and recall"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l09-precision-ranking",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. Precision/recall은 relevant documents의 rank 위치를 충분히 반영하지 못하므로 AP, MAP, DCG, MRR 같은 지표가 필요하다.",
+      "B": "거짓입니다. Precision/recall은 relevant documents의 rank 위치를 충분히 반영하지 못하므로 AP, MAP, DCG, MRR 같은 지표가 필요하다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. Precision/recall은 relevant documents의 rank 위치를 충분히 반영하지 못하므로 AP, MAP, DCG, MRR 같은 지표가 필요하다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. Precision/recall은 relevant documents의 rank 위치를 충분히 반영하지 못하므로 AP, MAP, DCG, MRR 같은 지표가 필요하다.\nB. 거짓입니다. Precision/recall은 relevant documents의 rank 위치를 충분히 반영하지 못하므로 AP, MAP, DCG, MRR 같은 지표가 필요하다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Precision/recall은 relevant documents의 rank 위치를 충분히 반영하지 못하므로 AP, MAP, DCG, MRR 같은 지표가 필요하다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]

@@ -1,0 +1,320 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "Which statement best describes the software licensing business model for search engines?",
+    "chapter": "L02 - Search Engine Business Models",
+    "related_info": "Licensing은 검색 기술을 소프트웨어로 팔아 기업 내부/외부 검색을 지원하는 초기 비즈니스 모델이다.",
+    "why_high_yield": "L02는 business model별 정의를 비교하는 MCQ가 나오기 쉽다.",
+    "source_refs": [
+      "L02.pdf p2: Business Models I - Software Licensing"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l02-licensing",
+    "item_form": "definition",
+    "options": {
+      "A": "Selling search engine software to companies for intranet or internet search",
+      "B": "Charging advertisers only when users click a sponsored link",
+      "C": "Providing only banner ads without a search backend",
+      "D": "Letting end users pay per query as the dominant web model"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. L02는 licensing을 기업에 SE software를 판매하여 intranet/internet web search를 지원하는 모델로 설명합니다.",
+      "B": "오답입니다. 이것은 광고 모델의 CPC 성격에 가깝고 software licensing의 핵심이 아닙니다.",
+      "C": "오답입니다. 배너 광고는 traditional online ads의 예시이지 search engine licensing이 아닙니다.",
+      "D": "오답입니다. 슬라이드는 end user에게 query fee를 받기 어렵고 무료 경쟁 때문에 성공하기 힘들다고 설명합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Licensing은 검색 기술을 소프트웨어로 팔아 기업 내부/외부 검색을 지원하는 초기 비즈니스 모델이다.\n\n보기별 해설:\nA. 정답입니다. L02는 licensing을 기업에 SE software를 판매하여 intranet/internet web search를 지원하는 모델로 설명합니다.\nB. 오답입니다. 이것은 광고 모델의 CPC 성격에 가깝고 software licensing의 핵심이 아닙니다.\nC. 오답입니다. 배너 광고는 traditional online ads의 예시이지 search engine licensing이 아닙니다.\nD. 오답입니다. 슬라이드는 end user에게 query fee를 받기 어렵고 무료 경쟁 때문에 성공하기 힘들다고 설명합니다.",
+    "explanation_key_points": [
+      "정답은 A (Selling search engine software to companies for intranet or internet search)이다.",
+      "Licensing은 검색 기술을 소프트웨어로 팔아 기업 내부/외부 검색을 지원하는 초기 비즈니스 모델이다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "In the ASP/cloud model, what does the search engine provider mainly take responsibility for?",
+    "chapter": "L02 - Search Engine Business Models",
+    "related_info": "ASP/cloud 모델에서는 검색엔진 제공자가 인프라와 검색 시스템 운영을 맡고, 고객은 검색 페이지와 데이터 연결을 단순화한다.",
+    "why_high_yield": "검색 서비스와 ASP/cloud를 구분하는 문제에 자주 쓰이는 운영 책임 포인트다.",
+    "source_refs": [
+      "L02.pdf p4-p5: Business Models III - ASP/Cloud"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l02-asp-cloud",
+    "item_form": "comparison",
+    "options": {
+      "A": "Hardware and software maintenance for the search service",
+      "B": "Only writing advertisement copy for advertisers",
+      "C": "Only manually judging relevance for every query",
+      "D": "Only installing a browser extension on user devices"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. ASP에서는 provider가 hardware와 software 관리를 맡고 client는 검색 페이지를 유지하는 정도로 설명됩니다.",
+      "B": "오답입니다. 광고 문안 작성은 ASP/cloud search hosting의 책임 설명이 아닙니다.",
+      "C": "오답입니다. relevance judgment는 평가/benchmarking 문제이지 ASP/cloud 모델의 운영 책임이 아닙니다.",
+      "D": "오답입니다. ASP/cloud 모델은 hosted search service 구조이지 클라이언트 확장 설치 모델이 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. ASP/cloud 모델에서는 검색엔진 제공자가 인프라와 검색 시스템 운영을 맡고, 고객은 검색 페이지와 데이터 연결을 단순화한다.\n\n보기별 해설:\nA. 정답입니다. ASP에서는 provider가 hardware와 software 관리를 맡고 client는 검색 페이지를 유지하는 정도로 설명됩니다.\nB. 오답입니다. 광고 문안 작성은 ASP/cloud search hosting의 책임 설명이 아닙니다.\nC. 오답입니다. relevance judgment는 평가/benchmarking 문제이지 ASP/cloud 모델의 운영 책임이 아닙니다.\nD. 오답입니다. ASP/cloud 모델은 hosted search service 구조이지 클라이언트 확장 설치 모델이 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (Hardware and software maintenance for the search service)이다.",
+      "ASP/cloud 모델에서는 검색엔진 제공자가 인프라와 검색 시스템 운영을 맡고, 고객은 검색 페이지와 데이터 연결을 단순화한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which description is most accurate for AdWords in the slides?",
+    "chapter": "L02 - Search Engine Business Models",
+    "related_info": "AdWords는 query keyword 기반 광고이며 검색엔진/포털/광고 네트워크가 연결된다.",
+    "why_high_yield": "Canvas L02 quiz도 AdWords/AdSense 차이를 묻기 때문에 고빈도 주제다.",
+    "source_refs": [
+      "L02.pdf p9-p10: AdWords and keyword-driven advertisements"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l02-adwords",
+    "item_form": "scenario",
+    "options": {
+      "A": "Advertisers buy keywords, and ads are shown when a user query matches those keywords",
+      "B": "A publisher page is analyzed without any search engine query, and ads are selected only from page content",
+      "C": "Users pay Google directly for each organic search result they click",
+      "D": "A crawler sells web pages to portals without advertisements"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. L02는 advertiser가 keywords를 사고 query가 그 keyword와 match될 때 광고가 표시된다고 설명합니다.",
+      "B": "오답입니다. 이것은 AdSense 쪽 설명입니다. AdWords는 query keyword와 search portal/search engine 흐름이 중심입니다.",
+      "C": "오답입니다. 일반 검색 사용자 과금은 L02에서 성공하기 어렵다고 설명됩니다.",
+      "D": "오답입니다. crawler는 검색 인프라 요소이며 AdWords의 광고 구매/표시 모델을 설명하지 않습니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. AdWords는 query keyword 기반 광고이며 검색엔진/포털/광고 네트워크가 연결된다.\n\n보기별 해설:\nA. 정답입니다. L02는 advertiser가 keywords를 사고 query가 그 keyword와 match될 때 광고가 표시된다고 설명합니다.\nB. 오답입니다. 이것은 AdSense 쪽 설명입니다. AdWords는 query keyword와 search portal/search engine 흐름이 중심입니다.\nC. 오답입니다. 일반 검색 사용자 과금은 L02에서 성공하기 어렵다고 설명됩니다.\nD. 오답입니다. crawler는 검색 인프라 요소이며 AdWords의 광고 구매/표시 모델을 설명하지 않습니다.",
+    "explanation_key_points": [
+      "정답은 A (Advertisers buy keywords, and ads are shown when a user query matches those keywords)이다.",
+      "AdWords는 query keyword 기반 광고이며 검색엔진/포털/광고 네트워크가 연결된다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "How is AdSense characterized relative to AdWords?",
+    "chapter": "L02 - Search Engine Business Models",
+    "related_info": "AdSense는 웹페이지의 내용/키워드를 이용해 광고를 붙이는 distributed ad distribution 모델로, 검색 질의가 필수인 AdWords와 다르다.",
+    "why_high_yield": "AdWords와 AdSense의 차이는 L02에서 가장 시험화하기 쉬운 비교다.",
+    "source_refs": [
+      "L02.pdf p11-p12: advertisements on web pages and AdSense"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l02-adsense",
+    "item_form": "counterexample",
+    "options": {
+      "A": "AdSense is like AdWords without a search engine, using page keywords/content to place ads",
+      "B": "AdSense requires users to type a search query before every ad can be displayed",
+      "C": "AdSense is a model where portals outsource search to third-party search vendors",
+      "D": "AdSense is only a legal rule about trademarked keywords"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 “Adsense = Adwords without Search Engine”이라고 요약합니다.",
+      "B": "오답입니다. 검색 query 없이 page content를 분석해 광고를 붙이는 것이 AdSense 설명입니다.",
+      "C": "오답입니다. 이것은 search service/portal outsourcing 모델입니다.",
+      "D": "오답입니다. trademark issue는 keyword 판매의 법적 문제이며 AdSense의 정의가 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. AdSense는 웹페이지의 내용/키워드를 이용해 광고를 붙이는 distributed ad distribution 모델로, 검색 질의가 필수인 AdWords와 다르다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 “Adsense = Adwords without Search Engine”이라고 요약합니다.\nB. 오답입니다. 검색 query 없이 page content를 분석해 광고를 붙이는 것이 AdSense 설명입니다.\nC. 오답입니다. 이것은 search service/portal outsourcing 모델입니다.\nD. 오답입니다. trademark issue는 keyword 판매의 법적 문제이며 AdSense의 정의가 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (AdSense is like AdWords without a search engine, using page keywords/content to place ads)이다.",
+      "AdSense는 웹페이지의 내용/키워드를 이용해 광고를 붙이는 distributed ad distribution 모델로, 검색 질의가 필수인 AdWords와 다르다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which business model is described as weak because users can easily switch to free competitors?",
+    "chapter": "L02 - Search Engine Business Models",
+    "related_info": "인터넷 서비스에서는 무료 대안이 있으면 end-user query charging이 어렵고, 광고가 주요 수익원이 된다.",
+    "why_high_yield": "NOT true/most likely business model 문제에서 자주 보이는 경제적 직관이다.",
+    "source_refs": [
+      "L02.pdf p7-p8: other business models and why free search wins"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l02-end-user-pay",
+    "item_form": "definition",
+    "options": {
+      "A": "Charging end users by queries",
+      "B": "Selling targeted advertisements to advertisers",
+      "C": "Search engine licensing to companies",
+      "D": "ASP/cloud search service for client companies"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. L02는 end user가 query마다 돈을 내는 모델은 무료 검색엔진이 있으면 쉽게 이탈한다고 설명합니다.",
+      "B": "오답입니다. 슬라이드는 무료 검색을 유지하면서 targeted ads로 돈을 버는 방식을 현실적인 모델로 제시합니다.",
+      "C": "오답입니다. 기업 고객에게 소프트웨어를 파는 것은 end user per-query 과금과 다릅니다.",
+      "D": "오답입니다. ASP/cloud는 제공자가 인프라를 운영하는 서비스 모델이지 사용자 query fee의 실패 논리가 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. 인터넷 서비스에서는 무료 대안이 있으면 end-user query charging이 어렵고, 광고가 주요 수익원이 된다.\n\n보기별 해설:\nA. 정답입니다. L02는 end user가 query마다 돈을 내는 모델은 무료 검색엔진이 있으면 쉽게 이탈한다고 설명합니다.\nB. 오답입니다. 슬라이드는 무료 검색을 유지하면서 targeted ads로 돈을 버는 방식을 현실적인 모델로 제시합니다.\nC. 오답입니다. 기업 고객에게 소프트웨어를 파는 것은 end user per-query 과금과 다릅니다.\nD. 오답입니다. ASP/cloud는 제공자가 인프라를 운영하는 서비스 모델이지 사용자 query fee의 실패 논리가 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (Charging end users by queries)이다.",
+      "인터넷 서비스에서는 무료 대안이 있으면 end-user query charging이 어렵고, 광고가 주요 수익원이 된다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which action is NOT recommended as legitimate search engine marketing/optimization in the lecture framing?",
+    "chapter": "L02 - Search Engine Business Models",
+    "related_info": "SEM/SEO는 검색 노출을 개선하려는 활동이지만, spammy keyword stuffing은 검색엔진 품질을 악화시키는 조작이다.",
+    "why_high_yield": "Canvas형 문제에서 “NOT recommended” 형태로 나오기 좋은 주제다.",
+    "source_refs": [
+      "L02.pdf p16-p18: SEM/SEP/SEO and pay-for-placement"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l02-sem-seo",
+    "item_form": "comparison",
+    "options": {
+      "A": "Keyword spamming by stuffing unrelated terms into a page",
+      "B": "Improving content so relevant queries match the page better",
+      "C": "Buying ads or sponsored placement under a disclosed advertising model",
+      "D": "Understanding keywords users actually search for"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. SEO/SEM은 사이트 홍보 방법을 다루지만, unrelated keyword stuffing은 검색 품질을 해치는 조작이며 추천되는 방식이 아닙니다.",
+      "B": "오답입니다. 관련 콘텐츠와 term을 명확히 하는 것은 정상적인 search optimization에 가깝습니다.",
+      "C": "오답입니다. pay-for-placement/advertising은 L02의 명시적 비즈니스 모델입니다. 문제는 숨겨진 조작입니다.",
+      "D": "오답입니다. keyword-driven ads와 SEO에서는 사용자가 어떤 keyword로 찾는지 이해하는 것이 핵심입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. SEM/SEO는 검색 노출을 개선하려는 활동이지만, spammy keyword stuffing은 검색엔진 품질을 악화시키는 조작이다.\n\n보기별 해설:\nA. 정답입니다. SEO/SEM은 사이트 홍보 방법을 다루지만, unrelated keyword stuffing은 검색 품질을 해치는 조작이며 추천되는 방식이 아닙니다.\nB. 오답입니다. 관련 콘텐츠와 term을 명확히 하는 것은 정상적인 search optimization에 가깝습니다.\nC. 오답입니다. pay-for-placement/advertising은 L02의 명시적 비즈니스 모델입니다. 문제는 숨겨진 조작입니다.\nD. 오답입니다. keyword-driven ads와 SEO에서는 사용자가 어떤 keyword로 찾는지 이해하는 것이 핵심입니다.",
+    "explanation_key_points": [
+      "정답은 A (Keyword spamming by stuffing unrelated terms into a page)이다.",
+      "SEM/SEO는 검색 노출을 개선하려는 활동이지만, spammy keyword stuffing은 검색엔진 품질을 악화시키는 조작이다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which situation can cause legal problems in selling keywords?",
+    "chapter": "L02 - Search Engine Business Models",
+    "related_info": "광고 keyword 판매에서 brand name이나 trademarked term을 다루면 상표권/혼동 문제가 생길 수 있다.",
+    "why_high_yield": "L02 후반의 법적 이슈는 개념형 MCQ로 출제하기 쉽다.",
+    "source_refs": [
+      "L02.pdf p22: legal problems of selling trademarked keywords"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l02-trademark",
+    "item_form": "scenario",
+    "options": {
+      "A": "Selling trademarked brand names as advertising keywords",
+      "B": "Displaying organic results ranked by term similarity",
+      "C": "Using a crawler to fetch public web pages",
+      "D": "Removing stopwords before indexing documents"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. L02는 brand/trademarked terms를 keyword로 판매하는 것이 법적 문제를 일으킬 수 있다고 설명합니다.",
+      "B": "오답입니다. 일반 relevance ranking 자체가 trademark keyword sale의 법적 쟁점은 아닙니다.",
+      "C": "오답입니다. crawler 운영에도 정책 이슈는 있을 수 있지만, L02의 legal problem 포인트는 trademarked keyword 판매입니다.",
+      "D": "오답입니다. stopword removal은 L11의 문서 처리 기법이지 L02의 광고 법적 문제와 무관합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. 광고 keyword 판매에서 brand name이나 trademarked term을 다루면 상표권/혼동 문제가 생길 수 있다.\n\n보기별 해설:\nA. 정답입니다. L02는 brand/trademarked terms를 keyword로 판매하는 것이 법적 문제를 일으킬 수 있다고 설명합니다.\nB. 오답입니다. 일반 relevance ranking 자체가 trademark keyword sale의 법적 쟁점은 아닙니다.\nC. 오답입니다. crawler 운영에도 정책 이슈는 있을 수 있지만, L02의 legal problem 포인트는 trademarked keyword 판매입니다.\nD. 오답입니다. stopword removal은 L11의 문서 처리 기법이지 L02의 광고 법적 문제와 무관합니다.",
+    "explanation_key_points": [
+      "정답은 A (Selling trademarked brand names as advertising keywords)이다.",
+      "광고 keyword 판매에서 brand name이나 trademarked term을 다루면 상표권/혼동 문제가 생길 수 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Search engines and portals became intertwined because portals provided outlets for ads and search engines later built their own portal-like services.",
+    "chapter": "L02 - Search Engine Business Models",
+    "related_info": "초기 검색엔진은 광고 outlet으로 포털이 필요했고, Google은 Gmail/Maps/AdSense 같은 서비스로 더 넓은 광고 outlet을 만들며 portal-like해졌다.",
+    "why_high_yield": "비즈니스 모델의 흐름을 설명하는 장문 T/F로 적합하다.",
+    "source_refs": [
+      "L02.pdf p13: relationship between search engines and portals"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l02-portal-search-engine",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. 초기 검색엔진은 광고 outlet으로 포털이 필요했고, Google은 Gmail/Maps/AdSense 같은 서비스로 더 넓은 광고 outlet을 만들며 portal-like해졌다.",
+      "B": "이 보기를 고르면 틀립니다. 초기 검색엔진은 광고 outlet으로 포털이 필요했고, Google은 Gmail/Maps/AdSense 같은 서비스로 더 넓은 광고 outlet을 만들며 portal-like해졌다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. 초기 검색엔진은 광고 outlet으로 포털이 필요했고, Google은 Gmail/Maps/AdSense 같은 서비스로 더 넓은 광고 outlet을 만들며 portal-like해졌다.\n\n보기별 해설:\nA. 참입니다. 초기 검색엔진은 광고 outlet으로 포털이 필요했고, Google은 Gmail/Maps/AdSense 같은 서비스로 더 넓은 광고 outlet을 만들며 portal-like해졌다.\nB. 이 보기를 고르면 틀립니다. 초기 검색엔진은 광고 outlet으로 포털이 필요했고, Google은 Gmail/Maps/AdSense 같은 서비스로 더 넓은 광고 outlet을 만들며 portal-like해졌다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "초기 검색엔진은 광고 outlet으로 포털이 필요했고, Google은 Gmail/Maps/AdSense 같은 서비스로 더 넓은 광고 outlet을 만들며 portal-like해졌다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: The lecture argues that search companies can make money by keeping search free and selling high-quality targeted advertisements.",
+    "chapter": "L02 - Search Engine Business Models",
+    "related_info": "사용자는 무료 검색을 기대하므로 검색 회사는 targeted advertisements를 만들어 광고주에게 과금하는 모델을 택한다.",
+    "why_high_yield": "L02의 take-home message와 직접 연결되는 핵심 경제 모델이다.",
+    "source_refs": [
+      "L02.pdf p8: free search and targeted advertisements"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l02-ads-public-free",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. 사용자는 무료 검색을 기대하므로 검색 회사는 targeted advertisements를 만들어 광고주에게 과금하는 모델을 택한다.",
+      "B": "이 보기를 고르면 틀립니다. 사용자는 무료 검색을 기대하므로 검색 회사는 targeted advertisements를 만들어 광고주에게 과금하는 모델을 택한다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. 사용자는 무료 검색을 기대하므로 검색 회사는 targeted advertisements를 만들어 광고주에게 과금하는 모델을 택한다.\n\n보기별 해설:\nA. 참입니다. 사용자는 무료 검색을 기대하므로 검색 회사는 targeted advertisements를 만들어 광고주에게 과금하는 모델을 택한다.\nB. 이 보기를 고르면 틀립니다. 사용자는 무료 검색을 기대하므로 검색 회사는 targeted advertisements를 만들어 광고주에게 과금하는 모델을 택한다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "사용자는 무료 검색을 기대하므로 검색 회사는 targeted advertisements를 만들어 광고주에게 과금하는 모델을 택한다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: AdSense requires a search query, so it cannot work on ordinary content pages.",
+    "chapter": "L02 - Search Engine Business Models",
+    "related_info": "AdSense는 검색엔진 없이 페이지 키워드와 내용에 기반해 광고를 붙이는 모델이다. Query가 반드시 필요한 것은 AdWords 쪽이다.",
+    "why_high_yield": "AdWords/AdSense를 뒤집는 대표 함정이다.",
+    "source_refs": [
+      "L02.pdf p11-p12: AdSense on web pages"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l02-adsense-query-required",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. AdSense는 검색엔진 없이 페이지 키워드와 내용에 기반해 광고를 붙이는 모델이다. Query가 반드시 필요한 것은 AdWords 쪽이다.",
+      "B": "거짓입니다. AdSense는 검색엔진 없이 페이지 키워드와 내용에 기반해 광고를 붙이는 모델이다. Query가 반드시 필요한 것은 AdWords 쪽이다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. AdSense는 검색엔진 없이 페이지 키워드와 내용에 기반해 광고를 붙이는 모델이다. Query가 반드시 필요한 것은 AdWords 쪽이다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. AdSense는 검색엔진 없이 페이지 키워드와 내용에 기반해 광고를 붙이는 모델이다. Query가 반드시 필요한 것은 AdWords 쪽이다.\nB. 거짓입니다. AdSense는 검색엔진 없이 페이지 키워드와 내용에 기반해 광고를 붙이는 모델이다. Query가 반드시 필요한 것은 AdWords 쪽이다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "AdSense는 검색엔진 없이 페이지 키워드와 내용에 기반해 광고를 붙이는 모델이다. Query가 반드시 필요한 것은 AdWords 쪽이다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]

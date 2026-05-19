@@ -1,0 +1,322 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "Why is term-based ranking alone problematic in L07?",
+    "chapter": "L07 - PageRank and Link-Based Ranking",
+    "related_info": "문서 본문만 보면 relevance/authority를 놓칠 수 있으므로 links, URL, modification date, language 같은 document properties를 함께 고려한다.",
+    "why_high_yield": "L07 전체의 동기를 묻는 기본 문제다.",
+    "source_refs": [
+      "L07.pdf p3-p5: problems with term-based ranking and benefits of links"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l07-content-limitation",
+    "item_form": "definition",
+    "options": {
+      "A": "Relevant/authoritative pages may not contain the exact query terms strongly in body text",
+      "B": "Every important page always repeats the exact query thousands of times",
+      "C": "Links never provide any useful signal",
+      "D": "Term-based ranking is identical to PageRank"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. HKUST 예시는 공식 사이트가 본문에 HKUST를 적게 포함해 term-based ranking만으로 낮게 평가될 수 있음을 보여줍니다.",
+      "B": "오답입니다. 오히려 important page가 query terms를 반복하지 않을 수 있다는 것이 문제입니다.",
+      "C": "오답입니다. L07은 links가 page similarity/quality signal을 줄 수 있다고 설명합니다.",
+      "D": "오답입니다. Term-based ranking과 PageRank는 서로 다른 signal입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. 문서 본문만 보면 relevance/authority를 놓칠 수 있으므로 links, URL, modification date, language 같은 document properties를 함께 고려한다.\n\n보기별 해설:\nA. 정답입니다. HKUST 예시는 공식 사이트가 본문에 HKUST를 적게 포함해 term-based ranking만으로 낮게 평가될 수 있음을 보여줍니다.\nB. 오답입니다. 오히려 important page가 query terms를 반복하지 않을 수 있다는 것이 문제입니다.\nC. 오답입니다. L07은 links가 page similarity/quality signal을 줄 수 있다고 설명합니다.\nD. 오답입니다. Term-based ranking과 PageRank는 서로 다른 signal입니다.",
+    "explanation_key_points": [
+      "정답은 A (Relevant/authoritative pages may not contain the exact query terms strongly in body text)이다.",
+      "문서 본문만 보면 relevance/authority를 놓칠 수 있으므로 links, URL, modification date, language 같은 document properties를 함께 고려한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which signals are combined in HyPursuit according to the summary?",
+    "chapter": "L07 - PageRank and Link-Based Ranking",
+    "related_info": "HyPursuit는 links를 page similarity의 근거로 해석하고 여러 link-based similarity를 content similarity와 결합한다.",
+    "why_high_yield": "PageRank 이전 link-based method 비교 문제로 자주 나올 수 있다.",
+    "source_refs": [
+      "L07.pdf p6-p9: HyPursuit direct path, common ancestors, common descendants"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l07-hypursuit",
+    "item_form": "comparison",
+    "options": {
+      "A": "Three link-based similarities and one content-based similarity",
+      "B": "Only query-independent PageRank",
+      "C": "Only stopword removal and stemming",
+      "D": "Only advertisement click price"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. HyPursuit summary는 direct path, common ancestors, common descendants 같은 link similarity와 content similarity를 ad hoc하게 결합합니다.",
+      "B": "오답입니다. HyPursuit는 PageRank 이전 link-based similarity model이며 PageRank 하나만 쓰지 않습니다.",
+      "C": "오답입니다. 이것은 L11 document processing 주제입니다.",
+      "D": "오답입니다. 광고 가격은 L02 business model이고 HyPursuit similarity와 무관합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. HyPursuit는 links를 page similarity의 근거로 해석하고 여러 link-based similarity를 content similarity와 결합한다.\n\n보기별 해설:\nA. 정답입니다. HyPursuit summary는 direct path, common ancestors, common descendants 같은 link similarity와 content similarity를 ad hoc하게 결합합니다.\nB. 오답입니다. HyPursuit는 PageRank 이전 link-based similarity model이며 PageRank 하나만 쓰지 않습니다.\nC. 오답입니다. 이것은 L11 document processing 주제입니다.\nD. 오답입니다. 광고 가격은 L02 business model이고 HyPursuit similarity와 무관합니다.",
+    "explanation_key_points": [
+      "정답은 A (Three link-based similarities and one content-based similarity)이다.",
+      "HyPursuit는 links를 page similarity의 근거로 해석하고 여러 link-based similarity를 content similarity와 결합한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "In the WISE model, what does the Most-Cited score count?",
+    "chapter": "L07 - PageRank and Link-Based Ranking",
+    "related_info": "WISE는 query term match를 page 자체뿐 아니라 linking pages/child pages에 전파하는 초기 link-based ranking 방법이다.",
+    "why_high_yield": "Canvas L07 quiz의 WISE 계산 문제와 연결된다.",
+    "source_refs": [
+      "L07.pdf p11-p14: WISE and Most-Cited"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l07-wise",
+    "item_form": "scenario",
+    "options": {
+      "A": "The number of query terms found in pages pointing at a page",
+      "B": "The exact number of outgoing links from the target page only",
+      "C": "The BM25 score of the page body only",
+      "D": "The number of users who paid for placement"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. WISE Most-Cited는 어떤 페이지를 가리키는 pages에 query terms가 얼마나 있는지로 점수를 줍니다.",
+      "B": "오답입니다. Most-Cited는 incoming referring pages의 query-term matches를 봅니다.",
+      "C": "오답입니다. BM25는 term weighting model이고 WISE Most-Cited는 link neighborhood를 이용합니다.",
+      "D": "오답입니다. Pay-for-placement는 L02 광고 모델이고 WISE retrieval score가 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. WISE는 query term match를 page 자체뿐 아니라 linking pages/child pages에 전파하는 초기 link-based ranking 방법이다.\n\n보기별 해설:\nA. 정답입니다. WISE Most-Cited는 어떤 페이지를 가리키는 pages에 query terms가 얼마나 있는지로 점수를 줍니다.\nB. 오답입니다. Most-Cited는 incoming referring pages의 query-term matches를 봅니다.\nC. 오답입니다. BM25는 term weighting model이고 WISE Most-Cited는 link neighborhood를 이용합니다.\nD. 오답입니다. Pay-for-placement는 L02 광고 모델이고 WISE retrieval score가 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (The number of query terms found in pages pointing at a page)이다.",
+      "WISE는 query term match를 page 자체뿐 아니라 linking pages/child pages에 전파하는 초기 link-based ranking 방법이다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "In the PageRank formula PR(A) = (1-d) + d * sum(PR(T_i)/C(T_i)), what is C(T_i)?",
+    "chapter": "L07 - PageRank and Link-Based Ranking",
+    "related_info": "PageRank는 incoming pages의 PageRank를 그 pages의 outdegree로 나눠 받은 값을 damping factor와 결합한다.",
+    "why_high_yield": "PageRank 계산 문제의 필수 symbol 해석이다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L07.pdf p20: Google PageRank calculation",
+      "2026-05-08 review video: professor called PageRank one of the most important algorithms in the course."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l07-pagerank-formula",
+    "item_form": "counterexample",
+    "options": {
+      "A": "The number of outgoing links from page T_i",
+      "B": "The number of query terms in page A",
+      "C": "The click price of an advertisement on T_i",
+      "D": "The number of human relevance judges"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. C(x)는 page x에서 나가는 links의 수이며, T_i의 PageRank가 outgoing links로 나뉘어 전달됩니다.",
+      "B": "오답입니다. Query terms는 PageRank 공식이 아니라 term-based ranking의 입력입니다.",
+      "C": "오답입니다. 광고 비용은 PageRank의 수학 공식에 들어가지 않습니다.",
+      "D": "오답입니다. relevance judges는 evaluation/benchmarking에서 등장합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. PageRank는 incoming pages의 PageRank를 그 pages의 outdegree로 나눠 받은 값을 damping factor와 결합한다.\n\n보기별 해설:\nA. 정답입니다. C(x)는 page x에서 나가는 links의 수이며, T_i의 PageRank가 outgoing links로 나뉘어 전달됩니다.\nB. 오답입니다. Query terms는 PageRank 공식이 아니라 term-based ranking의 입력입니다.\nC. 오답입니다. 광고 비용은 PageRank의 수학 공식에 들어가지 않습니다.\nD. 오답입니다. relevance judges는 evaluation/benchmarking에서 등장합니다.",
+    "explanation_key_points": [
+      "정답은 A (The number of outgoing links from page T_i)이다.",
+      "PageRank는 incoming pages의 PageRank를 그 pages의 outdegree로 나눠 받은 값을 damping factor와 결합한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What distinguishes synchronous from asynchronous PageRank iteration?",
+    "chapter": "L07 - PageRank and Link-Based Ranking",
+    "related_info": "Synchronous/asynchronous는 같은 PageRank 식을 어떤 시점의 PR 값으로 업데이트하느냐의 차이다.",
+    "why_high_yield": "Canvas L07에 실제 sync/async iteration 계산 문제가 있었다는 점에서 고가중치다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L07.pdf p23-p24: synchronous vs asynchronous iteration",
+      "Canvas L07 quiz and 2026-05-08 review both emphasized PageRank computation details."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l07-sync-async",
+    "item_form": "definition",
+    "options": {
+      "A": "Synchronous uses previous-iteration values for all nodes; asynchronous uses newly recomputed values when available",
+      "B": "Synchronous uses hyperlinks, asynchronous uses only term frequency",
+      "C": "Synchronous can only be done by human judges",
+      "D": "Asynchronous means no damping factor is ever used"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. L07은 iteration i에서 모두 i-1 값을 쓰는 synchronous와, 순서상 이미 갱신된 값을 사용하는 asynchronous를 대비합니다.",
+      "B": "오답입니다. 둘 다 PageRank 계산 방식의 update schedule 차이입니다.",
+      "C": "오답입니다. 둘 다 algorithmic computation입니다.",
+      "D": "오답입니다. Damping factor 사용 여부와 sync/async update schedule은 별개입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Synchronous/asynchronous는 같은 PageRank 식을 어떤 시점의 PR 값으로 업데이트하느냐의 차이다.\n\n보기별 해설:\nA. 정답입니다. L07은 iteration i에서 모두 i-1 값을 쓰는 synchronous와, 순서상 이미 갱신된 값을 사용하는 asynchronous를 대비합니다.\nB. 오답입니다. 둘 다 PageRank 계산 방식의 update schedule 차이입니다.\nC. 오답입니다. 둘 다 algorithmic computation입니다.\nD. 오답입니다. Damping factor 사용 여부와 sync/async update schedule은 별개입니다.",
+    "explanation_key_points": [
+      "정답은 A (Synchronous uses previous-iteration values for all nodes; asynchronous uses newly recomputed values when available)이다.",
+      "Synchronous/asynchronous는 같은 PageRank 식을 어떤 시점의 PR 값으로 업데이트하느냐의 차이다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "How does Google use anchor text according to the lecture?",
+    "chapter": "L07 - PageRank and Link-Based Ranking",
+    "related_info": "Anchor text와 hit properties(position, font, capitalization)는 term-based matching을 보강하는 ranking evidence다.",
+    "why_high_yield": "PageRank 외 Google ranking signals를 묻는 문제로 적합하다.",
+    "source_refs": [
+      "L07.pdf p26-p27: anchor text and hit properties"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l07-anchor-hit",
+    "item_form": "comparison",
+    "options": {
+      "A": "Anchor text pointing to a page can be added like metatag evidence for that target page",
+      "B": "Anchor text is always ignored because it is outside the target page body",
+      "C": "Anchor text replaces the need for crawling",
+      "D": "Anchor text is the same as stopword removal"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. “Computer Science Department” anchor text가 www.cse.ust.hk의 metatag처럼 추가된다고 설명됩니다.",
+      "B": "오답입니다. L07은 anchor text를 target page의 ranking evidence로 활용한다고 설명합니다.",
+      "C": "오답입니다. Anchor text를 쓰려면 links와 pages를 crawl/index해야 합니다.",
+      "D": "오답입니다. Stopword removal은 term filtering이고 anchor text는 external descriptive text signal입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Anchor text와 hit properties(position, font, capitalization)는 term-based matching을 보강하는 ranking evidence다.\n\n보기별 해설:\nA. 정답입니다. “Computer Science Department” anchor text가 www.cse.ust.hk의 metatag처럼 추가된다고 설명됩니다.\nB. 오답입니다. L07은 anchor text를 target page의 ranking evidence로 활용한다고 설명합니다.\nC. 오답입니다. Anchor text를 쓰려면 links와 pages를 crawl/index해야 합니다.\nD. 오답입니다. Stopword removal은 term filtering이고 anchor text는 external descriptive text signal입니다.",
+    "explanation_key_points": [
+      "정답은 A (Anchor text pointing to a page can be added like metatag evidence for that target page)이다.",
+      "Anchor text와 hit properties(position, font, capitalization)는 term-based matching을 보강하는 ranking evidence다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "In the random surfer model, PageRank can be interpreted as what?",
+    "chapter": "L07 - PageRank and Link-Based Ranking",
+    "related_info": "Random surfer model은 link structure가 browsing behavior를 정한다고 보고 PageRank를 normalized probability처럼 해석한다.",
+    "why_high_yield": "PageRank의 직관을 묻는 T/F/MCQ 고빈도 포인트다.",
+    "source_refs": [
+      "L07.pdf p32: random surfer model"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l07-random-surfer",
+    "item_form": "scenario",
+    "options": {
+      "A": "The probability-like chance that a surfer is at a page at a given time, after normalization",
+      "B": "The exact number of times a term occurs in the page body",
+      "C": "A human judge’s binary relevance label",
+      "D": "The cost per click of an advertisement"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 PR(A)를 surfer가 A에 있을 probability처럼 해석할 수 있지만 normalization이 필요하다고 설명합니다.",
+      "B": "오답입니다. Term frequency는 content score이고 PageRank는 link graph stationary behavior입니다.",
+      "C": "오답입니다. Relevance label은 evaluation 데이터이지 random surfer model이 아닙니다.",
+      "D": "오답입니다. CPC는 광고 과금 방식이고 PageRank 해석과 무관합니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Random surfer model은 link structure가 browsing behavior를 정한다고 보고 PageRank를 normalized probability처럼 해석한다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 PR(A)를 surfer가 A에 있을 probability처럼 해석할 수 있지만 normalization이 필요하다고 설명합니다.\nB. 오답입니다. Term frequency는 content score이고 PageRank는 link graph stationary behavior입니다.\nC. 오답입니다. Relevance label은 evaluation 데이터이지 random surfer model이 아닙니다.\nD. 오답입니다. CPC는 광고 과금 방식이고 PageRank 해석과 무관합니다.",
+    "explanation_key_points": [
+      "정답은 A (The probability-like chance that a surfer is at a page at a given time, after normalization)이다.",
+      "Random surfer model은 link structure가 browsing behavior를 정한다고 보고 PageRank를 normalized probability처럼 해석한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: PageRank is query independent: the PageRank of a page is the same whether the query is “music” or “politics.”",
+    "chapter": "L07 - PageRank and Link-Based Ranking",
+    "related_info": "PageRank는 link graph에서 계산되는 quality/credibility signal이라 query terms와 직접적으로 바뀌지 않는다. 검색 결과에서는 term score와 결합될 수 있다.",
+    "why_high_yield": "PageRank와 HITS/term similarity를 구분하는 핵심이다.",
+    "source_refs": [
+      "L07.pdf p40: notes about PageRank"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l07-query-independent",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. PageRank는 link graph에서 계산되는 quality/credibility signal이라 query terms와 직접적으로 바뀌지 않는다. 검색 결과에서는 term score와 결합될 수 있다.",
+      "B": "이 보기를 고르면 틀립니다. PageRank는 link graph에서 계산되는 quality/credibility signal이라 query terms와 직접적으로 바뀌지 않는다. 검색 결과에서는 term score와 결합될 수 있다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. PageRank는 link graph에서 계산되는 quality/credibility signal이라 query terms와 직접적으로 바뀌지 않는다. 검색 결과에서는 term score와 결합될 수 있다.\n\n보기별 해설:\nA. 참입니다. PageRank는 link graph에서 계산되는 quality/credibility signal이라 query terms와 직접적으로 바뀌지 않는다. 검색 결과에서는 term score와 결합될 수 있다.\nB. 이 보기를 고르면 틀립니다. PageRank는 link graph에서 계산되는 quality/credibility signal이라 query terms와 직접적으로 바뀌지 않는다. 검색 결과에서는 term score와 결합될 수 있다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "PageRank는 link graph에서 계산되는 quality/credibility signal이라 query terms와 직접적으로 바뀌지 않는다. 검색 결과에서는 term score와 결합될 수 있다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Creating rank sinks is recommended because users cannot leave the site and Google cannot detect it.",
+    "chapter": "L07 - PageRank and Link-Based Ranking",
+    "related_info": "Rank sink는 PR을 가둘 수 있지만 사용자를 강제로 막아 나쁜 경험을 만들고 Google이 detect/remove할 수 있다고 설명된다. 추천 전략이 아니다.",
+    "why_high_yield": "Canvas L07 quiz에도 rank sink 문제가 등장한다.",
+    "source_refs": [
+      "L07.pdf p35: SEO link boosting and sinks"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l07-rank-sink-good",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. Rank sink는 PR을 가둘 수 있지만 사용자를 강제로 막아 나쁜 경험을 만들고 Google이 detect/remove할 수 있다고 설명된다. 추천 전략이 아니다.",
+      "B": "거짓입니다. Rank sink는 PR을 가둘 수 있지만 사용자를 강제로 막아 나쁜 경험을 만들고 Google이 detect/remove할 수 있다고 설명된다. 추천 전략이 아니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. Rank sink는 PR을 가둘 수 있지만 사용자를 강제로 막아 나쁜 경험을 만들고 Google이 detect/remove할 수 있다고 설명된다. 추천 전략이 아니다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. Rank sink는 PR을 가둘 수 있지만 사용자를 강제로 막아 나쁜 경험을 만들고 Google이 detect/remove할 수 있다고 설명된다. 추천 전략이 아니다.\nB. 거짓입니다. Rank sink는 PR을 가둘 수 있지만 사용자를 강제로 막아 나쁜 경험을 만들고 Google이 detect/remove할 수 있다고 설명된다. 추천 전략이 아니다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Rank sink는 PR을 가둘 수 있지만 사용자를 강제로 막아 나쁜 경험을 만들고 Google이 detect/remove할 수 있다고 설명된다. 추천 전략이 아니다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Topical PageRank exists because a page authoritative on investment may not be authoritative on entertainment.",
+    "chapter": "L07 - PageRank and Link-Based Ranking",
+    "related_info": "일반 PageRank는 query-independent라 topic 차이를 놓칠 수 있고, topical PageRank는 주제별 authority를 반영하려는 확장이다.",
+    "why_high_yield": "PageRank 한계를 묻는 후반 확장 포인트다.",
+    "source_refs": [
+      "L07.pdf p41: extensions of PageRank"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l07-topical-pagerank",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. 일반 PageRank는 query-independent라 topic 차이를 놓칠 수 있고, topical PageRank는 주제별 authority를 반영하려는 확장이다.",
+      "B": "이 보기를 고르면 틀립니다. 일반 PageRank는 query-independent라 topic 차이를 놓칠 수 있고, topical PageRank는 주제별 authority를 반영하려는 확장이다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. 일반 PageRank는 query-independent라 topic 차이를 놓칠 수 있고, topical PageRank는 주제별 authority를 반영하려는 확장이다.\n\n보기별 해설:\nA. 참입니다. 일반 PageRank는 query-independent라 topic 차이를 놓칠 수 있고, topical PageRank는 주제별 authority를 반영하려는 확장이다.\nB. 이 보기를 고르면 틀립니다. 일반 PageRank는 query-independent라 topic 차이를 놓칠 수 있고, topical PageRank는 주제별 authority를 반영하려는 확장이다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "일반 PageRank는 query-independent라 topic 차이를 놓칠 수 있고, topical PageRank는 주제별 authority를 반영하려는 확장이다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]

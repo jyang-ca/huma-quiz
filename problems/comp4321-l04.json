@@ -1,0 +1,322 @@
+[
+  {
+    "question_type": "mcq",
+    "question": "In the vector-space model, what determines the dimensionality of the space?",
+    "chapter": "L04 - Vector Space Model",
+    "related_info": "VSM에서 문서와 질의는 같은 vocabulary 차원의 벡터로 표현된다.",
+    "why_high_yield": "VSM의 모든 유사도 공식은 같은 차원의 query/document vector라는 전제에서 출발한다.",
+    "source_refs": [
+      "L04.pdf p2-p4: vector-space model and vocabulary dimensions"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l04-vsm-dimensions",
+    "item_form": "definition",
+    "options": {
+      "A": "The number of distinct index terms in the vocabulary",
+      "B": "The number of search results shown on page one",
+      "C": "The number of hyperlinks between pages",
+      "D": "The number of users issuing queries"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. T distinct terms are available라고 할 때 각 index term이 하나의 차원이 됩니다.",
+      "B": "오답입니다. 결과 표시 개수는 UI/랭킹 출력 문제이지 vector space의 차원을 정하지 않습니다.",
+      "C": "오답입니다. 링크 수는 PageRank/HITS 쪽 요소이고 VSM 차원은 term vocabulary에 의해 정해집니다.",
+      "D": "오답입니다. 사용자 수는 검색 로그/개인화와 관련될 수 있지만 VSM 차원 정의가 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. VSM에서 문서와 질의는 같은 vocabulary 차원의 벡터로 표현된다.\n\n보기별 해설:\nA. 정답입니다. T distinct terms are available라고 할 때 각 index term이 하나의 차원이 됩니다.\nB. 오답입니다. 결과 표시 개수는 UI/랭킹 출력 문제이지 vector space의 차원을 정하지 않습니다.\nC. 오답입니다. 링크 수는 PageRank/HITS 쪽 요소이고 VSM 차원은 term vocabulary에 의해 정해집니다.\nD. 오답입니다. 사용자 수는 검색 로그/개인화와 관련될 수 있지만 VSM 차원 정의가 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (The number of distinct index terms in the vocabulary)이다.",
+      "VSM에서 문서와 질의는 같은 vocabulary 차원의 벡터로 표현된다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which limitation of inner product similarity is emphasized in L04?",
+    "chapter": "L04 - Vector Space Model",
+    "related_info": "Inner product는 단순하지만 normalization이 없어서 긴 문서 편향이 발생한다.",
+    "why_high_yield": "Cosine similarity가 왜 필요한지 묻는 문제의 전 단계다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L04.pdf p7-p9: inner product properties",
+      "2026-05-08 review video: professor explicitly framed “why not inner product?” as a potential final-exam question."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l04-inner-product",
+    "item_form": "comparison",
+    "options": {
+      "A": "It is unbounded and tends to favor long documents",
+      "B": "It always ignores term frequency",
+      "C": "It cannot be computed for binary vectors",
+      "D": "It is exactly the same as PageRank"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Inner product는 vector length normalization이 없어 term이 많은 긴 문서가 유리해질 수 있습니다.",
+      "B": "오답입니다. Weighted vector의 inner product는 term weights/frequencies에 직접 영향을 받습니다.",
+      "C": "오답입니다. 슬라이드는 binary inner product 예시도 제시합니다.",
+      "D": "오답입니다. PageRank는 link graph 기반 query-independent signal이고 inner product는 term vector similarity입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Inner product는 단순하지만 normalization이 없어서 긴 문서 편향이 발생한다.\n\n보기별 해설:\nA. 정답입니다. Inner product는 vector length normalization이 없어 term이 많은 긴 문서가 유리해질 수 있습니다.\nB. 오답입니다. Weighted vector의 inner product는 term weights/frequencies에 직접 영향을 받습니다.\nC. 오답입니다. 슬라이드는 binary inner product 예시도 제시합니다.\nD. 오답입니다. PageRank는 link graph 기반 query-independent signal이고 inner product는 term vector similarity입니다.",
+    "explanation_key_points": [
+      "정답은 A (It is unbounded and tends to favor long documents)이다.",
+      "Inner product는 단순하지만 normalization이 없어서 긴 문서 편향이 발생한다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Why does cosine similarity reduce the long-document bias of inner product?",
+    "chapter": "L04 - Vector Space Model",
+    "related_info": "Cosine similarity는 vector angle을 보며 문서 크기 영향을 줄이기 위해 길이로 나눈다.",
+    "why_high_yield": "계산 문제와 개념 문제 모두 자주 나오는 VSM 핵심 공식이다. Final review에서도 직접 강조된 고가중치 주제다.",
+    "source_refs": [
+      "L04.pdf p10: cosine similarity measures",
+      "2026-05-08 review video: professor called cosine similarity one of the most important topics."
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l04-cosine",
+    "item_form": "scenario",
+    "options": {
+      "A": "It normalizes the inner product by the lengths of the document and query vectors",
+      "B": "It removes every term that appears more than once",
+      "C": "It uses only hyperlinks and ignores text",
+      "D": "It requires the query to be a Boolean expression"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. CosSim은 D·Q를 ||D||||Q||로 나누어 angle의 cosine을 측정합니다.",
+      "B": "오답입니다. Cosine은 term을 제거하지 않고 vector length로 정규화합니다.",
+      "C": "오답입니다. 이것은 link-based ranking의 성격이고 cosine은 term vector similarity입니다.",
+      "D": "오답입니다. Cosine은 vector query에 적용되며 Boolean syntax가 필수는 아닙니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Cosine similarity는 vector angle을 보며 문서 크기 영향을 줄이기 위해 길이로 나눈다.\n\n보기별 해설:\nA. 정답입니다. CosSim은 D·Q를 ||D||||Q||로 나누어 angle의 cosine을 측정합니다.\nB. 오답입니다. Cosine은 term을 제거하지 않고 vector length로 정규화합니다.\nC. 오답입니다. 이것은 link-based ranking의 성격이고 cosine은 term vector similarity입니다.\nD. 오답입니다. Cosine은 vector query에 적용되며 Boolean syntax가 필수는 아닙니다.",
+    "explanation_key_points": [
+      "정답은 A (It normalizes the inner product by the lengths of the document and query vectors)이다.",
+      "Cosine similarity는 vector angle을 보며 문서 크기 영향을 줄이기 위해 길이로 나눈다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which statement correctly contrasts Jaccard and Dice in the non-binary examples?",
+    "chapter": "L04 - Vector Space Model",
+    "related_info": "Jaccard와 Dice는 모두 overlap을 정규화하지만 공식이 다르며 binary/weighted 버전이 비교된다.",
+    "why_high_yield": "유사도 공식 구분은 계산형 MCQ로 변형되기 좋다.",
+    "source_refs": [
+      "L04.pdf p11-p13: Jaccard and Dice coefficients"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l04-jaccard-dice",
+    "item_form": "counterexample",
+    "options": {
+      "A": "Both normalize overlap, but Dice uses 2 times the overlap in the numerator while Jaccard subtracts overlap from the union-like denominator",
+      "B": "Jaccard is query-independent while Dice is link-based",
+      "C": "Dice cannot handle any weighted vector",
+      "D": "Jaccard always equals cosine for every vector"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Jaccard는 overlap/(|D|+|Q|-overlap), Dice는 2*overlap/(|D|+|Q|) 형태로 제시됩니다.",
+      "B": "오답입니다. 둘 다 vector/set overlap similarity입니다. Query-independent link signal은 PageRank입니다.",
+      "C": "오답입니다. 슬라이드는 weighted example으로 Dice coefficient를 계산합니다.",
+      "D": "오답입니다. 둘은 normalization 방식이 달라 같은 vector에서도 값이 다를 수 있습니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Jaccard와 Dice는 모두 overlap을 정규화하지만 공식이 다르며 binary/weighted 버전이 비교된다.\n\n보기별 해설:\nA. 정답입니다. Jaccard는 overlap/(|D|+|Q|-overlap), Dice는 2*overlap/(|D|+|Q|) 형태로 제시됩니다.\nB. 오답입니다. 둘 다 vector/set overlap similarity입니다. Query-independent link signal은 PageRank입니다.\nC. 오답입니다. 슬라이드는 weighted example으로 Dice coefficient를 계산합니다.\nD. 오답입니다. 둘은 normalization 방식이 달라 같은 vector에서도 값이 다를 수 있습니다.",
+    "explanation_key_points": [
+      "정답은 A (Both normalize overlap, but Dice uses 2 times the overlap in the numerator while Jaccard subtracts overlap from the union-like denominator)이다.",
+      "Jaccard와 Dice는 모두 overlap을 정규화하지만 공식이 다르며 binary/weighted 버전이 비교된다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What is a document centroid in L04?",
+    "chapter": "L04 - Vector Space Model",
+    "related_info": "Centroid는 document set을 하나의 평균 벡터로 대표하며 문서 간 비교와 relevance feedback의 기초가 된다.",
+    "why_high_yield": "L12 Rocchio와 직접 연결되는 누적 개념이다.",
+    "source_refs": [
+      "L04.pdf p19-p21: document clusters and centroids"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l04-centroid",
+    "item_form": "definition",
+    "options": {
+      "A": "The average vector of a set of document vectors",
+      "B": "The first document retrieved for a query",
+      "C": "The page with the highest PageRank",
+      "D": "A stopword dictionary entry"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. Centroid는 여러 document vector의 평균으로 cluster나 relevance feedback에서 대표점을 만든다.",
+      "B": "오답입니다. 첫 결과는 ranking output이지 centroid가 아닙니다.",
+      "C": "오답입니다. PageRank는 link authority score이고 centroid는 vector average입니다.",
+      "D": "오답입니다. stopword dictionary는 L11 전처리 요소입니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Centroid는 document set을 하나의 평균 벡터로 대표하며 문서 간 비교와 relevance feedback의 기초가 된다.\n\n보기별 해설:\nA. 정답입니다. Centroid는 여러 document vector의 평균으로 cluster나 relevance feedback에서 대표점을 만든다.\nB. 오답입니다. 첫 결과는 ranking output이지 centroid가 아닙니다.\nC. 오답입니다. PageRank는 link authority score이고 centroid는 vector average입니다.\nD. 오답입니다. stopword dictionary는 L11 전처리 요소입니다.",
+    "explanation_key_points": [
+      "정답은 A (The average vector of a set of document vectors)이다.",
+      "Centroid는 document set을 하나의 평균 벡터로 대표하며 문서 간 비교와 relevance feedback의 기초가 된다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "What does the term independence assumption mean in VSM?",
+    "chapter": "L04 - Vector Space Model",
+    "related_info": "VSM은 각 term을 독립 좌표로 보지만 현실에서는 synonyms와 correlated terms 때문에 이 가정이 완벽하지 않다.",
+    "why_high_yield": "L15의 phrases/collocation과 연결되는 모델 한계다.",
+    "source_refs": [
+      "L04.pdf p28-p30: term independence and synonyms"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l04-term-independence",
+    "item_form": "comparison",
+    "options": {
+      "A": "Each term is treated as an independent coordinate in a bag-of-words representation",
+      "B": "Every pair of terms must be synonyms",
+      "C": "Documents are ranked only by hyperlinks",
+      "D": "A query must contain every term in the vocabulary"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 각 term이 독립 차원으로 취급되고 word order나 term correlation은 기본 모델에서 무시됩니다.",
+      "B": "오답입니다. Synonyms는 오히려 term independence assumption이 놓치는 문제입니다.",
+      "C": "오답입니다. VSM은 term occurrence/frequency 기반이고 hyperlinks는 L07-L08 주제입니다.",
+      "D": "오답입니다. Query vector는 보통 sparse하며 vocabulary 전체를 모두 포함할 필요가 없습니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. VSM은 각 term을 독립 좌표로 보지만 현실에서는 synonyms와 correlated terms 때문에 이 가정이 완벽하지 않다.\n\n보기별 해설:\nA. 정답입니다. 각 term이 독립 차원으로 취급되고 word order나 term correlation은 기본 모델에서 무시됩니다.\nB. 오답입니다. Synonyms는 오히려 term independence assumption이 놓치는 문제입니다.\nC. 오답입니다. VSM은 term occurrence/frequency 기반이고 hyperlinks는 L07-L08 주제입니다.\nD. 오답입니다. Query vector는 보통 sparse하며 vocabulary 전체를 모두 포함할 필요가 없습니다.",
+    "explanation_key_points": [
+      "정답은 A (Each term is treated as an independent coordinate in a bag-of-words representation)이다.",
+      "VSM은 각 term을 독립 좌표로 보지만 현실에서는 synonyms와 correlated terms 때문에 이 가정이 완벽하지 않다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "mcq",
+    "question": "Which query/document pattern shows the unbalanced property of VSM?",
+    "chapter": "L04 - Vector Space Model",
+    "related_info": "VSM은 soft OR처럼 작동해 query term 중 일부만 매우 강한 문서가 균형 있게 모두 포함한 문서를 이길 수 있다.",
+    "why_high_yield": "Extended Boolean model의 “balanced documents favoring” 동기와 이어지는 고빈도 함정이다.",
+    "source_refs": [
+      "L04.pdf p31-p33: unbalanced property and balanced documents"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l04-unbalanced",
+    "item_form": "scenario",
+    "options": {
+      "A": "A document repeating x many times can outrank a balanced document containing both x and y for query <x,y>",
+      "B": "A document with no query terms always gets the highest cosine score",
+      "C": "A document with fewer outgoing links always has lower cosine similarity",
+      "D": "A stopword dictionary always fixes synonymy completely"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "정답입니다. 슬라이드는 D2가 x만 많이 포함해도 D1의 balanced <x,y>보다 유리해질 수 있는 문제를 설명합니다.",
+      "B": "오답입니다. Query terms와 overlap이 없으면 similarity가 높아질 수 없습니다.",
+      "C": "오답입니다. Outgoing links는 cosine term similarity의 입력이 아닙니다.",
+      "D": "오답입니다. Stopword removal은 흔한 기능어 제거이고 synonymy/unbalanced property를 완전히 해결하지 않습니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. VSM은 soft OR처럼 작동해 query term 중 일부만 매우 강한 문서가 균형 있게 모두 포함한 문서를 이길 수 있다.\n\n보기별 해설:\nA. 정답입니다. 슬라이드는 D2가 x만 많이 포함해도 D1의 balanced <x,y>보다 유리해질 수 있는 문제를 설명합니다.\nB. 오답입니다. Query terms와 overlap이 없으면 similarity가 높아질 수 없습니다.\nC. 오답입니다. Outgoing links는 cosine term similarity의 입력이 아닙니다.\nD. 오답입니다. Stopword removal은 흔한 기능어 제거이고 synonymy/unbalanced property를 완전히 해결하지 않습니다.",
+    "explanation_key_points": [
+      "정답은 A (A document repeating x many times can outrank a balanced document containing both x and y for query <x,y>)이다.",
+      "VSM은 soft OR처럼 작동해 query term 중 일부만 매우 강한 문서가 균형 있게 모두 포함한 문서를 이길 수 있다.",
+      "오답 보기는 슬라이드의 정의, 공식, 적용 범위를 서로 바꾸어 놓은 함정이다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: In VSM, query and document vectors are structurally the same and can be added or subtracted.",
+    "chapter": "L04 - Vector Space Model",
+    "related_info": "VSM에서는 query와 document가 같은 차원의 vector이므로 relevance feedback에서 query vector를 이동시키는 연산이 가능하다.",
+    "why_high_yield": "L12 query modification 공식의 전제라서 중요하다.",
+    "source_refs": [
+      "L04.pdf p16-p18: query and document vectors"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l04-query-doc-same-structure",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. VSM에서는 query와 document가 같은 차원의 vector이므로 relevance feedback에서 query vector를 이동시키는 연산이 가능하다.",
+      "B": "이 보기를 고르면 틀립니다. VSM에서는 query와 document가 같은 차원의 vector이므로 relevance feedback에서 query vector를 이동시키는 연산이 가능하다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. VSM에서는 query와 document가 같은 차원의 vector이므로 relevance feedback에서 query vector를 이동시키는 연산이 가능하다.\n\n보기별 해설:\nA. 참입니다. VSM에서는 query와 document가 같은 차원의 vector이므로 relevance feedback에서 query vector를 이동시키는 연산이 가능하다.\nB. 이 보기를 고르면 틀립니다. VSM에서는 query와 document가 같은 차원의 vector이므로 relevance feedback에서 query vector를 이동시키는 연산이 가능하다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "VSM에서는 query와 document가 같은 차원의 vector이므로 relevance feedback에서 query vector를 이동시키는 연산이 가능하다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: Cosine similarity is independent of document sizes in the sense that it normalizes by vector length.",
+    "chapter": "L04 - Vector Space Model",
+    "related_info": "Cosine은 vector length로 나누기 때문에 inner product보다 문서 크기 편향을 줄인다. 완전히 모든 bias를 없앤다는 뜻은 아니지만 슬라이드 summary의 핵심이다.",
+    "why_high_yield": "공식의 목적을 묻는 T/F로 적합하다.",
+    "source_refs": [
+      "L04.pdf p35: summary"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l04-cosine-doc-size",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "option_explanations": {
+      "A": "참입니다. Cosine은 vector length로 나누기 때문에 inner product보다 문서 크기 편향을 줄인다. 완전히 모든 bias를 없앤다는 뜻은 아니지만 슬라이드 summary의 핵심이다.",
+      "B": "이 보기를 고르면 틀립니다. Cosine은 vector length로 나누기 때문에 inner product보다 문서 크기 편향을 줄인다. 완전히 모든 bias를 없앤다는 뜻은 아니지만 슬라이드 summary의 핵심이다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 A번입니다. Cosine은 vector length로 나누기 때문에 inner product보다 문서 크기 편향을 줄인다. 완전히 모든 bias를 없앤다는 뜻은 아니지만 슬라이드 summary의 핵심이다.\n\n보기별 해설:\nA. 참입니다. Cosine은 vector length로 나누기 때문에 inner product보다 문서 크기 편향을 줄인다. 완전히 모든 bias를 없앤다는 뜻은 아니지만 슬라이드 summary의 핵심이다.\nB. 이 보기를 고르면 틀립니다. Cosine은 vector length로 나누기 때문에 inner product보다 문서 크기 편향을 줄인다. 완전히 모든 bias를 없앤다는 뜻은 아니지만 슬라이드 summary의 핵심이다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "Cosine은 vector length로 나누기 때문에 inner product보다 문서 크기 편향을 줄인다. 완전히 모든 bias를 없앤다는 뜻은 아니지만 슬라이드 summary의 핵심이다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  },
+  {
+    "question_type": "true_false",
+    "question": "True or False: The vector-space query is naturally a strict Boolean AND requiring every query term to appear.",
+    "chapter": "L04 - Vector Space Model",
+    "related_info": "VSM은 query terms의 similarity contribution을 합산하므로 일부 term만 있어도 점수를 받을 수 있어 strict AND가 아니다.",
+    "why_high_yield": "Boolean과 VSM의 검색 감각을 구분시키는 대표 함정이다.",
+    "source_refs": [
+      "L04.pdf p27 and p34: VSM like OR or AND; Boolean operators ignored"
+    ],
+    "incorrect_count": 0,
+    "concept_id": "comp4321-l04-vsm-boolean-and",
+    "item_form": "counterexample",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "option_explanations": {
+      "A": "이 보기를 고르면 틀립니다. VSM은 query terms의 similarity contribution을 합산하므로 일부 term만 있어도 점수를 받을 수 있어 strict AND가 아니다.",
+      "B": "거짓입니다. VSM은 query terms의 similarity contribution을 합산하므로 일부 term만 있어도 점수를 받을 수 있어 strict AND가 아니다."
+    },
+    "explanation_prompt": "선택한 답이 왜 맞고, 나머지 보기가 왜 아닌지 한국어로 설명하세요.",
+    "model_explanation": "정답은 B번입니다. VSM은 query terms의 similarity contribution을 합산하므로 일부 term만 있어도 점수를 받을 수 있어 strict AND가 아니다.\n\n보기별 해설:\nA. 이 보기를 고르면 틀립니다. VSM은 query terms의 similarity contribution을 합산하므로 일부 term만 있어도 점수를 받을 수 있어 strict AND가 아니다.\nB. 거짓입니다. VSM은 query terms의 similarity contribution을 합산하므로 일부 term만 있어도 점수를 받을 수 있어 strict AND가 아니다.",
+    "explanation_key_points": [
+      "문장의 참/거짓을 먼저 판단한다.",
+      "VSM은 query terms의 similarity contribution을 합산하므로 일부 term만 있어도 점수를 받을 수 있어 strict AND가 아니다.",
+      "슬라이드의 정확한 용어와 예외 조건을 기준으로 판단해야 한다."
+    ]
+  }
+]
